@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/latest/*"
+  to = "/v4.2.0/:splat"
+  status = 301
+  force = true
