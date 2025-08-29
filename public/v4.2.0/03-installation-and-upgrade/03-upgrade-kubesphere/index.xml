@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Upgrade KubeSphere Enterprise on KubeSphere Enterprise</title>
+    <link>/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/</link>
+    <description>Recent content in Upgrade KubeSphere Enterprise on KubeSphere Enterprise</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Online Upgrade from v4.1.x to v4.2.0</title>
+      <link>/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/03-online-upgrade-kubephere-from-4.1.x/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/03-online-upgrade-kubephere-from-4.1.x/</guid>
+      <description>This section explains how to upgrade from KubeSphere Enterprise v4.1.2 or v4.1.3 to v4.2.0 when Internet access is available.
+ Prerequisites   Ensure current KubeSphere Enterprise version is v4.1.2 or v4.1.3.
+  Ensure current Kubernetes version is v1.23.x to v1.32.x.
+  For extensions with special configurations, back up extension configurations by downloading files from the &amp;#34;Extension Config&amp;#34; dialog.
+   To avoid data loss, please back up all important data in advance.</description>
+    </item>
+    
+    <item>
+      <title>Offline Upgrade from v4.1.x to v4.2.0</title>
+      <link>/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/04-upgrade-kubephere-from-v4.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/04-upgrade-kubephere-from-v4.1/</guid>
+      <description>This section describes how to perform an offline upgrade from KubeSphere Enterprise v4.1.2 to KubeSphere Enterprise v4.2.0 without Internet access.
+ Prerequisites   Contact the KubeSphere Enterprise support team to get the KubeSphere Enterprise v4.2.0 installation package and license.
+  Ensure current KubeSphere Enterprise version is v4.1.2 or v4.1.3.
+  Ensure current Kubernetes version is v1.23.x to v1.32.x.
+  For extensions with special configurations, back up extension configurations by downloading files from the &amp;#34;Extension Config&amp;#34; dialog.</description>
+    </item>
+    
+    <item>
+      <title>Appendix 1: ks-core Helm Chart Upgrade Parameters</title>
+      <link>/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/05-appendix-ks-core/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/05-appendix-ks-core/</guid>
+      <description>Configuration for Upgrade Job     Paremeter Default Value Description     upgrade.enabled
+ true
+ bool - Enable upgrade component or not.
+   upgrade.image.registry
+ &amp;#34;&amp;#34;
+ string - Set the image registry for the upgrade job.
+   upgrade.image.repository
+ kse/ks-upgrade
+ string - Set the image repository for the upgrade job.
+   upgrade.image.tag
+ &amp;#34;&amp;#34;
+ string - Set the image tag for the upgrade job.</description>
+    </item>
+    
+  </channel>
+</rss>

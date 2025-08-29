@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Preparation on KubeSphere Enterprise</title>
+    <link>/v4.2.0/03-installation-and-upgrade/01-preparations/</link>
+    <description>Recent content in Preparation on KubeSphere Enterprise</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/03-installation-and-upgrade/01-preparations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Environment Requirements</title>
+      <link>/v4.2.0/03-installation-and-upgrade/01-preparations/01-supported-k8s/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/03-installation-and-upgrade/01-preparations/01-supported-k8s/</guid>
+      <description>This section introduces the environment requirements for KubeSphere Enterprise.
+ System Requirements     OS Minimum Requirements (per node) Requirements for Production Environment (per node)     Ubuntu 16.04, 18.04, 20.04, 22.04
+ CPU: 2 cores, Memory: 4 GB, Disk: 40 GB
+ CPU: 8 cores, Memory: 16 GB, Disk: 200 GB
+   Debian 9, Debian 10
+ CPU: 2 cores, Memory: 4 GB, Disk: 40 GB</description>
+    </item>
+    
+  </channel>
+</rss>

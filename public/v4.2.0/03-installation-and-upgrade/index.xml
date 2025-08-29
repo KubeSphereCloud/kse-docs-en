@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Installation Guide on KubeSphere Enterprise</title>
+    <link>/v4.2.0/03-installation-and-upgrade/</link>
+    <description>Recent content in Installation Guide on KubeSphere Enterprise</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/03-installation-and-upgrade/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
