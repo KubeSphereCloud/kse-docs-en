@@ -1,0 +1,3886 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh">
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('/en/fonts/icomoon.eot?zb38vt');
+            src: url('/en/fonts/icomoon.eot?zb38vt#iefix') format('embedded-opentype'),
+                 url('/en/fonts/icomoon.ttf?zb38vt') format('truetype'),
+                 url('/en/fonts/icomoon.woff?zb38vt') format('woff'),
+                 url('/en/fonts/icomoon.svg?zb38vt#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+          }
+    </style><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+
+<meta name="keywords" content="[Kubernetes, KubeSphere, KubeSphere Core, Configuration]">
+
+
+
+<meta name="description" content="Learn about the advanced configuration of KubeSphere Core.">
+
+<link rel="icon" href="/en/images/favicon.ico" type="image/x-icon">
+
+<title>Appendix: Advanced Configuration of KubeSphere Core - KubeSphere Enterprise</title>
+<link href="/en/css/theme.css" rel="stylesheet">
+<link href="/en/css/bulma.css" rel="stylesheet">
+<link href="/en/css/bulma-tooltip.min.css" rel="stylesheet">
+<link href="/en/css/atom-one-light.css" rel="stylesheet" />
+<link href="/en/css/magnific-popup.css" rel="stylesheet" />
+
+
+<link href="/en/scss/main.min.56d66c39133dd11211ab0ba0a1e1290f5815d8e5ea2b67ca9a2fdabd2a1c2a9b.css" rel="stylesheet" integrity="sha256-VtZsORM90RIRqwugoeEpD1gV2OXqK2fKmi/avSocKps=">
+
+
+<script src="/en/js/jquery-2.2.4.js"></script>
+<body
+        class="root   "
+        style=""
+        ><header>
+  <nav class="navbar">
+    
+      <a href="/en" class="navbar-logo-wrapper">
+        <img class="navbar-logo" src="/en/images/qingcloud-logo.svg" />
+        <div class="navbar-split navbar-left-split">|</div>
+        <div class="navbar-logo-text">KubeSphere Enterprise</div>
+      </a>
+    
+    <div class="navbar-nav">
+      
+        <div
+          class="navbar-nav-item navbar-nav-version ">
+          
+          <div class="dropdown-trigger">
+            <span class="project-version">
+              v4.2.0
+            </span>
+            
+          </div>
+          
+        </div>
+      
+    </div>
+    <div class="search navbar-search">
+      <div class="control has-icons-left has-icons-right docs-search-input">
+        <span class="icon is-left">
+          <img src="/en/images/icons/magnifier_duotone.svg" />
+        </span>
+        <input
+          class="input"
+          name="q"
+          type="input"
+          placeholder="请输入关键字快速获取帮助"
+          autocomplete="off"
+        />
+        <span class="icon is-right"> </span>
+      </div>
+      <img class="clear-search-input" src="/en/images/icons/close_duotone.svg" />
+    </div>
+    
+      
+      
+        
+          <a class="navbar-item-right btn primary-btn navbar-btn "
+            target="_blank"
+            data-url="https://docs.kubesphere.com.cn/"
+            data-text="中文文档"
+            href="https://docs.kubesphere.com.cn/">
+            中文文档
+          </a>
+        
+      
+    
+  </nav>
+</header><script id="search-result-total-template" type="text/x-js-template">
+  <div class="search-result-total">
+    共为您找到 ${count} 个结果
+  </div>
+</script>
+
+<script id="search-result-item-template" type="text/x-js-template">
+  <div class="search-result-content-item">
+    <div class="search-result-content-item-title">
+      <a href="${href}">${title}</a>
+    </div>
+    <div class="search-result-content-item-content">
+      ${content}
+    </div>
+    <div class="search-result-content-item-ref">
+      <ul class="content-breadcrumb">
+      </ul>
+    </div>
+  </div>
+</div>
+</script>
+
+<script id="search-breadcrumb-template" type="text/x-js-template">
+  <li class="icon-slash_fill">
+    <a href="${href}">${title}</a>
+  </li>
+</script>
+
+<script id="search-result-total-template" type="text/x-js-template">
+  <div class="search-result-total">
+    共为您找到 ${count} 个结果
+  </div>
+</script>
+<script id="search-result-page-template" type="text/x-js-template">
+  <nav class="search-result-pagination pagination is-centered">
+    <a class="pagination-previous icon-chevron_left_fill"></a>
+    <a class="pagination-next icon-chevron_right_fill"></a>
+    <ul class="pagination-list">
+    </ul>
+  </nav>
+</script>
+<div class="container">
+
+  
+
+
+  
+    
+  
+
+
+<aside class="sidebar-wrapper">
+  <div class="sidebar-drag"></div>
+  <div class="sidebar">
+    
+      <div class="sidebar-title" >
+        <a href="/en/v4.2.0/">
+          
+            KubeSphere Enterprise
+        </a>
+        
+      </div>
+      
+    
+    <nav class="sidebar-menu" id="sidebar-menu-scroll-container">
+      
+        
+        <ul>
+  
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item active ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/" >Installation Guide</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_up_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/" >Preparation</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/01-supported-k8s/">Environment Requirements</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a  >Configure High Availability</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/02-configure-high-availability/02-configure-k8s-high-availability/">Configure Kubernetes High Availability</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/" >Configure External Persistent Storage</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/01-configure-storage-devices-on-cloud/">Configure Cloud Storage Devices</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/04-configure-neosan-csi/">Configure NeonSAN CSI</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/05-configure-nfs/">Configure NFS</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/07-configure-opensource-storage/">Configure Open Source Storage Systems</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item active ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/" >Install KubeSphere Enterprise</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_up_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/01-online-install-kubernetes-and-kubesphere/">Online Installation of Kubernetes and KubeSphere Enterprise</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/03-activate-kse/">Activate KubeSphere Enterprise</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/04-configure-ks-high-availability/">Configure KubeSphere High Availability</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/05-appendix/">Appendix: Advanced Configuration of KubeSphere Core</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/" >Upgrade KubeSphere Enterprise</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/03-online-upgrade-kubephere-from-4.1.x/">Online Upgrade from v4.1.x to v4.2.0</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/04-upgrade-kubephere-from-v4.1/">Offline Upgrade from v4.1.x to v4.2.0</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/05-appendix-ks-core/">Appendix 1: ks-core Helm Chart Upgrade Parameters</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/" >Uninstall KubeSphere Enterprise</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/01-uninstall-kubesphere-only/">Uninstall KubeSphere Enterprise Only</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/02-uninstall-kubernetes-and-kubesphere/">Uninstall Kubernetes and KubeSphere Enterprise</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes/" >Add and Remove Cluster Nodes</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes/01-add-cluster-nodes/">Add Cluster Nodes</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes/02-delete-cluster-nodes/">Remove Cluster Nodes</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+  
+</ul>
+      
+    </nav>
+
+  </div>
+</aside>
+<div class="content-card-wrapper">
+  <div class="content-card">
+    <div class="content-wrapper"><ul class="content-breadcrumb">
+      <li class="icon-slash_fill"><a href="/en/v4.2.0" data-url="/en/v4.2.0">KubeSphere Enterprise</a></li>
+      <li class="icon-slash_fill"><a href="/en/v4.2.0/03-installation-and-upgrade" data-url="/en/v4.2.0/03-installation-and-upgrade">Installation Guide</a></li>
+      <li class="icon-slash_fill"><a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere" data-url="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere">Install KubeSphere Enterprise</a></li>
+      <li class="icon-slash_fill"><a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/05-appendix" data-url="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/05-appendix">Appendix: Advanced Configuration of KubeSphere Core</a></li></ul><div class="post-wrapper"><div class="post">
+  <h1 class="post-title">
+    Appendix: Advanced Configuration of KubeSphere Core</h1>
+  <div class="post-info">
+    <div class="post-date">
+      Time updated：2025-08-28 08:29:09
+    </div>
+    
+    
+    
+    
+    
+    
+      
+    
+    
+  </div><div class="post-menu">
+  <div class="post-menu-title">Page Catalog</div>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#_kubesphere_helm_chart_parameters">KubeSphere Helm Chart Parameters</a></li>
+    <li><a href="#_tls_configuration">TLS Configuration</a></li>
+    <li><a href="#_configure_the_ratelimit_limiter">Configure the ratelimit Limiter</a></li>
+  </ul>
+</nav>
+</div><div class="post-content">
+    
+      
+      
+<div class="sect1">
+<h2 id="_kubesphere_helm_chart_parameters">KubeSphere Helm Chart Parameters</h2>
+<div class="sectionbody">
+<h3 id="_global_configuration" class="discrete">Global Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>global.imageRegistry</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Global Docker image registry</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>registry.cn-beijing.aliyuncs.com</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>global.tag</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Global Docker image tag</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>global.imagePullSecrets</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Global Docker registry secret names as an array</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>[]</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_common_parameters" class="discrete">Common Parameters</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>nameOverride</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>String to partially override common.names.fullname</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>fullnameOverride</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>String to fully override common.names.fullname</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>commonLabels</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Labels to add to all deployed objects</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>{}</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>commonAnnotations</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Annotations to add to all deployed objects</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>{}</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_multi_cluster_configuration" class="discrete">Multi-cluster Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>multicluster.role</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Multi-cluster role (host/member)</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>multicluster.hostClusterName</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Host cluster name</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_portal_configuration" class="discrete">Portal Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>portal.hostname</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>The public domain name or IP address to access the <code>ks-console</code> service</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>ks-console.kubesphere-system.svc</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>portal.http.port</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>The HTTP port exposed by the <code>ks-console</code> service through the public portal</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>30880</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_s3_storage_configuration" class="discrete">S3 Storage Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>s3.endpoint</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>S3 endpoint URL</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>s3.region</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>S3 region</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>us-east-1</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>s3.disableSSL</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Disable SSL for S3</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>true</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>s3.forcePathStyle</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Force path style for S3</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>true</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>s3.accessKeyID</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>S3 access key ID</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>admin</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>s3.secretAccessKey</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>S3 secret access key</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>admin</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>s3.bucket</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>S3 bucket name</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>uploads</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_authentication_configuration" class="discrete">Authentication Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>authentication.authenticateRateLimiterMaxTries</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Maximum authentication attempts</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>10</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>authentication.authenticationRateLimiterDuration</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Rate limiter duration</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>10m0s</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>authentication.loginHistoryRetentionPeriod</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Login history retention period</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>168h</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>authentication.enableMultiLogin</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable multi-login</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>true</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>authentication.maxInactivityDuration</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Maximum inactivity duration</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>0s</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>authentication.adminPassword</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Admin password</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>authentication.issuer.maximumClockSkew</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Maximum clock skew for JWT</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>10s</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>authentication.issuer.jwtSecret</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>JWT secret</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>authentication.issuer.accessTokenMaxAge</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Access token maximum age</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>2h</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>authentication.issuer.accessTokenInactivityTimeout</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Access token inactivity timeout</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>30m</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_security_configuration" class="discrete">Security Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>security.passwordPolicy.expireEnabled</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable password expiration</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>false</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>security.passwordPolicy.maxAgeDays</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Maximum password age in days</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>90</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>security.passwordPolicy.reminderDays</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Days before password expiration to start reminding</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>7</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>security.passwordPolicy.forceChangeOnExpire</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Force users to change password when expired</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>false</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_experimental_features" class="discrete">Experimental Features</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>experimental.validationDirective</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Validation directive (Strict/Ignore/Warn)</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>experimental.maintenance.enabled</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable maintenance mode</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>false</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>experimental.maintenance.platformMaintenance</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable platform maintenance</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>false</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>experimental.maintenance.description</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Maintenance description</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>experimental.openAPI.enabled</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable OpenAPI</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>false</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>experimental.hnc.enabled</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable HNC (Hierarchical Namespace Controller)</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>false</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_auditing_configuration" class="discrete">Auditing Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>auditing.enable</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable auditing</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>false</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>auditing.auditLevel</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Audit level (Metadata/Request/RequestResponse)</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>Metadata</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>auditing.logOptions.path</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Audit log path</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>/etc/audit/audit.log</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>auditing.logOptions.maxAge</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Maximum age of audit logs</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>7</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>auditing.logOptions.maxBackups</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Maximum number of audit log backups</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>10</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>auditing.logOptions.maxSize</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Maximum size of audit log files</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>100</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_service_account_configuration" class="discrete">Service Account Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>serviceAccount.create</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Create service account</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>true</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>serviceAccount.annotations</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Service account annotations</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>{}</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>serviceAccount.name</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Service account name</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kubesphere</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_pod_configuration" class="discrete">Pod Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>tolerations</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Pod tolerations</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>[]</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>affinity</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Pod affinity configuration</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>{}</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>nodeSelector</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Node selector for pod assignment</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>{}</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>internalTLS</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable TLS communication between all components</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>false</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_api_server_configuration" class="discrete">API Server Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>apiserver.image.registry</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>API server image registry</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>apiserver.image.repository</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>API server image repository</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kse/ks-apiserver</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>apiserver.image.tag</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>API server image tag</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>apiserver.image.digest</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>API server image digest</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>apiserver.image.pullPolicy</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>API server image pull policy</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>IfNotPresent</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>apiserver.containerPorts</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>List of container ports to enable in the ks-apiserver container</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>[]</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>apiserver.resources.limits</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>The resource limits for the ks-apiserver containers</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>{}</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>apiserver.resources.requests</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>The requested resources for the ks-apiserver containers</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>{}</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>apiserver.command</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Override default container command</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>[]</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>apiserver.extraEnvVars</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Array with extra environment variables to add to ks-apiserver</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>[]</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>apiserver.extraVolumeMounts</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Extra list of additional volumeMounts for the ks-apiserver container(s)</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>[]</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>apiserver.extraVolumes</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Extra list of additional volumes for the ks-apiserver pod(s)</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>[]</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>apiserver.hardAntiAffinity</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Whether the ks-apiserver pods should be forced to run on separate nodes</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>false</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_console_configuration" class="discrete">Console Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>console.image.registry</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Console image registry</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>console.image.repository</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Console image repository</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kse/ks-console</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>console.image.tag</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Console image tag</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>console.image.digest</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Console image digest</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>console.image.pullPolicy</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Console image pull policy</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>IfNotPresent</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>console.config.enableKubeConfig</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable kubeconfig in console</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>true</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>console.config.enableNodeListTerminal</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable node list terminal in console</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>true</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>console.containerPorts</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>List of container ports to enable in the ks-console container</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>[]</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>console.nodePort</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Node port for console service</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>30880</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>console.resources.limits</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>The resource limits for the ks-console containers</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>{}</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>console.resources.requests</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>The requested resources for the ks-console containers</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>{}</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>console.command</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Override default container command</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>[]</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>console.extraEnvVars</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Array with extra environment variables to add to ks-console</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>[]</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>console.extraVolumeMounts</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Extra list of additional volumeMounts for the ks-console container(s)</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>[]</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>console.extraVolumes</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Extra list of additional volumes for the ks-console pod(s)</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>[]</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>console.hardAntiAffinity</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Whether the ks-console pods should be forced to run on separate nodes</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>false</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_controller_configuration" class="discrete">Controller Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>controller.image.registry</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Controller image registry</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>controller.image.repository</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Controller image repository</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kse/ks-controller-manager</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>controller.image.tag</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Controller image tag</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>controller.image.digest</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Controller image digest</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>controller.image.pullPolicy</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Controller image pull policy</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>IfNotPresent</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>controller.containerPorts</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>List of container ports to enable in the ks-controller-manager container</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>[]</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>controller.resources.limits</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>The resource limits for the ks-controller-manager containers</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>{}</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>controller.resources.requests</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>The requested resources for the ks-controller-manager containers</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>{}</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>controller.command</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Override default container command</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>[]</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>controller.extraEnvVars</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Array with extra environment variables to add to ks-controller-manager</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>[]</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>controller.extraVolumeMounts</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Extra list of additional volumeMounts for the ks-controller-manager container(s)</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>[]</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>controller.extraVolumes</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Extra list of additional volumes for the ks-controller-manager pod(s)</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>[]</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>controller.hardAntiAffinity</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Whether the ks-controller-manager pods should be forced to run on separate nodes</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>false</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_agent_configuration" class="discrete">Agent Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>agent.replicaCount</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Number of agent replicas</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>1</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_helm_executor_configuration" class="discrete">Helm Executor Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>helmExecutor.timeout</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Helm executor timeout</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>10m</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>helmExecutor.historyMax</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Maximum helm history</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>2</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>helmExecutor.jobTTLAfterFinished</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Job TTL after finished</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>0s</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>helmExecutor.image.registry</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Helm executor image registry</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>helmExecutor.image.repository</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Helm executor image repository</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kubesphereio/kubectl</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>helmExecutor.image.tag</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Helm executor image tag</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>v1.33.1</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>helmExecutor.image.pullPolicy</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Helm executor image pull policy</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>IfNotPresent</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>helmExecutor.resources.limits</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Resource limits for helm executor</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>{}</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>helmExecutor.resources.requests</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Resource requests for helm executor</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>{}</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>helmExecutor.affinity</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Affinity configuration for helm executor</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>{}</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_composed_app_configuration" class="discrete">Composed App Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>composedApp.appSelector</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Selector to filter k8s applications to reconcile</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_kubectl_configuration" class="discrete">Kubectl Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kubectl.image.registry</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Kubectl image registry</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kubectl.image.repository</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Kubectl image repository</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kubesphereio/kubectl</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kubectl.image.tag</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Kubectl image tag</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>v1.33.1</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kubectl.image.pullPolicy</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Kubectl image pull policy</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>IfNotPresent</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_ingress_configuration" class="discrete">Ingress Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>ingress.enabled</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable ingress</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>false</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>ingress.ingressClassName</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Ingress class name</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>ingress.tls.enabled</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable TLS</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>true</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>ingress.tls.source</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>TLS source (generation/importation/letsEncrypt)</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>generation</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>ingress.tls.secretName</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>TLS secret name</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kubesphere-tls-certs</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_lets_encrypt_configuration" class="discrete">Let’s Encrypt Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>letsEncrypt.environment</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Let’s Encrypt environment (production/staging)</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>production</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_cert_manager_configuration" class="discrete">Cert Manager Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>certmanager.duration</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Certificate duration</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>2160h</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>certmanager.renewBefore</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Certificate renewal before expiration</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>360h</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_terminal_configuration" class="discrete">Terminal Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>terminal.kubectl.enabled</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable kubectl terminal</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>true</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>terminal.kubectl.image.registry</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Kubectl terminal image registry</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>terminal.kubectl.image.repository</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Kubectl terminal image repository</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kubesphereio/kubectl</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>terminal.kubectl.image.tag</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Kubectl terminal image tag</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>v1.33.1</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>terminal.kubectl.image.pullPolicy</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Kubectl terminal image pull policy</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>IfNotPresent</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>terminal.node.enabled</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable node terminal</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>true</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>terminal.node.image.registry</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Node terminal image registry</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>terminal.node.image.repository</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Node terminal image repository</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kubesphereio/kubectl</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>terminal.node.image.tag</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Node terminal image tag</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>v1.33.1</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>terminal.node.image.pullPolicy</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Node terminal image pull policy</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>IfNotPresent</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>terminal.pod.enabled</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable pod terminal</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>true</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>terminal.pod.uploadFileLimit</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Upload file limit for pod terminal</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>100Mi</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>terminal.pod.uploadFileEnabled</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable file upload in pod terminal</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>true</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>terminal.pod.downloadFileEnabled</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable file download in pod terminal</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>true</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_cloud_configuration" class="discrete">Cloud Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>cloud.enabled</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable cloud features</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>false</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>cloud.env</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Cloud environment</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kubesphere.cloud</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>cloud.customEnv</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Custom cloud environment configuration</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>{}</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_extension_configuration" class="discrete">Extension Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>extension.imageRegistry</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Extension image registry</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>extension.nodeSelector</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Node selector for extensions</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>{}</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>extension.ingress.ingressClassName</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Extension ingress class name</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>extension.ingress.domainSuffix</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Domain suffix for extension ingresses</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>extension.ingress.httpPort</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>HTTP port for extension ingress</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>80</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>extension.ingress.httpsPort</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>HTTPS port for extension ingress</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>443</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_upgrade_configuration" class="discrete">Upgrade Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>upgrade.enabled</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable upgrade</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>false</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>upgrade.image.registry</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Upgrade image registry</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>upgrade.image.repository</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Upgrade image repository</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kse/ks-upgrade</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>upgrade.image.tag</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Upgrade image tag</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>upgrade.image.pullPolicy</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Upgrade image pull policy</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>IfNotPresent</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>upgrade.persistenceVolume.name</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Upgrade persistence volume name</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>ks-upgrade</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>upgrade.persistenceVolume.storageClassName</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Upgrade storage class name</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>upgrade.persistenceVolume.accessMode</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Upgrade access mode</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>ReadWriteOnce</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>upgrade.persistenceVolume.size</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Upgrade volume size</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>5Gi</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>upgrade.config</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Upgrade configuration</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>{}</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_high_availability_configuration" class="discrete">High Availability Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>ha.enabled</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable high availability</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>false</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_redis_configuration" class="discrete">Redis Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redis.port</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Redis port</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>6379</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redis.replicaCount</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Redis replica count</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>1</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redis.image.registry</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Redis image registry</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redis.image.repository</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Redis image repository</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kubesphereio/redis</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redis.image.digest</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Redis image digest</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redis.image.tag</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Redis image tag</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>7.2.4-alpine</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redis.image.pullPolicy</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Redis image pull policy</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>IfNotPresent</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redis.persistentVolume.enabled</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable Redis persistent volume</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>true</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redis.persistentVolume.size</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Redis persistent volume size</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>2Gi</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_redis_ha_configuration" class="discrete">Redis HA Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redisHA.enabled</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable Redis HA</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>false</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redisHA.redis.port</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Redis HA port</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>6379</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redisHA.image.registry</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Redis HA image registry</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redisHA.image.repository</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Redis HA image repository</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kubesphereio/redis</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redisHA.image.tag</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Redis HA image tag</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>7.2.8-alpine</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redisHA.image.pullPolicy</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Redis HA image pull policy</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>IfNotPresent</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redisHA.persistentVolume.enabled</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable Redis HA persistent volume</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>true</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redisHA.persistentVolume.size</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Redis HA persistent volume size</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>2Gi</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redisHA.auth</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable Redis HA authentication</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>true</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redisHA.existingSecret</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Redis HA existing secret</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redis-secret</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redisHA.tolerations</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Redis HA tolerations</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>[]</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redisHA.hardAntiAffinity</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Redis HA hard anti-affinity</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>false</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redisHA.additionalAffinities</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Redis HA additional affinities</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>{}</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redisHA.haproxy.servicePort</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>HAProxy service port</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>6379</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redisHA.haproxy.containerPort</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>HAProxy container port</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>6379</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redisHA.haproxy.image.registry</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>HAProxy image registry</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redisHA.haproxy.image.repository</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>HAProxy image repository</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kubesphereio/haproxy</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redisHA.haproxy.image.tag</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>HAProxy image tag</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>3.0.8-alpine</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redisHA.haproxy.image.digest</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>HAProxy image digest</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redisHA.haproxy.image.pullPolicy</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>HAProxy image pull policy</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>IfNotPresent</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redisHA.haproxy.hardAntiAffinity</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>HAProxy hard anti-affinity</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>false</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>redisHA.haproxy.additionalAffinities</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>HAProxy additional affinities</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>{}</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_kubesphere_crds_configuration" class="discrete">KubeSphere CRDs Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>ksCRDs.kubectl.image.registry</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Kubectl image registry for CRDs</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>ksCRDs.kubectl.image.repository</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Kubectl image repository for CRDs</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kubesphereio/kubectl</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>ksCRDs.kubectl.image.tag</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Kubectl image tag for CRDs</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>v1.33.1</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>ksCRDs.kubectl.image.pullPolicy</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Kubectl image pull policy for CRDs</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>IfNotPresent</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_kse_extension_repository_configuration" class="discrete">KSE Extension Repository Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kseExtensionRepository.enabled</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable KSE extension repository</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>true</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kseExtensionRepository.image.registry</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Extension repository image registry</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kseExtensionRepository.image.repository</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Extension repository image repository</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kse/extensions-museum</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kseExtensionRepository.image.tag</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Extension repository image tag</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>v11.0.0</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kseExtensionRepository.image.pullPolicy</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Extension repository image pull policy</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>IfNotPresent</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_kubesphere_console_embed_configuration" class="discrete">KubeSphere Console Embed Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>ksConsoleEmbed.image.repository</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Console embed image repository</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>kse/ks-console-embed</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>ksConsoleEmbed.image.tag</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Console embed image tag</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>&#34;&#34;</code></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>ksConsoleEmbed.image.pullPolicy</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Console embed image pull policy</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>IfNotPresent</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_application_configuration" class="discrete">Application Configuration</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+<col style="width: 20%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>application.builtinRepo.enabled</code></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Enable built-in repository</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><code>true</code></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_tls_configuration">TLS Configuration</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select SSL Configuration</p>
+<div class="openblock">
+<div class="content">
+<div class="paragraph">
+<p>KubeSphere security configuration includes <strong>Ingress SSL Configuration</strong> and <strong>Internal SSL Configuration</strong>. The <strong>Ingress SSL Configuration</strong> supports three modes by default to enable SSL/TLS for secure access.</p>
+</div>
+</div>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Ingress SSL Configuration</p>
+<div class="openblock">
+<div class="content">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;"/>
+<col style="width: 50%;"/>
+<col style="width: 25%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Configuration</th>
+<th class="tableblock halign-left valign-top">Helm Chart Option</th>
+<th class="tableblock halign-left valign-top">Cert-manager Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">KubeSphere Generated TLS Certificates</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ingress.tls.source=generation</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">No</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Let’s Encrypt</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ingress.tls.source=letsEncrypt</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Yes</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Import Existing Certificates</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ingress.tls.source=importation</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">No</p></td>
+</tr>
+</tbody>
+</table>
+<div class="ulist">
+<ul>
+<li>
+<p>KubeSphere Generated TLS Certificates: Supports both cert-manager and Helm methods.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>If cert-manager is already installed in the Kubernetes cluster, it is preferred to use cert-manager to generate certificates. KubeSphere uses cert-manager to issue and maintain certificates. KubeSphere generates its CA certificate, signs a certificate using that CA, and then manages the certificate with cert-manager.</p>
+</li>
+<li>
+<p>If cert-manager is not installed, Helm is used to generate certificates. During the installation process with Helm, KubeSphere generates CA and TLS certificates based on the configured <code>hostname</code>. In this option, certificates do not support automatic expiration rotation.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Let’s Encrypt</p>
+<div class="paragraph">
+<p>When using the Let’s Encrypt option, cert-manager must be utilized. In this scenario, cert-manager combines with a special issuer for Let’s Encrypt that performs all actions (including request and validation) necessary for getting a Let’s Encrypt issued cert. This configuration uses HTTP validation (HTTP-01), so the load balancer must have a public DNS record and be accessible from the internet.</p>
+</div>
+</li>
+<li>
+<p>Import Existing Certificates</p>
+<div class="paragraph">
+<p>This option allows you to bring your own public- or private-CA signed certificate. KubeSphere will use that certificate to secure websocket and HTTPS traffic. In this case, you must upload this certificate (and associated key) as PEM-encoded files with the name <code>tls.crt</code> and <code>tls.key</code>. If you are using a private CA, you must also upload that certificate. This is due to the fact that this private CA may not be trusted by your nodes.</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Internal SSL Configuration</p>
+<div class="openblock">
+<div class="content">
+<div class="paragraph">
+<p>After enabling internal SSL configuration, both Console UI and Apiserver in KubeSphere will use HTTPS. This configuration inherently supports cert-manager and helm generated certificates. When cert-manager is already installed in the Kubernetes cluster, it is preferred to use cert-manager to generate/manage certificates, and the DNS for certificates defaults to Console UI and Apiserver’s Service DNS within the Kubernetes cluster.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;"/>
+<col style="width: 33.3333%;"/>
+<col style="width: 33.3334%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Configuration</th>
+<th class="tableblock halign-left valign-top">Helm Chart Option</th>
+<th class="tableblock halign-left valign-top">Cert-manager Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Enable Internal SSL</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">internalTLS=true</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">No</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Install cert-manager</p>
+<div class="openblock">
+<div class="content">
+<div class="paragraph">
+<p>If you are using your own certificate files (ingress.tls.source=importation), you can skip this step.</p>
+</div>
+<div class="paragraph">
+<p>Only when using KubeSphere-generated certificates (ingress.tls.source=generation) or Let’s Encrypt issued certificates (ingress.tls.source=letsEncrypt), you need to install cert-manager.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash"># Add Jetstack Helm repository
+helm repo add jetstack https://charts.jetstack.io
+
+# Update local Helm Chart repository cache
+helm repo update
+
+# Install cert-manager Helm Chart
+helm install cert-manager jetstack/cert-manager -n cert-manager --create-namespace --set prometheus.enabled=false
+# Or
+kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/&lt;VERSION&gt;/cert-manager.yaml</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>After installing cert-manager, check the running pods in the cert-manager namespace to verify that it has been deployed correctly:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">kubectl get pods --namespace cert-manager</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Based on your selected certificate option, enable SSL configuration for KubeSphere using Helm.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Enable Ingress SSL Configuration</p>
+<div class="openblock">
+<div class="content">
+<div class="ulist">
+<ul>
+<li>
+<p>KubeSphere Generated Certificates</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">helm upgrade --install -n kubesphere-system --create-namespace ks-core $chart --version $version \
+--set ingress.enabled=true \
+--set hostname=kubesphere.my.org</code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Let’s Encrypt</p>
+<div class="paragraph">
+<p>This option uses cert-manager to automatically request and renew Let’s Encrypt certificates. Let’s Encrypt is free and a trusted CA, so it can provide valid certificates.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">helm upgrade --install -n kubesphere-system --create-namespace ks-core $chart --version $version \
+--set hostname=kubesphere.my.org \
+--set ingress.enabled=true \
+--set ingress.tls.source=letsEncrypt \
+--set letsEncrypt.email=me@example.org</code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Import External Certificates</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash"># Import external certificates
+kubectl create secret tls tls-ks-core-ingress --cert=tls.crt --key=tls.key -n kubesphere-system
+
+# Install KubeSphere
+helm upgrade --install -n kubesphere-system --create-namespace ks-core
+$chart --version $version \
+--set ingress.enabled=true \
+--set hostname=kubesphere.my.org \
+--set ingress.tls.source=importation</code></pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Enable Internal SSL Configuration.</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">helm upgrade --install -n kubesphere-system --create-namespace ks-core
+$chart --version $version \
+--set internalTLS=true</code></pre>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_configure_the_ratelimit_limiter">Configure the ratelimit Limiter</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Once the limiter is enabled, it will independently limit requests for all users in KubeSphere, primarily supporting the following two methods:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Setting a rate limit for all users in KubeSphere, without support for setting individual rate limits for each user at the moment;</p>
+</li>
+<li>
+<p>Setting a rate limit independently for each ServiceAccount in KubeSphere.</p>
+</li>
+</ul>
+</div>
+<h3 id="_enable_the_limiter" class="discrete">Enable the Limiter</h3>
+<div class="paragraph">
+<p>Enabling the limiter means setting a rate limit for all users in KubeSphere.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Modify the <code>kubesphere-system</code> configmap.</p>
+<div class="openblock">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">kubectl -n kubesphere-system edit cm kubesphere-system</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Add the following content:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-yaml" data-lang="yaml">rateLimit:
+  enable: true   # Enable the limiter
+  driver: memory # Memory mode
+  QPS: 40.0      # Token recovery rate
+  burst: 80      # Token bucket capacity</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Restart the ks-apiserver.</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">kubectl -n kubesphere-system rollout restart deploy ks-apiserver</code></pre>
+</div>
+</div>
+</li>
+</ol>
+</div>
+<h3 id="_set_the_serviceaccount_limiter" class="discrete">Set the ServiceAccount Limiter</h3>
+<div class="paragraph">
+<p>Before setting, you need to enable the limiter as in the previous step. Then execute the following command to set the rate limit for ServiceAccount.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">kubectl -n &lt;Namespace&gt; patch serviceaccounts.kubesphere.io &lt;ServiceAccount&gt; --type merge -p &#39;{&#34;metadata&#34;: {&#34;annotations&#34;: {&#34;kubesphere.io/ratelimiter-qps&#34;: &#34;20.0&#34;, &#34;kubesphere.io/ratelimiter-burst&#34;: &#34;40&#34;}}}&#39;</code></pre>
+</div>
+</div>
+<h3 id="_parameter_description" class="discrete">Parameter Description</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 20%;"/>
+<col style="width: 60%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Option</th>
+<th class="tableblock halign-left valign-top">Default Value</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">rateLimit.enable</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">false</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>bool - Enable the limiter.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">rateLimit.driver</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">memory</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>string - Limiter storage type, options: &#34;memory&#34;.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">rateLimit.QPS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5.0</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>float32 - Number of tokens recovered per second in the limiter token bucket algorithm.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">rateLimit.burst</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>int - Maximum capacity of the token bucket in the limiter token bucket algorithm.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-all stretch admon note">
+<colgroup>
+<col style="width: 100%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>The recommended QPS for token recovery rate should be half the burst capacity.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+    
+
+  </div>
+  <div class="post-footer">
+    <div class="post-prev">
+    </div>
+    <div class="post-next">
+    </div>
+  </div>
+  <div class="post-back-to-top">
+    <span class="icon-up_3_fill"></span>
+  </div>
+</div>
+<div class="post-placeholder"><div class="post-menu">
+  <div class="post-menu-title">Page Catalog</div>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#_kubesphere_helm_chart_parameters">KubeSphere Helm Chart Parameters</a></li>
+    <li><a href="#_tls_configuration">TLS Configuration</a></li>
+    <li><a href="#_configure_the_ratelimit_limiter">Configure the ratelimit Limiter</a></li>
+  </ul>
+</nav>
+</div></div>
+      </div>
+    </div>
+  </div>
+</div></div>
+    </body><script src="/en/js/bootstrap.min.js"></script>
+<script src="/en/js/autocomplete/jquery.autocomplete.js"></script>
+<script src="/en/js/copy-to-clipboard.js"></script>
+<script src="/en/js/highlight.min.js"></script>
+<script src="/en/js/jquery.tmpl.min.js"></script>
+<script src="/en/js/jquery.magnific-popup.min.js"></script>
+<script src="/en/js/search/jquery.mark.min.js"></script>
+<script>
+  window.HUGO_BASEURL = "\/en";
+  window.HUGO_I18N = "{\"applicable_scope\":\"Applicable scope\",\"next\":\"Next\",\"page_catalog\":\"Page Catalog\",\"path\":\"Path\",\"previous\":\"Previous\",\"search_empty\":\"No results found. Please try other keywords.\",\"search_placeholder\":\"Enter keywords for help\",\"study_section\":\"Study Section\",\"update_time\":\"Time updated\",\"view_docs\":\"View docs\"}";
+</script>
+
+<script type="text/javascript" src="/en/js/common.fabd21a53168b1eeeb5a5eea37f666342dfe616b67039ea0fe08d0c4ef5390f3423d28b9658e1d491ee6875867d02592c61c2b77975619099214156dcd3e1bc3.js" integrity="sha512-&#43;r0hpTFose7rWl7qN/ZmNC3&#43;YWtnA56g/gjQxO9TkPNCPSi5ZY4dSR7mh1hn0CWSxhwrd5dWGQmSFBVtzT4bww=="></script>
+
+
+<script type="text/javascript" src="/en/js/client-search/dist/index.43039aa05afec4f5e41ea7babc881477ec1e8f36380984c0f50dca64a37ee0bc5ab775bc65efdf8a77cdfac99eee1264a69a7b4d4b009e05224cca8ed81cf039.js"  integrity="sha512-QwOaoFr&#43;xPXkHqe6vIgUd&#43;wejzY4CYTA9Q3KZKN&#43;4Lxat3W8Ze/finfN&#43;sme7hJkppp7TUsAngUiTMqO2BzwOQ=="></script>
+
+<script>
+  $(function() {
+    
+    hljs.highlightAll();
+    
+    $.each($('.post-content .imageblock img'), function () {
+      $(this).attr('data-mfp-src', $(this).attr('src'));
+    });
+    $('.post-content').magnificPopup({
+      disableOn: function () {
+        if ($(window).width() < 600) {
+          return false;
+        }
+        return true;
+      },
+      delegate: '.imageblock img',
+      type: 'image',
+      gallery: {
+        enabled: true,
+      },
+    });
+  });
+</script>
+</html>

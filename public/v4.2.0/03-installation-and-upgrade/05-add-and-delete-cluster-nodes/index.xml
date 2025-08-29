@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Add and Remove Cluster Nodes on KubeSphere Enterprise</title>
+    <link>/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes/</link>
+    <description>Recent content in Add and Remove Cluster Nodes on KubeSphere Enterprise</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add Cluster Nodes</title>
+      <link>/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes/01-add-cluster-nodes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes/01-add-cluster-nodes/</guid>
+      <description>This section describes how to add KubeSphere cluster nodes.
+ The open-source tool KubeKey will be used during the process. For more information about KubeKey, please visit GitHub KubeKey repository.
+     Note     The node addition method described in this section is only applicable to Kubernetes installed through KubeKey. If your Kubernetes is not installed via KubeKey, please refer to Kubernetes Documentation to add nodes.</description>
+    </item>
+    
+    <item>
+      <title>Remove Cluster Nodes</title>
+      <link>/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes/02-delete-cluster-nodes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes/02-delete-cluster-nodes/</guid>
+      <description>This section describes how to delete KubeSphere Enterprise cluster nodes.
+ The open-source tool KubeKey will be used during the process. For more information about KubeKey, please visit GitHub KubeKey repository.
+     Note     The node deletion method described in this section is only applicable to Kubernetes installed through KubeKey. If your Kubernetes is not installed via KubeKey, please refer to Kubernetes documentation to delete nodes.</description>
+    </item>
+    
+  </channel>
+</rss>

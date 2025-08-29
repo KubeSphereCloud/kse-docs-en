@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uninstall KubeSphere Enterprise on KubeSphere Enterprise</title>
+    <link>/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/</link>
+    <description>Recent content in Uninstall KubeSphere Enterprise on KubeSphere Enterprise</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Uninstall KubeSphere Enterprise Only</title>
+      <link>/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/01-uninstall-kubesphere-only/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/01-uninstall-kubesphere-only/</guid>
+      <description>This section explains how to uninstall KubeSphere Enterprise. The Kubernetes running in the current cluster will not be uninstalled.
+     Warning       Although Kubernetes will not be uninstalled, the uninstallation may still cause service interruption if the business running in the current cluster relies on the functionalities provided by KubeSphere.
+  The uninstallation is irreversible. Please proceed with caution.</description>
+    </item>
+    
+    <item>
+      <title>Uninstall Kubernetes and KubeSphere Enterprise</title>
+      <link>/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/02-uninstall-kubernetes-and-kubesphere/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/02-uninstall-kubernetes-and-kubesphere/</guid>
+      <description>This section explains how to uninstall Kubernetes and KubeSphere Enterprise.
+     Note     The uninstallation method for Kubernetes described in this section only applies to Kubernetes installed using KubeKey. If your Kubernetes is not installed through KubeKey, please refer to the Kubernetes Documentation for uninstallation instructions.
+        Warning     The uninstallation will cause business interruption to the KubeSphere cluster and cannot be undone.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1263 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh">
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('/en/fonts/icomoon.eot?zb38vt');
+            src: url('/en/fonts/icomoon.eot?zb38vt#iefix') format('embedded-opentype'),
+                 url('/en/fonts/icomoon.ttf?zb38vt') format('truetype'),
+                 url('/en/fonts/icomoon.woff?zb38vt') format('woff'),
+                 url('/en/fonts/icomoon.svg?zb38vt#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+          }
+    </style><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+
+<meta name="keywords" content="云计算,青云,QingCloud,文档,KubeSphere 企业版,KubeSphere">
+
+
+<meta name="description" content="这是 KubeSphere 企业版文档页面">
+
+<link rel="icon" href="/en/images/favicon.ico" type="image/x-icon">
+
+<title>Appendix 1: ks-core Helm Chart Upgrade Parameters - KubeSphere Enterprise</title>
+<link href="/en/css/theme.css" rel="stylesheet">
+<link href="/en/css/bulma.css" rel="stylesheet">
+<link href="/en/css/bulma-tooltip.min.css" rel="stylesheet">
+<link href="/en/css/atom-one-light.css" rel="stylesheet" />
+<link href="/en/css/magnific-popup.css" rel="stylesheet" />
+
+
+<link href="/en/scss/main.min.56d66c39133dd11211ab0ba0a1e1290f5815d8e5ea2b67ca9a2fdabd2a1c2a9b.css" rel="stylesheet" integrity="sha256-VtZsORM90RIRqwugoeEpD1gV2OXqK2fKmi/avSocKps=">
+
+
+<script src="/en/js/jquery-2.2.4.js"></script>
+<body
+        class="root   "
+        style=""
+        ><header>
+  <nav class="navbar">
+    
+      <a href="/en" class="navbar-logo-wrapper">
+        <img class="navbar-logo" src="/en/images/qingcloud-logo.svg" />
+        <div class="navbar-split navbar-left-split">|</div>
+        <div class="navbar-logo-text">KubeSphere Enterprise</div>
+      </a>
+    
+    <div class="navbar-nav">
+      
+        <div
+          class="navbar-nav-item navbar-nav-version ">
+          
+          <div class="dropdown-trigger">
+            <span class="project-version">
+              v4.2.0
+            </span>
+            
+          </div>
+          
+        </div>
+      
+    </div>
+    <div class="search navbar-search">
+      <div class="control has-icons-left has-icons-right docs-search-input">
+        <span class="icon is-left">
+          <img src="/en/images/icons/magnifier_duotone.svg" />
+        </span>
+        <input
+          class="input"
+          name="q"
+          type="input"
+          placeholder="请输入关键字快速获取帮助"
+          autocomplete="off"
+        />
+        <span class="icon is-right"> </span>
+      </div>
+      <img class="clear-search-input" src="/en/images/icons/close_duotone.svg" />
+    </div>
+    
+      
+      
+        
+          <a class="navbar-item-right btn primary-btn navbar-btn "
+            target="_blank"
+            data-url="https://docs.kubesphere.com.cn/"
+            data-text="中文文档"
+            href="https://docs.kubesphere.com.cn/">
+            中文文档
+          </a>
+        
+      
+    
+  </nav>
+</header><script id="search-result-total-template" type="text/x-js-template">
+  <div class="search-result-total">
+    共为您找到 ${count} 个结果
+  </div>
+</script>
+
+<script id="search-result-item-template" type="text/x-js-template">
+  <div class="search-result-content-item">
+    <div class="search-result-content-item-title">
+      <a href="${href}">${title}</a>
+    </div>
+    <div class="search-result-content-item-content">
+      ${content}
+    </div>
+    <div class="search-result-content-item-ref">
+      <ul class="content-breadcrumb">
+      </ul>
+    </div>
+  </div>
+</div>
+</script>
+
+<script id="search-breadcrumb-template" type="text/x-js-template">
+  <li class="icon-slash_fill">
+    <a href="${href}">${title}</a>
+  </li>
+</script>
+
+<script id="search-result-total-template" type="text/x-js-template">
+  <div class="search-result-total">
+    共为您找到 ${count} 个结果
+  </div>
+</script>
+<script id="search-result-page-template" type="text/x-js-template">
+  <nav class="search-result-pagination pagination is-centered">
+    <a class="pagination-previous icon-chevron_left_fill"></a>
+    <a class="pagination-next icon-chevron_right_fill"></a>
+    <ul class="pagination-list">
+    </ul>
+  </nav>
+</script>
+<div class="container">
+
+  
+
+
+  
+    
+  
+
+
+<aside class="sidebar-wrapper">
+  <div class="sidebar-drag"></div>
+  <div class="sidebar">
+    
+      <div class="sidebar-title" >
+        <a href="/en/v4.2.0/">
+          
+            KubeSphere Enterprise
+        </a>
+        
+      </div>
+      
+    
+    <nav class="sidebar-menu" id="sidebar-menu-scroll-container">
+      
+        
+        <ul>
+  
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item active ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/" >Installation Guide</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_up_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/" >Preparation</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/01-supported-k8s/">Environment Requirements</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a  >Configure High Availability</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/02-configure-high-availability/02-configure-k8s-high-availability/">Configure Kubernetes High Availability</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/" >Configure External Persistent Storage</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/01-configure-storage-devices-on-cloud/">Configure Cloud Storage Devices</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/04-configure-neosan-csi/">Configure NeonSAN CSI</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/05-configure-nfs/">Configure NFS</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/07-configure-opensource-storage/">Configure Open Source Storage Systems</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/" >Install KubeSphere Enterprise</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/01-online-install-kubernetes-and-kubesphere/">Online Installation of Kubernetes and KubeSphere Enterprise</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/03-activate-kse/">Activate KubeSphere Enterprise</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/04-configure-ks-high-availability/">Configure KubeSphere High Availability</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/05-appendix/">Appendix: Advanced Configuration of KubeSphere Core</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item active ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/" >Upgrade KubeSphere Enterprise</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_up_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/03-online-upgrade-kubephere-from-4.1.x/">Online Upgrade from v4.1.x to v4.2.0</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/04-upgrade-kubephere-from-v4.1/">Offline Upgrade from v4.1.x to v4.2.0</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/05-appendix-ks-core/">Appendix 1: ks-core Helm Chart Upgrade Parameters</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/" >Uninstall KubeSphere Enterprise</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/01-uninstall-kubesphere-only/">Uninstall KubeSphere Enterprise Only</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/02-uninstall-kubernetes-and-kubesphere/">Uninstall Kubernetes and KubeSphere Enterprise</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes/" >Add and Remove Cluster Nodes</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes/01-add-cluster-nodes/">Add Cluster Nodes</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes/02-delete-cluster-nodes/">Remove Cluster Nodes</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+  
+</ul>
+      
+    </nav>
+
+  </div>
+</aside>
+<div class="content-card-wrapper">
+  <div class="content-card">
+    <div class="content-wrapper"><ul class="content-breadcrumb">
+      <li class="icon-slash_fill"><a href="/en/v4.2.0" data-url="/en/v4.2.0">KubeSphere Enterprise</a></li>
+      <li class="icon-slash_fill"><a href="/en/v4.2.0/03-installation-and-upgrade" data-url="/en/v4.2.0/03-installation-and-upgrade">Installation Guide</a></li>
+      <li class="icon-slash_fill"><a href="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere" data-url="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere">Upgrade KubeSphere Enterprise</a></li>
+      <li class="icon-slash_fill"><a href="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/05-appendix-ks-core" data-url="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/05-appendix-ks-core">Appendix 1: ks-core Helm Chart Upgrade Parameters</a></li></ul><div class="post-wrapper"><div class="post">
+  <h1 class="post-title">
+    Appendix 1: ks-core Helm Chart Upgrade Parameters</h1>
+  <div class="post-info">
+    <div class="post-date">
+      Time updated：2025-08-28 08:29:09
+    </div>
+    
+    
+    
+    
+    
+    
+      
+    
+    
+  </div><div class="post-menu">
+  <div class="post-menu-title">Page Catalog</div>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#_configuration_for_upgrade_job">Configuration for Upgrade Job</a></li>
+    <li><a href="#_configuration_for_upgrade_application">Configuration for Upgrade Application</a></li>
+    <li><a href="#_configuration_for_upgrade_components">Configuration for Upgrade Components</a></li>
+  </ul>
+</nav>
+</div><div class="post-content">
+    
+      
+      
+<div class="sect1">
+<h2 id="_configuration_for_upgrade_job">Configuration for Upgrade Job</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 40%;"/>
+<col style="width: 20%;"/>
+<col style="width: 40%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Paremeter</th>
+<th class="tableblock halign-left valign-top">Default Value</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.enabled</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>true</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>bool - Enable upgrade component or not.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.image.registry</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>&#34;&#34;</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>string - Set the image registry for the upgrade job.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.image.repository</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>kse/ks-upgrade</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>string - Set the image repository for the upgrade job.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.image.tag</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>&#34;&#34;</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>string - Set the image tag for the upgrade job.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.image.pullPolicy</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Always</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>string - Set the image pull policy for the upgrade job.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.persistenceVolume.name</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>ks-upgrade</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>string - Set the persistent volume name for the upgrade job.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.persistenceVolume.storageClassName</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>&#34;&#34;</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>string - Set the storage class name for the upgrade job.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.persistenceVolume.accessMode</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>ReadWriteOnce</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>string - Set the access mode of the persistent volume for the upgrade job.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.persistenceVolume.size</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>5Gi</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>string - Set the size of the persistent volume for the upgrade job.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.resources.limit.cpu</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>1</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>string - Set the CPU resource limit for the upgrade job.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.resources.limit.memory</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>1024Mi</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>string - Set the Memory resource limit for the upgrade job.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.resources.requests.cpu</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>20m</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>string - Set the CPU resource request for the upgrade job.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.resources.requests.memory</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>100Mi</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>string - Set the Memory resource request for the upgrade job.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_configuration_for_upgrade_application">Configuration for Upgrade Application</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 40%;"/>
+<col style="width: 20%;"/>
+<col style="width: 40%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Paremeter</th>
+<th class="tableblock halign-left valign-top">Default Value</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.config.storage.local.path</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>/tmp/ks-upgrade</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>string - Set the local directory used by the upgrade job to store backup data.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.config.storage.s3.endpoint</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>&#34;&#34;</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>string - Set the endpoint for the S3-compatible object storage service used by the upgrade job to store backup data.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.config.storage.s3.region</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>&#34;&#34;</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>string - Set the data storage region of the S3 service.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.config.storage.s3.disableSSL</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>false</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>bool - Disable SSL for S3 or not.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.config.storage.s3.forcePathStyle</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>false</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>bool - Set the S3 client to use path-style addressing for buckets or not.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.config.storage.s3.accessKeyID</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>&#34;&#34;</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>string - Set the access key ID for S3 service account, required if credentials are not used.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.config.storage.s3.secretAccessKey</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>&#34;&#34;</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>string - Set the secret access key for S3 service account, required if credentials are not used.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.config.storage.s3.sessionToken</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>&#34;&#34;</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>string - Set the session token for accessing the S3 service.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.config.storage.s3.bucket</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>&#34;&#34;</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>string - Set the S3 bucket name.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.config.download.globalRegistryUrl</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>oci://hub.kubesphere.com.cn/kse-extensions</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>string - Set the repository URL for extensions.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.config.download.file</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>-</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>System reserved configuration.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.config.download.http.timeout</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>20</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>int64 - Set the timeout for downloading extensions.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.config.download.http.caBundle</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>&#34;&#34;</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>string -  Set the base64 string of the self-signed certificates for the extension repository, with multiple self-signed certificates combined into one base64 string.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.config.download.http.insecureSkipVerify</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>true</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>bool - Skip TLS verification for the extension repository or not.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.config.download.oci</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>-</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>System reserved configuration.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.config.skipValidator</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>false</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>bool - Skip version validation for the upgrade job or not. The validation is specific to the KubeSphere version.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_configuration_for_upgrade_components">Configuration for Upgrade Components</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 40%;"/>
+<col style="width: 20%;"/>
+<col style="width: 40%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Paremeter</th>
+<th class="tableblock halign-left valign-top">Default Value</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.config.jobs.$ID.enabled</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>false</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>bool - Set whether to enable the component $ID to enable the upgrade job.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.config.jobs.$ID.priority</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>0</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>int - Set the upgrade priority of the component.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.config.jobs.$ID.extensionRef.name</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>&#34;&#34;</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>string - Set the extension name.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>upgrade.config.jobs.$ID.extensionRef.version</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>&#34;&#34;</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>string - Set the extension version.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+    
+
+  </div>
+  <div class="post-footer">
+    <div class="post-prev">
+    </div>
+    <div class="post-next">
+    </div>
+  </div>
+  <div class="post-back-to-top">
+    <span class="icon-up_3_fill"></span>
+  </div>
+</div>
+<div class="post-placeholder"><div class="post-menu">
+  <div class="post-menu-title">Page Catalog</div>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#_configuration_for_upgrade_job">Configuration for Upgrade Job</a></li>
+    <li><a href="#_configuration_for_upgrade_application">Configuration for Upgrade Application</a></li>
+    <li><a href="#_configuration_for_upgrade_components">Configuration for Upgrade Components</a></li>
+  </ul>
+</nav>
+</div></div>
+      </div>
+    </div>
+  </div>
+</div></div>
+    </body><script src="/en/js/bootstrap.min.js"></script>
+<script src="/en/js/autocomplete/jquery.autocomplete.js"></script>
+<script src="/en/js/copy-to-clipboard.js"></script>
+<script src="/en/js/highlight.min.js"></script>
+<script src="/en/js/jquery.tmpl.min.js"></script>
+<script src="/en/js/jquery.magnific-popup.min.js"></script>
+<script src="/en/js/search/jquery.mark.min.js"></script>
+<script>
+  window.HUGO_BASEURL = "\/en";
+  window.HUGO_I18N = "{\"applicable_scope\":\"Applicable scope\",\"next\":\"Next\",\"page_catalog\":\"Page Catalog\",\"path\":\"Path\",\"previous\":\"Previous\",\"search_empty\":\"No results found. Please try other keywords.\",\"search_placeholder\":\"Enter keywords for help\",\"study_section\":\"Study Section\",\"update_time\":\"Time updated\",\"view_docs\":\"View docs\"}";
+</script>
+
+<script type="text/javascript" src="/en/js/common.fabd21a53168b1eeeb5a5eea37f666342dfe616b67039ea0fe08d0c4ef5390f3423d28b9658e1d491ee6875867d02592c61c2b77975619099214156dcd3e1bc3.js" integrity="sha512-&#43;r0hpTFose7rWl7qN/ZmNC3&#43;YWtnA56g/gjQxO9TkPNCPSi5ZY4dSR7mh1hn0CWSxhwrd5dWGQmSFBVtzT4bww=="></script>
+
+
+<script type="text/javascript" src="/en/js/client-search/dist/index.43039aa05afec4f5e41ea7babc881477ec1e8f36380984c0f50dca64a37ee0bc5ab775bc65efdf8a77cdfac99eee1264a69a7b4d4b009e05224cca8ed81cf039.js"  integrity="sha512-QwOaoFr&#43;xPXkHqe6vIgUd&#43;wejzY4CYTA9Q3KZKN&#43;4Lxat3W8Ze/finfN&#43;sme7hJkppp7TUsAngUiTMqO2BzwOQ=="></script>
+
+<script>
+  $(function() {
+    
+    hljs.highlightAll();
+    
+    $.each($('.post-content .imageblock img'), function () {
+      $(this).attr('data-mfp-src', $(this).attr('src'));
+    });
+    $('.post-content').magnificPopup({
+      disableOn: function () {
+        if ($(window).width() < 600) {
+          return false;
+        }
+        return true;
+      },
+      delegate: '.imageblock img',
+      type: 'image',
+      gallery: {
+        enabled: true,
+      },
+    });
+  });
+</script>
+</html>

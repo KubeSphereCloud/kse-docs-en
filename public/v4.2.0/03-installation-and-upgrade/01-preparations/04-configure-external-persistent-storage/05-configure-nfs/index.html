@@ -1,0 +1,1130 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh">
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('/en/fonts/icomoon.eot?zb38vt');
+            src: url('/en/fonts/icomoon.eot?zb38vt#iefix') format('embedded-opentype'),
+                 url('/en/fonts/icomoon.ttf?zb38vt') format('truetype'),
+                 url('/en/fonts/icomoon.woff?zb38vt') format('woff'),
+                 url('/en/fonts/icomoon.svg?zb38vt#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+          }
+    </style><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+
+<meta name="keywords" content="[Kubernetes, KubeSphere, Installation, Preparation, Persistent Storage, Network File System, NFS]">
+
+
+
+<meta name="description" content="Learn how to configure Network File System (NFS) for the KubeSphere cluster in a production environment.">
+
+<link rel="icon" href="/en/images/favicon.ico" type="image/x-icon">
+
+<title>Configure NFS - KubeSphere Enterprise</title>
+<link href="/en/css/theme.css" rel="stylesheet">
+<link href="/en/css/bulma.css" rel="stylesheet">
+<link href="/en/css/bulma-tooltip.min.css" rel="stylesheet">
+<link href="/en/css/atom-one-light.css" rel="stylesheet" />
+<link href="/en/css/magnific-popup.css" rel="stylesheet" />
+
+
+<link href="/en/scss/main.min.56d66c39133dd11211ab0ba0a1e1290f5815d8e5ea2b67ca9a2fdabd2a1c2a9b.css" rel="stylesheet" integrity="sha256-VtZsORM90RIRqwugoeEpD1gV2OXqK2fKmi/avSocKps=">
+
+
+<script src="/en/js/jquery-2.2.4.js"></script>
+<body
+        class="root   "
+        style=""
+        ><header>
+  <nav class="navbar">
+    
+      <a href="/en" class="navbar-logo-wrapper">
+        <img class="navbar-logo" src="/en/images/qingcloud-logo.svg" />
+        <div class="navbar-split navbar-left-split">|</div>
+        <div class="navbar-logo-text">KubeSphere Enterprise</div>
+      </a>
+    
+    <div class="navbar-nav">
+      
+        <div
+          class="navbar-nav-item navbar-nav-version ">
+          
+          <div class="dropdown-trigger">
+            <span class="project-version">
+              v4.2.0
+            </span>
+            
+          </div>
+          
+        </div>
+      
+    </div>
+    <div class="search navbar-search">
+      <div class="control has-icons-left has-icons-right docs-search-input">
+        <span class="icon is-left">
+          <img src="/en/images/icons/magnifier_duotone.svg" />
+        </span>
+        <input
+          class="input"
+          name="q"
+          type="input"
+          placeholder="请输入关键字快速获取帮助"
+          autocomplete="off"
+        />
+        <span class="icon is-right"> </span>
+      </div>
+      <img class="clear-search-input" src="/en/images/icons/close_duotone.svg" />
+    </div>
+    
+      
+      
+        
+          <a class="navbar-item-right btn primary-btn navbar-btn "
+            target="_blank"
+            data-url="https://docs.kubesphere.com.cn/"
+            data-text="中文文档"
+            href="https://docs.kubesphere.com.cn/">
+            中文文档
+          </a>
+        
+      
+    
+  </nav>
+</header><script id="search-result-total-template" type="text/x-js-template">
+  <div class="search-result-total">
+    共为您找到 ${count} 个结果
+  </div>
+</script>
+
+<script id="search-result-item-template" type="text/x-js-template">
+  <div class="search-result-content-item">
+    <div class="search-result-content-item-title">
+      <a href="${href}">${title}</a>
+    </div>
+    <div class="search-result-content-item-content">
+      ${content}
+    </div>
+    <div class="search-result-content-item-ref">
+      <ul class="content-breadcrumb">
+      </ul>
+    </div>
+  </div>
+</div>
+</script>
+
+<script id="search-breadcrumb-template" type="text/x-js-template">
+  <li class="icon-slash_fill">
+    <a href="${href}">${title}</a>
+  </li>
+</script>
+
+<script id="search-result-total-template" type="text/x-js-template">
+  <div class="search-result-total">
+    共为您找到 ${count} 个结果
+  </div>
+</script>
+<script id="search-result-page-template" type="text/x-js-template">
+  <nav class="search-result-pagination pagination is-centered">
+    <a class="pagination-previous icon-chevron_left_fill"></a>
+    <a class="pagination-next icon-chevron_right_fill"></a>
+    <ul class="pagination-list">
+    </ul>
+  </nav>
+</script>
+<div class="container">
+
+  
+
+
+  
+    
+  
+
+
+<aside class="sidebar-wrapper">
+  <div class="sidebar-drag"></div>
+  <div class="sidebar">
+    
+      <div class="sidebar-title" >
+        <a href="/en/v4.2.0/">
+          
+            KubeSphere Enterprise
+        </a>
+        
+      </div>
+      
+    
+    <nav class="sidebar-menu" id="sidebar-menu-scroll-container">
+      
+        
+        <ul>
+  
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item active ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/" >Installation Guide</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_up_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item active ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/" >Preparation</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_up_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/01-supported-k8s/">Environment Requirements</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a  >Configure High Availability</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/02-configure-high-availability/02-configure-k8s-high-availability/">Configure Kubernetes High Availability</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item active ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/" >Configure External Persistent Storage</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_up_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/01-configure-storage-devices-on-cloud/">Configure Cloud Storage Devices</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/04-configure-neosan-csi/">Configure NeonSAN CSI</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/05-configure-nfs/">Configure NFS</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/07-configure-opensource-storage/">Configure Open Source Storage Systems</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/" >Install KubeSphere Enterprise</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/01-online-install-kubernetes-and-kubesphere/">Online Installation of Kubernetes and KubeSphere Enterprise</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/03-activate-kse/">Activate KubeSphere Enterprise</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/04-configure-ks-high-availability/">Configure KubeSphere High Availability</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/05-appendix/">Appendix: Advanced Configuration of KubeSphere Core</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/" >Upgrade KubeSphere Enterprise</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/03-online-upgrade-kubephere-from-4.1.x/">Online Upgrade from v4.1.x to v4.2.0</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/04-upgrade-kubephere-from-v4.1/">Offline Upgrade from v4.1.x to v4.2.0</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/05-appendix-ks-core/">Appendix 1: ks-core Helm Chart Upgrade Parameters</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/" >Uninstall KubeSphere Enterprise</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/01-uninstall-kubesphere-only/">Uninstall KubeSphere Enterprise Only</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/02-uninstall-kubernetes-and-kubesphere/">Uninstall Kubernetes and KubeSphere Enterprise</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes/" >Add and Remove Cluster Nodes</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes/01-add-cluster-nodes/">Add Cluster Nodes</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes/02-delete-cluster-nodes/">Remove Cluster Nodes</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+  
+</ul>
+      
+    </nav>
+
+  </div>
+</aside>
+<div class="content-card-wrapper">
+  <div class="content-card">
+    <div class="content-wrapper"><ul class="content-breadcrumb">
+      <li class="icon-slash_fill"><a href="/en/v4.2.0" data-url="/en/v4.2.0">KubeSphere Enterprise</a></li>
+      <li class="icon-slash_fill"><a href="/en/v4.2.0/03-installation-and-upgrade" data-url="/en/v4.2.0/03-installation-and-upgrade">Installation Guide</a></li>
+      <li class="icon-slash_fill"><a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations" data-url="/en/v4.2.0/03-installation-and-upgrade/01-preparations">Preparation</a></li>
+      <li class="icon-slash_fill"><a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage" data-url="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage">Configure External Persistent Storage</a></li>
+      <li class="icon-slash_fill"><a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/05-configure-nfs" data-url="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/05-configure-nfs">Configure NFS</a></li></ul><div class="post-wrapper"><div class="post">
+  <h1 class="post-title">
+    Configure NFS</h1>
+  <div class="post-info">
+    <div class="post-date">
+      Time updated：2025-08-28 08:29:09
+    </div>
+    
+    
+    
+    
+    
+    
+      
+    
+    
+  </div><div class="post-menu">
+  <div class="post-menu-title">Page Catalog</div>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#_build_nfs_server">Build NFS Server</a>
+      <ul>
+        <li><a href="#_prerequisites">Prerequisites</a></li>
+        <li><a href="#_steps">Steps</a></li>
+      </ul>
+    </li>
+    <li><a href="#_configure_cluster_nodes">Configure Cluster Nodes</a>
+      <ul>
+        <li><a href="#_prerequisites_2">Prerequisites</a></li>
+        <li><a href="#_steps_2">Steps</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div><div class="post-content">
+    
+      
+      
+<div class="paragraph">
+<p>This section describes how to configure Network File System (NFS) for the KubeSphere cluster in a production environment.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch admon note">
+<colgroup>
+<col style="width: 100%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>NFS is incompatible with some applications (such as Prometheus), which may cause pod creation failure. If you do need to use NFS in a production environment, make sure you understand the risks or consult KubeSphere technical support at <a href="mailto:support@kubesphere.cloud">support@kubesphere.cloud</a>.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<div class="sect1">
+<h2 id="_build_nfs_server">Build NFS Server</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Before configuring NFS for KubeSphere, you need to set up an NFS server first. If you already have an NFS server available, you can skip this step. The following uses the Ubuntu operating system and NFS Kernel Server as an example to introduce how to build an NFS server. For specific operations on other NFS servers and other operating systems, see the user guides for the NFS servers and operating systems.</p>
+</div>
+<div class="sect2">
+<h3 id="_prerequisites">Prerequisites</h3>
+<div class="paragraph">
+<p>You need to prepare a Linux server (the Ubuntu operating system is used as an example below), which must be connected to the KubeSphere cluster node network.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_steps">Steps</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Log in to the server used to build the NFS server and execute the following command to install the NFS Kernel Server:</p>
+<div class="openblock">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">sudo apt update</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">sudo apt install nfs-kernel-server</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Execute the following command to create a directory for use by KubeSphere (replace &lt;directory&gt; with the actual directory path, such as <strong>/mnt/demo</strong>):</p>
+<div class="openblock">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">sudo mkdir -p &lt;directory&gt;</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Execute the following command to remove access restrictions on the directory (replace &lt;directory&gt; with the actual directory path, such as <strong>/mnt/demo</strong>):</p>
+<div class="openblock">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">sudo chown nobody:nogroup &lt;directory&gt;</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">sudo chmod 777 &lt;directory&gt;</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Execute the following command to edit the configuration file of NFS Kernel Server:</p>
+<div class="openblock">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">sudo vi /etc/exports</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Add the KubeSphere cluster node information to the file to allow the server to access the NFS server, and save the file:</p>
+<div class="openblock">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">&lt;directory&gt; &lt;IP address&gt;(rw,sync,no_subtree_check)</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Replace the following parameters with actual values:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 80%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Parameter</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>&lt;directory&gt;</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>The directory used by KubeSphere, for example <strong>/mnt/demo</strong>.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>&lt;IP address&gt;</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>The IP address of the KubeSphere cluster node, for example 192.168.0.2.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>If there are multiple KubeSphere cluster nodes, please set multiple configuration entries. You can also set &lt;IP address&gt; to a network segment so that all servers in the network segment can access the NFS server, for example <strong>192.168.0.0/24</strong>.</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Execute the following command to enable directory sharing:</p>
+<div class="openblock">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">sudo exportfs -a</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Execute the following command to restart the NFS server to make the configuration take effect:</p>
+<div class="openblock">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">sudo systemctl restart nfs-kernel-server</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_configure_cluster_nodes">Configure Cluster Nodes</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>After the NFS server is built, you need to install the client tool on the KubeSphere cluster nodes and create a configuration file for subsequent installation of KubeSphere. After KubeSphere is installed, the NFS server specified in the configuration file will be used as persistent storage. The following uses the Ubuntu operating system to install NFS Common as an example to introduce how to install the NFS client and create a configuration file. For specific operations on other NFS clients and other operating systems, see the user guides for the NFS clients and operating systems.</p>
+</div>
+<div class="sect2">
+<h3 id="_prerequisites_2">Prerequisites</h3>
+<div class="paragraph">
+<p>You should set up an NFS server. For more information, see <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/#_build_nfs_server">Build NFS Server</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_steps_2">Steps</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Log in to all KubeSphere cluster nodes and execute the following command to install nfs-common:</p>
+<div class="openblock">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">sudo apt update</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">sudo apt install nfs-common</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Log in to the cluster node used to perform the KubeSphere installation and execute the following command to create the configuration file for NFS storage plugin:</p>
+<div class="openblock">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">vi nfs-client.yaml</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Add the following information to the configuration file and save the file for subsequent installation of KubeSphere:</p>
+<div class="openblock">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-yaml" data-lang="yaml">nfs:
+ server: &#34;&lt;IP address&gt;&#34;
+ path: &#34;&lt;directory&gt;&#34;
+storageClass:
+ defaultClass: true</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Replace the following parameters with actual values:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;"/>
+<col style="width: 80%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Parameter</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>&lt;IP address&gt;</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>IP address of the NFS server.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>&lt;directory&gt;</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>The directory of NFS server used by KubeSphere.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>The above configuration file only contains the parameters that must be set. To set other parameters, see <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/https:/github.com/kubesphere/helm-charts/blob/master/src/main/nfs-client-provisioner/values.yaml">NFS Client Configuration</a>.</p>
+</div>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+
+    
+
+  </div>
+  <div class="post-footer">
+    <div class="post-prev">
+    </div>
+    <div class="post-next">
+    </div>
+  </div>
+  <div class="post-back-to-top">
+    <span class="icon-up_3_fill"></span>
+  </div>
+</div>
+<div class="post-placeholder"><div class="post-menu">
+  <div class="post-menu-title">Page Catalog</div>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#_build_nfs_server">Build NFS Server</a>
+      <ul>
+        <li><a href="#_prerequisites">Prerequisites</a></li>
+        <li><a href="#_steps">Steps</a></li>
+      </ul>
+    </li>
+    <li><a href="#_configure_cluster_nodes">Configure Cluster Nodes</a>
+      <ul>
+        <li><a href="#_prerequisites_2">Prerequisites</a></li>
+        <li><a href="#_steps_2">Steps</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div></div>
+      </div>
+    </div>
+  </div>
+</div></div>
+    </body><script src="/en/js/bootstrap.min.js"></script>
+<script src="/en/js/autocomplete/jquery.autocomplete.js"></script>
+<script src="/en/js/copy-to-clipboard.js"></script>
+<script src="/en/js/highlight.min.js"></script>
+<script src="/en/js/jquery.tmpl.min.js"></script>
+<script src="/en/js/jquery.magnific-popup.min.js"></script>
+<script src="/en/js/search/jquery.mark.min.js"></script>
+<script>
+  window.HUGO_BASEURL = "\/en";
+  window.HUGO_I18N = "{\"applicable_scope\":\"Applicable scope\",\"next\":\"Next\",\"page_catalog\":\"Page Catalog\",\"path\":\"Path\",\"previous\":\"Previous\",\"search_empty\":\"No results found. Please try other keywords.\",\"search_placeholder\":\"Enter keywords for help\",\"study_section\":\"Study Section\",\"update_time\":\"Time updated\",\"view_docs\":\"View docs\"}";
+</script>
+
+<script type="text/javascript" src="/en/js/common.fabd21a53168b1eeeb5a5eea37f666342dfe616b67039ea0fe08d0c4ef5390f3423d28b9658e1d491ee6875867d02592c61c2b77975619099214156dcd3e1bc3.js" integrity="sha512-&#43;r0hpTFose7rWl7qN/ZmNC3&#43;YWtnA56g/gjQxO9TkPNCPSi5ZY4dSR7mh1hn0CWSxhwrd5dWGQmSFBVtzT4bww=="></script>
+
+
+<script type="text/javascript" src="/en/js/client-search/dist/index.43039aa05afec4f5e41ea7babc881477ec1e8f36380984c0f50dca64a37ee0bc5ab775bc65efdf8a77cdfac99eee1264a69a7b4d4b009e05224cca8ed81cf039.js"  integrity="sha512-QwOaoFr&#43;xPXkHqe6vIgUd&#43;wejzY4CYTA9Q3KZKN&#43;4Lxat3W8Ze/finfN&#43;sme7hJkppp7TUsAngUiTMqO2BzwOQ=="></script>
+
+<script>
+  $(function() {
+    
+    hljs.highlightAll();
+    
+    $.each($('.post-content .imageblock img'), function () {
+      $(this).attr('data-mfp-src', $(this).attr('src'));
+    });
+    $('.post-content').magnificPopup({
+      disableOn: function () {
+        if ($(window).width() < 600) {
+          return false;
+        }
+        return true;
+      },
+      delegate: '.imageblock img',
+      type: 'image',
+      gallery: {
+        enabled: true,
+      },
+    });
+  });
+</script>
+</html>

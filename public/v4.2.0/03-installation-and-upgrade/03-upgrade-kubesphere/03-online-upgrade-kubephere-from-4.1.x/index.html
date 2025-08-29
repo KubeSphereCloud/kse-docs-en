@@ -1,0 +1,1536 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh">
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('/en/fonts/icomoon.eot?zb38vt');
+            src: url('/en/fonts/icomoon.eot?zb38vt#iefix') format('embedded-opentype'),
+                 url('/en/fonts/icomoon.ttf?zb38vt') format('truetype'),
+                 url('/en/fonts/icomoon.woff?zb38vt') format('woff'),
+                 url('/en/fonts/icomoon.svg?zb38vt#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+          }
+    </style><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+
+<meta name="keywords" content="[Kubernetes, {ks_product}, installation, upgrade {ks_product-en}]">
+
+
+
+<meta name="description" content="Describes how to upgrade KubeSphere Enterprise.">
+
+<link rel="icon" href="/en/images/favicon.ico" type="image/x-icon">
+
+<title>Online Upgrade from v4.1.x to v4.2.0 - KubeSphere Enterprise</title>
+<link href="/en/css/theme.css" rel="stylesheet">
+<link href="/en/css/bulma.css" rel="stylesheet">
+<link href="/en/css/bulma-tooltip.min.css" rel="stylesheet">
+<link href="/en/css/atom-one-light.css" rel="stylesheet" />
+<link href="/en/css/magnific-popup.css" rel="stylesheet" />
+
+
+<link href="/en/scss/main.min.56d66c39133dd11211ab0ba0a1e1290f5815d8e5ea2b67ca9a2fdabd2a1c2a9b.css" rel="stylesheet" integrity="sha256-VtZsORM90RIRqwugoeEpD1gV2OXqK2fKmi/avSocKps=">
+
+
+<script src="/en/js/jquery-2.2.4.js"></script>
+<body
+        class="root   "
+        style=""
+        ><header>
+  <nav class="navbar">
+    
+      <a href="/en" class="navbar-logo-wrapper">
+        <img class="navbar-logo" src="/en/images/qingcloud-logo.svg" />
+        <div class="navbar-split navbar-left-split">|</div>
+        <div class="navbar-logo-text">KubeSphere Enterprise</div>
+      </a>
+    
+    <div class="navbar-nav">
+      
+        <div
+          class="navbar-nav-item navbar-nav-version ">
+          
+          <div class="dropdown-trigger">
+            <span class="project-version">
+              v4.2.0
+            </span>
+            
+          </div>
+          
+        </div>
+      
+    </div>
+    <div class="search navbar-search">
+      <div class="control has-icons-left has-icons-right docs-search-input">
+        <span class="icon is-left">
+          <img src="/en/images/icons/magnifier_duotone.svg" />
+        </span>
+        <input
+          class="input"
+          name="q"
+          type="input"
+          placeholder="请输入关键字快速获取帮助"
+          autocomplete="off"
+        />
+        <span class="icon is-right"> </span>
+      </div>
+      <img class="clear-search-input" src="/en/images/icons/close_duotone.svg" />
+    </div>
+    
+      
+      
+        
+          <a class="navbar-item-right btn primary-btn navbar-btn "
+            target="_blank"
+            data-url="https://docs.kubesphere.com.cn/"
+            data-text="中文文档"
+            href="https://docs.kubesphere.com.cn/">
+            中文文档
+          </a>
+        
+      
+    
+  </nav>
+</header><script id="search-result-total-template" type="text/x-js-template">
+  <div class="search-result-total">
+    共为您找到 ${count} 个结果
+  </div>
+</script>
+
+<script id="search-result-item-template" type="text/x-js-template">
+  <div class="search-result-content-item">
+    <div class="search-result-content-item-title">
+      <a href="${href}">${title}</a>
+    </div>
+    <div class="search-result-content-item-content">
+      ${content}
+    </div>
+    <div class="search-result-content-item-ref">
+      <ul class="content-breadcrumb">
+      </ul>
+    </div>
+  </div>
+</div>
+</script>
+
+<script id="search-breadcrumb-template" type="text/x-js-template">
+  <li class="icon-slash_fill">
+    <a href="${href}">${title}</a>
+  </li>
+</script>
+
+<script id="search-result-total-template" type="text/x-js-template">
+  <div class="search-result-total">
+    共为您找到 ${count} 个结果
+  </div>
+</script>
+<script id="search-result-page-template" type="text/x-js-template">
+  <nav class="search-result-pagination pagination is-centered">
+    <a class="pagination-previous icon-chevron_left_fill"></a>
+    <a class="pagination-next icon-chevron_right_fill"></a>
+    <ul class="pagination-list">
+    </ul>
+  </nav>
+</script>
+<div class="container">
+
+  
+
+
+  
+    
+  
+
+
+<aside class="sidebar-wrapper">
+  <div class="sidebar-drag"></div>
+  <div class="sidebar">
+    
+      <div class="sidebar-title" >
+        <a href="/en/v4.2.0/">
+          
+            KubeSphere Enterprise
+        </a>
+        
+      </div>
+      
+    
+    <nav class="sidebar-menu" id="sidebar-menu-scroll-container">
+      
+        
+        <ul>
+  
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item active ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/" >Installation Guide</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_up_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/" >Preparation</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/01-supported-k8s/">Environment Requirements</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a  >Configure High Availability</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/02-configure-high-availability/02-configure-k8s-high-availability/">Configure Kubernetes High Availability</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/" >Configure External Persistent Storage</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/01-configure-storage-devices-on-cloud/">Configure Cloud Storage Devices</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/04-configure-neosan-csi/">Configure NeonSAN CSI</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/05-configure-nfs/">Configure NFS</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/07-configure-opensource-storage/">Configure Open Source Storage Systems</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/" >Install KubeSphere Enterprise</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/01-online-install-kubernetes-and-kubesphere/">Online Installation of Kubernetes and KubeSphere Enterprise</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/03-activate-kse/">Activate KubeSphere Enterprise</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/04-configure-ks-high-availability/">Configure KubeSphere High Availability</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/05-appendix/">Appendix: Advanced Configuration of KubeSphere Core</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item active ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/" >Upgrade KubeSphere Enterprise</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_up_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/03-online-upgrade-kubephere-from-4.1.x/">Online Upgrade from v4.1.x to v4.2.0</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/04-upgrade-kubephere-from-v4.1/">Offline Upgrade from v4.1.x to v4.2.0</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/05-appendix-ks-core/">Appendix 1: ks-core Helm Chart Upgrade Parameters</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/" >Uninstall KubeSphere Enterprise</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/01-uninstall-kubesphere-only/">Uninstall KubeSphere Enterprise Only</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/02-uninstall-kubernetes-and-kubesphere/">Uninstall Kubernetes and KubeSphere Enterprise</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes/" >Add and Remove Cluster Nodes</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes/01-add-cluster-nodes/">Add Cluster Nodes</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes/02-delete-cluster-nodes/">Remove Cluster Nodes</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+  
+</ul>
+      
+    </nav>
+
+  </div>
+</aside>
+<div class="content-card-wrapper">
+  <div class="content-card">
+    <div class="content-wrapper"><ul class="content-breadcrumb">
+      <li class="icon-slash_fill"><a href="/en/v4.2.0" data-url="/en/v4.2.0">KubeSphere Enterprise</a></li>
+      <li class="icon-slash_fill"><a href="/en/v4.2.0/03-installation-and-upgrade" data-url="/en/v4.2.0/03-installation-and-upgrade">Installation Guide</a></li>
+      <li class="icon-slash_fill"><a href="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere" data-url="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere">Upgrade KubeSphere Enterprise</a></li></ul><div class="post-wrapper"><div class="post">
+  <h1 class="post-title">
+    Online Upgrade from v4.1.x to v4.2.0</h1>
+  <div class="post-info">
+    <div class="post-date">
+      Time updated：2025-08-28 08:29:09
+    </div>
+    
+    
+    
+    
+    
+    
+      
+    
+    
+  </div><div class="post-menu">
+  <div class="post-menu-title">Page Catalog</div>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#_prerequisites">Prerequisites</a></li>
+    <li><a href="#_attention">Attention</a></li>
+    <li><a href="#_upgrade_kubesphere_enterprise">Upgrade KubeSphere Enterprise</a>
+      <ul>
+        <li><a href="#_upgrade_host_cluster">Upgrade Host Cluster</a></li>
+        <li><a href="#_upgrade_member_cluster">Upgrade Member Cluster</a></li>
+        <li><a href="#_upgrade_extensions">Upgrade Extensions</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div><div class="post-content">
+    
+      
+      
+<div class="paragraph">
+<p>This section explains how to upgrade from KubeSphere Enterprise v4.1.2 or v4.1.3 to v4.2.0 when Internet access is available.</p>
+</div>
+<div class="sect1">
+<h2 id="_prerequisites">Prerequisites</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Ensure current KubeSphere Enterprise version is v4.1.2 or v4.1.3.</p>
+</li>
+<li>
+<p>Ensure current Kubernetes version is v1.23.x to v1.32.x.</p>
+</li>
+<li>
+<p>For extensions with special configurations, back up extension configurations by downloading files from the &#34;Extension Config&#34; dialog.</p>
+</li>
+<li>
+<p>
+To avoid data loss, please back up all important data in advance.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_attention">Attention</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>If you customized the nodeShell image in v4.1.x, specify the nodeShell image in the upgrade configuration file <code>kse-v4.2.0-host-custom-values.yaml</code> as shown below:</p>
+<div class="openblock">
+<div class="content">
+<div class="paragraph">
+<p>Example configuration in v4.1.x:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-yaml" data-lang="yaml">nodeShell:
+  image:
+    registry: &#34;&#34;
+    repository: kubesphereio/kubectl
+    tag: &#34;v1.27.12&#34;
+    pullPolicy: IfNotPresent</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Configure in <code>kse-v4.2.0-host-custom-values.yaml</code> as:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-yaml" data-lang="yaml">terminal:
+  kubectl:
+    enabled: true
+    image:
+      registry: &#34;&#34;
+      repository: kubesphereio/kubectl
+      tag: &#34;v1.33.1&#34;
+      pullPolicy: IfNotPresent
+  node:
+    enabled: true
+    image:
+      registry: &#34;&#34;
+      repository: kubesphereio/kubectl
+      tag: &#34;v1.33.1&#34;
+      pullPolicy: IfNotPresent
+  pod:
+    enabled: true
+    uploadFileLimit: &#34;100Mi&#34;
+    uploadFileEnabled: true
+    downloadFileEnabled: true</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Starting from v4.1.3, cluster role and host cluster name configurations in ks-core chart have changed. When upgrading from v4.1.2, configure as shown below (v4.1.3 unaffected):</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-yaml" data-lang="yaml">multicluster:
+  # Cluster role name
+  role: &#34;&#34;
+  # Host cluster name (priority: direct specification &gt; reading from kubesphere-config &gt; default name host)
+  hostClusterName: &#34;&#34;</code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Starting from v4.1.3, the following parameter is deprecated. Remove it or set to <code>false</code> in <code>kse-v4.2.0-host-custom-values.yaml</code>:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-yaml" data-lang="yaml">upgrade:
+  enabled: false</code></pre>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_upgrade_kubesphere_enterprise">Upgrade KubeSphere Enterprise</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>KubeSphere Enterprise v4.1 and later versions use Helm charts for ks-core upgrades.</p>
+</div>
+<div class="sect2">
+<h3 id="_upgrade_host_cluster">Upgrade Host Cluster</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Verify the current cluster is the target host cluster for upgrade:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">kubectl get node -o wide</code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>KubeSphere Enterprise v4.1.3 removed <code>kse-extensions-publish</code> and integrated it into the ks-core chart. For v4.1.2 to v4.2.0 upgrades, you should patch extension resources created by KubeSphere Enterprise previous versions:</p>
+<table class="tableblock frame-all grid-all stretch admon attention">
+<colgroup>
+<col style="width: 100%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>This step only applies to v4.1.2 → v4.2.0 upgrades. Skip for v4.1.3 → v4.2.0.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Create the <code>extension-resources-patch.sh</code> script to handle conflicts from <code>kse-extension-publish</code> created resources:</p>
+<div class="openblock">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">vi extension-resources-patch.sh</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Paste and save:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">#!/bin/bash
+
+# Resolve resource template conflicts
+kubectl -n kubesphere-system label deploy extensions-museum app.kubernetes.io/managed-by=Helm
+kubectl -n kubesphere-system annotate deploy extensions-museum meta.helm.sh/release-name=ks-core
+kubectl -n kubesphere-system annotate deploy extensions-museum meta.helm.sh/release-namespace=kubesphere-system
+
+kubectl -n kubesphere-system label service extensions-museum app.kubernetes.io/managed-by=Helm
+kubectl -n kubesphere-system annotate service extensions-museum meta.helm.sh/release-name=ks-core
+kubectl -n kubesphere-system annotate service extensions-museum meta.helm.sh/release-namespace=kubesphere-system
+
+kubectl -n kubesphere-system label secret extensions-museum-certs app.kubernetes.io/managed-by=Helm
+kubectl -n kubesphere-system annotate secret extensions-museum-certs meta.helm.sh/release-name=ks-core
+kubectl -n kubesphere-system annotate secret extensions-museum-certs meta.helm.sh/release-namespace=kubesphere-system
+
+# Resolve repository reference conflicts
+for item in $(kubectl get extensionversions.kubesphere.io -o jsonpath=&#34;{.items[*].metadata.name}&#34;); do
+    kubectl patch extensionversions.kubesphere.io $item --type merge -p &#39;{&#34;spec&#34;:{&#34;repository&#34;:&#34;extensions-museum&#34;}}&#39;
+    kubectl label extensionversions.kubesphere.io $item kubesphere.io/repository-ref=extensions-museum
+done
+for item in $(kubectl get extensions.kubesphere.io -o jsonpath=&#34;{.items[*].metadata.name}&#34;); do
+    kubectl label extensions.kubesphere.io $item kubesphere.io/repository-ref=extensions-museum
+done</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Execute the script:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">bash extension-resources-patch.sh</code></pre>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Check current ks-core configuration:</p>
+<div class="openblock">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">helm get values -n kubesphere-system ks-core</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Create the upgrade configuration file with the following content:</p>
+<div class="openblock">
+<div class="content">
+<div class="paragraph">
+<p>If the previous step shows parameters beyond image registry, image version, cloud and upgrade, include them in this configuration file.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">cat &lt;&lt;EOF &gt; kse-v4.2.0-host-custom-values.yaml
+
+# Specify image registry for ks-core and extensions
+# Modify according to actual environment
+global:
+  imageRegistry: registry.cn-beijing.aliyuncs.com
+extension:
+  imageRegistry: &#34;&#34;
+
+# Cluster role parameter changed from role to multicluster.role
+multicluster:
+  role: host
+
+# Enable HA for ks-core components (ks-apiserver, ks-controller-manager, ks-console)
+# Configure according to cluster status
+ha:
+  enabled: false
+
+# Enable Redis HA (required for ks-apiserver HA)
+# If set to false, single-replica Redis will be deployed in kubesphere-system
+redisHA:
+  enabled: false
+EOF</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Run the following command to start the upgrade.</p>
+<div class="openblock">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">chart=oci://hub.kubesphere.com.cn/kse/ks-core
+version=1.2.1
+helm upgrade --install -n kubesphere-system --create-namespace ks-core $chart --version $version -f kse-v4.2.0-host-custom-values.yaml --wait --debug</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Verify the host cluster upgrade status.</p>
+<div class="openblock">
+<div class="content">
+<div class="paragraph">
+<p>Run the following command. The pods should be in Running state as shown below.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">root@xxx:~# kubectl get pod -n kubesphere-system
+NAME                                         READY   STATUS      RESTARTS   AGE
+extensions-museum-85f846dbbd-6xtst           1/1     Running     0          16h
+helm-install-ks-console-embed-tnwmf7-wcfjf   0/1     Completed   0          16h
+ks-apiserver-7f875b8654-zvhrd                1/1     Running     0          16h
+ks-console-997fc9658-dnrqr                   1/1     Running     0          16h
+ks-console-embed-775f757548-9vd2s            1/1     Running     0          16h
+ks-controller-manager-5f69675d48-qnxv7       1/1     Running     0          16h</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Access the KubeSphere Enterprise v4.2.0 web console using the original IP address, administrator username and password.</p>
+</li>
+<li>
+<p>Check whether all functions and data in the host cluster are working properly.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_upgrade_member_cluster">Upgrade Member Cluster</h3>
+<div class="paragraph">
+<p>The member cluster upgrade process is similar to the host cluster, with special attention to member-specific parameters.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Verify the current member cluster is the target for upgrade:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">kubectl get node -o wide</code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Check member cluster’s ks-core configuration:</p>
+<div class="openblock">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">helm get values -n kubesphere-system ks-core</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Get the member cluster’s jwtSecret:</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">kubectl -n kubesphere-system get cm kubesphere-config -o yaml | grep -v &#34;apiVersion&#34; | grep jwtSecret</code></pre>
+</div>
+</div>
+</li>
+<li>
+<p>Create the upgrade configuration file with the following content:</p>
+<div class="exampleblock">
+<div class="content">
+<div class="paragraph">
+<p>If the previous step shows parameters beyond image registry, image version, cloud and upgrade, include them in this configuration file.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">cat &lt;&lt;EOF &gt; kse-v4.2.0-member-custom-values.yaml
+
+# Specify image registry for ks-core
+# Modify according to actual environment
+global:
+  imageRegistry: registry.cn-beijing.aliyuncs.com
+
+# Replace with member cluster&#39;s jwtSecret value
+authentication:
+  issuer:
+    jwtSecret: &lt;REPLACE_ME&gt;
+
+# Cluster role parameter changed from role to multicluster.role
+multicluster:
+  role: member
+EOF</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Run the upgrade command:</p>
+<div class="openblock">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">chart=oci://hub.kubesphere.com.cn/kse/ks-core
+version=1.2.1
+helm upgrade --install -n kubesphere-system --create-namespace ks-core $chart --version $version -f kse-v4.2.0-member-custom-values.yaml --wait --debug</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Verify the member cluster upgrade status.</p>
+<div class="openblock">
+<div class="content">
+<div class="paragraph">
+<p>Run the following command; the <code>ks-agent</code> pod should be in the running state as shown below.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">root@xxx:~# kubectl get pod -n kubesphere-system
+NAME                          READY   STATUS      RESTARTS        AGE
+ks-agent-5dc5b57977-4x6mf     2/2     Running     0               59m</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>If you added custom configurations (e.g., <code>--set a=b</code>) in the above upgrade command, you need to add the custom configurations for the member cluster in the web console.</p>
+<div class="openblock">
+<div class="content">
+<div class="paragraph">
+<p>Method: On the <strong>Cluster Management</strong> page, click <span class="image"><img src="/en/images/ks-qkcp/zh/icons/more.svg" alt="more" width="18" height="18"/></span> on the right side of the member cluster you want to edit, and then select <strong>Edit Configuration</strong> from the dropdown list. In the pop-up window, enter <code>a: b</code>.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch admon note">
+<colgroup>
+<col style="width: 100%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>If you did not include custom configurations in the upgrade command, you do not need to add cluster configurations in the web console.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_upgrade_extensions">Upgrade Extensions</h3>
+<div class="paragraph">
+<p>Upgrade the required extensions in the Extensions Center. For extensions with special configurations that have been backed up, modify the configurations before upgrading.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>In the Extensions Center, click the extension name to enter its details page.</p>
+</li>
+<li>
+<p>Click <span class="image"><img src="/en/images/ks-qkcp/zh/icons/more.svg" alt="more" width="18" height="18"/></span> below the extension icon and select <strong>Extension Config</strong>.</p>
+</li>
+<li>
+<p>Clear the <strong>Custom Config</strong> field, enter the customized configurations, then click <strong>OK</strong>.</p>
+</li>
+<li>
+<p>Click <span class="image"><img src="/en/images/ks-qkcp/zh/icons/more.svg" alt="more" width="18" height="18"/></span> below the extension icon again and select <strong>Update</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Extension Update</strong> dialog box, click <strong>Start Update</strong> and wait for the upgrade to complete.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>At this point, KubeSphere Enterprise has completed all upgrades.</p>
+</div>
+<div class="paragraph">
+<p><strong>Appendix: Upgradeable Extensions List</strong></p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;"/>
+<col style="width: 25%;"/>
+<col style="width: 25%;"/>
+<col style="width: 25%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Extension</th>
+<th class="tableblock halign-left valign-top">KSE v4.1.2</th>
+<th class="tableblock halign-left valign-top">KSE v4.1.3</th>
+<th class="tableblock halign-left valign-top">KSE v4.2.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">alloy</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Not included</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cert-manager</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">devops</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.1.1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.1.2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.2.1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">s2i</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Not included</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Not included</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.1.0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">dmp</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.1.3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.1.4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.2.0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">edgewize</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Not included</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Not included</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3.1.0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">gatekeeper</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.3</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">gateway</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.1.1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">grafana</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10.4.3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10.4.14</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10.4.14</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ingress-utils</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">kubeedge</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.13.1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.13.1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Removed (migrated to EdgeWize)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">kubefed</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.1.0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">loki</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.2</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">metrics-server</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.7.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.7.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.7.2</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">network</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.1.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.1.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.2.1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">nvidia-gpu-operator</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">23.9.2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">23.9.2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">23.9.2</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">oauth2-proxy</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7.6.2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7.6.2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7.6.2</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">openpitrix</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.0.1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.0.2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.1.0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">opensearch</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.11.1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.11.1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.11.1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">s2ibuilder</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Not included</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Not included</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0.1.0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">servicemesh</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.2</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">springcloud</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.2</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">storage-utils</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">tempo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Not included</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Not included</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">tower</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.1.0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">vector</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.4</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">whizard-alerting</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.5</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">whizard-auditing</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.2.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.2.1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.2.1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">whizard-events</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.2.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.2.1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.2.2</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">whizard-logging</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.2.2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.2.3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.2.3</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">whizard-monitoring-pro</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Not included</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Not included</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">whizard-monitoring</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.1.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.1.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.2.0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">whizard-notification</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.5.9</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.6.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.6.1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">whizard-telemetry-ruler</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.2.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.2.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.2.0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">whizard-telemetry</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.2.2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.3.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.0.0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">wiztelemetry-bpfconductor</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Not included</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Not included</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.3</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">wiztelemetry-tracing</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Not included</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Not included</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0.3</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+    
+
+  </div>
+  <div class="post-footer">
+    <div class="post-prev">
+    </div>
+    <div class="post-next">
+    </div>
+  </div>
+  <div class="post-back-to-top">
+    <span class="icon-up_3_fill"></span>
+  </div>
+</div>
+<div class="post-placeholder"><div class="post-menu">
+  <div class="post-menu-title">Page Catalog</div>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#_prerequisites">Prerequisites</a></li>
+    <li><a href="#_attention">Attention</a></li>
+    <li><a href="#_upgrade_kubesphere_enterprise">Upgrade KubeSphere Enterprise</a>
+      <ul>
+        <li><a href="#_upgrade_host_cluster">Upgrade Host Cluster</a></li>
+        <li><a href="#_upgrade_member_cluster">Upgrade Member Cluster</a></li>
+        <li><a href="#_upgrade_extensions">Upgrade Extensions</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div></div>
+      </div>
+    </div>
+  </div>
+</div></div>
+    </body><script src="/en/js/bootstrap.min.js"></script>
+<script src="/en/js/autocomplete/jquery.autocomplete.js"></script>
+<script src="/en/js/copy-to-clipboard.js"></script>
+<script src="/en/js/highlight.min.js"></script>
+<script src="/en/js/jquery.tmpl.min.js"></script>
+<script src="/en/js/jquery.magnific-popup.min.js"></script>
+<script src="/en/js/search/jquery.mark.min.js"></script>
+<script>
+  window.HUGO_BASEURL = "\/en";
+  window.HUGO_I18N = "{\"applicable_scope\":\"Applicable scope\",\"next\":\"Next\",\"page_catalog\":\"Page Catalog\",\"path\":\"Path\",\"previous\":\"Previous\",\"search_empty\":\"No results found. Please try other keywords.\",\"search_placeholder\":\"Enter keywords for help\",\"study_section\":\"Study Section\",\"update_time\":\"Time updated\",\"view_docs\":\"View docs\"}";
+</script>
+
+<script type="text/javascript" src="/en/js/common.fabd21a53168b1eeeb5a5eea37f666342dfe616b67039ea0fe08d0c4ef5390f3423d28b9658e1d491ee6875867d02592c61c2b77975619099214156dcd3e1bc3.js" integrity="sha512-&#43;r0hpTFose7rWl7qN/ZmNC3&#43;YWtnA56g/gjQxO9TkPNCPSi5ZY4dSR7mh1hn0CWSxhwrd5dWGQmSFBVtzT4bww=="></script>
+
+
+<script type="text/javascript" src="/en/js/client-search/dist/index.43039aa05afec4f5e41ea7babc881477ec1e8f36380984c0f50dca64a37ee0bc5ab775bc65efdf8a77cdfac99eee1264a69a7b4d4b009e05224cca8ed81cf039.js"  integrity="sha512-QwOaoFr&#43;xPXkHqe6vIgUd&#43;wejzY4CYTA9Q3KZKN&#43;4Lxat3W8Ze/finfN&#43;sme7hJkppp7TUsAngUiTMqO2BzwOQ=="></script>
+
+<script>
+  $(function() {
+    
+    hljs.highlightAll();
+    
+    $.each($('.post-content .imageblock img'), function () {
+      $(this).attr('data-mfp-src', $(this).attr('src'));
+    });
+    $('.post-content').magnificPopup({
+      disableOn: function () {
+        if ($(window).width() < 600) {
+          return false;
+        }
+        return true;
+      },
+      delegate: '.imageblock img',
+      type: 'image',
+      gallery: {
+        enabled: true,
+      },
+    });
+  });
+</script>
+</html>

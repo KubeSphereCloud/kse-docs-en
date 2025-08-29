@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Install KubeSphere Enterprise on KubeSphere Enterprise</title>
+    <link>/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/</link>
+    <description>Recent content in Install KubeSphere Enterprise on KubeSphere Enterprise</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Online Installation of Kubernetes and KubeSphere Enterprise</title>
+      <link>/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/01-online-install-kubernetes-and-kubesphere/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/01-online-install-kubernetes-and-kubesphere/</guid>
+      <description>This section explains how to install Kubernetes and KubeSphere Enterprise in an Internet-accessible environment.
+ The installation process will use the open-source tool KubeKey. For more information about KubeKey, please visit the GitHub KubeKey repository.
+ Prerequisites   Prepare at least 1 Linux server as a cluster node. In a production environment, to ensure high availability of the cluster, it is recommended to prepare at least 5 Linux servers, with 3 servers as control plane nodes and 2 servers as worker nodes.</description>
+    </item>
+    
+    <item>
+      <title>Activate KubeSphere Enterprise</title>
+      <link>/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/03-activate-kse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/03-activate-kse/</guid>
+      <description>After logging in to the KubeSphere Enterprise web console, you need to import a license to activate KubeSphere Enterprise and extensions to access all features.
+     Note     If you installed KubeSphere Enterprise offline, please contact delivery specialists directly to get the license.
+    Step 1: Purchase and obtain license For online installations of KubeSphere Enterprise, visit {ks_product-en} official website, click Contact Us, and inquire about purchasing method for KubeSphere Enterprise and extensions licenses via WeChat or Slack.</description>
+    </item>
+    
+    <item>
+      <title>Configure KubeSphere High Availability</title>
+      <link>/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/04-configure-ks-high-availability/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/04-configure-ks-high-availability/</guid>
+      <description>This section explains how to configure high availability for KubeSphere.
+     Note     KubeSphere high availability relies on high availability of Kubernetes control plane nodes, so ensure Kubernetes is deployed in HA mode first.
+    1. High Availability Architecture Overview KubeSphere supports high availability deployment, which can be enabled via ha.enabled.
+ In HA mode, Redis supports two deployment approaches:</description>
+    </item>
+    
+    <item>
+      <title>Appendix: Advanced Configuration of KubeSphere Core</title>
+      <link>/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/05-appendix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/05-appendix/</guid>
+      <description>KubeSphere Helm Chart Parameters Global Configuration     Name Description Value     global.imageRegistry
+ Global Docker image registry
+ registry.cn-beijing.aliyuncs.com
+   global.tag
+ Global Docker image tag
+ &amp;#34;&amp;#34;
+   global.imagePullSecrets
+ Global Docker registry secret names as an array
+ []
+    Common Parameters     Name Description Value     nameOverride</description>
+    </item>
+    
+  </channel>
+</rss>
