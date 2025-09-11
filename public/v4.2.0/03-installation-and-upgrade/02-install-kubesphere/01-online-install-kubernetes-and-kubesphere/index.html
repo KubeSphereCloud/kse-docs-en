@@ -107,7 +107,7 @@
 <script id="search-result-item-template" type="text/x-js-template">
   <div class="search-result-content-item">
     <div class="search-result-content-item-title">
-      <a href="${href}">${title}</a>
+      <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/01-online-install-kubernetes-and-kubesphere/${href}">${title}</a>
     </div>
     <div class="search-result-content-item-content">
       ${content}
@@ -122,7 +122,7 @@
 
 <script id="search-breadcrumb-template" type="text/x-js-template">
   <li class="icon-slash_fill">
-    <a href="${href}">${title}</a>
+    <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/01-online-install-kubernetes-and-kubesphere/${href}">${title}</a>
   </li>
 </script>
 
@@ -743,7 +743,7 @@
     Online Installation of Kubernetes and KubeSphere Enterprise</h1>
   <div class="post-info">
     <div class="post-date">
-      Time updated：2025-08-28 08:29:09
+      Time updated：2025-09-10 08:15:26
     </div>
     
     
@@ -773,7 +773,7 @@
 <p>This section explains how to install Kubernetes and KubeSphere Enterprise in an Internet-accessible environment.</p>
 </div>
 <div class="paragraph">
-<p>The installation process will use the open-source tool KubeKey. For more information about KubeKey, please visit the <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/https:/github.com/kubesphere/kubekey">GitHub KubeKey repository</a>.</p>
+<p>The installation process will use the open-source tool KubeKey. For more information about KubeKey, please visit the <a href="https://github.com/kubesphere/kubekey">GitHub KubeKey repository</a>.</p>
 </div>
 <div class="sect1">
 <h2 id="_prerequisites">Prerequisites</h2>
@@ -790,7 +790,7 @@
 <p>In a production environment, to ensure the cluster has sufficient computing and storage resources, it is recommended that each cluster node be configured with at least 8 CPU cores, 16 GB of memory, and 200 GB of disk space. In addition, it is recommended to mount an additional 200 GB of disk space in the <strong>/var/lib/docker</strong> (for Docker) or <strong>/var/lib/containerd</strong> (for containerd) directory of each cluster node for storing container runtime data.</p>
 </li>
 <li>
-<p>In a production environment, it is recommended to configure high availability for the KubeSphere cluster in advance to avoid service interruption in the event of a single control plane node failure. For more information, please refer to the <a href="/en/03-installation-and-upgrade/01-preparations/02-configure-high-availability/02-configure-k8s-high-availability">Configure High Availability</a>.</p>
+<p>In a production environment, it is recommended to configure high availability for the KubeSphere cluster in advance to avoid service interruption in the event of a single control plane node failure. For more information, please refer to the <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/02-configure-high-availability/02-configure-k8s-high-availability">Configure High Availability</a>.</p>
 <div class="openblock">
 <div class="content">
 <table class="tableblock frame-all grid-all stretch admon note">
@@ -814,7 +814,7 @@
 </div>
 </li>
 <li>
-<p>By default, KubeSphere uses the local disk space of the cluster nodes as persistent storage. In a production environment, it is recommended to configure an external storage system as persistent storage in advance. For more information, please refer to the <a href="/en/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage">Configure External Persistent Storage</a>.</p>
+<p>By default, KubeSphere uses the local disk space of the cluster nodes as persistent storage. In a production environment, it is recommended to configure an external storage system as persistent storage in advance. For more information, please refer to the <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage">Configure External Persistent Storage</a>.</p>
 </li>
 <li>
 <p>If the cluster nodes do not have a container runtime installed, the installation tool KubeKey will automatically install Docker as the container runtime for each cluster node during the installation process. You can also manually install containerd, CRI-O, or iSula as the container runtime in advance.</p>
@@ -1140,7 +1140,7 @@
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>If the cluster node used to perform the operations cannot connect to the internet, you can manually {{&lt; adoclink &#34;/_custom-en/installationAndUpgrade/https:/github.com/kubesphere/kubekey/releases&#34; &gt;}}download KubeKey{{&lt; /adoclink &gt;}} on a device with internet access and then transfer it to the cluster node.</p>
+<p>If the cluster node used to perform the operations cannot connect to the internet, you can manually <a href="https://github.com/kubesphere/kubekey/releases">download KubeKey</a> on a device with internet access and then transfer it to the cluster node.</p>
 </div></div></td>
 </tr>
 </tbody>
@@ -1205,7 +1205,7 @@
 </div>
 </div>
 <div class="paragraph">
-<p>The following is a part of the configuration file sample. For a complete example, please refer to <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/https:/github.com/kubesphere/kubekey/blob/master/docs/config-example.md">this file</a>.</p>
+<p>The following is a part of the configuration file sample. For a complete example, please refer to <a href="https://github.com/kubesphere/kubekey/blob/master/docs/config-example.md">this file</a>.</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -1644,7 +1644,7 @@ For additional information and details, please visit https://kubesphere.io.</cod
 <li>
 <p>By now, the KubeSphere Enterprise web console only provides the core functionalities of KubeSphere Enterprise. To access more features, you need to install extensions from the Extensions Center.</p>
 <div class="paragraph">
-<p>Before using KubeSphere Enterprise and its extensions, please first <a href="/en/v4.2.0/03-installation-and-upgrade/03-activate-kse">activate KubeSphere Enterprise and extensions</a>.</p>
+<p>Before using KubeSphere Enterprise and its extensions, please first <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/03-activate-kse">activate KubeSphere Enterprise and extensions</a>.</p>
 </div>
 </li>
 </ol>
