@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manage Extensions on KubeSphere Enterprise</title>
+    <link>/v4.2.0/06-extension-management/02-manage-extensions/</link>
+    <description>Recent content in Manage Extensions on KubeSphere Enterprise</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/06-extension-management/02-manage-extensions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configure Extensions</title>
+      <link>/v4.2.0/06-extension-management/02-manage-extensions/01-set-configurations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/06-extension-management/02-manage-extensions/01-set-configurations/</guid>
+      <description>This section explains how to configure extensions.
+ In addition to configuring extensions during installation, you can also modify extension configurations on the extension details page in the Extensions Center.
+     Attention     Configuration changes are not allowed during installation, upgrade, or uninstallation.
+    Prerequisites   You should have the platform-admin role on the KubeSphere Enterprise platform. For more information, refer to Users and Platform Roles.</description>
+    </item>
+    
+    <item>
+      <title>Configure Cluster Agent</title>
+      <link>/v4.2.0/06-extension-management/02-manage-extensions/02-set-cluster-agents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/06-extension-management/02-manage-extensions/02-set-cluster-agents/</guid>
+      <description>This section explains how to configure cluster Agent.
+ In addition to configuring cluster Agent during extension installation, you can also modify cluster Agent configurations on the extension details page in the Extensions Center.
+ Prerequisites   You should have the platform-admin role on the KubeSphere Enterprise platform. For more information, please refer to Users and Platform Roles.
+  You have successfully installed an extension with cluster Agent configured.</description>
+    </item>
+    
+    <item>
+      <title>Disable Extensions</title>
+      <link>/v4.2.0/06-extension-management/02-manage-extensions/04-disable-extensions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/06-extension-management/02-manage-extensions/04-disable-extensions/</guid>
+      <description>This section explains how to disable extensions.
+ After an extension is installed, it is automatically enabled. You can disable extensions on the extension details page in the Extensions Center.
+ Once disabled, you can enable it again to continue using the extension in clusters, workspaces, and projects.
+ Prerequisites You should have the platform-admin role on the KubeSphere Enterprise platform. For more information, please refer to Users and Platform Roles.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Platform Management on KubeSphere Enterprise</title>
+    <link>/v4.2.0/04-platform-management/</link>
+    <description>Recent content in Platform Management on KubeSphere Enterprise</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/04-platform-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Platform Overview</title>
+      <link>/v4.2.0/04-platform-management/01-platform-features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/04-platform-management/01-platform-features/</guid>
+      <description>KubeSphere Enterprise employs a fine-grained access control mechanism. Depending on the role of the logged-in user, the KubeSphere Enterprise web console is displayed differently.
+ This section introduces the modules and functionalities of the KubeSphere Enterprise web console from the perspective of a user with the platform-admin role.
+ 
+     Module Functionality     Top Navigation Bar
+ The top navigation bar displays entries for clusters and workspaces by default.</description>
+    </item>
+    
+  </channel>
+</rss>

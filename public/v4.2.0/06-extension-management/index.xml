@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Extension Management on KubeSphere Enterprise</title>
+    <link>/v4.2.0/06-extension-management/</link>
+    <description>Recent content in Extension Management on KubeSphere Enterprise</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/06-extension-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Extensions</title>
+      <link>/v4.2.0/06-extension-management/01-install-extensions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/06-extension-management/01-install-extensions/</guid>
+      <description>This section explains how to install extensions.
+ For information on how to access, configure, and use each extension, please refer to Extension User Guide.
+ Prerequisites You should have the platform-admin role on the KubeSphere Enterprise platform. For more information, refer to the Users and Platform Roles.
+   Steps  Log in to the KubeSphere Enterprise web console as a user with the platform-admin role.
+  Click Extensions Center and search for the extension you want to install.</description>
+    </item>
+    
+    <item>
+      <title>Upgrade Extensions</title>
+      <link>/v4.2.0/06-extension-management/03-upgrade-extensions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/06-extension-management/03-upgrade-extensions/</guid>
+      <description>This section explains how to upgrade extensions.
+ When a new version of an extension is available, you can upgrade the extension on the extension details page in the Extensions Center.
+ 在 KubeSphere 企业版 v4.2.0 之前的版本中，在扩展组件安装时显式配置了镜像标签（image tag），而在 KubeSphere 企业版 v4.2.0 及之后的版本中，镜像标签会跟随扩展组件的版本，优先使用默认值，无需您手动配置。
+ 因此，在升级扩展组件时，请务必确认镜像标签配置是否符合预期。新版本通常会使用新的镜像标签，如果您在配置中显式指定了旧的镜像标签，可能会导致升级后仍拉取旧版本镜像，无法获得最新功能或修复。
+ 为确保升级顺利进行，请遵循以下建议：
+  检查并移除手动设置的镜像标签，或将其更新为新版本所需的镜像标签。
+  推荐使用默认配置，以自动获取与当前版本匹配的镜像标签。
+   各个扩展组件的镜像标签的配置路径，请参阅扩展中心各扩展组件详情页的升级说明。
+  Attention
+ In versions prior to KubeSphere Enterprise v4.2.0, the image tag was explicitly configured during extension installation.</description>
+    </item>
+    
+    <item>
+      <title>Uninstall Extensions</title>
+      <link>/v4.2.0/06-extension-management/05-uninstall-extensions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/06-extension-management/05-uninstall-extensions/</guid>
+      <description>This section explains how to uninstall extensions.
+ You can uninstall extensions on the extension details page in the Extensions Center.
+ For extensions with cluster Agent configured, the cluster Agent will be uninstalled first, followed by the extension itself during the uninstallation process.
+ Prerequisites You should have the platform-admin role on the KubeSphere Enterprise platform. For more information, please refer to Users and Platform Roles.
+   Steps  Log in to the KubeSphere Enterprise web console with a user having the platform-admin role.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Navigation and Quick Access on KubeSphere Enterprise</title>
+    <link>/v4.2.0/04-platform-management/03-navigation-and-access/</link>
+    <description>Recent content in Navigation and Quick Access on KubeSphere Enterprise</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/04-platform-management/03-navigation-and-access/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Component Dock</title>
+      <link>/v4.2.0/04-platform-management/03-navigation-and-access/02-component-dock/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/04-platform-management/03-navigation-and-access/02-component-dock/</guid>
+      <description>The Component Dock is the global access point for platform management components, extensions, and the toolbox. You can also customize component entries in the Component Dock to add them to the top navigation bar for quick access.
+ Prerequisites You have obtained the username and password to access the KubeSphere Enterprise web console.
+   Steps  Log in to the KubeSphere Enterprise web console.
+  Click Component Dock.</description>
+    </item>
+    
+    <item>
+      <title>Quick Access</title>
+      <link>/v4.2.0/04-platform-management/03-navigation-and-access/03-quick-access/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/04-platform-management/03-navigation-and-access/03-quick-access/</guid>
+      <description>This section describes how to add quick access to clusters and workspaces for quickly navigating to the management pages of the corresponding resources.
+ Prerequisites You have obtained the username and password to access the KubeSphere Enterprise web console.
+   Steps  Log in to the KubeSphere Enterprise web console.
+  On the cluster list and workspace list pages, click  to add the corresponding cluster or workspace to the Quick Access Bar and Quick Access area.</description>
+    </item>
+    
+    <item>
+      <title>Left Navigation Pane</title>
+      <link>/v4.2.0/04-platform-management/03-navigation-and-access/04-left-pane/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/04-platform-management/03-navigation-and-access/04-left-pane/</guid>
+      <description>The KubeSphere Enterprise web console supports collapsing the left navigation pane.
+ On pages such as Cluster Management, Workspace Management, Users and Roles, and Platform Settings, you can click  or  to collapse or expand the left navigation pane. When collapsed, the left navigation pane displays only icon buttons. Hover the mouse over an icon and click the text that appears to quickly switch pages.
+ 
+ Additionally, on the Cluster Management and Workspace Management pages, after collapsing the left navigation pane, click , or after expanding it, click  to view the history of accessed clusters and workspaces along with the full list.</description>
+    </item>
+    
+  </channel>
+</rss>
