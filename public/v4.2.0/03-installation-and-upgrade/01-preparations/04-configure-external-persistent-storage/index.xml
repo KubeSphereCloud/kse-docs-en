@@ -45,7 +45,11 @@
       
       <guid>/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/07-configure-opensource-storage/</guid>
       <description>KubeSphere supports numerous third-party open source storage systems, including but not limited to:
-   Ceph CSI   GlusterFS   OpenEBS   Longhorn    KubeSphere does not provide installation packages for third-party open source storage systems. Please download and install them from the official websites of the storage systems.
+   Ceph CSI
+  GlusterFS
+  OpenEBS
+  Longhorn
+   KubeSphere does not provide installation packages for third-party open source storage systems. Please download and install them from the official websites of the storage systems.
  </description>
     </item>
     

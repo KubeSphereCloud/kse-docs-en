@@ -25,7 +25,7 @@
       <guid>/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/03-activate-kse/</guid>
       <description>After logging in to the KubeSphere Enterprise web console, you need to import a license to activate KubeSphere Enterprise and extensions to access all features.
      Note     If you installed KubeSphere Enterprise offline, please contact delivery specialists directly to get the license.
-    Step 1: Purchase and obtain license For online installations of KubeSphere Enterprise, visit {ks_product-en} official website, click Contact Us, and inquire about purchasing method for KubeSphere Enterprise and extensions licenses via WeChat or Slack.</description>
+    Step 1: Purchase and obtain license For online installations of KubeSphere Enterprise, visit KubeSphere Enterprise official website, click Contact Us, and inquire about purchasing method for KubeSphere Enterprise and extensions licenses via WeChat or Slack.</description>
     </item>
     
     <item>

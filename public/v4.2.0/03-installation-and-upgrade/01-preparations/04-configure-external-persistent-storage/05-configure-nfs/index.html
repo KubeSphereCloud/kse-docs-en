@@ -107,7 +107,7 @@
 <script id="search-result-item-template" type="text/x-js-template">
   <div class="search-result-content-item">
     <div class="search-result-content-item-title">
-      <a href="${href}">${title}</a>
+      <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/05-configure-nfs/${href}">${title}</a>
     </div>
     <div class="search-result-content-item-content">
       ${content}
@@ -122,7 +122,7 @@
 
 <script id="search-breadcrumb-template" type="text/x-js-template">
   <li class="icon-slash_fill">
-    <a href="${href}">${title}</a>
+    <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/05-configure-nfs/${href}">${title}</a>
   </li>
 </script>
 
@@ -744,7 +744,7 @@
     Configure NFS</h1>
   <div class="post-info">
     <div class="post-date">
-      Time updated：2025-08-28 08:29:09
+      Time updated：2025-09-10 08:15:26
     </div>
     
     
@@ -792,7 +792,7 @@
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>NFS is incompatible with some applications (such as Prometheus), which may cause pod creation failure. If you do need to use NFS in a production environment, make sure you understand the risks or consult KubeSphere technical support at <a href="mailto:support@kubesphere.cloud">support@kubesphere.cloud</a>.</p>
+<p>NFS is incompatible with some applications (such as Prometheus), which may cause pod creation failure. If you do need to use NFS in a production environment, make sure you understand the risks or consult KubeSphere technical support at <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/05-configure-nfs/mailto:support@kubesphere.cloud">support@kubesphere.cloud</a>.</p>
 </div></div></td>
 </tr>
 </tbody>
@@ -957,7 +957,7 @@
 <div class="sect2">
 <h3 id="_prerequisites_2">Prerequisites</h3>
 <div class="paragraph">
-<p>You should set up an NFS server. For more information, see <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/#_build_nfs_server">Build NFS Server</a>.</p>
+<p>You should set up an NFS server. For more information, see <a href="#_build_nfs_server">Build NFS Server</a>.</p>
 </div>
 </div>
 <div class="sect2">
@@ -1040,7 +1040,7 @@ storageClass:
 </tbody>
 </table>
 <div class="paragraph">
-<p>The above configuration file only contains the parameters that must be set. To set other parameters, see <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/https:/github.com/kubesphere/helm-charts/blob/master/src/main/nfs-client-provisioner/values.yaml">NFS Client Configuration</a>.</p>
+<p>The above configuration file only contains the parameters that must be set. To set other parameters, see <a href="https://github.com/kubesphere/helm-charts/blob/master/src/main/nfs-client-provisioner/values.yaml">NFS Client Configuration</a>.</p>
 </div>
 </div>
 </div>
