@@ -1,0 +1,1758 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh">
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('/en/fonts/icomoon.eot?zb38vt');
+            src: url('/en/fonts/icomoon.eot?zb38vt#iefix') format('embedded-opentype'),
+                 url('/en/fonts/icomoon.ttf?zb38vt') format('truetype'),
+                 url('/en/fonts/icomoon.woff?zb38vt') format('woff'),
+                 url('/en/fonts/icomoon.svg?zb38vt#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+          }
+    </style><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+
+<meta name="keywords" content="[Kubernetes, KubeSphere, Access Control, Users, Enable and Disable Users]">
+
+
+
+<meta name="description" content="Explain how to enable and disable users.">
+
+<link rel="icon" href="/en/images/favicon.ico" type="image/x-icon">
+
+<title>Enable and Disable Users - KubeSphere Enterprise</title>
+<link href="/en/css/theme.css" rel="stylesheet">
+<link href="/en/css/bulma.css" rel="stylesheet">
+<link href="/en/css/bulma-tooltip.min.css" rel="stylesheet">
+<link href="/en/css/atom-one-light.css" rel="stylesheet" />
+<link href="/en/css/magnific-popup.css" rel="stylesheet" />
+
+
+<link href="/en/scss/main.min.56d66c39133dd11211ab0ba0a1e1290f5815d8e5ea2b67ca9a2fdabd2a1c2a9b.css" rel="stylesheet" integrity="sha256-VtZsORM90RIRqwugoeEpD1gV2OXqK2fKmi/avSocKps=">
+
+
+<script src="/en/js/jquery-2.2.4.js"></script>
+<body
+        class="root   "
+        style=""
+        ><header>
+  <nav class="navbar">
+    
+      <a href="/en" class="navbar-logo-wrapper">
+        <img class="navbar-logo" src="/en/images/qingcloud-logo.svg" />
+        <div class="navbar-split navbar-left-split">|</div>
+        <div class="navbar-logo-text">KubeSphere Enterprise</div>
+      </a>
+    
+    <div class="navbar-nav">
+      
+        <div
+          class="navbar-nav-item navbar-nav-version ">
+          
+          <div class="dropdown-trigger">
+            <span class="project-version">
+              v4.2.0
+            </span>
+            
+          </div>
+          
+        </div>
+      
+    </div>
+    <div class="search navbar-search">
+      <div class="control has-icons-left has-icons-right docs-search-input">
+        <span class="icon is-left">
+          <img src="/en/images/icons/magnifier_duotone.svg" />
+        </span>
+        <input
+          class="input"
+          name="q"
+          type="input"
+          placeholder="请输入关键字快速获取帮助"
+          autocomplete="off"
+        />
+        <span class="icon is-right"> </span>
+      </div>
+      <img class="clear-search-input" src="/en/images/icons/close_duotone.svg" />
+    </div>
+    
+      
+      
+        
+          <a class="navbar-item-right btn primary-btn navbar-btn "
+            target="_blank"
+            data-url="https://docs.kubesphere.com.cn/"
+            data-text="中文文档"
+            href="https://docs.kubesphere.com.cn/">
+            中文文档
+          </a>
+        
+      
+    
+  </nav>
+</header><script id="search-result-total-template" type="text/x-js-template">
+  <div class="search-result-total">
+    共为您找到 ${count} 个结果
+  </div>
+</script>
+
+<script id="search-result-item-template" type="text/x-js-template">
+  <div class="search-result-content-item">
+    <div class="search-result-content-item-title">
+      <a href="/en/v4.2.0/05-users-and-roles/01-users/10-enable-and-disable-users/${href}">${title}</a>
+    </div>
+    <div class="search-result-content-item-content">
+      ${content}
+    </div>
+    <div class="search-result-content-item-ref">
+      <ul class="content-breadcrumb">
+      </ul>
+    </div>
+  </div>
+</div>
+</script>
+
+<script id="search-breadcrumb-template" type="text/x-js-template">
+  <li class="icon-slash_fill">
+    <a href="/en/v4.2.0/05-users-and-roles/01-users/10-enable-and-disable-users/${href}">${title}</a>
+  </li>
+</script>
+
+<script id="search-result-total-template" type="text/x-js-template">
+  <div class="search-result-total">
+    共为您找到 ${count} 个结果
+  </div>
+</script>
+<script id="search-result-page-template" type="text/x-js-template">
+  <nav class="search-result-pagination pagination is-centered">
+    <a class="pagination-previous icon-chevron_left_fill"></a>
+    <a class="pagination-next icon-chevron_right_fill"></a>
+    <ul class="pagination-list">
+    </ul>
+  </nav>
+</script>
+<div class="container">
+
+  
+
+
+  
+    
+  
+
+
+<aside class="sidebar-wrapper">
+  <div class="sidebar-drag"></div>
+  <div class="sidebar">
+    
+      <div class="sidebar-title" >
+        <a href="/en/v4.2.0/">
+          
+            KubeSphere Enterprise
+        </a>
+        
+      </div>
+      
+    
+    <nav class="sidebar-menu" id="sidebar-menu-scroll-container">
+      
+        
+        <ul>
+  
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/" >Installation Guide</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/" >Preparation</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/01-supported-k8s/">Environment Requirements</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a  >Configure High Availability</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/02-configure-high-availability/02-configure-k8s-high-availability/">Configure Kubernetes High Availability</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/" >Configure External Persistent Storage</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/01-configure-storage-devices-on-cloud/">Configure Cloud Storage Devices</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/04-configure-neosan-csi/">Configure NeonSAN CSI</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/05-configure-nfs/">Configure NFS</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/07-configure-opensource-storage/">Configure Open Source Storage Systems</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/" >Install KubeSphere Enterprise</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/01-online-install-kubernetes-and-kubesphere/">Online Installation of Kubernetes and KubeSphere Enterprise</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/03-activate-kse/">Activate KubeSphere Enterprise</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/04-configure-ks-high-availability/">Configure KubeSphere High Availability</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/05-appendix/">Appendix: Advanced Configuration of KubeSphere Core</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/" >Upgrade KubeSphere Enterprise</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/03-online-upgrade-kubephere-from-4.1.x/">Online Upgrade from v4.1.x to v4.2.0</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/04-upgrade-kubephere-from-v4.1/">Offline Upgrade from v4.1.x to v4.2.0</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/05-appendix-ks-core/">Appendix 1: ks-core Helm Chart Upgrade Parameters</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/" >Uninstall KubeSphere Enterprise</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/01-uninstall-kubesphere-only/">Uninstall KubeSphere Enterprise Only</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/02-uninstall-kubernetes-and-kubesphere/">Uninstall Kubernetes and KubeSphere Enterprise</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes/" >Add and Remove Cluster Nodes</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes/01-add-cluster-nodes/">Add Cluster Nodes</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes/02-delete-cluster-nodes/">Remove Cluster Nodes</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/04-platform-management/" >Platform Management</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/04-platform-management/01-platform-features/">Platform Overview</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/04-platform-management/03-navigation-and-access/" >Navigation and Quick Access</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/04-platform-management/03-navigation-and-access/02-component-dock/">Component Dock</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/04-platform-management/03-navigation-and-access/03-quick-access/">Quick Access</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/04-platform-management/03-navigation-and-access/04-left-pane/">Left Navigation Pane</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/04-platform-management/05-platform-settings/" >Platform Settings</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/04-platform-management/05-platform-settings/01-view-and-customize-platform-information/">View and Customize Platform Information</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/04-platform-management/05-platform-settings/03-external-authentication/" >External Authentication</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/04-platform-management/05-platform-settings/03-external-authentication/01-set-up-external-authentication/">Configure External Authentication</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/04-platform-management/05-platform-settings/03-external-authentication/03-use-ldap/">LDAP/LDAPS Authentication</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/04-platform-management/05-platform-settings/03-external-authentication/05-use-oidc/">OIDC Authentication</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/04-platform-management/05-platform-settings/03-external-authentication/07-use-cas/">CAS Authentication</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/04-platform-management/05-platform-settings/04-ks-as-oidc-identity-provider/">KubeSphere as an OIDC Identity Provider</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item active ">
+            <a href="/en/v4.2.0/05-users-and-roles/" >Users and Roles</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_up_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item active ">
+            <a href="/en/v4.2.0/05-users-and-roles/01-users/" >Users</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_up_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/05-users-and-roles/01-users/01-create-a-user/">Create Users</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/05-users-and-roles/01-users/02-view-a-user-list/">View User List</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/05-users-and-roles/01-users/03-view-user-details/">View User Details</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/05-users-and-roles/01-users/04-edit-user-information/">Edit User Information</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/05-users-and-roles/01-users/05-edit-current-user-information/">Edit Current User Information</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/05-users-and-roles/01-users/06-change-the-password-of-a-user/">Change User Password</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/05-users-and-roles/01-users/07-reset-user-password/">Reset User Password</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/05-users-and-roles/01-users/08-set-password-expiration/">Set Password Expiration</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/05-users-and-roles/01-users/09-two-factor-authentication/">Enable and Disable Two-Factor Authentication</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/05-users-and-roles/01-users/10-enable-and-disable-users/">Enable and Disable Users</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/05-users-and-roles/01-users/15-delete-users/">Delete Users</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/05-users-and-roles/02-platform-roles/" >Platform Roles</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/05-users-and-roles/02-platform-roles/01-create-a-platform-role/">Create Platform Roles</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/05-users-and-roles/02-platform-roles/02-view-a-platform-role-list/">View Platform Role List</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/05-users-and-roles/02-platform-roles/03-view-platform-role-details/">View Platform Role Details</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/05-users-and-roles/02-platform-roles/04-edit-platform-role-information/">Edit Platform Role Information</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/05-users-and-roles/02-platform-roles/05-edit-permissions-of-a-platform-role/">Edit Platform Role Permissions</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/05-users-and-roles/02-platform-roles/06-delete-platform-roles/">Delete Platform Roles</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/06-extension-management/" >Extension Management</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/06-extension-management/01-install-extensions/">Install Extensions</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/en/v4.2.0/06-extension-management/02-manage-extensions/" >Manage Extensions</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/06-extension-management/02-manage-extensions/01-set-configurations/">Configure Extensions</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/06-extension-management/02-manage-extensions/02-set-cluster-agents/">Configure Cluster Agent</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/06-extension-management/02-manage-extensions/04-disable-extensions/">Disable Extensions</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/06-extension-management/03-upgrade-extensions/">Upgrade Extensions</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/en/v4.2.0/06-extension-management/05-uninstall-extensions/">Uninstall Extensions</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+  
+</ul>
+      
+    </nav>
+
+  </div>
+</aside>
+<div class="content-card-wrapper">
+  <div class="content-card">
+    <div class="content-wrapper"><ul class="content-breadcrumb">
+      <li class="icon-slash_fill"><a href="/en/v4.2.0" data-url="/en/v4.2.0">KubeSphere Enterprise</a></li>
+      <li class="icon-slash_fill"><a href="/en/v4.2.0/05-users-and-roles" data-url="/en/v4.2.0/05-users-and-roles">Users and Roles</a></li>
+      <li class="icon-slash_fill"><a href="/en/v4.2.0/05-users-and-roles/01-users" data-url="/en/v4.2.0/05-users-and-roles/01-users">Users</a></li>
+      <li class="icon-slash_fill"><a href="/en/v4.2.0/05-users-and-roles/01-users/10-enable-and-disable-users" data-url="/en/v4.2.0/05-users-and-roles/01-users/10-enable-and-disable-users">Enable and Disable Users</a></li></ul><div class="post-wrapper"><div class="post">
+  <h1 class="post-title">
+    Enable and Disable Users</h1>
+  <div class="post-info">
+    <div class="post-date">
+      Time updated：2025-09-12 01:41:06
+    </div>
+    
+    
+    
+    
+    
+    
+      
+    
+    
+  </div><div class="post-menu">
+  <div class="post-menu-title">Page Catalog</div>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#_prerequisites">Prerequisites</a></li>
+    <li><a href="#_enable_and_disable_a_single_user">Enable and Disable a Single User</a></li>
+    <li><a href="#_batch_enable_and_disable_users">Batch Enable and Disable Users</a></li>
+  </ul>
+</nav>
+</div><div class="post-content">
+    
+      
+      
+<div class="paragraph">
+<p>This section explains how to enable and disable users.</p>
+</div>
+<div class="paragraph">
+<p>After a user is disabled, it will be unable to log in to the KubeSphere Enterprise web console.</p>
+</div>
+<div class="sect1">
+<h2 id="_prerequisites">Prerequisites</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You should have <strong>User Management</strong> permission on the KubeSphere Enterprise platform. For more information, see <a href="/en/v4.2.0/05-users-and-roles/01-users">Users</a> and <a href="/en/v4.2.0/05-users-and-roles/02-platform-roles">Platform Roles</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_enable_and_disable_a_single_user">Enable and Disable a Single User</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Log in to the KubeSphere Enterprise web console with a user who has the <strong>User Management</strong> permission.</p>
+</li>
+<li>
+<p>Click <strong>Users and Roles</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Users</strong> in the left navigation pane.</p>
+</li>
+<li>
+<p>Click <span class="image"><img src="/en/images/ks-qkcp/zh/icons/more.svg" alt="more" width="18" height="18"/></span> to the right of a user, and then select <strong>Enable</strong> or <strong>Disable</strong> from the dropdown list.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_batch_enable_and_disable_users">Batch Enable and Disable Users</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Log in to the KubeSphere Enterprise web console with a user who has the <strong>User Management</strong> permission.</p>
+</li>
+<li>
+<p>Click <strong>Users and Roles</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Users</strong> in the left navigation pane.</p>
+</li>
+<li>
+<p>Check the boxes next to the users you want, and then click <strong>Enable</strong> or <strong>Disable</strong> above the list.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+    
+
+  </div>
+  <div class="post-footer">
+    <div class="post-prev">
+    </div>
+    <div class="post-next">
+    </div>
+  </div>
+  <div class="post-back-to-top">
+    <span class="icon-up_3_fill"></span>
+  </div>
+</div>
+<div class="post-placeholder"><div class="post-menu">
+  <div class="post-menu-title">Page Catalog</div>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#_prerequisites">Prerequisites</a></li>
+    <li><a href="#_enable_and_disable_a_single_user">Enable and Disable a Single User</a></li>
+    <li><a href="#_batch_enable_and_disable_users">Batch Enable and Disable Users</a></li>
+  </ul>
+</nav>
+</div></div>
+      </div>
+    </div>
+  </div>
+</div></div>
+    </body><script src="/en/js/bootstrap.min.js"></script>
+<script src="/en/js/autocomplete/jquery.autocomplete.js"></script>
+<script src="/en/js/copy-to-clipboard.js"></script>
+<script src="/en/js/highlight.min.js"></script>
+<script src="/en/js/jquery.tmpl.min.js"></script>
+<script src="/en/js/jquery.magnific-popup.min.js"></script>
+<script src="/en/js/search/jquery.mark.min.js"></script>
+<script>
+  window.HUGO_BASEURL = "\/en";
+  window.HUGO_I18N = "{\"applicable_scope\":\"Applicable scope\",\"next\":\"Next\",\"page_catalog\":\"Page Catalog\",\"path\":\"Path\",\"previous\":\"Previous\",\"search_empty\":\"No results found. Please try other keywords.\",\"search_placeholder\":\"Enter keywords for help\",\"study_section\":\"Study Section\",\"update_time\":\"Time updated\",\"view_docs\":\"View docs\"}";
+</script>
+
+<script type="text/javascript" src="/en/js/common.fabd21a53168b1eeeb5a5eea37f666342dfe616b67039ea0fe08d0c4ef5390f3423d28b9658e1d491ee6875867d02592c61c2b77975619099214156dcd3e1bc3.js" integrity="sha512-&#43;r0hpTFose7rWl7qN/ZmNC3&#43;YWtnA56g/gjQxO9TkPNCPSi5ZY4dSR7mh1hn0CWSxhwrd5dWGQmSFBVtzT4bww=="></script>
+
+
+<script type="text/javascript" src="/en/js/client-search/dist/index.43039aa05afec4f5e41ea7babc881477ec1e8f36380984c0f50dca64a37ee0bc5ab775bc65efdf8a77cdfac99eee1264a69a7b4d4b009e05224cca8ed81cf039.js"  integrity="sha512-QwOaoFr&#43;xPXkHqe6vIgUd&#43;wejzY4CYTA9Q3KZKN&#43;4Lxat3W8Ze/finfN&#43;sme7hJkppp7TUsAngUiTMqO2BzwOQ=="></script>
+
+<script>
+  $(function() {
+    
+    hljs.highlightAll();
+    
+    $.each($('.post-content .imageblock img'), function () {
+      $(this).attr('data-mfp-src', $(this).attr('src'));
+    });
+    $('.post-content').magnificPopup({
+      disableOn: function () {
+        if ($(window).width() < 600) {
+          return false;
+        }
+        return true;
+      },
+      delegate: '.imageblock img',
+      type: 'image',
+      gallery: {
+        enabled: true,
+      },
+    });
+  });
+</script>
+</html>

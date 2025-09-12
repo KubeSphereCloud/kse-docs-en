@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Users on KubeSphere Enterprise</title>
+    <link>/v4.2.0/05-users-and-roles/01-users/</link>
+    <description>Recent content in Users on KubeSphere Enterprise</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/05-users-and-roles/01-users/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Users</title>
+      <link>/v4.2.0/05-users-and-roles/01-users/01-create-a-user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/05-users-and-roles/01-users/01-create-a-user/</guid>
+      <description>This section explains how to create a user.
+ Prerequisites You should have the User Management permission on the KubeSphere Enterprise platform. For more information, refer to Users and Platform Roles.
+   Steps  Log in to the KubeSphere Enterprise web console with a user who has the User Management permission.
+  Click Users and Roles.
+  Click Users in the left navigation pane.
+  Click Create on the page.</description>
+    </item>
+    
+    <item>
+      <title>View User List</title>
+      <link>/v4.2.0/05-users-and-roles/01-users/02-view-a-user-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/05-users-and-roles/01-users/02-view-a-user-list/</guid>
+      <description>This section explains how to view the user list.
+ Prerequisites You should have the User Viewing permission on the KubeSphere Enterprise platform. For more information, refer to Users and Platform Roles.
+   Steps  Log in to the KubeSphere Enterprise web console with a user who has the User Viewing permission.
+  Click Users and Roles.
+  Click Users in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View User Details</title>
+      <link>/v4.2.0/05-users-and-roles/01-users/03-view-user-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/05-users-and-roles/01-users/03-view-user-details/</guid>
+      <description>This section explains how to view user details.
+ Prerequisites You should have the User Viewing permission on the KubeSphere Enterprise platform. For more information, refer to Users and Platform Roles.
+   Steps  Log in to the KubeSphere Enterprise web console with a user who has the User Viewing permission.
+  Click Users and Roles.
+  Click Users in the left navigation pane.
+  In the user list, click the name of a user to open its details page.</description>
+    </item>
+    
+    <item>
+      <title>Edit User Information</title>
+      <link>/v4.2.0/05-users-and-roles/01-users/04-edit-user-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/05-users-and-roles/01-users/04-edit-user-information/</guid>
+      <description>This section explains how to edit user information.
+ You can edit the user’s alias, email, platform role, and description. KubeSphere does not support editing the name of an already created user.
+ Prerequisites You should have the User Management permission on the KubeSphere Enterprise platform. For more information, see Users and Platform Roles.
+   Steps  Log in to the KubeSphere Enterprise web console with a user who has the User Management permission.</description>
+    </item>
+    
+    <item>
+      <title>Edit Current User Information</title>
+      <link>/v4.2.0/05-users-and-roles/01-users/05-edit-current-user-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/05-users-and-roles/01-users/05-edit-current-user-information/</guid>
+      <description>This section explains how to modify the current user’s email address and interface display language.
+ Prerequisites Get the username and password for the KubeSphere Enterprise web console.
+   Steps  Log in to the KubeSphere Enterprise web console.
+  Click the current username in the top-right corner, and then select User Settings from the dropdown list.
+  On the Basic Information tab, change the user’s email address and language.</description>
+    </item>
+    
+    <item>
+      <title>Change User Password</title>
+      <link>/v4.2.0/05-users-and-roles/01-users/06-change-the-password-of-a-user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/05-users-and-roles/01-users/06-change-the-password-of-a-user/</guid>
+      <description>This section explains how to change user passwords.
+ Change Password for the Current User  Log in to the KubeSphere Enterprise web console.
+  Click the current username in the top-right corner, then select User Settings from the drop-down list.
+  Click the Password Settings tab to change the password for the current user.
+The password must contain at least one number, one lowercase letter, one uppercase letter, and one special character (~!</description>
+    </item>
+    
+    <item>
+      <title>Reset User Password</title>
+      <link>/v4.2.0/05-users-and-roles/01-users/07-reset-user-password/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/05-users-and-roles/01-users/07-reset-user-password/</guid>
+      <description>This section provides guidance on resetting user passwords.
+ If a regular user forgets their password and is unable to log in to the KubeSphere Enterprise web console, please refer to this document for instructions on how the administrator can change the user’s password.
+ If the platform administrator forgets their password, the following command needs to be executed on the host cluster to change the password for the specified account.</description>
+    </item>
+    
+    <item>
+      <title>Set Password Expiration</title>
+      <link>/v4.2.0/05-users-and-roles/01-users/08-set-password-expiration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/05-users-and-roles/01-users/08-set-password-expiration/</guid>
+      <description>This section explains how to configure password expiration to enforce regular password changes and provide reminders before passwords expire.
+ Prerequisites You should be a member of a cluster and have the cluster-admin role in the cluster.
+   Steps  Log in to the KubeSphere Enterprise web console with a user account that has the cluster-admin role and access your cluster.
+  Click Configuration &amp;gt; Secrets in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Enable and Disable Two-Factor Authentication</title>
+      <link>/v4.2.0/05-users-and-roles/01-users/09-two-factor-authentication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/05-users-and-roles/01-users/09-two-factor-authentication/</guid>
+      <description>This section introduces how to enable and disable two-factor authentication for the current user.
+ After enabling two-factor authentication, users must enter the dynamic authentication code generated by the authenticator app in addition to their username and password when logging in. Two-factor authentication provides double protection for the account by combining a password and a mobile device.
+ Prerequisites Get the username and password for the KubeSphere Enterprise web console.</description>
+    </item>
+    
+    <item>
+      <title>Enable and Disable Users</title>
+      <link>/v4.2.0/05-users-and-roles/01-users/10-enable-and-disable-users/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/05-users-and-roles/01-users/10-enable-and-disable-users/</guid>
+      <description>This section explains how to enable and disable users.
+ After a user is disabled, it will be unable to log in to the KubeSphere Enterprise web console.
+ Prerequisites You should have User Management permission on the KubeSphere Enterprise platform. For more information, see Users and Platform Roles.
+   Enable and Disable a Single User  Log in to the KubeSphere Enterprise web console with a user who has the User Management permission.</description>
+    </item>
+    
+    <item>
+      <title>Delete Users</title>
+      <link>/v4.2.0/05-users-and-roles/01-users/15-delete-users/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/05-users-and-roles/01-users/15-delete-users/</guid>
+      <description>This section explains how to delete users.
+ Prerequisites You should have the User Management permission on the KubeSphere Enterprise platform. For more information, please refer to Users and Platform Roles.
+   Delete a Single User  Log in to the KubeSphere Enterprise web console with a user who has the User Management permission.
+  Click Users and Roles.
+  Click Users in the left navigation pane.</description>
+    </item>
+    
+  </channel>
+</rss>
