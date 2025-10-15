@@ -24,11 +24,11 @@
 
 
 
-<meta name="description" content="Get how to install Kubernetes and KubeSphere Enterprise.">
+<meta name="description" content="Get how to install Kubernetes and KubeSphere.">
 
 <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 
-<title>Online Installation of Kubernetes and KubeSphere Enterprise - KubeSphere Enterprise</title>
+<title>Online Installation of Kubernetes and KubeSphere - KubeSphere</title>
 <link href="/css/theme.css" rel="stylesheet">
 <link href="/css/bulma.css" rel="stylesheet">
 <link href="/css/bulma-tooltip.min.css" rel="stylesheet">
@@ -49,7 +49,7 @@
       <a href="/en" class="navbar-logo-wrapper">
         <img class="navbar-logo" src="/images/qingcloud-logo.svg" />
         <div class="navbar-split navbar-left-split">|</div>
-        <div class="navbar-logo-text">KubeSphere Enterprise</div>
+        <div class="navbar-logo-text">KubeSphere</div>
       </a>
     
     <div class="navbar-nav">
@@ -156,7 +156,7 @@
       <div class="sidebar-title" >
         <a href="/v4.2.0/">
           
-            KubeSphere Enterprise
+            KubeSphere
         </a>
         
       </div>
@@ -321,7 +321,7 @@
       
         
           <li
-            class="sidebar-item active ">
+            class="sidebar-item collapsed ">
             <a href="/v4.2.0/03-installation-and-upgrade/01-preparations/04-configure-external-persistent-storage/" >Configure External Persistent Storage</a>
             
             
@@ -351,7 +351,7 @@
             
             
               <span
-                class="menu-switch-icon icon-caret_up_fill">
+                class="menu-switch-icon icon-caret_down_fill">
               </span>
             
           </li>
@@ -425,8 +425,14 @@
         
           <li
             class="sidebar-item active ">
-            <a href="/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/" >Install KubeSphere Enterprise</a>
+            <a href="/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/" >Install KubeSphere</a>
             
+            
+              
+                
+                  
+                
+              
             
               
                 
@@ -468,7 +474,7 @@
       
       
           <li class="sidebar-item">
-            <a href="/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/01-online-install-kubernetes-and-kubesphere/">Online Installation of Kubernetes and KubeSphere Enterprise</a>
+            <a href="/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/01-online-install-kubernetes-and-kubesphere/">Online Installation of Kubernetes and KubeSphere</a>
           </li>
         
       
@@ -480,7 +486,19 @@
       
       
           <li class="sidebar-item">
-            <a href="/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/03-activate-kse/">Activate KubeSphere Enterprise</a>
+            <a href="/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/03-activate-ks/">Activate KubeSphere Community Edition</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          <li class="sidebar-item">
+            <a href="/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/04-activate-kse/">Activate KubeSphere Enterprise</a>
           </li>
         
       
@@ -523,14 +541,8 @@
         
           <li
             class="sidebar-item collapsed ">
-            <a href="/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/" >Upgrade KubeSphere Enterprise</a>
+            <a href="/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/" >Upgrade KubeSphere</a>
             
-            
-              
-                
-                  
-                
-              
             
               
                 
@@ -578,18 +590,6 @@
       
     
   
-    
-      
-      
-      
-      
-          <li class="sidebar-item">
-            <a href="/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/05-appendix-ks-core/">Appendix 1: ks-core Helm Chart Upgrade Parameters</a>
-          </li>
-        
-      
-    
-  
 </ul>
         
       
@@ -603,7 +603,7 @@
         
           <li
             class="sidebar-item collapsed ">
-            <a href="/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/" >Uninstall KubeSphere Enterprise</a>
+            <a href="/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/" >Uninstall KubeSphere</a>
             
             
               
@@ -634,7 +634,7 @@
       
       
           <li class="sidebar-item">
-            <a href="/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/01-uninstall-kubesphere-only/">Uninstall KubeSphere Enterprise Only</a>
+            <a href="/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/01-uninstall-kubesphere-only/">Uninstall KubeSphere Only</a>
           </li>
         
       
@@ -646,7 +646,7 @@
       
       
           <li class="sidebar-item">
-            <a href="/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/02-uninstall-kubernetes-and-kubesphere/">Uninstall Kubernetes and KubeSphere Enterprise</a>
+            <a href="/v4.2.0/03-installation-and-upgrade/04-uninstall-kubesphere/02-uninstall-kubernetes-and-kubesphere/">Uninstall Kubernetes and KubeSphere</a>
           </li>
         
       
@@ -735,15 +735,15 @@
 <div class="content-card-wrapper">
   <div class="content-card">
     <div class="content-wrapper"><ul class="content-breadcrumb">
-      <li class="icon-slash_fill"><a href="/v4.2.0" data-url="/v4.2.0">KubeSphere Enterprise</a></li>
+      <li class="icon-slash_fill"><a href="/v4.2.0" data-url="/v4.2.0">KubeSphere</a></li>
       <li class="icon-slash_fill"><a href="/v4.2.0/03-installation-and-upgrade" data-url="/v4.2.0/03-installation-and-upgrade">Installation Guide</a></li>
-      <li class="icon-slash_fill"><a href="/v4.2.0/03-installation-and-upgrade/02-install-kubesphere" data-url="/v4.2.0/03-installation-and-upgrade/02-install-kubesphere">Install KubeSphere Enterprise</a></li>
-      <li class="icon-slash_fill"><a href="/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/01-online-install-kubernetes-and-kubesphere" data-url="/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/01-online-install-kubernetes-and-kubesphere">Online Installation of Kubernetes and KubeSphere Enterprise</a></li></ul><div class="post-wrapper"><div class="post">
+      <li class="icon-slash_fill"><a href="/v4.2.0/03-installation-and-upgrade/02-install-kubesphere" data-url="/v4.2.0/03-installation-and-upgrade/02-install-kubesphere">Install KubeSphere</a></li>
+      <li class="icon-slash_fill"><a href="/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/01-online-install-kubernetes-and-kubesphere" data-url="/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/01-online-install-kubernetes-and-kubesphere">Online Installation of Kubernetes and KubeSphere</a></li></ul><div class="post-wrapper"><div class="post">
   <h1 class="post-title">
-    Online Installation of Kubernetes and KubeSphere Enterprise</h1>
+    Online Installation of Kubernetes and KubeSphere</h1>
   <div class="post-info">
     <div class="post-date">
-      Time updated：2025-09-12 02:25:46
+      Time updated：2025-10-15 03:14:40
     </div>
     
     
@@ -762,7 +762,7 @@
     <li><a href="#_configure_firewall_rules">Configure Firewall Rules</a></li>
     <li><a href="#_install_dependencies">Install Dependencies</a></li>
     <li><a href="#_create_a_kubernetes_cluster">Create a Kubernetes Cluster</a></li>
-    <li><a href="#_install_kubesphere_enterprise">Install KubeSphere Enterprise</a></li>
+    <li><a href="#_install_kubesphere">Install KubeSphere</a></li>
   </ul>
 </nav>
 </div><div class="post-content">
@@ -770,7 +770,7 @@
       
       
 <div class="paragraph">
-<p>This section explains how to install Kubernetes and KubeSphere Enterprise in an Internet-accessible environment.</p>
+<p>This section explains how to install Kubernetes and KubeSphere in an Internet-accessible environment.</p>
 </div>
 <div class="paragraph">
 <p>The installation process will use the open-source tool KubeKey. For more information about KubeKey, please visit the <a href="https://github.com/kubesphere/kubekey">GitHub KubeKey repository</a>.</p>
@@ -781,10 +781,10 @@
 <div class="ulist">
 <ul>
 <li>
-<p>Prepare at least 1 Linux server as a cluster node. In a production environment, to ensure high availability of the cluster, it is recommended to prepare at least 5 Linux servers, with 3 servers as control plane nodes and 2 servers as worker nodes. If you are installing KubeSphere Enterprise on multiple Linux servers, make sure all servers belong to the same subnet.</p>
+<p>Prepare at least 1 Linux server as a cluster node. In a production environment, to ensure high availability of the cluster, it is recommended to prepare at least 5 Linux servers, with 3 servers as control plane nodes and 2 servers as worker nodes. If you are installing KubeSphere on multiple Linux servers, make sure all servers belong to the same subnet.</p>
 </li>
 <li>
-<p>The operating system and version of the cluster nodes must be Ubuntu 16.04, Ubuntu 18.04, Ubuntu 20.04, Ubuntu 22.04, Debian 9, Debian 10, CentOS 7, CentOS Stream, RHEL 7, RHEL 8, SLES 15, or openSUSE Leap 15 or Kylin v10. The operating systems of multiple servers can be different. For support of other operating systems and versions, please contact KubeSphere Enterprise technical support.</p>
+<p>The operating system and version of the cluster nodes must be Ubuntu 16.04, Ubuntu 18.04, Ubuntu 20.04, Ubuntu 22.04, Debian 9, Debian 10, CentOS 7, CentOS Stream, RHEL 7, RHEL 8, SLES 15, or openSUSE Leap 15 or Kylin v10. The operating systems of multiple servers can be different. For support of other operating systems and versions, please contact KubeSphere technical support.</p>
 </li>
 <li>
 <p>In a production environment, to ensure the cluster has sufficient computing and storage resources, it is recommended that each cluster node be configured with at least 8 CPU cores, 16 GB of memory, and 200 GB of disk space. In addition, it is recommended to mount an additional 200 GB of disk space in the <strong>/var/lib/docker</strong> (for Docker) or <strong>/var/lib/containerd</strong> (for containerd) directory of each cluster node for storing container runtime data.</p>
@@ -981,6 +981,19 @@
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>worker</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>TCP</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>10250</p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>dns</p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
@@ -1001,19 +1014,6 @@
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>53</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>metrics-server</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>TCP</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>8443</p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"></div></td>
@@ -1170,7 +1170,7 @@
 </div>
 </div>
 <div class="paragraph">
-<p>Replace &lt;Kubernetes version&gt; with the actual required version, for example <strong>v1.27.4</strong>. KubeSphere Enterprise natively supports Kubernetes v1.23~1.32.</p>
+<p>Replace &lt;Kubernetes version&gt; with the actual required version, for example <strong>v1.27.4</strong>. KubeSphere natively supports Kubernetes v1.23~1.32.</p>
 </div>
 <div class="paragraph">
 <p>After the command executes, it will generate the installation configuration file <strong>config-sample.yaml</strong>.</p>
@@ -1187,7 +1187,7 @@
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>After KubeSphere Enterprise is installed, please do not delete <strong>config-sample.yaml</strong>. This file will still be used for subsequent operations such as adding nodes. If this file is missing, you will need to recreate it.</p>
+<p>After KubeSphere is installed, please do not delete <strong>config-sample.yaml</strong>. This file will still be used for subsequent operations such as adding nodes. If this file is missing, you will need to recreate it.</p>
 </div></div></td>
 </tr>
 </tbody>
@@ -1344,7 +1344,7 @@ spec:
 <p>arch</p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>The server architecture. If the server’s hardware architecture is Arm64, please set this parameter to <strong>arm64</strong>, otherwise do not set this parameter. By default, the installation package only supports scenarios where all cluster nodes are x86_64 or arm64 architecture. If the hardware architecture of each cluster node is not exactly the same, please contact the KubeSphere Enterprise technical support team.</p>
+<p>The server architecture. If the server’s hardware architecture is Arm64, please set this parameter to <strong>arm64</strong>, otherwise do not set this parameter. By default, the installation package only supports scenarios where all cluster nodes are x86_64 or arm64 architecture. If the hardware architecture of each cluster node is not exactly the same, please contact the KubeSphere technical support team.</p>
 </div></div></td>
 </tr>
 </tbody>
@@ -1398,7 +1398,7 @@ spec:
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p>Server used for creating a private image registry. This server is not used as a cluster node.
-During the installation or upgrade of KubeSphere Enterprise, if the cluster nodes cannot connect to the Internet, you need to set the server used for creating a private image registry under this parameter. Otherwise, you can comment out this parameter.</p>
+During the installation or upgrade of KubeSphere, if the cluster nodes cannot connect to the Internet, you need to set the server used for creating a private image registry under this parameter. Otherwise, you can comment out this parameter.</p>
 </div></div></td>
 </tr>
 </tbody>
@@ -1566,10 +1566,10 @@ During the installation or upgrade of KubeSphere Enterprise, if the cluster node
 </div>
 </div>
 <div class="sect1">
-<h2 id="_install_kubesphere_enterprise">Install KubeSphere Enterprise</h2>
+<h2 id="_install_kubesphere">Install KubeSphere</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>KubeSphere Core (ks-core) is the core component of KubeSphere Enterprise, providing the fundamental runtime environment for extensions. After KubeSphere Core is installed, you can access the KubeSphere Enterprise web console.</p>
+<p>KubeSphere Core (ks-core) is the core component of KubeSphere, providing the fundamental runtime environment for extensions. After KubeSphere Core is installed, you can access the KubeSphere web console.</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -1580,8 +1580,16 @@ During the installation or upgrade of KubeSphere Enterprise, if the cluster node
 <div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="language-bash" data-lang="bash">chart=oci://hub.kubesphere.com.cn/kse/ks-core
-version=1.2.1
+version=1.2.2
 helm upgrade --install -n kubesphere-system --create-namespace ks-core $chart --debug --wait --version $version --reset-values</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If you have restricted access to Docker Hub, add the following configuration to the above command to modify the image pull address for extensions.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">--set extension.imageRegistry=swr.cn-north-9.myhuaweicloud.com/ks</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -1622,7 +1630,7 @@ For additional information and details, please visit https://kubesphere.io.</cod
 </div>
 </li>
 <li>
-<p>From the successful information, retrieve the <strong>Console</strong>, <strong>Account</strong>, and <strong>Password</strong> parameters to obtain the IP address of the KubeSphere Enterprise web console, the admin username, and the admin password. Use a web browser to log in to the KubeSphere Enterprise web console.</p>
+<p>From the successful information, retrieve the <strong>Console</strong>, <strong>Account</strong>, and <strong>Password</strong> parameters to obtain the IP address of the KubeSphere web console, the admin username, and the admin password. Use a web browser to log in to the KubeSphere web console.</p>
 <table class="tableblock frame-all grid-all stretch admon note">
 <colgroup>
 <col style="width: 100%;"/>
@@ -1642,9 +1650,9 @@ For additional information and details, please visit https://kubesphere.io.</cod
 </table>
 </li>
 <li>
-<p>By now, the KubeSphere Enterprise web console only provides the core functionalities of KubeSphere Enterprise. To access more features, you need to install extensions from the Extensions Center.</p>
+<p>By now, the KubeSphere web console only provides the core functionalities of KubeSphere. To access more features, you need to install extensions from the Extensions Center.</p>
 <div class="paragraph">
-<p>Before using KubeSphere Enterprise and its extensions, please first <a href="../03-activate-kse/">activate KubeSphere Enterprise and extensions</a>.</p>
+<p>Before using KubeSphere and its extensions, please first <a href="../03-activate-ks/">activate KubeSphere and extensions</a>.</p>
 </div>
 </li>
 </ol>
@@ -1673,7 +1681,7 @@ For additional information and details, please visit https://kubesphere.io.</cod
     <li><a href="#_configure_firewall_rules">Configure Firewall Rules</a></li>
     <li><a href="#_install_dependencies">Install Dependencies</a></li>
     <li><a href="#_create_a_kubernetes_cluster">Create a Kubernetes Cluster</a></li>
-    <li><a href="#_install_kubesphere_enterprise">Install KubeSphere Enterprise</a></li>
+    <li><a href="#_install_kubesphere">Install KubeSphere</a></li>
   </ul>
 </nav>
 </div></div>
@@ -1693,7 +1701,7 @@ For additional information and details, please visit https://kubesphere.io.</cod
   window.HUGO_I18N = "{\"applicable_scope\":\"Applicable scope\",\"next\":\"Next\",\"page_catalog\":\"Page Catalog\",\"path\":\"Path\",\"previous\":\"Previous\",\"search_empty\":\"No results found. Please try other keywords.\",\"search_placeholder\":\"Enter keywords for help\",\"study_section\":\"Study Section\",\"update_time\":\"Time updated\",\"view_docs\":\"View docs\"}";
 </script>
 
-<script type="text/javascript" src="/js/common.fabd21a53168b1eeeb5a5eea37f666342dfe616b67039ea0fe08d0c4ef5390f3423d28b9658e1d491ee6875867d02592c61c2b77975619099214156dcd3e1bc3.js" integrity="sha512-&#43;r0hpTFose7rWl7qN/ZmNC3&#43;YWtnA56g/gjQxO9TkPNCPSi5ZY4dSR7mh1hn0CWSxhwrd5dWGQmSFBVtzT4bww=="></script>
+<script type="text/javascript" src="/js/common.5f90ceb0fcb64e1e90f49145c34229688e87938478d0e3f7b3c32c3395842c2d5ddf43e710bb0eb70ed876e3a9ee109b632294c5731e1c5824347d6b5b6ea0ec.js" integrity="sha512-X5DOsPy2Th6Q9JFFw0IpaI6Hk4R40OP3s8MsM5WELC1d30PnELsOtw7YduOp7hCbYyKUxXMeHFgkNH1rW26g7A=="></script>
 
 
 <script type="text/javascript" src="/js/client-search/dist/index.43039aa05afec4f5e41ea7babc881477ec1e8f36380984c0f50dca64a37ee0bc5ab775bc65efdf8a77cdfac99eee1264a69a7b4d4b009e05224cca8ed81cf039.js"  integrity="sha512-QwOaoFr&#43;xPXkHqe6vIgUd&#43;wejzY4CYTA9Q3KZKN&#43;4Lxat3W8Ze/finfN&#43;sme7hJkppp7TUsAngUiTMqO2BzwOQ=="></script>

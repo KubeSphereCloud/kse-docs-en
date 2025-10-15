@@ -20,15 +20,15 @@
     </style><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 
-<meta name="keywords" content="[Kubernetes, KubeSphere, add cluster nodes]">
+<meta name="keywords" content="[Activation, KubeSphere, Kubernetes]">
 
 
 
-<meta name="description" content="Introduce how to add KubeSphere cluster nodes.">
+<meta name="description" content="Describes how to activate KubeSphere and its extensions.">
 
 <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 
-<title>Add Cluster Nodes - KubeSphere</title>
+<title>Activate KubeSphere Community Edition - KubeSphere</title>
 <link href="/css/theme.css" rel="stylesheet">
 <link href="/css/bulma.css" rel="stylesheet">
 <link href="/css/bulma-tooltip.min.css" rel="stylesheet">
@@ -226,7 +226,7 @@
       
         
           <li
-            class="sidebar-item collapsed ">
+            class="sidebar-item active ">
             <a href="/v4.2.0/03-installation-and-upgrade/01-preparations/" >Preparation</a>
             
             
@@ -250,7 +250,7 @@
             
             
               <span
-                class="menu-switch-icon icon-caret_down_fill">
+                class="menu-switch-icon icon-caret_up_fill">
               </span>
             
           </li>
@@ -664,7 +664,7 @@
       
         
           <li
-            class="sidebar-item active ">
+            class="sidebar-item collapsed ">
             <a href="/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes/" >Add and Remove Cluster Nodes</a>
             
             
@@ -682,7 +682,7 @@
             
             
               <span
-                class="menu-switch-icon icon-caret_up_fill">
+                class="menu-switch-icon icon-caret_down_fill">
               </span>
             
           </li>
@@ -737,13 +737,13 @@
     <div class="content-wrapper"><ul class="content-breadcrumb">
       <li class="icon-slash_fill"><a href="/v4.2.0" data-url="/v4.2.0">KubeSphere</a></li>
       <li class="icon-slash_fill"><a href="/v4.2.0/03-installation-and-upgrade" data-url="/v4.2.0/03-installation-and-upgrade">Installation Guide</a></li>
-      <li class="icon-slash_fill"><a href="/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes" data-url="/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes">Add and Remove Cluster Nodes</a></li>
-      <li class="icon-slash_fill"><a href="/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes/01-add-cluster-nodes" data-url="/v4.2.0/03-installation-and-upgrade/05-add-and-delete-cluster-nodes/01-add-cluster-nodes">Add Cluster Nodes</a></li></ul><div class="post-wrapper"><div class="post">
+      <li class="icon-slash_fill"><a href="/v4.2.0/03-installation-and-upgrade/02-install-kubesphere" data-url="/v4.2.0/03-installation-and-upgrade/02-install-kubesphere">Install KubeSphere</a></li>
+      <li class="icon-slash_fill"><a href="/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/03-activate-ks" data-url="/v4.2.0/03-installation-and-upgrade/02-install-kubesphere/03-activate-ks">Activate KubeSphere Community Edition</a></li></ul><div class="post-wrapper"><div class="post">
   <h1 class="post-title">
-    Add Cluster Nodes</h1>
+    Activate KubeSphere Community Edition</h1>
   <div class="post-info">
     <div class="post-date">
-      Time updated：2025-10-15 03:14:40
+      Time updated：2025-10-15 05:32:40
     </div>
     
     
@@ -758,7 +758,6 @@
   <div class="post-menu-title">Page Catalog</div>
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#_prerequisites">Prerequisites</a></li>
     <li><a href="#_steps">Steps</a></li>
   </ul>
 </nav>
@@ -767,10 +766,28 @@
       
       
 <div class="paragraph">
-<p>This section describes how to add KubeSphere cluster nodes.</p>
+<p>After logging into the KubeSphere web console, you need to import a license to activate KubeSphere and its extensions to experience all features.</p>
+</div>
+<div class="sect1">
+<h2 id="_steps">Steps</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Log in to the KubeSphere web console, click <strong>Component Dock &gt; Platform Settings &gt; Licenses</strong> to access the License page and obtain the cluster ID of the current cluster.</p>
+<div class="paragraph">
+<p><span class="image"><img src="/images/ks-qkcp/en/v4.2.0/activate-ks/get-cluster-ID.png" alt="get cluster ID"/></span></p>
+</div>
+</li>
+<li>
+<p><a href="https://kubesphere.co/apply-license/">Apply for the free license for KubeSphere Community Edition</a>. Fill in your personal information and the cluster ID, then submit the application.</p>
+<div class="openblock">
+<div class="content">
+<div class="paragraph">
+<p><span class="image"><img src="/images/ks-qkcp/en/v4.2.0/activate-ks/apply-for-license.png" alt="apply for license" width="50%"/></span></p>
 </div>
 <div class="paragraph">
-<p>The open-source tool KubeKey will be used during the process. For more information about KubeKey, please visit <a href="https://github.com/kubesphere/kubekey">GitHub KubeKey repository</a>.</p>
+<p>The license for KubeSphere Community Edition will subsequently be sent to your email (the email might be filtered as spam; if you don’t receive it for a long time, please check your junk mail folder).</p>
 </div>
 <table class="tableblock frame-all grid-all stretch admon note">
 <colgroup>
@@ -784,206 +801,7 @@
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>The node addition method described in this section is only applicable to Kubernetes installed through KubeKey. If your Kubernetes is not installed via KubeKey, please refer to <a href="https://kubernetes.io/zh/docs/concepts/architecture/nodes/">Kubernetes Documentation</a> to add nodes.</p>
-</div></div></td>
-</tr>
-</tbody>
-</table>
-<div class="sect1">
-<h2 id="_prerequisites">Prerequisites</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p>The operating system and version of the cluster nodes must be Ubuntu 16.04, Ubuntu 18.04, Ubuntu 20.04, Ubuntu 22.04, Debian 9, Debian 10, CentOS 7, CentOS Stream, RHEL 7, RHEL 8, SLES 15, or openSUSE Leap 15 or Kylin v10. The operating systems of multiple servers can be different. For support of other operating systems and versions, please contact KubeSphere technical support.</p>
-</li>
-<li>
-<p>In a production environment, to ensure the cluster has sufficient computing and storage resources, it is recommended that each cluster node be configured with at least 8 CPU cores, 16 GB of memory, and 200 GB of disk space. In addition, it is recommended to mount an additional 200 GB of disk space in the <strong>/var/lib/docker</strong> (for Docker) or <strong>/var/lib/containerd</strong> (for containerd) directory of each cluster node for storing container runtime data.</p>
-</li>
-<li>
-<p>In a production environment, it is recommended to configure high availability for the KubeSphere cluster in advance to avoid service interruption in the event of a single control plane node failure. For more information, please refer to the <a href="../../../03-installation-and-upgrade/01-preparations/02-configure-high-availability/02-configure-k8s-high-availability/">Configure High Availability</a>.</p>
-</li>
-<li>
-<p>If your cluster nodes cannot connect to the Internet, you also need to prepare a Linux server to create a image registry, and this server must be connected to the KubeSphere cluster node network, with at least 100 GB of disk space mounted in the <strong>/mnt/registry</strong> directory.</p>
-</li>
-<li>
-<p>You should get the installation configuration file <strong>config-sample.yaml</strong> and transfer it to the cluster node where you will perform this action. For more information, refer to <a href="../../02-install-kubesphere/">Install KubeSphere</a>.</p>
-<table class="tableblock frame-all grid-all stretch admon warning">
-<colgroup>
-<col style="width: 100%;"/>
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Warning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="ulist">
-<ul>
-<li>
-<p>During the process of adding nodes, it is not allowed to modify the original cluster configuration in <strong>config-sample.yaml</strong>.</p>
-</li>
-<li>
-<p>If you are unable to get the installation configuration file <strong>config-sample.yaml</strong>, you need to refer to <a href="../../02-install-kubesphere/">Install KubeSphere</a> to recreate the <strong>config-sample.yaml</strong> file. When recreating the file, make sure that the cluster information in the file matches the current state of the cluster. Otherwise, the uninstallation process may encounter errors.</p>
-</li>
-</ul>
-</div></div></td>
-</tr>
-</tbody>
-</table>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_steps">Steps</h2>
-<div class="sectionbody">
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Transfer the KubeSphere installation package to a cluster node and log in to the cluster node.</p>
-</li>
-<li>
-<p>Execute the following command to decompress the installation package and enter the directory generated after decompression (replace &lt;package name&gt; with the actual name of the installation package, and replace &lt;directory&gt; with the directory generated after decompression):</p>
-<div class="openblock">
-<div class="content">
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">tar -zxvf &lt;package name&gt;</code></pre>
-</div>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">cd &lt;directory&gt;</code></pre>
-</div>
-</div>
-</div>
-</div>
-</li>
-<li>
-<p>Execute the following command to add execution permissions to the KubeKey binary <strong>kk</strong>:</p>
-<div class="openblock">
-<div class="content">
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">sudo chmod +x kk</code></pre>
-</div>
-</div>
-</div>
-</div>
-</li>
-<li>
-<p>Transfer the installation configuration file <strong>config-sample.yaml</strong> to the current directory.</p>
-</li>
-<li>
-<p>Run the following command to edit the installation configuration file <strong>config-sample.yaml</strong>:</p>
-<div class="openblock">
-<div class="content">
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-shell" data-lang="shell">vi config-sample.yaml</code></pre>
-</div>
-</div>
-</div>
-</div>
-</li>
-<li>
-<p>Configure the information of the new node under the <strong>hosts</strong> parameter in <strong>config-sample.yaml</strong>.</p>
-<div class="openblock">
-<div class="content">
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 20%;"/>
-<col style="width: 80%;"/>
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Parameter</th>
-<th class="tableblock halign-left valign-top">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>name</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>User-defined server name.</p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>address</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>The SSH login IP address of the server.</p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>internalAddress</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>The IP address of the server within the subnet.</p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>port</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>The SSH port number of the server. This parameter does not need to be set if using the default port 22.</p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>user</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>The SSH login user name of the server, which must be the <strong>root</strong> user or another user with <strong>sudo</strong> permissions. If you use <strong>root</strong> user, you can not set this parameter.</p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>password</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>The server’s SSH login password. This parameter does not need to be set if <strong>privateKeyPath</strong> has been set.</p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>privateKeyPath</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>The path to the server’s SSH login key. This parameter does not need to be set if <strong>password</strong> has been set.</p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>arch</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>The server architecture. If the server’s hardware architecture is Arm64, please set this parameter to <strong>arm64</strong>, otherwise do not set this parameter. By default, the installation package only supports scenarios where all cluster nodes are x86_64 or arm64 architecture. If the hardware architecture of each cluster node is not exactly the same, please contact the KubeSphere technical support team.</p>
-</div></div></td>
-</tr>
-</tbody>
-</table>
-<table class="tableblock frame-all grid-all stretch admon warning">
-<colgroup>
-<col style="width: 100%;"/>
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Warning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Please do not modify the information of the original node. Otherwise, the cluster may encounter errors after adding nodes.</p>
+<p>When applying for the license, the validity period option is provided. After the license expires, you can apply for a free license again.</p>
 </div></div></td>
 </tr>
 </tbody>
@@ -992,179 +810,13 @@
 </div>
 </li>
 <li>
-<p>Configure the role of the new node in the cluster under the <strong>roleGroups</strong> parameter in <strong>config-sample.yaml</strong>.</p>
-<div class="openblock">
-<div class="content">
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 20%;"/>
-<col style="width: 80%;"/>
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Parameter</th>
-<th class="tableblock halign-left valign-top">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>etcd</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Nodes for installing the etcd database. Set the cluster control plane nodes under this parameter.</p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>control-plane</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Cluster control plane nodes. If you have configured high availability for the cluster, you can set multiple control plane nodes.</p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>worker</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Cluster worker nodes.</p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>registry</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Server used for creating a private image registry. This server is not used as a cluster node.
-During the installation or upgrade of KubeSphere, if the cluster nodes cannot connect to the Internet, you need to set the server used for creating a private image registry under this parameter. Otherwise, you can comment out this parameter.</p>
-</div></div></td>
-</tr>
-</tbody>
-</table>
-<table class="tableblock frame-all grid-all stretch admon warning">
-<colgroup>
-<col style="width: 100%;"/>
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Warning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Please do not modify the role of the original node. Otherwise, the cluster may encounter errors after adding nodes.</p>
-</div></div></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</li>
-<li>
-<p>If a new control plane node is added and the current cluster is not configured for high availability, configure the high availability information under the <strong>controlPlaneEndpoint</strong> parameter in <strong>config-sample.yaml</strong>.</p>
-<div class="openblock">
-<div class="content">
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 20%;"/>
-<col style="width: 80%;"/>
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Parameter</th>
-<th class="tableblock halign-left valign-top">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>internalLoadBalancer</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Type of internal load balancer. If using local load balancer configuration, set this parameter to <strong>haproxy</strong>. Otherwise, you can comment out this parameter.</p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>domain</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Internal access domain for the load balancer. Set this parameter to <strong>lb.kubesphere.local</strong>.</p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>address</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>IP address of the load balancer. If using local load balancer configuration, leave this parameter empty. If using a dedicated load balancer, set this parameter to the IP address of the load balancer. If using a generic server as the load balancer, set this parameter to the floating IP address of the load balancer.</p>
-</div></div></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>port</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>Port number that the load balancer listens on, which is the port number of the apiserver service. Set this parameter to <strong>6443</strong>.</p>
-</div></div></td>
-</tr>
-</tbody>
-</table>
-<table class="tableblock frame-all grid-all stretch admon warning">
-<colgroup>
-<col style="width: 100%;"/>
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Warning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="ulist">
-<ul>
-<li>
-<p>If the current cluster has been configured with high availability, do not modify the high availability information in the <strong>config-sample.yaml</strong> file. Otherwise, the cluster may encounter errors after adding nodes.</p>
-</li>
-<li>
-<p>If the current cluster uses local load balancing to achieve high availability, you do not need to perform any operations on cluster high availability; if the current cluster uses a load balancer to achieve high availability, you only need to configure the load balancer to listen on port 6443 of all control plane nodes. For more information, see <a href="../../../03-installation-and-upgrade/01-preparations/02-configure-high-availability/02-configure-k8s-high-availability/">Configure High Availability</a>.</p>
-</li>
-</ul>
-</div></div></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</li>
-<li>
-<p>Save the configuration file and run the following command to start adding nodes:</p>
-<div class="openblock">
-<div class="content">
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash"> ./kk add nodes -f config-sample.yaml -a kubekey-artifact.tar.gz</code></pre>
-</div>
-</div>
-</div>
-</div>
-</li>
-<li>
-<p>Run the following command to view the nodes of the current cluster:</p>
-<div class="openblock">
-<div class="content">
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-shell" data-lang="shell">kubectl get node</code></pre>
-</div>
-</div>
+<p>After receiving the email, copy the license from the email. On the Licenses page in the KubeSphere web console, click <strong>Add License</strong> and paste the license.</p>
 <div class="paragraph">
-<p>If it displays the information about the new node, it means the node is added successfully.</p>
+<p><span class="image"><img src="/images/ks-qkcp/en/v4.2.0/activate-ks/enter-license.png" alt="enter license" width="50%"/></span></p>
 </div>
-</div>
-</div>
+</li>
+<li>
+<p>If the Licenses page shows that KubeSphere and its extensions are <strong>Authorized</strong>, it means the activation was successful, and you can start using KubeSphere.</p>
 </li>
 </ol>
 </div>
@@ -1188,7 +840,6 @@ During the installation or upgrade of KubeSphere, if the cluster nodes cannot co
   <div class="post-menu-title">Page Catalog</div>
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#_prerequisites">Prerequisites</a></li>
     <li><a href="#_steps">Steps</a></li>
   </ul>
 </nav>
