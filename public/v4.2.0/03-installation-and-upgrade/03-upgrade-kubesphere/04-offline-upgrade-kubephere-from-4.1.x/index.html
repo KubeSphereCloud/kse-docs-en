@@ -20,15 +20,15 @@
     </style><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 
-<meta name="keywords" content="[Kubernetes, {ks_product}, installation, upgrade KubeSphere Enterprise]">
+<meta name="keywords" content="[Kubernetes, KubeSphere Enterprise, installation, upgrade KubeSphere Enterprise]">
 
 
 
-<meta name="description" content="Describes how to upgrade KubeSphere Enterprise.">
+<meta name="description" content="This guide describes how to upgrade KubeSphere Enterprise.">
 
 <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 
-<title>Online Upgrade from KubeSphere Enterprise v4.1.x to v4.2.0 - KubeSphere</title>
+<title>Offline Upgrade from KubeSphere Enterprise v4.1.x to v4.2.0 - KubeSphere</title>
 <link href="/css/theme.css" rel="stylesheet">
 <link href="/css/bulma.css" rel="stylesheet">
 <link href="/css/bulma-tooltip.min.css" rel="stylesheet">
@@ -757,7 +757,7 @@
       <li class="icon-slash_fill"><a href="/v4.2.0/03-installation-and-upgrade" data-url="/v4.2.0/03-installation-and-upgrade">Installation Guide</a></li>
       <li class="icon-slash_fill"><a href="/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere" data-url="/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere">Upgrade KubeSphere</a></li></ul><div class="post-wrapper"><div class="post">
   <h1 class="post-title">
-    Online Upgrade from KubeSphere Enterprise v4.1.x to v4.2.0</h1>
+    Offline Upgrade from KubeSphere Enterprise v4.1.x to v4.2.0</h1>
   <div class="post-info">
     <div class="post-date">
       Time updated：2025-10-30 09:37:31
@@ -777,6 +777,12 @@
   <ul>
     <li><a href="#_prerequisites">Prerequisites</a></li>
     <li><a href="#_attention">Attention</a></li>
+    <li><a href="#_preparation">Preparation</a>
+      <ul>
+        <li><a href="#_1_unpack_the_installation_package">1. Unpack the Installation Package</a></li>
+        <li><a href="#_2_push_images">2. Push Images</a></li>
+      </ul>
+    </li>
     <li><a href="#_upgrade_kubesphere">Upgrade KubeSphere</a>
       <ul>
         <li><a href="#_upgrade_host_cluster">Upgrade Host Cluster</a></li>
@@ -791,13 +797,16 @@
       
       
 <div class="paragraph">
-<p>This section explains how to upgrade from KubeSphere Enterprise v4.1.2 or v4.1.3 to v4.2.0 when Internet access is available.</p>
+<p>This section describes how to perform an offline upgrade from KubeSphere Enterprise v4.1.2 to KubeSphere Enterprise v4.2.0 without Internet access.</p>
 </div>
 <div class="sect1">
 <h2 id="_prerequisites">Prerequisites</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
+<li>
+<p>Contact the KubeSphere support team to get the KubeSphere Enterprise v4.2.0 installation package and license.</p>
+</li>
 <li>
 <p>Ensure current KubeSphere Enterprise version is v4.1.2 or v4.1.3.</p>
 </li>
@@ -893,10 +902,99 @@ To avoid data loss, please back up all important data in advance.</p>
 </div>
 </div>
 <div class="sect1">
+<h2 id="_preparation">Preparation</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_1_unpack_the_installation_package">1. Unpack the Installation Package</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Transfer the KubeSphere Enterprise installation package to the cluster node to be upgraded and log in to that node.</p>
+</li>
+<li>
+<p>Run the following command to unpack the v4.2.0 installation package (replace &lt;package name&gt; with the actual package name).</p>
+<div class="openblock">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">tar -zxvf &lt;package name&gt;</code></pre>
+</div>
+</div>
+<table class="tableblock frame-all grid-all stretch admon attention">
+<colgroup>
+<col style="width: 100%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Attention</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Ensure that the directory has sufficient available space, preferably greater than 100 GB.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</li>
+<li>
+<p>Enter the directory generated after unpacking the installation package.</p>
+<div class="openblock">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">cd &lt;directory&gt;</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_2_push_images">2. Push Images</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>In the v4.2.0 directory, edit the <strong>config-sample.yaml</strong> file created during the installation and modify the <strong>registry</strong> section within it.</p>
+<div class="openblock">
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-yaml" data-lang="yaml">    privateRegistry: &#34;dockerhub.kubekey.local/kse&#34; # Replace with the actual image registry address
+        auths:
+          &#34;dockerhub.kubekey.local&#34;:  # Replace with the actual image registry address
+              username: admin           # Replace with the username of the image registry
+              password: Harbor12345     # Replace with the password of the image registry
+              skipTLSVerify: true
+              plainHTTP: true   # Set this parameter to true if the image registry uses http</code></pre>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Push the images to the image registry.</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">./kk artifact images push -f config-sample.yaml -a kubekey-artifact.tar.gz</code></pre>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
 <h2 id="_upgrade_kubesphere">Upgrade KubeSphere</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>KubeSphere v4.1 and later versions use Helm charts for ks-core upgrades.</p>
+<p>KubeSphere v4.1 and later versions use the helm chart method to upgrade ks-core.</p>
 </div>
 <div class="sect2">
 <h3 id="_upgrade_host_cluster">Upgrade Host Cluster</h3>
@@ -929,68 +1027,20 @@ To avoid data loss, please back up all important data in advance.</p>
 </tr>
 </tbody>
 </table>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash"># Use the extension-resources-patch.sh script located in the tools directory of the installation package
+bash tools/extension-resources-patch.sh</code></pre>
+</div>
+</div>
+</li>
 <li>
-<p>Create the <code>extension-resources-patch.sh</code> script to handle conflicts from <code>kse-extension-publish</code> created resources:</p>
+<p>Check the current cluster’s ks-core configuration.</p>
 <div class="openblock">
 <div class="content">
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">vi extension-resources-patch.sh</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>Paste and save:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">#!/bin/bash
-
-# Resolve resource template conflicts
-kubectl -n kubesphere-system label deploy extensions-museum app.kubernetes.io/managed-by=Helm
-kubectl -n kubesphere-system annotate deploy extensions-museum meta.helm.sh/release-name=ks-core
-kubectl -n kubesphere-system annotate deploy extensions-museum meta.helm.sh/release-namespace=kubesphere-system
-
-kubectl -n kubesphere-system label service extensions-museum app.kubernetes.io/managed-by=Helm
-kubectl -n kubesphere-system annotate service extensions-museum meta.helm.sh/release-name=ks-core
-kubectl -n kubesphere-system annotate service extensions-museum meta.helm.sh/release-namespace=kubesphere-system
-
-kubectl -n kubesphere-system label secret extensions-museum-certs app.kubernetes.io/managed-by=Helm
-kubectl -n kubesphere-system annotate secret extensions-museum-certs meta.helm.sh/release-name=ks-core
-kubectl -n kubesphere-system annotate secret extensions-museum-certs meta.helm.sh/release-namespace=kubesphere-system
-
-# Resolve repository reference conflicts
-for item in $(kubectl get extensionversions.kubesphere.io -o jsonpath=&#34;{.items[*].metadata.name}&#34;); do
-    kubectl patch extensionversions.kubesphere.io $item --type merge -p &#39;{&#34;spec&#34;:{&#34;repository&#34;:&#34;extensions-museum&#34;}}&#39;
-    kubectl label extensionversions.kubesphere.io $item kubesphere.io/repository-ref=extensions-museum
-done
-for item in $(kubectl get extensions.kubesphere.io -o jsonpath=&#34;{.items[*].metadata.name}&#34;); do
-    kubectl label extensions.kubesphere.io $item kubesphere.io/repository-ref=extensions-museum
-done</code></pre>
-</div>
-</div>
-</div>
-</div>
-</li>
-<li>
-<p>Execute the script:</p>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">bash extension-resources-patch.sh</code></pre>
-</div>
-</div>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p>Check current ks-core configuration:</p>
-<div class="openblock">
-<div class="content">
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">helm get values -n kubesphere-system ks-core</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">helm get value -n kubesphere-system ks-core</code></pre>
 </div>
 </div>
 </div>
@@ -1001,7 +1051,7 @@ done</code></pre>
 <div class="openblock">
 <div class="content">
 <div class="paragraph">
-<p>If the previous step shows parameters beyond image registry, image version, cloud and upgrade, include them in this configuration file.</p>
+<p>If there are other parameters besides the image registry, image version, cloud, and upgrade in the previous step, please add them to the following configuration file.</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -1010,9 +1060,9 @@ done</code></pre>
 # Specify image registry for ks-core and extensions
 # Modify according to actual environment
 global:
-  imageRegistry: registry.cn-beijing.aliyuncs.com
+  imageRegistry: dockerhub.kubekey.local/kse
 extension:
-  imageRegistry: &#34;&#34;
+  imageRegistry: dockerhub.kubekey.local/kse
 
 # Cluster role parameter changed from role to multicluster.role
 multicluster:
@@ -1039,11 +1089,26 @@ EOF</code></pre>
 <div class="content">
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">chart=oci://hub.kubesphere.com.cn/kse/ks-core
-version=1.2.2
-helm upgrade --install -n kubesphere-system --create-namespace ks-core $chart --version $version -f kse-v4.2.0-host-custom-values.yaml --wait --debug</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">helm upgrade --install ks-core charts/ks-core -n kubesphere-system -f kse-v4.2.0-host-custom-values.yaml --wait --debug</code></pre>
 </div>
 </div>
+<table class="tableblock frame-all grid-all stretch admon attention">
+<colgroup>
+<col style="width: 100%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Attention</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Replace <code>charts/ks-core</code> with the actual path of the <code>ks-core</code> chart in the current environment.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </li>
@@ -1127,7 +1192,7 @@ ks-controller-manager-5f69675d48-qnxv7       1/1     Running     0          16h<
 # Specify image registry for ks-core
 # Modify according to actual environment
 global:
-  imageRegistry: registry.cn-beijing.aliyuncs.com
+  imageRegistry: dockerhub.kubekey.local/kse
 
 # Replace with member cluster&#39;s jwtSecret value
 authentication:
@@ -1149,11 +1214,26 @@ EOF</code></pre>
 <div class="content">
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">chart=oci://hub.kubesphere.com.cn/kse/ks-core
-version=1.2.2
-helm upgrade --install -n kubesphere-system --create-namespace ks-core $chart --version $version -f kse-v4.2.0-member-custom-values.yaml --wait --debug</code></pre>
+<pre class="highlight"><code class="language-bash" data-lang="bash">helm upgrade --install ks-core charts/ks-core -n kubesphere-system -f kse-v4.2.0-member-custom-values.yaml --wait --debug</code></pre>
 </div>
 </div>
+<table class="tableblock frame-all grid-all stretch admon attention">
+<colgroup>
+<col style="width: 100%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Attention</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Replace <code>charts/ks-core</code> with the actual path of the <code>ks-core</code> chart in the current environment.</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </li>
@@ -1497,6 +1577,12 @@ ks-agent-5dc5b57977-4x6mf     2/2     Running     0               59m</code></pr
   <ul>
     <li><a href="#_prerequisites">Prerequisites</a></li>
     <li><a href="#_attention">Attention</a></li>
+    <li><a href="#_preparation">Preparation</a>
+      <ul>
+        <li><a href="#_1_unpack_the_installation_package">1. Unpack the Installation Package</a></li>
+        <li><a href="#_2_push_images">2. Push Images</a></li>
+      </ul>
+    </li>
     <li><a href="#_upgrade_kubesphere">Upgrade KubeSphere</a>
       <ul>
         <li><a href="#_upgrade_host_cluster">Upgrade Host Cluster</a></li>

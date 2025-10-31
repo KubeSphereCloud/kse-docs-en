@@ -110,7 +110,7 @@
     </item>
     
     <item>
-      <title>Online Upgrade from v4.1.x to v4.2.0</title>
+      <title>Online Upgrade from KubeSphere Enterprise v4.1.x to v4.2.0</title>
       <link>/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/03-online-upgrade-kubephere-from-4.1.x/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -157,13 +157,13 @@
     </item>
     
     <item>
-      <title>Offline Upgrade from v4.1.x to v4.2.0</title>
-      <link>/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/04-upgrade-kubephere-from-v4.1/</link>
+      <title>Offline Upgrade from KubeSphere Enterprise v4.1.x to v4.2.0</title>
+      <link>/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/04-offline-upgrade-kubephere-from-4.1.x/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/04-upgrade-kubephere-from-v4.1/</guid>
+      <guid>/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/04-offline-upgrade-kubephere-from-4.1.x/</guid>
       <description>This section describes how to perform an offline upgrade from KubeSphere Enterprise v4.1.2 to KubeSphere Enterprise v4.2.0 without Internet access.
- Prerequisites   Contact the KubeSphere Enterprise support team to get the KubeSphere Enterprise v4.2.0 installation package and license.
+ Prerequisites   Contact the KubeSphere support team to get the KubeSphere Enterprise v4.2.0 installation package and license.
   Ensure current KubeSphere Enterprise version is v4.1.2 or v4.1.3.
   Ensure current Kubernetes version is v1.23.x to v1.32.x.
   For extensions with special configurations, back up extension configurations by downloading files from the &amp;#34;Extension Config&amp;#34; dialog.</description>
@@ -196,6 +196,18 @@
       <description>This section describes how to configure Network File System (NFS) for the KubeSphere cluster in a production environment.
      Note     NFS is incompatible with some applications (such as Prometheus), which may cause pod creation failure. If you do need to use NFS in a production environment, make sure you understand the risks or consult KubeSphere technical support at support@kubesphere.cloud.
     Build NFS Server Before configuring NFS for KubeSphere, you need to set up an NFS server first.</description>
+    </item>
+    
+    <item>
+      <title>Upgrade KubeSphere to Community Edition v4.2.0</title>
+      <link>/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/05-online-upgrade-to-community-4.2.x/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/03-installation-and-upgrade/03-upgrade-kubesphere/05-online-upgrade-to-community-4.2.x/</guid>
+      <description>This section describes how to upgrade from KubeSphere Open Source Edition v3.x or v4.x to KubeSphere Community Edition v4.2.0.
+ Prerequisites   Ensure the current Kubernetes version is v1.23.x ~ v1.32.x.
+  If extensions have special configurations, back up the extension configurations. In the &amp;#34;Extension Config&amp;#34; dialog, download the file for backup.
+   To avoid data loss, please back up all important data in advance.</description>
     </item>
     
     <item>
