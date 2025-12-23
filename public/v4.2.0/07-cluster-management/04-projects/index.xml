@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project on KubeSphere</title>
+    <link>/v4.2.0/07-cluster-management/04-projects/</link>
+    <description>Recent content in Project on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/07-cluster-management/04-projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a Project</title>
+      <link>/v4.2.0/07-cluster-management/04-projects/01-create-a-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/04-projects/01-create-a-project/</guid>
+      <description>This section describes how to create a project.
+ Prerequisites You need to join a cluster and have the Project Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Project Management permissions and enter your cluster.
+  Click Project in the left navigation pane.
+  Click Create on the page.</description>
+    </item>
+    
+    <item>
+      <title>View Project List</title>
+      <link>/v4.2.0/07-cluster-management/04-projects/02-view-a-project-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/04-projects/02-view-a-project-list/</guid>
+      <description>This section describes how to view the project list.
+ Prerequisites You need to join a cluster and have the Project View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Project View permissions and enter your cluster.
+  Click Project in the left navigation pane.
+  On the Projects page, click User Projects or System Projects to open the user project list or system project list.</description>
+    </item>
+    
+    <item>
+      <title>View Project Details</title>
+      <link>/v4.2.0/07-cluster-management/04-projects/03-view-project-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/04-projects/03-view-project-details/</guid>
+      <description>This section describes how to view project details.
+ Prerequisites You need to join a cluster and have the Project Viewing permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Project Viewing permissions and enter your cluster.
+  Click Project in the left navigation pane.
+  On the Projects page, click User Projects or System Projects to open the user project list or system project list.</description>
+    </item>
+    
+    <item>
+      <title>Edit Project Information</title>
+      <link>/v4.2.0/07-cluster-management/04-projects/04-edit-project-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/04-projects/04-edit-project-information/</guid>
+      <description>This section describes how to edit project information.
+ You can edit the alias and description of a project. KubeSphere does not support editing the name of a created project.
+ Prerequisites You need to join a cluster and have the Project Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Project Management permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Edit Project Annotations</title>
+      <link>/v4.2.0/07-cluster-management/04-projects/05-edit-project-annotations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/04-projects/05-edit-project-annotations/</guid>
+      <description>This section describes how to edit project annotations.
+ Project annotations are key-value pairs that add additional metadata or descriptive information to a project.
+ Prerequisites You need to join a cluster and have the Project Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Project Management permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Edit Project Quotas</title>
+      <link>/v4.2.0/07-cluster-management/04-projects/06-edit-project-quotas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/04-projects/06-edit-project-quotas/</guid>
+      <description>This section describes how to edit project quotas.
+ Project quotas include the following settings:
+   Resource Reservation: Container resource reservation is the resources reserved by the system for a single container. The project resource reservation is the maximum sum of all container resource reservations in the project. The KubeSphere platform currently supports setting CPU and memory reservations for projects.
+  Resource Limits: Container resource limits are the maximum resources a single container can use.</description>
+    </item>
+    
+    <item>
+      <title>Edit Default Container Quotas</title>
+      <link>/v4.2.0/07-cluster-management/04-projects/07-edit-default-container-quotas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/04-projects/07-edit-default-container-quotas/</guid>
+      <description>This section describes how to edit the default container quota.
+ The default container quota is the default value for resource reservations and resource limits for containers in a project. When creating a container in a project, if the user does not specify resource reservations and resource limits, the KubeSphere system will automatically use the default container quota.
+ The default container quota includes two types of settings:
+   Resource Reservation: The resources reserved by the system for the container.</description>
+    </item>
+    
+    <item>
+      <title>Delete a Project</title>
+      <link>/v4.2.0/07-cluster-management/04-projects/08-delete-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/04-projects/08-delete-projects/</guid>
+      <description>This section describes how to delete a project.
+     Warning     Once a project is deleted, it cannot be recovered, and all resources within the project will also be deleted. Please perform this operation with caution.
+    Prerequisites You need to join a cluster and have the Project Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.</description>
+    </item>
+    
+  </channel>
+</rss>

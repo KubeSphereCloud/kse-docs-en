@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Service Accounts on KubeSphere</title>
+    <link>/v4.2.0/07-cluster-management/06-configuration/03-service-accounts/</link>
+    <description>Recent content in Service Accounts on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/07-cluster-management/06-configuration/03-service-accounts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a Service Account</title>
+      <link>/v4.2.0/07-cluster-management/06-configuration/03-service-accounts/01-create-a-service-account/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/06-configuration/03-service-accounts/01-create-a-service-account/</guid>
+      <description>This section describes how to create a service account.
+ Prerequisites You need to join a cluster and have the cluster-admin role in the cluster.
+   Steps  Log in to the KubeSphere web console as a user with the cluster-admin role and go to your cluster.
+  Click Configuration &amp;gt; Service Accounts in the left navigation pane.
+  On the Service Account list page, click Create.</description>
+    </item>
+    
+    <item>
+      <title>View Service Account List</title>
+      <link>/v4.2.0/07-cluster-management/06-configuration/03-service-accounts/02-view-a-service-account-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/06-configuration/03-service-accounts/02-view-a-service-account-list/</guid>
+      <description>This section describes how to view the list of service accounts.
+ Prerequisites You need to be a member of a cluster and have the cluster-viewer role within the cluster.
+   Steps  Log in to the KubeSphere web console as a user with the cluster-viewer role and enter your cluster.
+  Click Configuration &amp;gt; Service Accounts in the left navigation pane.
+  The Service Account list provides the following information:</description>
+    </item>
+    
+    <item>
+      <title>View Service Account Details</title>
+      <link>/v4.2.0/07-cluster-management/06-configuration/03-service-accounts/03-view-service-account-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/06-configuration/03-service-accounts/03-view-service-account-details/</guid>
+      <description>This section describes how to view service account details.
+ Prerequisites You need to join a cluster and have the cluster-viewer role within the cluster.
+   Steps  Log in to the KubeSphere web console as a user with the cluster-viewer role and enter your cluster.
+  Click Configuration &amp;gt; Service Accounts in the left navigation pane.
+  In the service account list, click the name of a service account to open its details page.</description>
+    </item>
+    
+    <item>
+      <title>Edit Service Account Information</title>
+      <link>/v4.2.0/07-cluster-management/06-configuration/03-service-accounts/04-edit-service-account-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/06-configuration/03-service-accounts/04-edit-service-account-information/</guid>
+      <description>This section describes how to edit the information of a service account.
+ You can edit the alias and description of a service account. KubeSphere does not support editing the name of a service account.
+ Prerequisites You need to be a member of a cluster and have the cluster-admin role in the cluster.
+   Steps  Log in to the KubeSphere web console as a user with the cluster-admin role and go to your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Modify Service Account Role</title>
+      <link>/v4.2.0/07-cluster-management/06-configuration/03-service-accounts/05-change-the-role-of-a-service-account/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/06-configuration/03-service-accounts/05-change-the-role-of-a-service-account/</guid>
+      <description>This section describes how to modify service account roles.
+ You can control the permissions of a service account by assigning roles to it, enabling the service account to access specific resources and perform specific operations.
+ Prerequisites You need to be a member of a cluster and have the cluster-admin role in the cluster.
+   Steps  Log in to the KubeSphere web console as a user with the cluster-admin role and go to your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Delete Service Accounts</title>
+      <link>/v4.2.0/07-cluster-management/06-configuration/03-service-accounts/06-delete-service-accounts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/06-configuration/03-service-accounts/06-delete-service-accounts/</guid>
+      <description>This section describes how to delete a service account.
+     Warning     After a service account is deleted, applications using the service account will not be able to access the KubeSphere cluster. Please perform this operation with caution.
+    Prerequisites You need to be a member of a cluster and have the cluster-admin role in the cluster.
+   Delete a Single Service Account  Log in to the KubeSphere web console as a user with the cluster-admin role and go to your cluster.</description>
+    </item>
+    
+  </channel>
+</rss>

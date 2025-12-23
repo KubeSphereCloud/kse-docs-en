@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Application Templates on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/05-app-store/02-app-management/01-app-templates/</link>
+    <description>Recent content in Application Templates on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/05-app-store/02-app-management/01-app-templates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Application Template</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/02-app-management/01-app-templates/01-create-an-app-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/02-app-management/01-app-templates/01-create-an-app-template/</guid>
+      <description>This section describes how to create an application template.
+ Prerequisites    You need to join a workspace and have the Application/Application Version/Application Instance Creation permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+     The KubeSphere App Store Management extension must be installed and enabled on the KubeSphere platform.
+  A Helm Chart archive in .tar.gz or .</description>
+    </item>
+    
+    <item>
+      <title>View Application Template List</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/02-app-management/01-app-templates/02-view-an-app-template-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/02-app-management/01-app-templates/02-view-an-app-template-list/</guid>
+      <description>This section describes how to view the application template list.
+ Prerequisites    You need to join a workspace and have the Application/Application Version/Application Instance View permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+     The KubeSphere App Store Management extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has Application/Application Version/Application Instance View permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>View Application Template Details</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/02-app-management/01-app-templates/03-view-app-template-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/02-app-management/01-app-templates/03-view-app-template-details/</guid>
+      <description>This section describes how to view application template details.
+ Prerequisites    You need to join a workspace and have the Application/Application Version/Application Instance View permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+     The KubeSphere App Store Management extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has Application/Application Version/Application Instance View permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Edit Application Template Information</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/02-app-management/01-app-templates/04-edit-app-template-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/02-app-management/01-app-templates/04-edit-app-template-information/</guid>
+      <description>This section describes how to edit application template information.
+ Prerequisites    You need to join a workspace and have the Application/Application Version/Application Instance Management permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+     The KubeSphere App Store Management extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has Application/Application Version/Application Instance Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Installing Apps Using App Templates</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/02-app-management/01-app-templates/05-install-an-app-by-using-an-app-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/02-app-management/01-app-templates/05-install-an-app-by-using-an-app-template/</guid>
+      <description>This section describes how to install apps using app templates in a workspace.
+ Prerequisites    You need to join a workspace and have the App/App Version/App Instance Management permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+     The KubeSphere App Store Management extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has App/App Version/App Instance Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Upload Application Version</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/02-app-management/01-app-templates/06-upload-an-app-version/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/02-app-management/01-app-templates/06-upload-an-app-version/</guid>
+      <description>This section describes how to upload an application version after creating an application template.
+ Prerequisites    You need to join a workspace and have the Application/Application Version/Application Instance Management permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+     The KubeSphere App Store Management extension must be installed and enabled on the KubeSphere platform.
+  A Helm Chart archive in .</description>
+    </item>
+    
+    <item>
+      <title>Delete App Version</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/02-app-management/01-app-templates/08-delete-an-app-version/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/02-app-management/01-app-templates/08-delete-an-app-version/</guid>
+      <description>This section describes how to delete an app version in an app template.
+     Warning     Once an app version is deleted, it cannot be recovered. Please perform this operation with caution.
+    Prerequisites    You need to join a workspace and have the App/App Version/App Instance Deletion permission in the workspace. For more information, see Workspace Members and Workspace Roles.</description>
+    </item>
+    
+    <item>
+      <title>Download Helm Chart Archive</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/02-app-management/01-app-templates/09-download-a-helm-chart-package/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/02-app-management/01-app-templates/09-download-a-helm-chart-package/</guid>
+      <description>This section describes how to download the Helm Chart archive for an app version.
+ Prerequisites    You need to join a workspace and have the App/App Version/App Instance View permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+     The KubeSphere App Store Management extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has App/App Version/App Instance View permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Publish an App Version to the App Store</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/02-app-management/01-app-templates/10-release-an-app-version-to-the-app-store/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/02-app-management/01-app-templates/10-release-an-app-version-to-the-app-store/</guid>
+      <description>This section describes how to publish an app version to the App Store.
+ Prerequisites    You need to join a workspace and have the App/App Version/App Instance Management permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+     The KubeSphere App Store Management extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has App/App Version/App Instance Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Delete an App Template</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/02-app-management/01-app-templates/11-delete-an-app-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/02-app-management/01-app-templates/11-delete-an-app-template/</guid>
+      <description>This section describes how to delete an app template.
+     Warning     Once an app template is deleted, it cannot be recovered. Please perform this operation with caution.
+    Prerequisites    You need to join a workspace and have the App/App Version/App Instance Deletion permission in the workspace. For more information, see Workspace Members and Workspace Roles.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cert Manager on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/23-cert-manager/</link>
+    <description>Recent content in Cert Manager on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/23-cert-manager/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overview</title>
+      <link>/v4.2.0/11-use-extensions/23-cert-manager/01-intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/23-cert-manager/01-intro/</guid>
+      <description>Cert Manager (Cert Manager) creates TLS certificates for workloads in Kubernetes and renews them before they expire.
+ Cert Manager can obtain certificates from various certificate authorities, including: Let’s Encrypt, HashiCorp Vault, Venafi, and private PKI.
+ When installing the extension, enabling the parameters under the defaultIssuer field in the extension configuration will generate a ClusterIssuer named default-issuer. The default ClusterIssuer can be used to issue certificates for other extensions. For example, when using the KubeSphere Gateway, it can automatically generate and update certificates for Ingresses.</description>
+    </item>
+    
+  </channel>
+</rss>

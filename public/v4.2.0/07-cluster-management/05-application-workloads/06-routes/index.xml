@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ingress on KubeSphere</title>
+    <link>/v4.2.0/07-cluster-management/05-application-workloads/06-routes/</link>
+    <description>Recent content in Ingress on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/07-cluster-management/05-application-workloads/06-routes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create an Ingress</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/06-routes/01-create-a-route/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/06-routes/01-create-a-route/</guid>
+      <description>This section describes how to create an Ingress.
+     Note     After installing the &amp;#34;KubeSphere Gateway&amp;#34; extension and enabling the cluster gateway, workspace gateway, or project gateway, when creating an Ingress, you can select the corresponding gateway’s IngressClassName on the Routing Rule tab.
+    Prerequisites    You need to join a cluster and have the Application Workload Management permission in the cluster.</description>
+    </item>
+    
+    <item>
+      <title>View Application Routing List</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/06-routes/02-view-a-route-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/06-routes/02-view-a-route-list/</guid>
+      <description>This section describes how to view the Ingress list.
+ Prerequisites You need to join a cluster and have the Application Workloads View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workloads View permissions and enter your cluster.
+  Click Application Workloads &amp;gt; Application Routing in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Application Route Details</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/06-routes/03-view-route-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/06-routes/03-view-route-details/</guid>
+      <description>This section describes how to view Ingress details.
+ Prerequisites You need to join a cluster and have the Application Workloads View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workloads View permissions and enter your cluster.
+  Click Application Workloads &amp;gt; Ingress in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Access the Backend Service of an Ingress</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/06-routes/04-access-a-backend-service-of-a-route/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/06-routes/04-access-a-backend-service-of-a-route/</guid>
+      <description>This section describes how to access the backend service of an Ingress.
+ After an Ingress is created, you can access its backend service using any HTTP or HTTPS client. Depending on the external access mode of the cluster gateway or project gateway, you can use the following access methods:
+   If the external access mode of the cluster gateway or project gateway is NodePort, you can access the backend service of the Ingress using the domain name, path, and port number (e.</description>
+    </item>
+    
+    <item>
+      <title>Edit Ingress Information</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/06-routes/05-edit-route-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/06-routes/05-edit-route-information/</guid>
+      <description>This section describes how to edit Ingress information.
+ You can edit the alias and description of an Ingress. KubeSphere does not support editing the name of a created Ingress.
+ Prerequisites You need to join a cluster and have the Application Workload Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workload Management permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Edit Routing Rules</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/06-routes/06-edit-routing-rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/06-routes/06-edit-routing-rules/</guid>
+      <description>This section describes how to edit a routing rule.
+ Prerequisites You need to join a cluster and have the Application Workload Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workload Management permissions and enter your cluster.
+  Click Application Workloads &amp;gt; Ingress in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Edit Application Route Annotations</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/06-routes/07-edit-route-annotations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/06-routes/07-edit-route-annotations/</guid>
+      <description>This section describes how to edit Ingress annotations.
+ Prerequisites You need to join a cluster and have the Application Workload Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workload Management permissions and enter your cluster.
+  Click Application Workloads &amp;gt; Ingress in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Delete Ingress</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/06-routes/08-delete-routes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/06-routes/08-delete-routes/</guid>
+      <description>This section describes how to delete an Ingress.
+     Warning     After deleting the Ingress, you will not be able to access the backend services through the Ingress. Please perform this operation with caution.
+    Prerequisites You need to join a cluster and have the Application Workload Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Constraints on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/20-gatekeeper/02-constraints/</link>
+    <description>Recent content in Constraints on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/20-gatekeeper/02-constraints/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Constraint</title>
+      <link>/v4.2.0/11-use-extensions/20-gatekeeper/02-constraints/01-create-a-constraint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/20-gatekeeper/02-constraints/01-create-a-constraint/</guid>
+      <description>This section describes how to create a constraint.
+ Prerequisites    You need to join a cluster and have the  cluster-admin  permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     The KubeSphere platform needs to have the Gatekeeper extension installed and enabled.
+  A constraint template has been created.
+     Steps  Log in to the KubeSphere web console with a user who has  cluster-admin  permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>View Constraint List</title>
+      <link>/v4.2.0/11-use-extensions/20-gatekeeper/02-constraints/02-view-a-constraint-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/20-gatekeeper/02-constraints/02-view-a-constraint-list/</guid>
+      <description>This section describes how to view the constraint list.
+ Prerequisites    You need to join a cluster and have the  cluster-admin  permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     The Gatekeeper extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has  cluster-admin  permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>View Constraint Details</title>
+      <link>/v4.2.0/11-use-extensions/20-gatekeeper/02-constraints/03-view-constraint-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/20-gatekeeper/02-constraints/03-view-constraint-details/</guid>
+      <description>This section describes how to view constraint details.
+ Prerequisites    You need to join a cluster and have the  cluster-admin  permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     The KubeSphere platform needs to have the Gatekeeper extension installed and enabled.
+     Steps  Log in to the KubeSphere web console with a user who has  cluster-admin  permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Edit Constraint Configuration</title>
+      <link>/v4.2.0/11-use-extensions/20-gatekeeper/02-constraints/04-edit-constraint-yaml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/20-gatekeeper/02-constraints/04-edit-constraint-yaml/</guid>
+      <description>This section describes how to edit the configuration of a constraint.
+ Prerequisites    You need to join a cluster and have the  cluster-admin  permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     The Gatekeeper extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has  cluster-admin  permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Delete Constraint</title>
+      <link>/v4.2.0/11-use-extensions/20-gatekeeper/02-constraints/07-delete-constraints/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/20-gatekeeper/02-constraints/07-delete-constraints/</guid>
+      <description>This section describes how to delete a constraint.
+     Warning     Once a constraint is deleted, it cannot be recovered. Please perform this operation with caution.
+    Prerequisites    You need to join a cluster and have the  cluster-admin  permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     The KubeSphere platform needs to have the Gatekeeper extension installed and enabled.</description>
+    </item>
+    
+  </channel>
+</rss>

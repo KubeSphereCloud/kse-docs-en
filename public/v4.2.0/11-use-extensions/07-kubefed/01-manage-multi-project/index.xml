@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Managing Federated Projects on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/07-kubefed/01-manage-multi-project/</link>
+    <description>Recent content in Managing Federated Projects on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/07-kubefed/01-manage-multi-project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a Federated Project</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/01-manage-multi-project/01-create-a-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/01-manage-multi-project/01-create-a-project/</guid>
+      <description>This section describes how to create a federated project.
+     Note     For a federated project to run on multiple clusters, the workspace to which the federated project belongs must be authorized to access multiple clusters. For more information, see Create a Workspace.
+    Prerequisites   The Federated Application Management extension must be installed and enabled on the KubeSphere platform.</description>
+    </item>
+    
+    <item>
+      <title>View Federated Project List</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/01-manage-multi-project/02-view-a-project-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/01-manage-multi-project/02-view-a-project-list/</guid>
+      <description>This section describes how to view the project list.
+ Prerequisites   The Application Management for Cluster Federation extension must be installed and enabled on the KubeSphere platform.
+      You need to join a workspace and have the Federated Project View permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+     Steps  Log in to the KubeSphere web console with a user who has Federated Project View permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Edit Federated Project Information</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/01-manage-multi-project/03-edit-project-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/01-manage-multi-project/03-edit-project-information/</guid>
+      <description>This section describes how to edit project information.
+ You can edit the alias and description of a project. KubeSphere does not support editing the name of a created project.
+ Prerequisites   The Application Management for Cluster Federation extension must be installed and enabled on the KubeSphere platform.
+      You need to join a workspace and have the Federated Project Management permission in the workspace.</description>
+    </item>
+    
+    <item>
+      <title>Edit Federated Project Annotations</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/01-manage-multi-project/04-edit-project-annotations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/01-manage-multi-project/04-edit-project-annotations/</guid>
+      <description>This section describes how to edit project annotations.
+ Project annotations are key-value pairs that add additional metadata or descriptive information to a project.
+ Prerequisites   The Application Management for Cluster Federation extension must be installed and enabled on the KubeSphere platform.
+      You need to join a workspace and have the Federated Project Management permission in the workspace. For more information, see Workspace Members and Workspace Roles.</description>
+    </item>
+    
+    <item>
+      <title>Add Clusters to a Federated Project</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/01-manage-multi-project/05-add-a-cluster/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/01-manage-multi-project/05-add-a-cluster/</guid>
+      <description>This section describes how to add clusters to a federated project.
+ A federated project is a project created based on multiple clusters. Resources in a federated project can run on different clusters.
+     Note     For a federated project to run on multiple clusters, the workspace to which the federated project belongs must be authorized to access multiple clusters. For more information, see Create a Workspace.</description>
+    </item>
+    
+    <item>
+      <title>Delete Federated Project</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/01-manage-multi-project/06-delete-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/01-manage-multi-project/06-delete-projects/</guid>
+      <description>This section describes how to delete a project.
+     Warning     Once a project is deleted, it cannot be recovered, and all resources within the project will also be deleted. Please perform this operation with caution.
+    Prerequisites   The Application Management for Cluster Federation extension must be installed and enabled on the KubeSphere platform.
+      You need to join a workspace and have the Federated Project Management permission in the workspace.</description>
+    </item>
+    
+  </channel>
+</rss>

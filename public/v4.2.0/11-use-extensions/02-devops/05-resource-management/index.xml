@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resource Management on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/02-devops/05-resource-management/</link>
+    <description>Recent content in Resource Management on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/02-devops/05-resource-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Synchronize Resource Files to Code Repository</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/05-resource-management/02-sync-to-repo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/05-resource-management/02-sync-to-repo/</guid>
+      <description>This section describes how to synchronize resource files in a project to a code repository. After synchronization, you can manage the project’s resource files in the code repository.
+ Prerequisites   The DevOps extension must be installed and enabled on the KubeSphere platform.
+  A workspace, a DevOps project, and a user (for example, project-regular) have been created. The user has been invited to the DevOps project and granted the operator role.</description>
+    </item>
+    
+    <item>
+      <title>View and Download Resource Files</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/05-resource-management/01-view-and-download-recources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/05-resource-management/01-view-and-download-recources/</guid>
+      <description>This section describes how to view Kubernetes resources in a project through a directory tree format.
+ Prerequisites   The DevOps extension must be installed and enabled on the KubeSphere platform.
+  A workspace, a DevOps project, and a user (e.g., project-regular) have been created. The user has been invited to the DevOps project and granted the operator role. Please refer to Invite a User to a DevOps Project.</description>
+    </item>
+    
+  </channel>
+</rss>

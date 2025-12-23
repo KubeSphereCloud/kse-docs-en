@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notification Subscriptions on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/02-notification-subscription/</link>
+    <description>Recent content in Notification Subscriptions on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/02-notification-subscription/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Notification Subscription</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/02-notification-subscription/01-set-subscription/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/02-notification-subscription/01-set-subscription/</guid>
+      <description>This section describes how to create a notification subscription.
+     Note     Currently, only configuring multiple notification subscriptions for email is supported.
+    Prerequisites   You need to have the platform-admin role in the KubeSphere platform. For more information, refer to Users and Platform Roles.
+  The WizTelemetry Notification extension needs to be installed and enabled on the KubeSphere platform.</description>
+    </item>
+    
+    <item>
+      <title>View Notification Subscriptions</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/02-notification-subscription/02-view-subscription/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/02-notification-subscription/02-view-subscription/</guid>
+      <description>This section describes how to view notification subscriptions.
+ Prerequisites   You need to have the platform-admin role in the KubeSphere platform. For more information, refer to Users and Platform Roles.
+  The WizTelemetry Notification extension needs to be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.</description>
+    </item>
+    
+    <item>
+      <title>Edit Notification Subscription</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/02-notification-subscription/03-edit-subscription/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/02-notification-subscription/03-edit-subscription/</guid>
+      <description>This section describes how to edit a notification subscription.
+ Prerequisites   You need to have the platform-admin role in the KubeSphere platform. For more information, please refer to Users and Platform Roles.
+  The KubeSphere platform needs to have the WizTelemetry Notification extension installed and enabled.
+     Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.</description>
+    </item>
+    
+    <item>
+      <title>Delete Notification Subscriptions</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/02-notification-subscription/04-delete-subscription/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/02-notification-subscription/04-delete-subscription/</guid>
+      <description>This section describes how to delete notification subscriptions.
+ Prerequisites   You need to have the platform-admin role in the KubeSphere platform. For more information, refer to Users and Platform Roles.
+  The WizTelemetry Notification extension must be installed and enabled on the KubeSphere platform.
+     Delete a Single Notification Subscription  Log in to the KubeSphere web console with a user who has the platform-admin role.</description>
+    </item>
+    
+  </channel>
+</rss>

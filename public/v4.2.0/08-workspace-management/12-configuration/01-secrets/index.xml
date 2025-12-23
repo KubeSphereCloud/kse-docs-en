@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Secrets on KubeSphere</title>
+    <link>/v4.2.0/08-workspace-management/12-configuration/01-secrets/</link>
+    <description>Recent content in Secrets on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/08-workspace-management/12-configuration/01-secrets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a Secret</title>
+      <link>/v4.2.0/08-workspace-management/12-configuration/01-secrets/01-create-a-secret/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/12-configuration/01-secrets/01-create-a-secret/</guid>
+      <description>This section describes how to create a Secret.
+ Prerequisites You need to join a project and have the Secret Management permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Secret Management permissions and enter your workspace.
+  Click Configuration &amp;gt; Secrets in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Secret List</title>
+      <link>/v4.2.0/08-workspace-management/12-configuration/01-secrets/02-view-a-secret-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/12-configuration/01-secrets/02-view-a-secret-list/</guid>
+      <description>This section describes how to view the Secret list.
+ Prerequisites You need to join a project and have the Secret View permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Secret View permissions and enter your workspace.
+  Click Configuration &amp;gt; Secrets in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Secret Details</title>
+      <link>/v4.2.0/08-workspace-management/12-configuration/01-secrets/03-view-secret-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/12-configuration/01-secrets/03-view-secret-details/</guid>
+      <description>This section describes how to view Secret details.
+ Prerequisites You need to join a project and have the Secret View permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Secret View permissions and enter your workspace.
+  Click Configuration &amp;gt; Secret in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Edit Secret Information</title>
+      <link>/v4.2.0/08-workspace-management/12-configuration/01-secrets/04-edit-secret-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/12-configuration/01-secrets/04-edit-secret-information/</guid>
+      <description>This section describes how to edit Secret information.
+ You can edit the alias and description of a Secret. KubeSphere does not support editing the name of a Secret.
+ Prerequisites You need to join a project and have the Secret Management permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Secret Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Edit Secret Settings</title>
+      <link>/v4.2.0/08-workspace-management/12-configuration/01-secrets/05-edit-secret-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/12-configuration/01-secrets/05-edit-secret-settings/</guid>
+      <description>This section describes how to edit the settings of a Secret.
+ You can edit the data of a Secret. KubeSphere does not support editing the type of a Secret.
+ Prerequisites You need to join a project and have the Secret Management permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Secret Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Delete Secret</title>
+      <link>/v4.2.0/08-workspace-management/12-configuration/01-secrets/06-delete-secrets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/12-configuration/01-secrets/06-delete-secrets/</guid>
+      <description>This section describes how to delete a Secret.
+     Warning     A Secret cannot be recovered after deletion. Please perform this operation with caution.
+    Prerequisites You need to join a project and have the Secret Management permission in the project. For more information, see Project Members and Project Roles.
+   Delete a Single Secret  Log in to the KubeSphere web console with a user who has Secret Management permissions and enter your workspace.</description>
+    </item>
+    
+  </channel>
+</rss>

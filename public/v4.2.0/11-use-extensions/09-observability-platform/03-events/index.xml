@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WizTelemetry Events on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/09-observability-platform/03-events/</link>
+    <description>Recent content in WizTelemetry Events on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/09-observability-platform/03-events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Query Resource Events</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/03-events/01-use-event-query-tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/03-events/01-use-event-query-tools/</guid>
+      <description>This section describes how to query resource events.
+ Resource events: Events for various resources such as application workloads, Jobs, pods, Services, Ingresses, etc.
+ KubeSphere supports querying resource events within a user’s permission scope, whether as a regular user or a cluster administrator.
+ Query Events as a Regular User Prerequisites The WizTelemetry Events extension must be installed and enabled on the KubeSphere platform.
+  Query Resource Events  Log in to the KubeSphere web console.</description>
+    </item>
+    
+  </channel>
+</rss>

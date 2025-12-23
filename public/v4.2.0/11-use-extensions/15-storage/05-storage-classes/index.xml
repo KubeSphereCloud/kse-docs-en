@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Storage Classes on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/15-storage/05-storage-classes/</link>
+    <description>Recent content in Storage Classes on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/15-storage/05-storage-classes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Set Authorization Rules</title>
+      <link>/v4.2.0/11-use-extensions/15-storage/05-storage-classes/01-set-authorization-rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/15-storage/05-storage-classes/01-set-authorization-rules/</guid>
+      <description>This section describes how to set authorization rules for storage classes.
+ After setting and enabling authorization rules, users can only use the storage class within specific projects and workspaces.
+ Prerequisites   The KubeSphere Storage extension needs to be installed and enabled on the KubeSphere platform.
+      You need to join a cluster and have the Storage Class Access Rule Management permission in the cluster.</description>
+    </item>
+    
+    <item>
+      <title>Set Volume Auto-Expansion</title>
+      <link>/v4.2.0/11-use-extensions/15-storage/05-storage-classes/02-set-auto-expansion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/15-storage/05-storage-classes/02-set-auto-expansion/</guid>
+      <description>This section describes how to set volume auto-expansion.
+ Volume capacity auto-expansion refers to the system automatically expanding the volume capacity when the remaining space of the volume falls below a threshold.
+ Prerequisites   The KubeSphere Storage extension must be installed and enabled on the KubeSphere platform.
+      You need to join a cluster and have the Storage Class Management permission in the cluster.</description>
+    </item>
+    
+  </channel>
+</rss>

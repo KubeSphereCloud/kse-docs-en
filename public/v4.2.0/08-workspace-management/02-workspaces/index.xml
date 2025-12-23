@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manage Workspaces on KubeSphere</title>
+    <link>/v4.2.0/08-workspace-management/02-workspaces/</link>
+    <description>Recent content in Manage Workspaces on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/08-workspace-management/02-workspaces/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Workspace</title>
+      <link>/v4.2.0/08-workspace-management/02-workspaces/01-create-a-workspace/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/02-workspaces/01-create-a-workspace/</guid>
+      <description>This section describes how to create a workspace.
+ Prerequisites You need to have the a,q[**Workspace Creation**] permission on the KubeSphere platform.
+   Steps  Log in to the KubeSphere web console as a user with Workspace Creation permissions.
+  Click Workspace Management.
+  On the page, click Create.
+  On the Create Workspace page, set the basic information for the workspace, then click Next.</description>
+    </item>
+    
+    <item>
+      <title>View Workspace List</title>
+      <link>/v4.2.0/08-workspace-management/02-workspaces/02-view-a-workspace-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/02-workspaces/02-view-a-workspace-list/</guid>
+      <description>This section describes how to view the workspace list.
+ Prerequisites You need to have the Workspace Viewing permission on the KubeSphere platform.
+   Steps  Log in to the KubeSphere web console as a user with Workspace Viewing permissions.
+  Click Workspace Management. The workspace list displays all workspaces on the current platform.
+  In the workspace list, click the name of a workspace to enter it and view and manage resources within the workspace.</description>
+    </item>
+    
+    <item>
+      <title>Edit Workspace Information</title>
+      <link>/v4.2.0/08-workspace-management/02-workspaces/03-edit-workspace-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/02-workspaces/03-edit-workspace-information/</guid>
+      <description>This section describes how to edit workspace information.
+ You can edit the alias and description of a workspace. KubeSphere does not support editing the name of a created workspace.
+ Prerequisites You need to have the Workspace Management permission on the KubeSphere platform.
+   Steps  Log in to the KubeSphere web console as a user with Workspace Management permissions.
+  Click Workspace Management.
+  On the right side of the workspace you want to operate, click , and then select Edit Information from the drop-down list.</description>
+    </item>
+    
+    <item>
+      <title>Delete Workspace</title>
+      <link>/v4.2.0/08-workspace-management/02-workspaces/04-delete-workspaces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/02-workspaces/04-delete-workspaces/</guid>
+      <description>This section describes how to delete a workspace.
+     Note     The system workspace system-workspace cannot be deleted.
+        Warning     The deleted workspace cannot be recovered. If you choose to delete the projects in the workspace simultaneously, all projects in the workspace and all resources in them will also be deleted. Perform this operation with caution.</description>
+    </item>
+    
+  </channel>
+</rss>

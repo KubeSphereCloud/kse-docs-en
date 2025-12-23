@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project Members on KubeSphere</title>
+    <link>/v4.2.0/08-workspace-management/08-projects/03-project-members/</link>
+    <description>Recent content in Project Members on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/08-workspace-management/08-projects/03-project-members/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Invite Users to a Project</title>
+      <link>/v4.2.0/08-workspace-management/08-projects/03-project-members/01-invite-a-user-to-a-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/08-projects/03-project-members/01-invite-a-user-to-a-project/</guid>
+      <description>This section describes how to invite users to a project.
+ Prerequisites    You need to join a project and have the Member Management permission in the project. For more information, see Project Members and Project Roles.
+     The user to be invited must first join the workspace to which the project belongs.
+     Steps  Log in to the KubeSphere web console with a user who has Member Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>View Project Member List</title>
+      <link>/v4.2.0/08-workspace-management/08-projects/03-project-members/02-view-a-project-member-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/08-projects/03-project-members/02-view-a-project-member-list/</guid>
+      <description>This section describes how to view the project member list.
+ Prerequisites You need to join a project and have the Member View permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Member View permissions and enter your workspace.
+  Click Project Management &amp;gt; Project Members in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Modify Project Member Roles</title>
+      <link>/v4.2.0/08-workspace-management/08-projects/03-project-members/03-change-the-role-of-a-project-member/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/08-projects/03-project-members/03-change-the-role-of-a-project-member/</guid>
+      <description>This section describes how to modify the roles of project members.
+ Prerequisites You need to join a project and have the Member Management permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Member Management permissions and enter your workspace.
+  Click Project Management &amp;gt; Project Members in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Remove Project Members</title>
+      <link>/v4.2.0/08-workspace-management/08-projects/03-project-members/04-remove-a-project-member/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/08-projects/03-project-members/04-remove-a-project-member/</guid>
+      <description>This section describes how to remove project members.
+     Note     After a user is removed from a project, they will lose the permissions granted by the project role.
+    Prerequisites You need to join a project and have the Member View permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Member View permissions and enter your workspace.</description>
+    </item>
+    
+  </channel>
+</rss>

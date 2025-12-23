@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basic Information on KubeSphere</title>
+    <link>/v4.2.0/07-cluster-management/09-cluster-settings/01-basic-information/</link>
+    <description>Recent content in Basic Information on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/07-cluster-management/09-cluster-settings/01-basic-information/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>View Cluster Basic Information</title>
+      <link>/v4.2.0/07-cluster-management/09-cluster-settings/01-basic-information/01-view-cluster-basic-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/09-cluster-settings/01-basic-information/01-view-cluster-basic-information/</guid>
+      <description>This section describes how to view cluster basic information.
+ Prerequisites You need to join a cluster and have the Cluster Settings View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Cluster Settings View permissions and enter your cluster.
+  Click Cluster Settings &amp;gt; Basic Information in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Edit Cluster Basic Information</title>
+      <link>/v4.2.0/07-cluster-management/09-cluster-settings/01-basic-information/02-edit-cluster-basic-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/09-cluster-settings/01-basic-information/02-edit-cluster-basic-information/</guid>
+      <description>This section describes how to edit cluster basic information.
+     Note     KubeSphere does not support modifying the name of an already added cluster.
+    Prerequisites You need to join a cluster and have the Cluster Settings Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Cluster Settings Management permissions and enter your cluster.</description>
+    </item>
+    
+  </channel>
+</rss>

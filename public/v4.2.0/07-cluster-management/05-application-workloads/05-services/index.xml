@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Services on KubeSphere</title>
+    <link>/v4.2.0/07-cluster-management/05-application-workloads/05-services/</link>
+    <description>Recent content in Services on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/07-cluster-management/05-application-workloads/05-services/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a Service</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/05-services/01-create-a-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/05-services/01-create-a-service/</guid>
+      <description>This section describes how to create a Service.
+ Prerequisites You need to join a cluster and have the Application Workload Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workload Management permissions and enter your cluster.
+  Click Application Workloads &amp;gt; Services in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Service List</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/05-services/02-view-a-service-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/05-services/02-view-a-service-list/</guid>
+      <description>This section describes how to view the service list.
+ Prerequisites You need to join a cluster and have the Application Workloads View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workloads View permissions and enter your cluster.
+  Click Application Workloads &amp;gt; Services in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Service Details</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/05-services/03-view-service-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/05-services/03-view-service-details/</guid>
+      <description>This section describes how to view service details.
+ Prerequisites You need to join a cluster and have the Application Workloads View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workloads View permissions and enter your cluster.
+  Click Application Workloads &amp;gt; Service in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Edit Service Information</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/05-services/04-edit-service-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/05-services/04-edit-service-information/</guid>
+      <description>This section describes how to edit Job information.
+ You can edit the alias and description of a Job. KubeSphere does not support editing the name of a created Job.
+ Prerequisites You need to join a cluster and have the Application Workload Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workload Management permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Edit Service Settings</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/05-services/05-edit-service-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/05-services/05-edit-service-settings/</guid>
+      <description>This section describes how to edit Job settings.
+ Prerequisites You need to join a cluster and have the Application Workload Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workload Management permissions and enter your cluster.
+  Click Application Workloads &amp;gt; Service in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Edit Service External Access Settings</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/05-services/06-edit-service-external-access-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/05-services/06-edit-service-external-access-settings/</guid>
+      <description>This section describes how to edit the service external access settings.
+     Note     This operation is only supported for services with the internal access mode set to VirtualIP. It is not supported for services with the internal access modes Headless or ExternalName.
+    Prerequisites You need to join a cluster and have the Application Workload Management permission in the cluster.</description>
+    </item>
+    
+    <item>
+      <title>Delete Services</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/05-services/08-delete-services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/05-services/08-delete-services/</guid>
+      <description>This section describes how to delete a service.
+     Warning     After deleting the service, you will not be able to access the pods behind it. Please perform this operation with caution.
+    Prerequisites You need to join a cluster and have the Application Workload Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.</description>
+    </item>
+    
+  </channel>
+</rss>

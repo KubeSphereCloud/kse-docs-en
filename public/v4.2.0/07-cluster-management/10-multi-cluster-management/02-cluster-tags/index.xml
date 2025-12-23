@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cluster Labels on KubeSphere</title>
+    <link>/v4.2.0/07-cluster-management/10-multi-cluster-management/02-cluster-tags/</link>
+    <description>Recent content in Cluster Labels on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/07-cluster-management/10-multi-cluster-management/02-cluster-tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Cluster Labels</title>
+      <link>/v4.2.0/07-cluster-management/10-multi-cluster-management/02-cluster-tags/01-create-a-cluster-tag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/10-multi-cluster-management/02-cluster-tags/01-create-a-cluster-tag/</guid>
+      <description>This section describes how to create cluster labels.
+ Prerequisites You need to have the Cluster Management permission on the KubeSphere platform.
+   Steps  Log in to the KubeSphere web console as a user with Cluster Management permissions.
+  Click Cluster Management.
+  On the Cluster Management page, click the Label Management tab to open the cluster label list.
+  Click Create on the page.</description>
+    </item>
+    
+    <item>
+      <title>Edit Cluster Labels</title>
+      <link>/v4.2.0/07-cluster-management/10-multi-cluster-management/02-cluster-tags/02-edit-a-cluster-tag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/10-multi-cluster-management/02-cluster-tags/02-edit-a-cluster-tag/</guid>
+      <description>This section describes how to edit cluster labels.
+ Prerequisites You need to have the Cluster Management permission on the KubeSphere platform.
+   Steps  Log in to the KubeSphere web console as a user with Cluster Management permissions.
+  Click Cluster Management.
+  On the Cluster Management page, click the Label Management tab to open the cluster label list.
+  To the right of the label you want to edit, click , and then select Edit from the drop-down list.</description>
+    </item>
+    
+    <item>
+      <title>Add Labels to Clusters</title>
+      <link>/v4.2.0/07-cluster-management/10-multi-cluster-management/02-cluster-tags/03-add-a-tag-to-clusters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/10-multi-cluster-management/02-cluster-tags/03-add-a-tag-to-clusters/</guid>
+      <description>This section describes how to add labels to clusters.
+ Prerequisites You need to have the Cluster Management permission on the KubeSphere platform.
+   Steps  Log in to the KubeSphere web console as a user with Cluster Management permissions.
+  Click Cluster Management.
+  On the Cluster Management page, click the Label Management tab to open the cluster label list.
+  To the right of the label you want to add to a cluster, click , then select Add to Cluster from the dropdown list.</description>
+    </item>
+    
+    <item>
+      <title>Remove Labels from Clusters</title>
+      <link>/v4.2.0/07-cluster-management/10-multi-cluster-management/02-cluster-tags/04-remove-a-tag-from-clusters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/10-multi-cluster-management/02-cluster-tags/04-remove-a-tag-from-clusters/</guid>
+      <description>This section describes how to remove labels from clusters.
+ Prerequisites You need to have the Cluster Management permission on the KubeSphere platform.
+   Steps  Log in to the KubeSphere web console as a user with Cluster Management permissions.
+  Click Cluster Management.
+  On the Cluster Management page, click the Label Management tab to open the cluster label list.
+  To the right of the label you want to remove from clusters, click , and then select Remove from Clusters from the drop-down list.</description>
+    </item>
+    
+    <item>
+      <title>Delete Cluster Labels</title>
+      <link>/v4.2.0/07-cluster-management/10-multi-cluster-management/02-cluster-tags/05-delete-cluster-tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/10-multi-cluster-management/02-cluster-tags/05-delete-cluster-tags/</guid>
+      <description>This section describes how to delete cluster labels.
+     Note     If a label has been added to a cluster, it will be removed from the cluster after deletion.
+    Prerequisites You need to have the Cluster Management permission on the KubeSphere platform.
+   Delete a Single Label  Log in to the KubeSphere web console as a user with Cluster Management permissions.</description>
+    </item>
+    
+  </channel>
+</rss>

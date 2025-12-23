@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grafana for WizTelemetry on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/09-observability-platform/16-grafana/</link>
+    <description>Recent content in Grafana for WizTelemetry on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/09-observability-platform/16-grafana/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>View Built-in Dashboards</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/16-grafana/01-built-in-dashboards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/16-grafana/01-built-in-dashboards/</guid>
+      <description>The Grafana for WizTelemetry extension includes multiple built-in Grafana Dashboard templates. These allow you to directly query monitoring data for Kubernetes and KubeSphere without needing to configure Grafana Dashboards yourself.
+ Steps  After logging into the Grafana console, click Dashboards in the left navigation pane to view all built-in Dashboard templates. This includes directories such as kube-prometheus-stack, whizard-loki, whizard-monitoring, etc.
+    Directory Template Description     kube-prometheus-stack</description>
+    </item>
+    
+    <item>
+      <title>Add Data Sources</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/16-grafana/05-add-data-source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/16-grafana/05-add-data-source/</guid>
+      <description>This section briefly describes how to add, configure, and query data sources. For more information, please refer to Grafana data sources.
+ Before creating a Dashboard, you must first add a data source. The Grafana for WizTelemetry extension automatically adds the Prometheus server address as a data source by default. You can also add your own data sources, such as Loki, Elasticsearch, InfluxDB, PostgreSQL, MySQL, etc.
+ After adding a data source, you can:</description>
+    </item>
+    
+    <item>
+      <title>Create Dashboard</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/16-grafana/07-create-dashboards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/16-grafana/07-create-dashboards/</guid>
+      <description>After adding a data source, create a Dashboard to visualize the data from the data source.
+ A Dashboard consists of one or more Panels, organized and arranged in rows. Panels display visualizations and provide various control options.
+ This section briefly introduces how to create a Dashboard. For more information, please refer to Grafana dashboards.
+ Steps  In the Grafana console, click Dashboards in the left navigation pane.</description>
+    </item>
+    
+  </channel>
+</rss>

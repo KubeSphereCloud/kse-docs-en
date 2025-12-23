@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Global Monitoring on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/</link>
+    <description>Recent content in Global Monitoring on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Global Overview</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/01-view-monitoring-data-of-multiple-clusters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/01-view-monitoring-data-of-multiple-clusters/</guid>
+      <description>This section describes how to view monitoring overview information for multiple clusters.
+ Prerequisites   You need to have the platform-admin role in the KubeSphere platform. For more information, see Users and Platform Roles.
+  The host cluster and the member clusters to be monitored need to have WizTelemetry Global Monitoring enabled.
+    Note     If a member cluster does not have WizTelemetry Global Monitoring enabled, WizTelemetry Global Monitoring will not be able to obtain data from that member cluster.</description>
+    </item>
+    
+    <item>
+      <title>Configure Extension</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/02-set-alert-components/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/02-set-alert-components/</guid>
+      <description>This section describes how to configure the WizTelemetry Global Monitoring extension.
+ Prerequisites You need to have the platform-admin role in the KubeSphere platform. For more information, refer to Users and Platform Roles.
+   Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.
+  In the upper right corner of the page, click the  icon and select WizTelemetry Observability Platform.</description>
+    </item>
+    
+    <item>
+      <title>View Cluster Key Metrics Ranking</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/04-cluster-monitoring-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/04-cluster-monitoring-list/</guid>
+      <description>This section describes how to sort clusters based on multi-dimensional monitoring metrics.
+ Prerequisites   You need to have the platform-admin role in the KubeSphere platform. For more information, refer to Users and Platform Roles.
+  The host cluster and the member clusters to be monitored need to have WizTelemetry Global Monitoring enabled.
+    Note     If a member cluster does not have WizTelemetry Global Monitoring enabled, WizTelemetry Global Monitoring will not be able to retrieve data from that member cluster.</description>
+    </item>
+    
+    <item>
+      <title>View Cluster Monitoring Details</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/05-cluster-monitoring-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/05-cluster-monitoring-details/</guid>
+      <description>This section describes how to view the monitoring details of a single cluster.
+ Prerequisites   You need to have the platform-admin role on the KubeSphere platform. For more information, refer to Users and Platform Roles.
+  The host cluster and the member clusters to be monitored need to have WizTelemetry Global Monitoring enabled.
+    Note     If a member cluster does not have WizTelemetry Global Monitoring enabled, WizTelemetry Global Monitoring will not be able to retrieve data from that member cluster.</description>
+    </item>
+    
+    <item>
+      <title>View Node Key Metrics Ranking</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/06-node-monitoring-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/06-node-monitoring-list/</guid>
+      <description>This section describes how to sort nodes based on multi-dimensional monitoring metrics.
+ Prerequisites You need to have the platform-admin role in the KubeSphere platform. For more information, please refer to Users and Platform Roles.
+   Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.
+  In the upper right corner of the page, click the  icon and select WizTelemetry Observability Platform.</description>
+    </item>
+    
+    <item>
+      <title>View Node Monitoring Details</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/07-node-monitoring-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/07-node-monitoring-details/</guid>
+      <description>This section describes how to view the monitoring details of a single node.
+ Prerequisites You need to have the platform-admin role on the KubeSphere platform. For more information, see Users and Platform Roles.
+   Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.
+  In the upper right corner of the page, click the  icon and select WizTelemetry Observability Platform.</description>
+    </item>
+    
+    <item>
+      <title>View Workspace Key Metrics Ranking</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/08-ws-monitoring-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/08-ws-monitoring-list/</guid>
+      <description>This section describes how to sort workspaces based on multi-dimensional monitoring metrics.
+ Prerequisites You need to have the platform-admin role in the KubeSphere platform. For more information, refer to Users and Platform Roles.
+   Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.
+  In the upper right corner of the page, click the  icon and select WizTelemetry Observability Platform.</description>
+    </item>
+    
+    <item>
+      <title>View Workspace Monitoring Details</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/09-ws-monitoring-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/09-ws-monitoring-details/</guid>
+      <description>This section describes how to view the monitoring details of a single workspace.
+ Prerequisites You need to have the platform-admin role in the KubeSphere platform. For more information, refer to Users and Platform Roles.
+   Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.
+  In the upper right corner of the page, click the  icon and select WizTelemetry Observability Platform.</description>
+    </item>
+    
+    <item>
+      <title>View Project Key Metrics Ranking</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/10-project-monitoring-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/10-project-monitoring-list/</guid>
+      <description>This section introduces how to sort projects based on multi-dimensional monitoring metrics.
+ Prerequisites You need to have the platform-admin role in the KubeSphere platform. For more information, refer to Users and Platform Roles.
+   Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.
+  In the upper right corner of the page, click the  icon and select WizTelemetry Observability Platform.</description>
+    </item>
+    
+    <item>
+      <title>View Project Monitoring Details</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/11-project-monitoring-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/11-project-monitoring-details/</guid>
+      <description>This section describes how to view the monitoring details of a single project.
+ Prerequisites You need to have the platform-admin role on the KubeSphere platform. For more information, please refer to Users and Platform Roles.
+   Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.
+  In the upper right corner of the page, click the  icon and select WizTelemetry Observability Platform.</description>
+    </item>
+    
+    <item>
+      <title>View Pod Key Metrics Ranking</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/12-pod-monitoring-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/12-pod-monitoring-list/</guid>
+      <description>This section describes how to sort pods based on multi-dimensional monitoring metrics.
+ Prerequisites You need to have the platform-admin role in the KubeSphere platform. For more information, refer to Users and Platform Roles.
+   Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.
+  In the upper right corner of the page, click the  icon and select WizTelemetry Observability Platform.</description>
+    </item>
+    
+    <item>
+      <title>View Pod Monitoring Details</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/13-pod-monitoring-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/03-resource-monitoring/13-pod-monitoring-details/</guid>
+      <description>This section describes how to view the monitoring details of a single pod.
+ Prerequisites You need to have the platform-admin role in the KubeSphere platform. For more information, refer to Users and Platform Roles.
+   Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.
+  In the upper right corner of the page, click the  icon and select WizTelemetry Observability Platform.</description>
+    </item>
+    
+  </channel>
+</rss>

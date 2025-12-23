@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>User Notification Settings on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/05-users-notification/</link>
+    <description>Recent content in User Notification Settings on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/05-users-notification/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Set Email Notification</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/05-users-notification/01-set-email-notification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/05-users-notification/01-set-email-notification/</guid>
+      <description>This section describes how to set up email notification.
+ Prerequisites The WizTelemetry Notification extension needs to be installed and enabled on the KubeSphere platform.
+   Steps  Log in to the KubeSphere web console.
+  In the upper-right corner of the page, click the current username, and then select Notification Settings from the drop-down list.
+  On the Notification Settings page, on the Email tab, set the email notification parameters, and then click OK.</description>
+    </item>
+    
+    <item>
+      <title>Configure Feishu Notification</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/05-users-notification/02-set-feishu-notification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/05-users-notification/02-set-feishu-notification/</guid>
+      <description>This section describes how to configure Feishu notification.
+ The Feishu notification feature supports sending notifications to users in the following two ways:
+   Session Settings: Use a Feishu app to send notifications to specific users or departments.
+  Group Bot Settings: Use a Feishu bot to send notifications to specific group chats.
+   Prerequisites   The KubeSphere platform needs to have the WizTelemetry Notification extension installed and enabled.</description>
+    </item>
+    
+    <item>
+      <title>Set DingTalk Notifications</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/05-users-notification/03-set-dingtalk-notification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/05-users-notification/03-set-dingtalk-notification/</guid>
+      <description>This section describes how to set DingTalk notifications.
+ The DingTalk notification function supports sending notifications to users in the following two ways:
+   Chat Settings: Use a DingTalk application to send notifications to specific users or departments.
+  Group Robot Settings: Use a DingTalk robot to send notifications to specific group chats.
+   Prerequisites   The WizTelemetry Notification extension must be installed and enabled on the KubeSphere platform.</description>
+    </item>
+    
+    <item>
+      <title>Configure WeCom Notification</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/05-users-notification/04-set-wecom-notification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/05-users-notification/04-set-wecom-notification/</guid>
+      <description>This section describes how to configure WeCom notification. After configuration, you can receive notification messages via WeCom sessions or group bots.
+ Prerequisites   The WizTelemetry Notification extension must be installed and enabled on the KubeSphere platform.
+  You need to obtain the access parameters for the application or group bot from the WeCom platform in advance. For more information, refer to the WeCom Developer Documentation.
+     Steps  Log in to the KubeSphere web console.</description>
+    </item>
+    
+    <item>
+      <title>Set Slack Notifications</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/05-users-notification/05-set-slack-notification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/05-users-notification/05-set-slack-notification/</guid>
+      <description>This section describes how to set up Slack notifications.
+ Prerequisites   The WizTelemetry Notification extension must be installed and enabled on the KubeSphere platform.
+  You need to obtain the application access parameters from the Slack platform in advance. For more information, refer to the Slack Developer Documentation.
+     Steps  Log in to the KubeSphere web console.
+  In the upper right corner of the page, click the current username, and then select Notification Settings from the dropdown list.</description>
+    </item>
+    
+    <item>
+      <title>Set Webhook Notification</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/05-users-notification/06-set-webhook-notification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/05-users-notification/06-set-webhook-notification/</guid>
+      <description>This section describes how to set up Webhook notification.
+ Prerequisites   The KubeSphere platform requires the WizTelemetry Notification extension to be installed and enabled.
+  You need to obtain the access parameters for the Webhook in advance. For more information, please contact your Webhook administrator.
+     Steps  Log in to the KubeSphere web console.
+  Click the current username in the upper-right corner of the page, then select Notification Settings from the dropdown list.</description>
+    </item>
+    
+  </channel>
+</rss>

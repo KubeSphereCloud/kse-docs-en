@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Glossary on KubeSphere</title>
+    <link>/v4.2.0/25-glossary/</link>
+    <description>Recent content in Glossary on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/25-glossary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Glossary</title>
+      <link>/v4.2.0/25-glossary/glossary-final/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/25-glossary/glossary-final/</guid>
+      <description>General Terms     Term Description     Cluster
+ A cluster is a larger computer service system composed of a group of independent computers or servers.
+   Node
+ A node is each working machine that makes up a cluster, which can be a virtual machine or a physical machine. Each node can operate and process tasks independently.
+   Workspace</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>App Repository on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/04-app-repositories/</link>
+    <description>Recent content in App Repository on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/04-app-repositories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add Application Repository</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/04-app-repositories/01-add-an-app-repository/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/04-app-repositories/01-add-an-app-repository/</guid>
+      <description>This section describes how to add an application repository to the KubeSphere platform. The application repository added here is a system repository.
+ Prerequisites    You need to have the App Store Management permission on the KubeSphere platform. For more information, see Users and Platform Roles.
+     The KubeSphere App Store Management extension must be installed and enabled on the KubeSphere platform.
+  A Helm Chart repository must be created in advance.</description>
+    </item>
+    
+    <item>
+      <title>View App Repository List</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/04-app-repositories/02-view-an-app-repository-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/04-app-repositories/02-view-an-app-repository-list/</guid>
+      <description>This section describes how to view the app repository list in &amp;#34;App Store Management&amp;#34;.
+ Prerequisites    You need to have the App Store Management permission on the KubeSphere platform. For more information, see Users and Platform Roles.
+     The KubeSphere App Store Management extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console as a user with App Store Management permissions.</description>
+    </item>
+    
+    <item>
+      <title>Edit App Repository</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/04-app-repositories/03-edit-an-app-repository/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/04-app-repositories/03-edit-an-app-repository/</guid>
+      <description>This section describes how to edit an app repository.
+ Prerequisites    You need to have the App Store Management permission on the KubeSphere platform. For more information, see Users and Platform Roles.
+     The KubeSphere App Store Management extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console as a user with App Store Management permissions.</description>
+    </item>
+    
+    <item>
+      <title>Delete App Repository</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/04-app-repositories/05-delete-an-app-repository/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/04-app-repositories/05-delete-an-app-repository/</guid>
+      <description>This section describes how to delete an app repository.
+     Warning     Once an app repository is deleted, users cannot install applications from it. Please perform this operation with caution.
+    Prerequisites    You need to have the App Store Management permission on the KubeSphere platform. For more information, see Users and Platform Roles.
+     The KubeSphere App Store Management extension must be installed and enabled on the KubeSphere platform.</description>
+    </item>
+    
+  </channel>
+</rss>

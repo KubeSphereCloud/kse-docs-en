@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cluster Gateway on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/12-gateway/03-cluster-gateway/</link>
+    <description>Recent content in Cluster Gateway on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/12-gateway/03-cluster-gateway/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enable Cluster Gateway</title>
+      <link>/v4.2.0/11-use-extensions/12-gateway/03-cluster-gateway/01-enable-a-cluster-gateway/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/12-gateway/03-cluster-gateway/01-enable-a-cluster-gateway/</guid>
+      <description>This section describes how to enable the cluster gateway.
+ Prerequisites   The KubeSphere Gateway extension must be installed and enabled on the KubeSphere platform.
+      You need to join a cluster and have the  cluster-admin  permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     Steps  Log in to the KubeSphere web console with a user who has  cluster-admin  permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>View Gateway Information</title>
+      <link>/v4.2.0/11-use-extensions/12-gateway/03-cluster-gateway/02-view-gateway-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/12-gateway/03-cluster-gateway/02-view-gateway-information/</guid>
+      <description>This section describes how to view gateway information.
+ Prerequisites   The KubeSphere Gateway extension must be installed and enabled on the KubeSphere platform.
+      You need to join a cluster and have the  cluster-admin  permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     Steps  Log in to the KubeSphere web console with a user who has  cluster-admin  permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>View Cluster Gateway Details</title>
+      <link>/v4.2.0/11-use-extensions/12-gateway/03-cluster-gateway/03-view-cluster-gateway-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/12-gateway/03-cluster-gateway/03-view-cluster-gateway-details/</guid>
+      <description>This section describes how to view cluster gateway details.
+ Prerequisites   The KubeSphere Gateway extension must be installed and enabled on the KubeSphere platform.
+      You need to join a cluster and have the  cluster-admin  permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     Steps  Log in to the KubeSphere web console with a user who has  cluster-admin  permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Edit Cluster Gateway Settings</title>
+      <link>/v4.2.0/11-use-extensions/12-gateway/03-cluster-gateway/04-edit-cluster-gateway-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/12-gateway/03-cluster-gateway/04-edit-cluster-gateway-settings/</guid>
+      <description>This section describes how to edit cluster gateway settings.
+ Prerequisites   The KubeSphere Gateway extension must be installed and enabled on the KubeSphere platform.
+      You need to join a cluster and have the  cluster-admin  permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     Steps  Log in to the KubeSphere web console with a user who has  cluster-admin  permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Disable Cluster Gateway</title>
+      <link>/v4.2.0/11-use-extensions/12-gateway/03-cluster-gateway/05-disable-a-cluster-gateway/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/12-gateway/03-cluster-gateway/05-disable-a-cluster-gateway/</guid>
+      <description>This section introduces how to disable the cluster gateway.
+     Warning     After the gateway is disabled, clients will be unable to access services reverse-proxied by the gateway, which may interrupt related business operations. Please perform this operation with caution.
+    Prerequisites   The KubeSphere Gateway extension must be installed and enabled on the KubeSphere platform.
+      You need to join a cluster and have the  cluster-admin  permission in the cluster.</description>
+    </item>
+    
+    <item>
+      <title>Appendix: Solution for No Data in Member Cluster Gateway Logs</title>
+      <link>/v4.2.0/11-use-extensions/12-gateway/03-cluster-gateway/07-issue-no-gateway-log-in-member/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/12-gateway/03-cluster-gateway/07-issue-no-gateway-log-in-member/</guid>
+      <description>If the Gateway Logs tab on the Cluster Gateway details page of a member cluster does not display data, you can use the following method to resolve it.
+  Enable NodePort access mode for the whizard-telemetry-apiserver service on the host cluster.
+ Under the Application Workloads menu of the host cluster, click Services to enter the Services page.
+  Search for the service whizard-telemetry-apiserver, click  &amp;gt; Edit External Access.</description>
+    </item>
+    
+  </channel>
+</rss>

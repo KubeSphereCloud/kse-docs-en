@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project Quotas on KubeSphere</title>
+    <link>/v4.2.0/08-workspace-management/08-projects/05-project-quotas/</link>
+    <description>Recent content in Project Quotas on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/08-workspace-management/08-projects/05-project-quotas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Edit Default Container Quotas</title>
+      <link>/v4.2.0/08-workspace-management/08-projects/05-project-quotas/01-edit-default-container-quotas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/08-projects/05-project-quotas/01-edit-default-container-quotas/</guid>
+      <description>This section describes how to edit the default container quota.
+ The default container quota is the default value for resource reservations and resource limits for containers in a project. When creating a container in a project, if the user does not specify resource reservations and resource limits, the KubeSphere system will automatically use the default container quota.
+ The default container quota includes two types of settings:
+   Resource Reservation: The resources reserved by the system for the container.</description>
+    </item>
+    
+    <item>
+      <title>Edit Project Quotas</title>
+      <link>/v4.2.0/08-workspace-management/08-projects/05-project-quotas/02-edit-project-quotas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/08-projects/05-project-quotas/02-edit-project-quotas/</guid>
+      <description>This section describes how to edit project quotas.
+ Prerequisites You need to join a project and have the Project Settings Management permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Project Settings Management permissions and enter your workspace.
+  Click Project Management &amp;gt; Project Quotas in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Project Quota</title>
+      <link>/v4.2.0/08-workspace-management/08-projects/05-project-quotas/03-view-project-quotas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/08-projects/05-project-quotas/03-view-project-quotas/</guid>
+      <description>This section describes how to view project quota.
+ Prerequisites You need to join a project and have the Project Settings View permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Project Settings View permissions and enter your workspace.
+  Click Project Management &amp;gt; Project Quota in the left navigation pane.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basic Information on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/07-kubefed/06-project-settings/01-basic-information/</link>
+    <description>Recent content in Basic Information on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/07-kubefed/06-project-settings/01-basic-information/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>View Project Basic Information</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/06-project-settings/01-basic-information/01-view-project-basic-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/06-project-settings/01-basic-information/01-view-project-basic-information/</guid>
+      <description>This section describes how to view project basic information.
+ Prerequisites   The Application Management for Cluster Federation extension must be installed and enabled on the KubeSphere platform.
+   You need to join a federated project and have the Federated Project View permission in the corresponding workspace.
+     Steps  Log in to the KubeSphere web console as a user with Federated Project View permissions and enter your federated project.</description>
+    </item>
+    
+    <item>
+      <title>Edit Project Information</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/06-project-settings/01-basic-information/02-edit-project-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/06-project-settings/01-basic-information/02-edit-project-information/</guid>
+      <description>This section describes how to edit basic project information.
+ You can edit the alias and description of a project. KubeSphere does not support editing the name of a created project.
+ Prerequisites   The Application Management for Cluster Federation extension must be installed and enabled on the KubeSphere platform.
+   You need to join a federated project and have the Federated Project Management permission in the corresponding workspace.</description>
+    </item>
+    
+    <item>
+      <title>Edit Project Annotations</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/06-project-settings/01-basic-information/03-edit-annotation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/06-project-settings/01-basic-information/03-edit-annotation/</guid>
+      <description>This section describes how to edit project annotations.
+ Prerequisites   The Application Management for Cluster Federation extension must be installed and enabled on the KubeSphere platform.
+   You need to join a federated project and have the Federated Project Management permission in the corresponding workspace.
+     Steps  Log in to the KubeSphere web console as a user with Federated Project Management permissions and enter your federated project.</description>
+    </item>
+    
+    <item>
+      <title>Add Project Clusters</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/06-project-settings/01-basic-information/04-add-cluster/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/06-project-settings/01-basic-information/04-add-cluster/</guid>
+      <description>This section describes how to add a project to other clusters. After adding, the current project will be automatically created in the corresponding cluster.
+ Prerequisites   The Application Management for Cluster Federation extension must be installed and enabled on the KubeSphere platform.
+   You need to join a federated project and have the Federated Project Management permission in the corresponding workspace.
+     Steps  Log in to the KubeSphere web console as a user with Federated Project Management permissions and enter your federated project.</description>
+    </item>
+    
+    <item>
+      <title>Edit Default Container Quotas</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/06-project-settings/01-basic-information/05-edit-default-container-quotas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/06-project-settings/01-basic-information/05-edit-default-container-quotas/</guid>
+      <description>This section describes how to edit the default container quota.
+ The default container quota is the default value for resource reservations and resource limits for containers in a project. When creating a container in a project, if the user does not specify resource reservations and resource limits, the KubeSphere system will automatically use the default container quota.
+ The default container quota includes two types of settings:
+   Resource Reservation: The resources reserved by the system for the container.</description>
+    </item>
+    
+    <item>
+      <title>Delete Project</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/06-project-settings/01-basic-information/06-delete-a-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/06-project-settings/01-basic-information/06-delete-a-project/</guid>
+      <description>This section describes how to delete a project.
+     Warning     Once a project is deleted, it cannot be recovered, and all resources within the project will also be deleted. Please perform this operation with caution.
+    Prerequisites   The Application Management for Cluster Federation extension must be installed and enabled on the KubeSphere platform.
+   You need to join a federated project and have the Federated Project Management permission in the corresponding workspace.</description>
+    </item>
+    
+  </channel>
+</rss>

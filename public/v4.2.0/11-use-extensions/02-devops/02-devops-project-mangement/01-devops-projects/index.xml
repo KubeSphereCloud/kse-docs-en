@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DevOps Project on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/02-devops/02-devops-project-mangement/01-devops-projects/</link>
+    <description>Recent content in DevOps Project on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/02-devops/02-devops-project-mangement/01-devops-projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a DevOps Project</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/02-devops-project-mangement/01-devops-projects/01-create-a-devops-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/02-devops-project-mangement/01-devops-projects/01-create-a-devops-project/</guid>
+      <description>This section describes how to create a DevOps project.
+ Prerequisites   You have an available workspace (not system-workspace).
+      You need to join a workspace and have the DevOps Project Creation permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+     The DevOps extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has DevOps Project Creation permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>View DevOps Project List</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/02-devops-project-mangement/01-devops-projects/02-view-a-devops-project-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/02-devops-project-mangement/01-devops-projects/02-view-a-devops-project-list/</guid>
+      <description>This section describes how to view the DevOps project list.
+ Prerequisites    You need to join a workspace and have the DevOps Project View permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+     The DevOps extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has DevOps Project View permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Edit DevOps Project Information</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/02-devops-project-mangement/01-devops-projects/03-edit-devops-project-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/02-devops-project-mangement/01-devops-projects/03-edit-devops-project-information/</guid>
+      <description>This section describes how to edit project information.
+ You can edit the alias and description of a project. KubeSphere does not support editing the name of a created DevOps project.
+ Prerequisites    You need to join a workspace and have the DevOps Project Management permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+     The DevOps extension must be installed and enabled on the KubeSphere platform.</description>
+    </item>
+    
+    <item>
+      <title>Delete DevOps Project</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/02-devops-project-mangement/01-devops-projects/04-delete-devops-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/02-devops-project-mangement/01-devops-projects/04-delete-devops-projects/</guid>
+      <description>This section describes how to delete a DevOps project.
+     Note     Once a DevOps project is deleted, it cannot be recovered. All resources within the DevOps project will also be deleted. Please perform this operation with caution.
+    Prerequisites    You need to join a workspace and have the DevOps Project Management permission in the workspace. For more information, see Workspace Members and Workspace Roles.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basic Information on KubeSphere</title>
+    <link>/v4.2.0/08-workspace-management/06-workspace-settings/01-basic-information/</link>
+    <description>Recent content in Basic Information on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/08-workspace-management/06-workspace-settings/01-basic-information/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>View Workspace Basic Information</title>
+      <link>/v4.2.0/08-workspace-management/06-workspace-settings/01-basic-information/01-view-workspace-basic-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/06-workspace-settings/01-basic-information/01-view-workspace-basic-information/</guid>
+      <description>This section describes how to view workspace basic information.
+ Prerequisites You need to join a workspace. For more information, refer to Workspace Members and Workspace Roles.
+   Steps  Log in to the KubeSphere web console and navigate to your workspace.
+  Click Workspace Settings &amp;gt; Basic Information in the left navigation pane.
+The Basic Information page provides the following information:
+     Parameter Description     Workspace Information</description>
+    </item>
+    
+    <item>
+      <title>Edit Workspace Information</title>
+      <link>/v4.2.0/08-workspace-management/06-workspace-settings/01-basic-information/02-edit-workspace-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/06-workspace-settings/01-basic-information/02-edit-workspace-information/</guid>
+      <description>This section describes how to edit workspace information.
+ You can edit the alias and description of a workspace. KubeSphere does not support editing the name of a created workspace.
+ Prerequisites You need to join a workspace and have the Workspace Settings Management permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Workspace Settings Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Delete Workspace</title>
+      <link>/v4.2.0/08-workspace-management/06-workspace-settings/01-basic-information/04-delete-a-workspace/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/06-workspace-settings/01-basic-information/04-delete-a-workspace/</guid>
+      <description>This section describes how to delete a workspace.
+     Warning     A deleted workspace cannot be recovered. If you choose to also delete the projects within the workspace, all projects and all resources within them will also be deleted. Please perform this operation with caution.
+    Prerequisites You need to join a workspace and have the Workspace Settings Management permission in the workspace.</description>
+    </item>
+    
+  </channel>
+</rss>

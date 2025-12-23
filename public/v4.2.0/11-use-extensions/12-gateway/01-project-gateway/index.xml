@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project Gateway on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/12-gateway/01-project-gateway/</link>
+    <description>Recent content in Project Gateway on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/12-gateway/01-project-gateway/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enable Project Gateway</title>
+      <link>/v4.2.0/11-use-extensions/12-gateway/01-project-gateway/01-enable-a-project-gateway/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/12-gateway/01-project-gateway/01-enable-a-project-gateway/</guid>
+      <description>This section describes how to enable a project gateway.
+ Prerequisites   The KubeSphere Gateway extension must be installed and enabled on the KubeSphere platform.
+      You need to join a project and have the Project Gateway Management permission in the project. For more information, see Project Members and Project Roles.
+     Steps  Log in to the KubeSphere web console with a user who has Project Gateway Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>View Project Gateway Information</title>
+      <link>/v4.2.0/11-use-extensions/12-gateway/01-project-gateway/02-view-project-gateway-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/12-gateway/01-project-gateway/02-view-project-gateway-information/</guid>
+      <description>This section describes how to view project gateway information.
+ Prerequisites   The KubeSphere Gateway extension must be installed and enabled on the KubeSphere platform.
+      You need to join a project and have the Project Gateway View permission in the project. For more information, see Project Members and Project Roles.
+     Steps  Log in to the KubeSphere web console with a user who has Project Gateway View permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>View Project Gateway Details</title>
+      <link>/v4.2.0/11-use-extensions/12-gateway/01-project-gateway/03-view-project-gateway-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/12-gateway/01-project-gateway/03-view-project-gateway-details/</guid>
+      <description>This section describes how to view project gateway details.
+ Prerequisites   The KubeSphere Gateway extension must be installed and enabled on the KubeSphere platform.
+      You need to join a project and have the Project Gateway View permission in the project. For more information, see Project Members and Project Roles.
+     Steps  Log in to the KubeSphere web console with a user who has Project Gateway View permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Edit Project Gateway Settings</title>
+      <link>/v4.2.0/11-use-extensions/12-gateway/01-project-gateway/04-edit-project-gateway-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/12-gateway/01-project-gateway/04-edit-project-gateway-settings/</guid>
+      <description>This section describes how to edit project gateway settings.
+ Prerequisites   The KubeSphere Gateway extension must be installed and enabled on the KubeSphere platform.
+      You need to join a project and have the Project Gateway Management permission in the project. For more information, see Project Members and Project Roles.
+     Steps  Log in to the KubeSphere web console with a user who has Project Gateway Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Disable Project Gateway</title>
+      <link>/v4.2.0/11-use-extensions/12-gateway/01-project-gateway/05-disable-a-project-gateway/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/12-gateway/01-project-gateway/05-disable-a-project-gateway/</guid>
+      <description>This section describes how to disable a project gateway.
+     Warning     After the gateway is disabled, clients will be unable to access services reverse-proxied by the gateway, which may interrupt related business operations. Please perform this operation with caution.
+    Prerequisites   The KubeSphere Gateway extension must be installed and enabled on the KubeSphere platform.
+      You need to join a project and have the Project Gateway Management permission in the project.</description>
+    </item>
+    
+  </channel>
+</rss>

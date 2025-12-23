@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Storage Class on KubeSphere</title>
+    <link>/v4.2.0/07-cluster-management/08-storage/02-storage-classes/</link>
+    <description>Recent content in Storage Class on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/07-cluster-management/08-storage/02-storage-classes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a Storage Class</title>
+      <link>/v4.2.0/07-cluster-management/08-storage/02-storage-classes/01-create-a-storage-class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/08-storage/02-storage-classes/01-create-a-storage-class/</guid>
+      <description>This section describes how to create a storage class.
+ Prerequisites    You need to join a cluster and have the Storage Class Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     To enable the storage class to provide storage resources normally, you need to configure the storage system in advance and install the corresponding storage plugin for the storage system.</description>
+    </item>
+    
+    <item>
+      <title>View Storage Class List</title>
+      <link>/v4.2.0/07-cluster-management/08-storage/02-storage-classes/02-view-a-storage-class-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/08-storage/02-storage-classes/02-view-a-storage-class-list/</guid>
+      <description>This section describes how to view the storage class list.
+ Prerequisites You need to join a cluster and have the Storage Class View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Storage Class View permissions and enter your cluster.
+  Click Storage &amp;gt; Storage Classes in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Storage Class Details</title>
+      <link>/v4.2.0/07-cluster-management/08-storage/02-storage-classes/03-view-storage-class-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/08-storage/02-storage-classes/03-view-storage-class-details/</guid>
+      <description>This section describes how to view storage class details.
+ Prerequisites You need to join a cluster and have the Storage Class View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Storage Class View permissions and enter your cluster.
+  Click Storage &amp;gt; Storage Classes in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Set Default Storage Class</title>
+      <link>/v4.2.0/07-cluster-management/08-storage/02-storage-classes/04-set-a-default-storage-class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/08-storage/02-storage-classes/04-set-a-default-storage-class/</guid>
+      <description>This section describes how to set the default storage class. After setting a default storage class, the system will use it to create PersistentVolumeClaims if no specific storage class is specified. Only one default storage class is allowed per KubeSphere cluster.
+ Prerequisites You need to join a cluster and have the Storage Class Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Storage Class Management permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Enable and Disable Volume Operations</title>
+      <link>/v4.2.0/07-cluster-management/08-storage/02-storage-classes/05-enable-and-disable-volume-operations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/08-storage/02-storage-classes/05-enable-and-disable-volume-operations/</guid>
+      <description>This section describes how to enable and disable volume operations.
+ You can configure whether to allow users to perform clone and expansion operations on PersistentVolumeClaims created by a specific storage class in the KubeSphere web console.
+     Note     The steps described in this section only control whether users are allowed to use the related operations in the KubeSphere web console. Whether a PersistentVolumeClaim actually supports these operations depends on the backend storage system.</description>
+    </item>
+    
+    <item>
+      <title>Edit Storage Class Information</title>
+      <link>/v4.2.0/07-cluster-management/08-storage/02-storage-classes/06-edit-storage-class-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/08-storage/02-storage-classes/06-edit-storage-class-information/</guid>
+      <description>This section describes how to edit the alias and description of a storage class.
+ You can edit the alias and description of a storage class. KubeSphere does not support editing the name of a storage class.
+ Prerequisites You need to join a cluster and have the Storage Class Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Storage Class Management permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Delete Storage Class</title>
+      <link>/v4.2.0/07-cluster-management/08-storage/02-storage-classes/07-delete-a-storage-class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/08-storage/02-storage-classes/07-delete-a-storage-class/</guid>
+      <description>This section describes how to delete a storage class.
+     Warning     After a storage class is deleted, the persistent volume claims and persistent volumes created based on it will not be deleted. Containers can still use the mounted persistent volumes. However, users will no longer be able to use volume cloning, volume snapshot, and volume expansion features, and will not be able to create storage areas in the backend storage system through this storage class.</description>
+    </item>
+    
+  </channel>
+</rss>

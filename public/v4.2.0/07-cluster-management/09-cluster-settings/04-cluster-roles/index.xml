@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cluster Roles on KubeSphere</title>
+    <link>/v4.2.0/07-cluster-management/09-cluster-settings/04-cluster-roles/</link>
+    <description>Recent content in Cluster Roles on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/07-cluster-management/09-cluster-settings/04-cluster-roles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>View Cluster Role List</title>
+      <link>/v4.2.0/07-cluster-management/09-cluster-settings/04-cluster-roles/01-view-a-cluster-role-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/09-cluster-settings/04-cluster-roles/01-view-a-cluster-role-list/</guid>
+      <description>This section describes how to view the cluster role list.
+ Prerequisites You need to join a cluster and have the Role View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Role View permissions and enter your cluster.
+  Click Cluster Settings &amp;gt; Cluster Roles in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Cluster Role Details</title>
+      <link>/v4.2.0/07-cluster-management/09-cluster-settings/04-cluster-roles/02-view-cluster-role-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/09-cluster-settings/04-cluster-roles/02-view-cluster-role-details/</guid>
+      <description>This section describes how to view cluster role details.
+ Prerequisites You need to join a cluster and have the Role Viewing permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Role Viewing permissions and enter your cluster.
+  Click Cluster Settings &amp;gt; Cluster Roles in the left navigation pane.</description>
+    </item>
+    
+  </channel>
+</rss>

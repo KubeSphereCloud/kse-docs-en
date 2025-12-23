@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Continuous Deployment on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/02-devops/04-continous-deployment/</link>
+    <description>Recent content in Continuous Deployment on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/02-devops/04-continous-deployment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implementing Continuous Deployment for Applications Using GitOps</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/04-continous-deployment/01-use-gitops-for-continous-deployment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/04-continous-deployment/01-use-gitops-for-continous-deployment/</guid>
+      <description>KubeSphere introduces a concept for implementing continuous deployment for cloud-native applications – GitOps. The core idea of GitOps is to have a Git repository and store the declarative infrastructure and applications of the application system in the Git repository for version control. GitOps, combined with Kubernetes, can leverage automated delivery pipelines to apply changes to any number of specified clusters, thereby solving the consistency issues of cross-cloud deployments.
+ This document demonstrates how to create a continuous deployment to implement application deployment.</description>
+    </item>
+    
+    <item>
+      <title>Add Continuous Deployment Whitelist</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/04-continous-deployment/03-add-cd-allowlist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/04-continous-deployment/03-add-cd-allowlist/</guid>
+      <description>KubeSphere supports restricting the code repositories and target locations for resource continuous deployment by setting up a whitelist.
+ This document describes how to add a continuous deployment whitelist.
+ Prerequisites   The DevOps extension must be installed and enabled on the KubeSphere platform.
+  A workspace, a DevOps project, and a user (e.g., project-regular) have been created. The user has been invited to the DevOps project and granted the operator role.</description>
+    </item>
+    
+  </channel>
+</rss>

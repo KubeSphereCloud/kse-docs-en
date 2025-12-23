@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deployment Management on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/05-app-deployment/</link>
+    <description>Recent content in Deployment Management on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/05-app-deployment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>View Application List</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/05-app-deployment/01-view-an-app-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/05-app-deployment/01-view-an-app-list/</guid>
+      <description>This section describes how to view the list of deployed applications.
+ Prerequisites    You need to have the App Store Management permission on the KubeSphere platform. For more information, see Users and Platform Roles.
+     The KubeSphere App Store Management extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console as a user with App Store Management permissions.</description>
+    </item>
+    
+    <item>
+      <title>View Application Details</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/05-app-deployment/02-view-app-instance-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/05-app-deployment/02-view-app-instance-details/</guid>
+      <description>This section describes how to view the details of a deployed application.
+ Prerequisites    You need to have the App Store Management permission on the KubeSphere platform. For more information, see Users and Platform Roles.
+     The KubeSphere App Store Management extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console as a user with App Store Management permissions.</description>
+    </item>
+    
+    <item>
+      <title>Edit Application Information</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/05-app-deployment/04-edit-an-app-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/05-app-deployment/04-edit-an-app-information/</guid>
+      <description>This section describes how to edit the information of a deployed application.
+ You can edit the alias and description of an application. KubeSphere does not support editing the name of a deployed application.
+ Prerequisites    You need to have the App Store Management permission on the KubeSphere platform. For more information, see Users and Platform Roles.
+     The KubeSphere App Store Management extension must be installed and enabled on the KubeSphere platform.</description>
+    </item>
+    
+    <item>
+      <title>Delete an Application</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/05-app-deployment/06-delete-an-app-instance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/05-app-deployment/06-delete-an-app-instance/</guid>
+      <description>This section describes how to delete a deployed application instance.
+ Prerequisites    You need to have the App Store Management permission on the KubeSphere platform. For more information, see Users and Platform Roles.
+     The KubeSphere App Store Management extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console as a user with App Store Management permissions.</description>
+    </item>
+    
+    <item>
+      <title>Deploy Applications from the App Store</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/05-app-deployment/08-deploy-an-app-from-the-app-store/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/05-app-deployment/08-deploy-an-app-from-the-app-store/</guid>
+      <description>This section describes how to deploy applications from the App Store on the App Store Management page.
+ Prerequisites    You need to have the App Store Management permission on the KubeSphere platform. For more information, see Users and Platform Roles.
+     The KubeSphere App Store Management extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console as a user with App Store Management permissions.</description>
+    </item>
+    
+    <item>
+      <title>Deploy an App from an App Template</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/05-app-deployment/10-deploy-an-app-using-an-app-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/05-app-deployment/10-deploy-an-app-using-an-app-template/</guid>
+      <description>This section describes how to deploy an app from an app template on the App Store Management page.
+ Prerequisites    You need to have the App Store Management permission on the KubeSphere platform. For more information, see Users and Platform Roles.
+     The KubeSphere App Store Management extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console as a user with App Store Management permissions.</description>
+    </item>
+    
+  </channel>
+</rss>

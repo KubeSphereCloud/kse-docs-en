@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WizTelemetry Events Alerting on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/09-observability-platform/09-events-altering/</link>
+    <description>Recent content in WizTelemetry Events Alerting on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/09-observability-platform/09-events-altering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Alerting Rules for Events/Auditing</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/09-events-altering/01-create-rules-for-auditing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/09-events-altering/01-create-rules-for-auditing/</guid>
+      <description>This section describes how to define alerting rules for Kubernetes native events and Kubernetes/KubeSphere auditing events.
+ Prerequisites   You need to have the platform-admin role in the KubeSphere platform.
+  The WizTelemetry Events Alerting extension needs to be installed and enabled on the KubeSphere platform.
+     Steps  On any cluster node, create a YAML file to define alerting rules for events and auditing for this cluster.</description>
+    </item>
+    
+    <item>
+      <title>Event/Auditing Alert Rule Examples</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/09-events-altering/02-example-rules-for-auditing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/09-events-altering/02-example-rules-for-auditing/</guid>
+      <description>You can refer to the examples and parameter descriptions to customize alert rules for events and auditing, and then create alert rules.
+ Event Alert Rule Examples apiVersion: logging.whizard.io/v1alpha1 kind: ClusterRuleGroup metadata: name: events-rules spec: type: events rules: - name: ContainerCreated expr: kind: rule condition: type=&amp;#34;Normal&amp;#34; and involvedObject.kind=&amp;#34;Pod&amp;#34; and reason=&amp;#34;Created&amp;#34; and involvedObject.fieldPath != &amp;#34;&amp;#34; desc: create new container enable: true alerts: severity: info - name: ContainerStarted expr: kind: rule condition: type=&amp;#34;Normal&amp;#34; and involvedObject.</description>
+    </item>
+    
+    <item>
+      <title>Create Log Alerting Rules</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/09-events-altering/03-create-rules-for-logs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/09-events-altering/03-create-rules-for-logs/</guid>
+      <description>This section describes how to define alerting rules for Kubernetes logs.
+     Note     WizTelemetry Events Alerting receives logs from the Kubernetes cluster by default. To receive other logs, you need to modify the configuration of the WizTelemetry Data Pipeline or create a new Secret for configuration. Please refer to the Vector official documentation for configuration.
+    Prerequisites   You need to have the platform-admin role in the KubeSphere platform.</description>
+    </item>
+    
+  </channel>
+</rss>

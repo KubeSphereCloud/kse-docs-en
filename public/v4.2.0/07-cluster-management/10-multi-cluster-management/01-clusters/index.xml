@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multi-cluster Management on KubeSphere</title>
+    <link>/v4.2.0/07-cluster-management/10-multi-cluster-management/01-clusters/</link>
+    <description>Recent content in Multi-cluster Management on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/07-cluster-management/10-multi-cluster-management/01-clusters/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>View Cluster List</title>
+      <link>/v4.2.0/07-cluster-management/10-multi-cluster-management/01-clusters/02-view-a-cluster-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/10-multi-cluster-management/01-clusters/02-view-a-cluster-list/</guid>
+      <description>This section describes how to view the cluster list.
+ Prerequisites You need to have the Cluster Viewing permission on the KubeSphere platform.
+   Steps  Log in to the KubeSphere web console as a user with Cluster Viewing permissions.
+  Click Cluster Management.
+     The cluster list provides the following information:
+    Parameter Description     Name, Alias, and Description</description>
+    </item>
+    
+    <item>
+      <title>Edit Cluster Information</title>
+      <link>/v4.2.0/07-cluster-management/10-multi-cluster-management/01-clusters/03-edit-cluster-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/10-multi-cluster-management/01-clusters/03-edit-cluster-information/</guid>
+      <description>This section introduces how to edit cluster information.
+ You can edit a cluster’s alias, provider, description, and labels. KubeSphere does not support editing the name of an added cluster.
+ Prerequisites You need to have theCluster Management permission on the KubeSphere platform.
+   Steps  Log in to the KubeSphere web console as a user with Cluster Management permissions.
+  Click Cluster Management.
+  To the right of the cluster you want to operate, click , and then select Edit Information from the dropdown list.</description>
+    </item>
+    
+    <item>
+      <title>Add Cluster Labels</title>
+      <link>/v4.2.0/07-cluster-management/10-multi-cluster-management/01-clusters/04-add-cluster-tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/10-multi-cluster-management/01-clusters/04-add-cluster-tags/</guid>
+      <description>This section describes how to add cluster labels.
+ You can use labels to categorize and manage clusters.
+ Prerequisites   You need to have Cluster Management permissions on the KubeSphere platform.
+  You need to create cluster labels in advance. For more information, refer to Create a Cluster Label.
+     Add Labels to a Single Cluster  Log in to the KubeSphere web console as a user with Cluster Management permissions.</description>
+    </item>
+    
+    <item>
+      <title>Edit Member Cluster Configuration</title>
+      <link>/v4.2.0/07-cluster-management/10-multi-cluster-management/01-clusters/05-edit-cluster-configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/10-multi-cluster-management/01-clusters/05-edit-cluster-configuration/</guid>
+      <description>This section describes how to edit the cluster configuration of a member cluster, i.e., adjust the ks-agent configuration parameters.
+ In addition to configuring the cluster when adding a member cluster, you can also edit the cluster configuration after the member cluster has been added.
+     Note     When the KubeSphere version of the member cluster is inconsistent with the KubeSphere version of the host cluster, you cannot edit the cluster configuration.</description>
+    </item>
+    
+    <item>
+      <title>Update kubeconfig</title>
+      <link>/v4.2.0/07-cluster-management/10-multi-cluster-management/01-clusters/07-update-kubeconfig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/10-multi-cluster-management/01-clusters/07-update-kubeconfig/</guid>
+      <description>This section describes how to update the kubeconfig information of a member cluster.
+ After adding a member cluster to the KubeSphere platform, if the access information of the member cluster changes, you need to update the kubeconfig information of the member cluster.
+     Note     KubeSphere only supports editing the kubeconfig information of clusters added via direct connection, and does not support editing the kubeconfig information of clusters added via proxy connection.</description>
+    </item>
+    
+    <item>
+      <title>Remove Member Cluster</title>
+      <link>/v4.2.0/07-cluster-management/10-multi-cluster-management/01-clusters/09-remove-a-member-cluster/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/10-multi-cluster-management/01-clusters/09-remove-a-member-cluster/</guid>
+      <description>This section describes how to remove a member cluster.
+     Note       The host cluster cannot be removed.
+  After a member cluster is removed, KubeSphere will no longer be able to manage that cluster. The existing Kubernetes resources in the cluster will not be deleted.
+          Warning     After a cluster is removed, the existing multi-cluster configuration data in the cluster will not be automatically cleaned up.</description>
+    </item>
+    
+    <item>
+      <title>Re-adopt Member Clusters to Another Host Cluster</title>
+      <link>/v4.2.0/07-cluster-management/10-multi-cluster-management/01-clusters/11-add-a-removed-member-cluster/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/10-multi-cluster-management/01-clusters/11-add-a-removed-member-cluster/</guid>
+      <description>This section describes how to re-adopt a removed member cluster to another host cluster.
+ Unbinding a Cluster in Normal State If a member cluster is removed while in a normal state, no additional operations are required. The member cluster can be directly adopted by another host cluster. For detailed steps, please refer to Add a Member Cluster.
+   Unbinding a Cluster in Abnormal State If a member cluster is removed while in an abnormal state, execute the following command on the member cluster to clear its adoption information.</description>
+    </item>
+    
+  </channel>
+</rss>

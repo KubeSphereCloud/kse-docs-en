@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ingress on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/04-routes/</link>
+    <description>Recent content in Ingress on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/04-routes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create an Ingress</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/04-routes/01-create-a-route/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/04-routes/01-create-a-route/</guid>
+      <description>This section describes how to create an Ingress.
+ Prerequisites   The Application Management for Cluster Federation extension must be installed and enabled on the KubeSphere platform.
+   You need to join a federated project and have the Federated Project Management permission in the corresponding workspace.
+  To create an Ingress that supports the HTTPS protocol, you need to create a TLS Information type Secret. The Secret must contain a Base64-encoded certificate and private key.</description>
+    </item>
+    
+    <item>
+      <title>View Ingress List</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/04-routes/02-view-a-route-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/04-routes/02-view-a-route-list/</guid>
+      <description>This section describes how to view the Ingress list.
+ Prerequisites   The Application Management for Cluster Federation extension must be installed and enabled on the KubeSphere platform.
+   You need to join a federated project and have the Federated Project View permission in the corresponding workspace.
+     Steps  Log in to the KubeSphere web console as a user with Federated Project View permissions and enter your federated project.</description>
+    </item>
+    
+    <item>
+      <title>View Application Route Details</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/04-routes/03-view-route-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/04-routes/03-view-route-details/</guid>
+      <description>This section describes how to view Ingress details.
+ Prerequisites   The Application Management for Cluster Federation extension must be installed and enabled on the KubeSphere platform.
+   You need to join a federated project and have the Federated Project View permission in the corresponding workspace.
+     Steps  Log in to the KubeSphere web console as a user with Federated Project View permissions and enter your federated project.</description>
+    </item>
+    
+    <item>
+      <title>Edit Ingress Information</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/04-routes/04-edit-route-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/04-routes/04-edit-route-information/</guid>
+      <description>This section describes how to edit Ingress information.
+ You can edit the alias and description of an Ingress. KubeSphere does not support editing the name of a created Ingress.
+ Prerequisites   The Application Management for Cluster Federation extension must be installed and enabled on the KubeSphere platform.
+   You need to join a federated project and have the Federated Project Management permission in the corresponding workspace.</description>
+    </item>
+    
+    <item>
+      <title>Edit Routing Rules</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/04-routes/05-edit-routing-rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/04-routes/05-edit-routing-rules/</guid>
+      <description>This section describes how to edit a routing rule.
+ Prerequisites   The Application Management for Cluster Federation extension must be installed and enabled on the KubeSphere platform.
+   You need to join a federated project and have the Federated Project Management permission in the corresponding workspace.
+     Steps  Log in to the KubeSphere web console as a user with Federated Project Management permissions and enter your federated project.</description>
+    </item>
+    
+    <item>
+      <title>Edit Ingress Annotations</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/04-routes/06-edit-route-annotations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/04-routes/06-edit-route-annotations/</guid>
+      <description>This section describes how to edit Ingress annotations.
+ Prerequisites   The Application Management for Cluster Federation extension must be installed and enabled on the KubeSphere platform.
+   You need to join a federated project and have the Federated Project Management permission in the corresponding workspace.
+     Steps  Log in to the KubeSphere web console as a user with Federated Project Management permissions and enter your federated project.</description>
+    </item>
+    
+    <item>
+      <title>Delete Ingress</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/04-routes/07-delete-routes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/04-routes/07-delete-routes/</guid>
+      <description>This section describes how to delete an Ingress.
+     Warning     After deleting the Ingress, you will not be able to access the backend services through the Ingress. Please perform this operation with caution.
+    Prerequisites   The Application Management for Cluster Federation extension must be installed and enabled on the KubeSphere platform.
+   You need to join a federated project and have the Federated Project Management permission in the corresponding workspace.</description>
+    </item>
+    
+  </channel>
+</rss>

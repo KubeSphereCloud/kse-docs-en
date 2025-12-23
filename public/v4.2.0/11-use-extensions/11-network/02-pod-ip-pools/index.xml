@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pod IP Pool on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/11-network/02-pod-ip-pools/</link>
+    <description>Recent content in Pod IP Pool on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/11-network/02-pod-ip-pools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Pod IP Pool</title>
+      <link>/v4.2.0/11-use-extensions/11-network/02-pod-ip-pools/01-create-a-pod-ip-pool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/11-network/02-pod-ip-pools/01-create-a-pod-ip-pool/</guid>
+      <description>This section describes how to create a pod IP pool.
+ Prerequisites    You need to join a cluster and have the Cluster Network Resource Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     The KubeSphere Network extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has Cluster Network Resource Management permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>View Pod IP Pool List</title>
+      <link>/v4.2.0/11-use-extensions/11-network/02-pod-ip-pools/02-view-a-pod-ip-pool-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/11-network/02-pod-ip-pools/02-view-a-pod-ip-pool-list/</guid>
+      <description>This section describes how to view the Pod IP pool list.
+ Prerequisites    You need to join a cluster and have the Cluster Network Resource View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     The KubeSphere Network extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has Cluster Network Resource View permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>View Pod IP Pool Details</title>
+      <link>/v4.2.0/11-use-extensions/11-network/02-pod-ip-pools/03-view-pod-ip-pool-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/11-network/02-pod-ip-pools/03-view-pod-ip-pool-details/</guid>
+      <description>This section describes how to view pod IP pool details.
+ Prerequisites    You need to join a cluster and have the Cluster Network Resource View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     The KubeSphere Network extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has Cluster Network Resource View permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Assign Pod IP Pools to Projects</title>
+      <link>/v4.2.0/11-use-extensions/11-network/02-pod-ip-pools/04-assign-a-project-to-a-ip-pool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/11-network/02-pod-ip-pools/04-assign-a-project-to-a-ip-pool/</guid>
+      <description>This section describes how to assign Pod IP Pools to projects.
+ If a project is assigned a Pod IP Pool, and when creating workloads and Jobs within that project without specifying a Pod IP Pool, the pods in the project will be assigned to that Pod IP Pool by default.
+ If a project is not assigned a Pod IP Pool (the project is not bound to any Pod IP Pool), and when creating workloads and Jobs within that project without specifying a Pod IP Pool, the pods in the project will be assigned to any available Pod IP Pool.</description>
+    </item>
+    
+    <item>
+      <title>Edit Pod IP Pool Information</title>
+      <link>/v4.2.0/11-use-extensions/11-network/02-pod-ip-pools/05-edit-pod-ip-pool-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/11-network/02-pod-ip-pools/05-edit-pod-ip-pool-information/</guid>
+      <description>This section describes how to edit pod IP pool information.
+ You can edit the alias and description of a pod IP pool. KubeSphere does not support editing the name of a pod IP pool.
+ Prerequisites    You need to join a cluster and have the Cluster Network Resource Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     The KubeSphere Network extension must be installed and enabled on the KubeSphere platform.</description>
+    </item>
+    
+    <item>
+      <title>Edit Overlay Mode</title>
+      <link>/v4.2.0/11-use-extensions/11-network/02-pod-ip-pools/06-edit-overlay-mode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/11-network/02-pod-ip-pools/06-edit-overlay-mode/</guid>
+      <description>This section describes how to edit the Overlay mode.
+ The Overlay mode enables cross-host communication between containers without modifying the physical network of the host machines.
+ Prerequisites    You need to join a cluster and have the Cluster Network Resource Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     The KubeSphere Network extension must be installed and enabled on the KubeSphere platform.</description>
+    </item>
+    
+    <item>
+      <title>Edit Node Selection</title>
+      <link>/v4.2.0/11-use-extensions/11-network/02-pod-ip-pools/07-edit-yaml-for-a-pod-ip-pool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/11-network/02-pod-ip-pools/07-edit-yaml-for-a-pod-ip-pool/</guid>
+      <description>This section describes how to edit the auto-assignment nodes for a Pod IP Pool to automatically match suitable nodes for the Pod IP Pool.
+ When creating a Pod IP Pool, its IP addresses are by default assignable to pods on all nodes. You can set a node selector to restrict that only pods on nodes meeting specific conditions can use the IP addresses from this IP pool.
+ Prerequisites    You need to join a cluster and have the Cluster Network Resource Management permission in the cluster.</description>
+    </item>
+    
+    <item>
+      <title>Disable and Enable Pod IP Pools</title>
+      <link>/v4.2.0/11-use-extensions/11-network/02-pod-ip-pools/08-disable-and-enable-pod-ip-pool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/11-network/02-pod-ip-pools/08-disable-and-enable-pod-ip-pool/</guid>
+      <description>This section describes how to disable and enable Pod IP Pools.
+ After a Pod IP Pool is disabled, it will no longer allocate IP addresses, and it will not affect the network of pods that have already been assigned IP addresses. However, disabling a Pod IP Pool will automatically unbind it from its associated projects. When migrating a Pod IP Pool, the number of available addresses in the new IP pool must not be less than the number of IP addresses currently in use by the existing pool.</description>
+    </item>
+    
+    <item>
+      <title>Delete Pod IP Pools</title>
+      <link>/v4.2.0/11-use-extensions/11-network/02-pod-ip-pools/09-delete-pod-ip-pools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/11-network/02-pod-ip-pools/09-delete-pod-ip-pools/</guid>
+      <description>This section describes how to delete pod IP pools.
+     Warning     Pod IP pools cannot be recovered after deletion. Please perform this operation with caution.
+    Prerequisites    You need to join a cluster and have the Cluster Network Resource Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     The KubeSphere Network extension must be installed and enabled on the KubeSphere platform.</description>
+    </item>
+    
+  </channel>
+</rss>

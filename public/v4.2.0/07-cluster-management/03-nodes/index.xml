@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nodes on KubeSphere</title>
+    <link>/v4.2.0/07-cluster-management/03-nodes/</link>
+    <description>Recent content in Nodes on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/07-cluster-management/03-nodes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>View Node List</title>
+      <link>/v4.2.0/07-cluster-management/03-nodes/01-view-a-node-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/03-nodes/01-view-a-node-list/</guid>
+      <description>This section describes how to view the node list.
+ Prerequisites You need to join a cluster and have the Node Viewing permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Node Viewing permissions and enter your cluster.
+  In the left navigation pane, select Nodes &amp;gt; Cluster Nodes to open the node list.</description>
+    </item>
+    
+    <item>
+      <title>View Node Details</title>
+      <link>/v4.2.0/07-cluster-management/03-nodes/02-view-node-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/03-nodes/02-view-node-details/</guid>
+      <description>This section describes how to view node details.
+ Prerequisites You need to join a cluster and have the Node Viewing permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Node Viewing permissions and enter your cluster.
+  In the left navigation pane, select Nodes &amp;gt; Cluster Nodes to open the node list.</description>
+    </item>
+    
+    <item>
+      <title>Block and Allow Pod Scheduling</title>
+      <link>/v4.2.0/07-cluster-management/03-nodes/03-prevent-and-allow-pod-scheduling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/03-nodes/03-prevent-and-allow-pod-scheduling/</guid>
+      <description>This section describes how to block and allow pods from being scheduled to a node.
+ Prerequisites You need to join a cluster and have the Node Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Node Management permissions and enter your cluster.
+  In the left navigation pane, select Nodes &amp;gt; Cluster Nodes to open the node list.</description>
+    </item>
+    
+    <item>
+      <title>Using Node Terminal</title>
+      <link>/v4.2.0/07-cluster-management/03-nodes/04-access-a-node-terminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/03-nodes/04-access-a-node-terminal/</guid>
+      <description>This section describes how to use the node terminal.
+ You can use the command-line terminal provided by KubeSphere to operate on nodes.
+ Prerequisites You need to join a cluster and have the Node Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Node Management permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Edit Node Taints</title>
+      <link>/v4.2.0/07-cluster-management/03-nodes/05-edit-node-taints/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/03-nodes/05-edit-node-taints/</guid>
+      <description>This section describes how to edit node taints.
+ A taint is a label created by a user on a node, used in conjunction with tolerations created on pods. When a node has a taint, depending on the set taint effect, all pods lacking a toleration that matches the taint will be prevented from being scheduled onto the node or will be scheduled onto the node as little as possible.</description>
+    </item>
+    
+    <item>
+      <title>Edit Node Labels</title>
+      <link>/v4.2.0/07-cluster-management/03-nodes/06-edit-node-labels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/03-nodes/06-edit-node-labels/</guid>
+      <description>This section describes how to edit node labels.
+ Node labels are key-value pairs set by users on nodes, which can be used to select nodes. For example, when creating a workload, you can specify that pods be scheduled onto nodes with specific labels.
+ Prerequisites You need to join a cluster and have the Node Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.</description>
+    </item>
+    
+  </channel>
+</rss>

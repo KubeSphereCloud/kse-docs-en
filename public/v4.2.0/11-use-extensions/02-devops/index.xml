@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DevOps on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/02-devops/</link>
+    <description>Recent content in DevOps on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/02-devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overview</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/01-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/01-overview/</guid>
+      <description>DevOps provides a set of Continuous Integration (CI) and Continuous Delivery (CD) tools that can automate processes between IT and software development teams. In a CI/CD workflow, each integration is verified through automated builds, including coding, release, and testing, helping developers detect integration errors early. Teams can also deliver internal software to production environments quickly, securely, and reliably.
+ However, the traditional Jenkins Controller-Agent architecture (where multiple Agents work for one Controller) has the following shortcomings:</description>
+    </item>
+    
+  </channel>
+</rss>

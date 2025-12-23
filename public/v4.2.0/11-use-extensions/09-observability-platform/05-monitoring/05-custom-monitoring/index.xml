@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Custom Monitoring on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/05-custom-monitoring/</link>
+    <description>Recent content in Custom Monitoring on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/05-custom-monitoring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a Custom Monitoring Dashboard</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/05-custom-monitoring/01-create-a-custom-monitoring-dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/05-custom-monitoring/01-create-a-custom-monitoring-dashboard/</guid>
+      <description>This section describes how to create a custom monitoring dashboard.
+ Prerequisites    You need to join a cluster or project and have the Monitoring Management permission in the cluster or project. For more information, please refer to Cluster Roles and Project Roles.
+     You need to configure the application running in the container to expose monitoring metrics that comply with the Prometheus specification at a certain service endpoint.</description>
+    </item>
+    
+    <item>
+      <title>View Custom Monitoring Dashboards</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/05-custom-monitoring/02-view-a-custom-monitoring-dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/05-custom-monitoring/02-view-a-custom-monitoring-dashboard/</guid>
+      <description>This section describes how to view custom monitoring dashboards.
+ Prerequisites You need to join a cluster or project and have the Monitoring Viewing permission in the cluster or project. For more information, please refer to Cluster Roles and Project Roles.
+   Steps  Log in to the KubeSphere web console as a user with the Monitoring Viewing permission and enter your cluster or workspace.
+  Click Monitoring &amp;amp; Alerting &amp;gt; Custom Monitoring in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Edit Custom Monitoring Dashboard Information</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/05-custom-monitoring/03-edit-custom-monitoring-dashboard-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/05-custom-monitoring/03-edit-custom-monitoring-dashboard-information/</guid>
+      <description>This section describes how to edit the information of a custom monitoring dashboard.
+ You can edit the alias and description of a custom monitoring dashboard. KubeSphere does not support editing the name of a custom monitoring dashboard.
+ Prerequisites You need to join a cluster or project and have the Monitoring Management permission in the cluster or project. For more information, please refer to Cluster Roles and Project Roles.</description>
+    </item>
+    
+    <item>
+      <title>Edit a Custom Monitoring Dashboard</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/05-custom-monitoring/04-edit-a-custom-monitoring-dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/05-custom-monitoring/04-edit-a-custom-monitoring-dashboard/</guid>
+      <description>This section describes how to edit a custom monitoring dashboard.
+ Prerequisites You need to join a cluster or project and have the Monitoring Management permission in the cluster or project. For more information, please refer to Cluster Roles and Project Roles.
+   Steps  Log in to the KubeSphere web console as a user with the Monitoring Management permission and go to your cluster or workspace.</description>
+    </item>
+    
+    <item>
+      <title>Delete Custom Monitoring Dashboard</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/05-custom-monitoring/05-delete-custom-monitoring-dashboards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/05-custom-monitoring/05-delete-custom-monitoring-dashboards/</guid>
+      <description>This section describes how to delete a custom monitoring dashboard.
+     Warning     A custom monitoring dashboard cannot be recovered after deletion. Please perform this operation with caution.
+    Prerequisites You need to join a cluster or project and have the Monitoring Management permission in the cluster or project. For more information, please refer to Cluster Roles and Project Roles.</description>
+    </item>
+    
+  </channel>
+</rss>

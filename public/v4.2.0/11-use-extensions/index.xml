@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Extension User Guide on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/</link>
+    <description>Recent content in Extension User Guide on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overview</title>
+      <link>/v4.2.0/11-use-extensions/01-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/01-overview/</guid>
+      <description>KubeSphere extensions are built on top of KubeSphere LuBan to extend and enhance the capabilities of the KubeSphere product, further meeting various business needs of enterprises. After KubeSphere is installed, it only includes the essential basic functions required for system operation. It is recommended that you install extensions to fully utilize the features of KubeSphere.
+ After learning about and installing extensions, please refer to the extension tutorials in this chapter to understand how to access, configure, and use each extension.</description>
+    </item>
+    
+  </channel>
+</rss>

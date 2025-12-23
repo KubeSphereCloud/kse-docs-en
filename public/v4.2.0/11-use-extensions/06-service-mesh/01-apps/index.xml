@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Composed App on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/06-service-mesh/01-apps/</link>
+    <description>Recent content in Composed App on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/06-service-mesh/01-apps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a Composed App</title>
+      <link>/v4.2.0/11-use-extensions/06-service-mesh/01-apps/03-manually-compose-an-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/06-service-mesh/01-apps/03-manually-compose-an-app/</guid>
+      <description>This section describes how to create a composed app.
+ You can customize the services, workloads, and routes of an application to create a composed app. Compared to template-based applications, composed apps support application governance. You can enable application governance for composed apps to use traffic monitoring, canary release, and tracing features.
+ Prerequisites    You need to join a project and have the  Service Mesh Management permission in the project.</description>
+    </item>
+    
+    <item>
+      <title>View Composed App List</title>
+      <link>/v4.2.0/11-use-extensions/06-service-mesh/01-apps/04-view-an-app-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/06-service-mesh/01-apps/04-view-an-app-list/</guid>
+      <description>This section describes how to view the list of composed apps.
+ Prerequisites You need to join a project and have the  Service Mesh View permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has  Service Mesh View permissions and enter your workspace.
+  Click Gray Release &amp;gt; Composed Apps in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Composed App Details</title>
+      <link>/v4.2.0/11-use-extensions/06-service-mesh/01-apps/05-view-composed-app-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/06-service-mesh/01-apps/05-view-composed-app-details/</guid>
+      <description>This section describes how to view composed app details.
+ Prerequisites You need to join a project and have the  Service Mesh View permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has  Service Mesh View permissions and enter your workspace.
+  Click Grayscale Release &amp;gt; Composed Apps in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Edit Composed App Information</title>
+      <link>/v4.2.0/11-use-extensions/06-service-mesh/01-apps/06-edit-app-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/06-service-mesh/01-apps/06-edit-app-information/</guid>
+      <description>This section describes how to edit the information of a composed app.
+ You can edit the alias and description of an app. KubeSphere does not support editing the name of an already created app.
+ Prerequisites You need to join a project and have the  Service Mesh Management permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has  Service Mesh Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Add a Service to a Composed App</title>
+      <link>/v4.2.0/11-use-extensions/06-service-mesh/01-apps/07-add-a-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/06-service-mesh/01-apps/07-add-a-service/</guid>
+      <description>This section describes how to add a stateful or stateless service to a composed app.
+ Prerequisites You need to join a project and have the  Service Mesh Management permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has  Service Mesh Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Add an Ingress for a Composed App</title>
+      <link>/v4.2.0/11-use-extensions/06-service-mesh/01-apps/08-add-an-app-route/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/06-service-mesh/01-apps/08-add-an-app-route/</guid>
+      <description>This section describes how to add an Ingress for a composed app.
+ Prerequisites You need to join a project and have the  Service Mesh Management permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has  Service Mesh Management permissions and enter your workspace.
+  Click Grayscale Release &amp;gt; Composed Apps in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Delete Composed App</title>
+      <link>/v4.2.0/11-use-extensions/06-service-mesh/01-apps/10-delete-apps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/06-service-mesh/01-apps/10-delete-apps/</guid>
+      <description>This section describes how to delete a composed app.
+ Prerequisites You need to join a project and have the Service Mesh Management permission in the project. For more information, see Project Members and Project Roles.
+   Delete a Single App  Log in to the KubeSphere web console with a user who has Service Mesh Management permissions and enter your workspace.
+  Click Grayscale Release &amp;gt; Composed App in the left navigation pane.</description>
+    </item>
+    
+  </channel>
+</rss>

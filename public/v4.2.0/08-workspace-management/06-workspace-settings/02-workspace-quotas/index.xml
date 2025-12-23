@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workspace Quotas on KubeSphere</title>
+    <link>/v4.2.0/08-workspace-management/06-workspace-settings/02-workspace-quotas/</link>
+    <description>Recent content in Workspace Quotas on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/08-workspace-management/06-workspace-settings/02-workspace-quotas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Edit Workspace Quota</title>
+      <link>/v4.2.0/08-workspace-management/06-workspace-settings/02-workspace-quotas/01-edit-workspace-quotas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/06-workspace-settings/02-workspace-quotas/01-edit-workspace-quotas/</guid>
+      <description>This section describes how to edit workspace quota.
+ In the KubeSphere platform, multiple clusters can be authorized to the same workspace. You can set resource quotas for each cluster in the workspace settings.
+ Prerequisites You need to join a workspace and have the Workspace Settings Management permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Workspace Settings Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>View Workspace Quotas</title>
+      <link>/v4.2.0/08-workspace-management/06-workspace-settings/02-workspace-quotas/02-view-workspace-quotas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/06-workspace-settings/02-workspace-quotas/02-view-workspace-quotas/</guid>
+      <description>This section describes how to view workspace quotas.
+ Prerequisites You need to join a workspace and have the Workspace Settings View permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Workspace Settings View permissions and enter your workspace.
+  Click Workspace Settings &amp;gt; Workspace Quotas in the left navigation pane.</description>
+    </item>
+    
+  </channel>
+</rss>

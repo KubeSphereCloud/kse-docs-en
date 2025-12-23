@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Image Builder on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/03-image-builder/</link>
+    <description>Recent content in Image Builder on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/03-image-builder/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>View Image Builder List</title>
+      <link>/v4.2.0/11-use-extensions/03-image-builder/02-view-an-image-builder-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/03-image-builder/02-view-an-image-builder-list/</guid>
+      <description>This section describes how to view the image builder list.
+ Prerequisites You need to join a project and have the Application Workloads View permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workloads View permissions and enter your workspace.
+  Click Image Builders in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Image Builder Details</title>
+      <link>/v4.2.0/11-use-extensions/03-image-builder/03-view-image-builder-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/03-image-builder/03-view-image-builder-details/</guid>
+      <description>This section describes how to view image builder details.
+ Prerequisites You need to join a project and have the Application Workloads View permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workloads View permissions and enter your workspace.
+  Click Image Builders in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Edit Image Builder Information</title>
+      <link>/v4.2.0/11-use-extensions/03-image-builder/04-edit-image-builder-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/03-image-builder/04-edit-image-builder-information/</guid>
+      <description>This section describes how to edit image builder information.
+ You can edit the alias and description of an image builder. KubeSphere does not support editing the name of an image builder.
+ Prerequisites You need to join a project and have the Application Workload Management permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workload Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Run an Image Builder</title>
+      <link>/v4.2.0/11-use-extensions/03-image-builder/05-run-an-image-builder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/03-image-builder/05-run-an-image-builder/</guid>
+      <description>This section describes how to run an image builder.
+ After an image builder starts running, it builds source code or artifact files into container images and pushes them to the specified image service.
+ Prerequisites You need to join a project and have the Application Workload Management permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workload Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Configure S2I and B2I Webhooks</title>
+      <link>/v4.2.0/11-use-extensions/03-image-builder/06-s2i-and-b2i-webhooks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/03-image-builder/06-s2i-and-b2i-webhooks/</guid>
+      <description>KubeSphere provides Source-to-Image (S2I) and Binary-to-Image (B2I) capabilities to automate building, pushing images, and deploying applications. You can configure S2I and B2I Webhooks to automatically trigger image builders when specific events occur in the code repository.
+ This tutorial demonstrates how to configure S2I and B2I webhooks.
+ Prerequisites An S2I image builder and a B2I image builder have been created. For more information, please refer to Create an Image Builder Using Source Code and Create an Image Builder Using an Artifact.</description>
+    </item>
+    
+    <item>
+      <title>Delete Image Builder</title>
+      <link>/v4.2.0/11-use-extensions/03-image-builder/08-delete-image-builders/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/03-image-builder/08-delete-image-builders/</guid>
+      <description>This section describes how to delete an image builder.
+     Warning     Once deleted, the image builder cannot be recovered. Please perform this operation with caution.
+    Prerequisites You need to join a project and have the Application Workload Management permission in the project. For more information, see Project Members and Project Roles.
+   Delete a Single Image Builder  Log in to the KubeSphere web console with a user who has Application Workload Management permissions and enter your workspace.</description>
+    </item>
+    
+  </channel>
+</rss>

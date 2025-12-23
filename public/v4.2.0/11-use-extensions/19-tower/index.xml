@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KubeSphere Multi-Cluster Agent Connection on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/19-tower/</link>
+    <description>Recent content in KubeSphere Multi-Cluster Agent Connection on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/19-tower/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adding Member Clusters via Proxy Connection</title>
+      <link>/v4.2.0/11-use-extensions/19-tower/02-add-a-member-cluster-using-proxy-connection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/19-tower/02-add-a-member-cluster-using-proxy-connection/</guid>
+      <description>This section describes how to add a member cluster via proxy connection.
+ If the host cluster cannot access the Kubernetes API service of the member cluster, you can set up the member cluster to connect to the tower service exposed by the host cluster to add the member cluster.
+ Prerequisites   You need to have the platform-admin role in the host cluster.
+  The KubeSphere Multi-Cluster Agent Connection extension needs to be installed and enabled on the KubeSphere platform.</description>
+    </item>
+    
+  </channel>
+</rss>

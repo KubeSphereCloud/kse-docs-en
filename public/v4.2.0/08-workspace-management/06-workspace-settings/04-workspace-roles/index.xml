@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workspace Roles on KubeSphere</title>
+    <link>/v4.2.0/08-workspace-management/06-workspace-settings/04-workspace-roles/</link>
+    <description>Recent content in Workspace Roles on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/08-workspace-management/06-workspace-settings/04-workspace-roles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Workspace Role</title>
+      <link>/v4.2.0/08-workspace-management/06-workspace-settings/04-workspace-roles/01-create-a-workspace-role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/06-workspace-settings/04-workspace-roles/01-create-a-workspace-role/</guid>
+      <description>This section describes how to create a workspace role.
+ Prerequisites You need to join a workspace and have the Role Management permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Role Management permissions and enter your workspace.
+  Click Workspace Settings &amp;gt; Workspace Roles in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Workspace Role List</title>
+      <link>/v4.2.0/08-workspace-management/06-workspace-settings/04-workspace-roles/02-view-a-workspace-role-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/06-workspace-settings/04-workspace-roles/02-view-a-workspace-role-list/</guid>
+      <description>This section describes how to view the workspace role list.
+ Each workspace role contains specific workspace management or viewing permissions. You can grant roles containing specific permissions to workspace members to control their permissions within the workspace.
+ Prerequisites You need to join a workspace and have the Role Viewing permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Role Viewing permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>View Workspace Role Details</title>
+      <link>/v4.2.0/08-workspace-management/06-workspace-settings/04-workspace-roles/03-view-workspace-role-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/06-workspace-settings/04-workspace-roles/03-view-workspace-role-details/</guid>
+      <description>This section describes how to view workspace role details.
+ Prerequisites You need to join a workspace and have the Role View permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Role View permissions and enter your workspace.
+  Click Workspace Settings &amp;gt; Workspace Roles in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Edit Workspace Role Information</title>
+      <link>/v4.2.0/08-workspace-management/06-workspace-settings/04-workspace-roles/04-edit-workspace-role-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/06-workspace-settings/04-workspace-roles/04-edit-workspace-role-information/</guid>
+      <description>This section describes how to edit workspace role information.
+ You can edit the alias and description of a workspace role created by a user. KubeSphere does not support editing built-in workspace roles, nor does it support editing the name of a workspace role.
+ Prerequisites You need to join a workspace and have the Role Management permission in the workspace. For more information, see Workspace Members and Workspace Roles.</description>
+    </item>
+    
+    <item>
+      <title>Edit Workspace Role Permissions</title>
+      <link>/v4.2.0/08-workspace-management/06-workspace-settings/04-workspace-roles/05-edit-permissions-of-a-workspace-role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/06-workspace-settings/04-workspace-roles/05-edit-permissions-of-a-workspace-role/</guid>
+      <description>This section describes how to edit workspace role permissions.
+ You can only edit the permissions of user-created workspace roles. The permissions of built-in workspace roles cannot be edited.
+ Prerequisites You need to join a workspace and have the Role Management permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Role Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Delete Workspace Role</title>
+      <link>/v4.2.0/08-workspace-management/06-workspace-settings/04-workspace-roles/06-delete-a-workspace-role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/06-workspace-settings/04-workspace-roles/06-delete-a-workspace-role/</guid>
+      <description>This section describes how to delete a workspace role.
+ You can delete user-created workspace roles. Built-in workspace roles cannot be deleted.
+ Prerequisites    You need to join a workspace and have the Role Management permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+     If the workspace role you want to delete has already been assigned to workspace members, you need to delete the workspace members or modify their roles.</description>
+    </item>
+    
+  </channel>
+</rss>

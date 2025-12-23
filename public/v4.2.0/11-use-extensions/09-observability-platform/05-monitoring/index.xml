@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WizTelemetry Monitoring on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/</link>
+    <description>Recent content in WizTelemetry Monitoring on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Edit Monitoring Exporter</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/08-edit-a-metrics-exporter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/08-edit-a-metrics-exporter/</guid>
+      <description>This section describes how to edit a monitoring exporter.
+ Monitoring exporters are used to monitor applications. The monitoring and alerting functionality of the KubeSphere platform is implemented using Prometheus at its core. To monitor the health status of your applications, you need to perform the following operations:
+  Configure the application running in the container to expose monitoring metrics that comply with the Prometheus specification at a specific service endpoint.</description>
+    </item>
+    
+  </channel>
+</rss>

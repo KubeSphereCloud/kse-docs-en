@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Persistent Volume Claim on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/07-kubefed/04-peristent-volume-claims/</link>
+    <description>Recent content in Persistent Volume Claim on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/07-kubefed/04-peristent-volume-claims/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a PersistentVolumeClaim</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/04-peristent-volume-claims/01-create-a-persistent-volume-claim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/04-peristent-volume-claims/01-create-a-persistent-volume-claim/</guid>
+      <description>This section describes how to create a PersistentVolumeClaim.
+ Prerequisites   The Application Management for Cluster Federation extension must be installed and enabled on the KubeSphere platform.
+   You need to join a federated project and have the Federated Project Management permission in the corresponding workspace.
+     Steps  Log in to the KubeSphere web console as a user with Federated Project Management permissions and enter your federated project.</description>
+    </item>
+    
+    <item>
+      <title>View Persistent Volume Claim List</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/04-peristent-volume-claims/02-view-a-persistent-volume-claim-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/04-peristent-volume-claims/02-view-a-persistent-volume-claim-list/</guid>
+      <description>This section describes how to view the list of persistent volume claims.
+ Prerequisites   The Application Management for Cluster Federation extension must be installed and enabled on the KubeSphere platform.
+   You need to join a federated project and have the Federated Project View permission in the corresponding workspace.
+     Steps  Log in to the KubeSphere web console as a user with Federated Project View permissions and enter your federated project.</description>
+    </item>
+    
+    <item>
+      <title>View Persistent Volume Claim Details</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/04-peristent-volume-claims/03-view-persistent-volume-claim-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/04-peristent-volume-claims/03-view-persistent-volume-claim-details/</guid>
+      <description>This section describes how to view persistent volume claim details.
+ Prerequisites   The Application Management for Cluster Federation extension must be installed and enabled on the KubeSphere platform.
+   You need to join a federated project and have the Federated Project View permission in the corresponding workspace.
+     Steps  Log in to the KubeSphere web console as a user with Federated Project View permissions and enter your federated project.</description>
+    </item>
+    
+    <item>
+      <title>Edit Persistent Volume Claim Information</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/04-peristent-volume-claims/04-edit-persistent-volume-claim-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/04-peristent-volume-claims/04-edit-persistent-volume-claim-information/</guid>
+      <description>This section describes how to edit the basic information of a PersistentVolumeClaim.
+ You can edit the alias and description of a PersistentVolumeClaim. KubeSphere does not support editing the name of a PersistentVolumeClaim.
+ Prerequisites   The Application Management for Cluster Federation extension must be installed and enabled on the KubeSphere platform.
+   You need to join a federated project and have the Federated Project Management permission in the corresponding workspace.</description>
+    </item>
+    
+    <item>
+      <title>Delete Persistent Volume Claim</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/04-peristent-volume-claims/05-delete-persistent-volume-claims/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/04-peristent-volume-claims/05-delete-persistent-volume-claims/</guid>
+      <description>This section describes how to delete a PersistentVolumeClaim.
+     Warning     A PersistentVolumeClaim cannot be recovered after deletion, and by default, the corresponding PersistentVolume will also be deleted. Please perform this operation with caution to avoid data loss.
+    Prerequisites   The Federated Application Management extension must be installed and enabled on the KubeSphere platform.
+   You need to join a federated project and have the Federated Project Management permission in the corresponding workspace.</description>
+    </item>
+    
+  </channel>
+</rss>

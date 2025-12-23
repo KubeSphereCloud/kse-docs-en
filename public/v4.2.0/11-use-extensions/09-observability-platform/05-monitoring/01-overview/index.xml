@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Overview on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/01-overview/</link>
+    <description>Recent content in Overview on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/01-overview/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>View Cluster Monitoring Overview</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/01-overview/01-cluster-monitoring-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/01-overview/01-cluster-monitoring-overview/</guid>
+      <description>This section describes how to view monitoring information on the cluster overview page.
+ For other information about the cluster overview page, please refer to View Cluster Overview Information.
+ Prerequisites    You need to join a cluster and have the Monitoring View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     The WizTelemetry Monitoring extension must be installed and enabled on the KubeSphere platform.</description>
+    </item>
+    
+    <item>
+      <title>View Workspace Monitoring Overview</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/01-overview/02-workspace-monitoring-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/01-overview/02-workspace-monitoring-overview/</guid>
+      <description>This section describes how to view monitoring information on the workspace overview page.
+ Prerequisites    You need to join a workspace and have the Monitoring Viewing permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+     The WizTelemetry Monitoring extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has Monitoring Viewing permissions and enter your workspace.</description>
+    </item>
+    
+  </channel>
+</rss>
