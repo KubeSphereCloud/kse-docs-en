@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cluster Visibility on KubeSphere</title>
+    <link>/v4.2.0/07-cluster-management/09-cluster-settings/02-cluster-visibility/</link>
+    <description>Recent content in Cluster Visibility on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/07-cluster-management/09-cluster-settings/02-cluster-visibility/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>View Cluster Visibility</title>
+      <link>/v4.2.0/07-cluster-management/09-cluster-settings/02-cluster-visibility/01-view-cluster-visibility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/09-cluster-settings/02-cluster-visibility/01-view-cluster-visibility/</guid>
+      <description>This section describes how to view which workspaces the cluster has been authorized to.
+ Prerequisites You need to join a cluster and have the Cluster Settings View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Cluster Settings View permissions and enter your cluster.
+  Click Cluster Settings &amp;gt; Cluster Visibility in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Edit Cluster Visibility</title>
+      <link>/v4.2.0/07-cluster-management/09-cluster-settings/02-cluster-visibility/02-edit-cluster-visibility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/09-cluster-settings/02-cluster-visibility/02-edit-cluster-visibility/</guid>
+      <description>This section describes how to edit cluster visibility.
+ Prerequisites You need to join a cluster and have the Cluster Settings Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Cluster Settings Management permissions and enter your cluster.
+  Click Cluster Settings &amp;gt; Cluster Visibility in the left navigation pane.</description>
+    </item>
+    
+  </channel>
+</rss>

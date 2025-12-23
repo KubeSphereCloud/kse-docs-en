@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Metrics Server on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/24-metrics-server/</link>
+    <description>Recent content in Metrics Server on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/24-metrics-server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Edit Auto-scaling Settings</title>
+      <link>/v4.2.0/11-use-extensions/24-metrics-server/01-edit-auto-scaling-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/24-metrics-server/01-edit-auto-scaling-settings/</guid>
+      <description>This section describes how to edit the auto-scaling settings for a workload. The auto-scaling feature allows the system to automatically adjust the number of pod replicas based on the target CPU and memory usage of all pod replicas in the workload.
+ Prerequisites    You need to join a cluster or project and have the Application Workload Management permission in the cluster or project. For more information, please refer to Cluster Roles and Project Roles.</description>
+    </item>
+    
+  </channel>
+</rss>

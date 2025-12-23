@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Toolbox on KubeSphere</title>
+    <link>/v4.2.0/10-toolbox/</link>
+    <description>Recent content in Toolbox on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/10-toolbox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running Commands via kubectl</title>
+      <link>/v4.2.0/10-toolbox/01-use-kubectl-tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/10-toolbox/01-use-kubectl-tool/</guid>
+      <description>Kubectl is the Kubernetes command-line tool. You can use it to run commands on a Kubernetes cluster to view and manage cluster resources, among other tasks.
+ The KubeSphere web console provides a Web kubectl for user convenience. By default, only users granted the platform-admin role (e.g., the default account admin) have permission to use Web kubectl for cluster resource operations and management.
+ This section demonstrates how to use Web kubectl for cluster resource operations and management.</description>
+    </item>
+    
+    <item>
+      <title>View and Download kubeconfig File</title>
+      <link>/v4.2.0/10-toolbox/02-view-a-kubeconfig-file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/10-toolbox/02-view-a-kubeconfig-file/</guid>
+      <description>This section describes how to view and download the kubeconfig file.
+ The kubeconfig file contains the cluster’s authentication information and is used to grant access to the cluster for other applications. KubeSphere supports automatically generating a kubeconfig file based on the currently logged-in user, which can grant the same access permissions as the current user to other applications. For more information, please refer to the Kubernetes official documentation.</description>
+    </item>
+    
+  </channel>
+</rss>

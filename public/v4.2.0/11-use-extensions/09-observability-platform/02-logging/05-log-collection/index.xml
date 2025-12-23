@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Log Collection on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/05-log-collection/</link>
+    <description>Recent content in Log Collection on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/09-observability-platform/02-logging/05-log-collection/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enable Log Collection</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/05-log-collection/01-enable-logsidecar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/05-log-collection/01-enable-logsidecar/</guid>
+      <description>This section describes how to modify the configuration of the &amp;#34;WizTelemetry Logging&amp;#34; extension to enable the log collection feature.
+ Prerequisites   You need to have the platform-admin role in the KubeSphere platform. For more information, refer to Users and Platform Roles.
+  The WizTelemetry Logging extension needs to be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.</description>
+    </item>
+    
+    <item>
+      <title>Enable Log Collection in a Project</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/05-log-collection/02-enable-project-log-collection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/05-log-collection/02-enable-project-log-collection/</guid>
+      <description>This section describes how to enable log collection in a project.
+     Note     Once enabled, the Collect Logs on Volumes feature will be available on the Storage Settings tab when creating workloads, services, and Jobs in the project.
+    Prerequisites    You need to join a project and have the  project-admin  permission in the project.</description>
+    </item>
+    
+    <item>
+      <title>Enable Collection of Logs on Volumes</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/05-log-collection/03-enable-collect-volume-logs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/05-log-collection/03-enable-collect-volume-logs/</guid>
+      <description>This section describes how to enable the collection of logs on volumes when creating a workload, service, or job. For more information, see Create a Workload, Create a Stateful or Stateless Service, or Create a Job.
+ Prerequisites    You need to join a project and have the Application Workloads Management permission in the project. For more information, see Project Members and Project Roles.
+     The KubeSphere platform requires the WizTelemetry Logging extension to be installed and enabled, and you must have enabled log collection in the project.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Platform Roles on KubeSphere Enterprise</title>
+    <title>Platform Roles on KubeSphere</title>
     <link>/v4.2.0/05-users-and-roles/02-platform-roles/</link>
-    <description>Recent content in Platform Roles on KubeSphere Enterprise</description>
+    <description>Recent content in Platform Roles on KubeSphere</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/05-users-and-roles/02-platform-roles/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,12 +12,12 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/v4.2.0/05-users-and-roles/02-platform-roles/01-create-a-platform-role/</guid>
-      <description>This section explains how to create platform roles.
- KubeSphere provides the following preset platform roles, and you can also create roles to customize role permissions.
+      <description>This section describes how to create a platform role.
+ The KubeSphere platform provides the following built-in platform roles. You can also create roles to customize role permissions.
      Parameter Description     platform-admin
- The platform administrator has all permissions on the KubeSphere Enterprise platform.
+ Platform administrator, who has all permissions on the KubeSphere platform, including platform role management, user management, cluster and workspace management, extension management, etc.
    platform-regular
- The role cannot access any resources before joining a workspace, which is typically granted to workspace members who do not need other platform permissions.</description>
+ Platform regular user, who cannot access any resources before being invited to a workspace.</description>
     </item>
     
     <item>
@@ -26,11 +26,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/v4.2.0/05-users-and-roles/02-platform-roles/02-view-a-platform-role-list/</guid>
-      <description>This section explains how to view the platform role list.
- Prerequisites You should have the Role Viewing permission on the KubeSphere Enterprise platform. For more information, see Users and Platform Roles.
-   Steps  Log in to the KubeSphere Enterprise web console with a user who has the Role Viewing permission.
-  Click Users and Roles.
-  Select Platform Roles from the left navigation pane.</description>
+      <description>This section describes how to view the platform role list.
+ Prerequisites You need to have the Role View permission on the KubeSphere platform. For more information, see Users and Platform Roles.
+   Steps  Log in to the KubeSphere web console as a user with Role View permissions.
+  Click Users and Roles Management.
+  In the left navigation pane, select Platform Roles. The platform role list provides the role’s name, description, and creation time.</description>
     </item>
     
     <item>
@@ -39,11 +39,12 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/v4.2.0/05-users-and-roles/02-platform-roles/03-view-platform-role-details/</guid>
-      <description>This section explains how to view platform role details.
- Prerequisites You should have the Role Viewing permission on the KubeSphere Enterprise platform. For more information, see Users and Platform Roles.
-   Steps  Log in to the KubeSphere Enterprise web console with a user who has the Role Viewing permission.
-  Click Users and Roles.
-  Select Platform Roles from the left navigation pane.</description>
+      <description>This section describes how to view platform role details.
+ Prerequisites You need to have theRole Viewing permission on the KubeSphere platform. For more information, refer to Users and Platform Roles.
+   Steps  Log in to the KubeSphere web console as a user with Role Viewing permissions.
+  ClickUser and Role Management.
+  In the left navigation pane, select Platform Roles.
+  In the platform roles list, click the name of a platform role to open its details page.</description>
     </item>
     
     <item>
@@ -52,10 +53,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/v4.2.0/05-users-and-roles/02-platform-roles/04-edit-platform-role-information/</guid>
-      <description>This section explains how to edit platform role information.
- You can edit the alias and description of platform roles created by users. KubeSphere does not support editing preset platform roles and the names of platform roles.
- Prerequisites You should have the Role Management permission on the KubeSphere Enterprise platform. For more information, see Users and Platform Roles.
-   Steps  Log in to the KubeSphere Enterprise web console with a user who has the Role Management permission.</description>
+      <description>This section describes how to edit platform role information.
+ You can edit the alias and description of platform roles created by users. KubeSphere does not support editing built-in platform roles, nor does it support editing the names of platform roles.
+ Prerequisites You need to have the Role Management permission on the KubeSphere platform. For more information, please refer to Users and Platform Roles.
+   Steps  Log in to the KubeSphere web console as a user with Role Management permissions.</description>
     </item>
     
     <item>
@@ -64,11 +65,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/v4.2.0/05-users-and-roles/02-platform-roles/05-edit-permissions-of-a-platform-role/</guid>
-      <description>This section explains how to edit platform role permissions.
- Prerequisites You should have the Role Management permission on the KubeSphere Enterprise platform. For more information, see Users and Platform Roles.
-   Steps  Log in to the KubeSphere Enterprise web console with a user who has the Role Management permission.
-  Click Users and Roles.
-  Select Platform Roles from the left navigation pane.</description>
+      <description>This section describes how to edit platform role permissions.
+ You can only edit the permissions of user-created platform roles. The permissions of built-in platform roles cannot be edited.
+ Prerequisites You need to have the Role Management permission on the KubeSphere platform. For more information, see Users and Platform Roles.
+   Steps  Log in to the KubeSphere web console as a user with Role Management permissions.</description>
     </item>
     
     <item>
@@ -77,10 +77,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/v4.2.0/05-users-and-roles/02-platform-roles/06-delete-platform-roles/</guid>
-      <description>This section explains how to delete platform roles.
- You can delete platform roles created by users. Preset platform roles cannot be deleted.
- Prerequisites   You should have the Role Management permission on the KubeSphere Enterprise platform. For more information, see Users and Platform Roles.
-  If the platform role you want to delete has already been assigned to a user, you need to delete the user or modify their role.</description>
+      <description>This section describes how to delete platform roles.
+ You can delete platform roles created by users. Pre-configured platform roles cannot be deleted.
+ Prerequisites   You need to have the Role Management permission on the KubeSphere platform. For more information, refer to Users and Platform Roles.
+  If the platform role you want to delete has already been assigned to users, you need to delete the users or modify their roles.</description>
     </item>
     
   </channel>

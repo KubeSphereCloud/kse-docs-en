@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Entering a Cluster on KubeSphere</title>
+    <link>/v4.2.0/07-cluster-management/01-web-console/</link>
+    <description>Recent content in Entering a Cluster on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/07-cluster-management/01-web-console/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Log In and Access a Cluster</title>
+      <link>/v4.2.0/07-cluster-management/01-web-console/01-log-in-and-go-to-a-cluster/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/01-web-console/01-log-in-and-go-to-a-cluster/</guid>
+      <description>This section describes how to log in to the KubeSphere web console and access a cluster.
+ Prerequisites   You need to obtain the username and password of a cluster member.
+     You need to contact the KubeSphere platform administrator to obtain the IP address and port number of the web console.
+  Depending on your network environment, you may need to configure firewall policies and traffic forwarding policies.</description>
+    </item>
+    
+  </channel>
+</rss>

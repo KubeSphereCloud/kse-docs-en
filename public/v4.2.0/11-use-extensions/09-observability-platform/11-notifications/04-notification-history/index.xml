@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notification History on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/04-notification-history/</link>
+    <description>Recent content in Notification History on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/04-notification-history/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>View Notification History</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/04-notification-history/03-view-notification-history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/04-notification-history/03-view-notification-history/</guid>
+      <description>This section describes how to view notification history records.
+ Prerequisites   You need to have the platform-admin role in the KubeSphere platform. For more information, refer to Users and Platform Roles.
+  The WizTelemetry Notification extension needs to be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.</description>
+    </item>
+    
+  </channel>
+</rss>

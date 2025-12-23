@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workload Templates on KubeSphere</title>
+    <link>/v4.2.0/07-cluster-management/05-application-workloads/07-templates/</link>
+    <description>Recent content in Workload Templates on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/07-cluster-management/05-application-workloads/07-templates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Workload Template</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/07-templates/01-create-a-workload-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/07-templates/01-create-a-workload-template/</guid>
+      <description>This section describes how to create a workload template.
+ You can create a workload template directly, or create a template based on an existing workload.
+ Prerequisites You need to join a cluster and have the Application Workload Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workload Management permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>View Template List</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/07-templates/02-view-a-template-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/07-templates/02-view-a-template-list/</guid>
+      <description>This section describes how to view the application workload template list.
+ Prerequisites You need to join a cluster and have the Application Workload View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workload View permissions and enter your cluster.
+  Click Application Workloads &amp;gt; Application Workload Templates in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Edit Template Settings</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/07-templates/03-edit-template-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/07-templates/03-edit-template-settings/</guid>
+      <description>This section describes how to edit the settings of a workload template.
+ After a workload template is created, you can edit its basic information, pod settings, storage settings, and advanced settings.
+ Prerequisites You need to join a cluster and have the Application Workload Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workload Management permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Create a Workload from a Template</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/07-templates/05-create-workload-by-templates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/07-templates/05-create-workload-by-templates/</guid>
+      <description>This section describes how to create a workload from a template.
+ Prerequisites You need to join a cluster and have the Application Workload Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workload Management permissions and enter your cluster.
+  Click Application Workloads &amp;gt; Workload Templates in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Delete Workload Templates</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/07-templates/07-delete-templates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/07-templates/07-delete-templates/</guid>
+      <description>This section describes how to delete workload templates.
+ Prerequisites You need to join a cluster and have the Application Workload Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Delete a Single Workload Template  Log in to the KubeSphere web console with a user who has Application Workload Management permissions and enter your cluster.
+  Click Application Workloads &amp;gt; Workload Templates in the left navigation pane.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rule Groups on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/05-alert-management/01-rule-groups/</link>
+    <description>Recent content in Rule Groups on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/05-alert-management/01-rule-groups/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a Rule Group</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/05-alert-management/01-rule-groups/01-create-a-rule-group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/05-alert-management/01-rule-groups/01-create-a-rule-group/</guid>
+      <description>This section describes how to create alert rule groups.
+ KubeSphere’s monitoring and alerting functionality is built on Prometheus. Each rule group can contain multiple alert rules. You can create alert rules using the system-provided rule templates or by manually entering PromQL expressions. For more information, please refer to the Prometheus official documentation.
+     Note     KubeSphere only supports creating custom rule groups and does not support creating built-in rule groups.</description>
+    </item>
+    
+    <item>
+      <title>View Rule Group List</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/05-alert-management/01-rule-groups/02-view-a-rule-group-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/05-alert-management/01-rule-groups/02-view-a-rule-group-list/</guid>
+      <description>This section describes how to view the list of alert rule groups.
+ Prerequisites You need to have the platform-admin role in the KubeSphere platform. For more information, refer to Users and Platform Roles.
+   Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.
+  In the upper right corner of the page, click the  icon and select WizTelemetry Observability Platform.</description>
+    </item>
+    
+    <item>
+      <title>View Rule Group Details</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/05-alert-management/01-rule-groups/03-view-rule-group-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/05-alert-management/01-rule-groups/03-view-rule-group-details/</guid>
+      <description>This section describes how to view the details of an alert rule group.
+ Prerequisites You need to have the platform-admin role in the KubeSphere platform. For more information, refer to Users and Platform Roles.
+   Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.
+  In the upper right corner of the page, click the  icon and select WizTelemetry Observability Platform.</description>
+    </item>
+    
+    <item>
+      <title>Edit Rule Group Information</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/05-alert-management/01-rule-groups/04-edit-rule-group-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/05-alert-management/01-rule-groups/04-edit-rule-group-information/</guid>
+      <description>This section describes how to edit alert rule group information.
+ You can edit the alias, check interval, and description of an alert rule group. KubeSphere does not support editing the name of a rule group.
+ Prerequisites You need to have the platform-admin role in the KubeSphere platform. For more information, refer to Users and Platform Roles.
+   Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.</description>
+    </item>
+    
+    <item>
+      <title>Edit Alerting Rules</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/05-alert-management/01-rule-groups/05-edit-alert-rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/05-alert-management/01-rule-groups/05-edit-alert-rules/</guid>
+      <description>This section describes how to edit alert rules in a rule group.
+ Prerequisites You need to have the platform-admin role in the KubeSphere platform. For more information, refer to Users and Platform Roles.
+   Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.
+  In the upper right corner of the page, click the  icon and select WizTelemetry Observability Platform.</description>
+    </item>
+    
+    <item>
+      <title>Disable and Enable Rule Groups</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/05-alert-management/01-rule-groups/06-disable-and-enable-rule-groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/05-alert-management/01-rule-groups/06-disable-and-enable-rule-groups/</guid>
+      <description>This section describes how to enable and disable alerting rule groups. Once a rule group is disabled, the system will no longer generate alerts based on that rule group.
+ Prerequisites You need to have the platform-admin role in the KubeSphere platform. For more information, refer to Users and Platform Roles.
+   Disable and Enable a Single Rule Group  Log in to the KubeSphere web console with a user who has the platform-admin role.</description>
+    </item>
+    
+    <item>
+      <title>Delete Custom Rule Groups</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/05-alert-management/01-rule-groups/07-delete-rule-groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/05-alert-management/01-rule-groups/07-delete-rule-groups/</guid>
+      <description>This section describes how to delete alert rule groups.
+     Note     KubeSphere only supports deleting custom rule groups and does not support deleting built-in rule groups. You can reset built-in rule groups.
+        Warning     Rule groups cannot be recovered after deletion. Please perform this operation with caution.
+    Prerequisites You need to have the platform-admin role in the KubeSphere platform.</description>
+    </item>
+    
+    <item>
+      <title>Reset Built-in Rule Groups</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/05-alert-management/01-rule-groups/08-reset-built-in-rule-groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/07-whizard/05-alert-management/01-rule-groups/08-reset-built-in-rule-groups/</guid>
+      <description>This section describes how to reset built-in rule groups.
+     Note     KubeSphere only supports resetting built-in rule groups and does not support resetting custom rule groups.
+        Warning     Rule groups cannot be recovered after being reset. Please perform this operation with caution.
+    Prerequisites You need to have the platform-admin role in the KubeSphere platform.</description>
+    </item>
+    
+  </channel>
+</rss>

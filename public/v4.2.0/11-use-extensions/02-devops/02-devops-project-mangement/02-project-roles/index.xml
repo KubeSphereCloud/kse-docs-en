@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DevOps Project Roles on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/02-devops/02-devops-project-mangement/02-project-roles/</link>
+    <description>Recent content in DevOps Project Roles on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/02-devops/02-devops-project-mangement/02-project-roles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Project Role</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/02-devops-project-mangement/02-project-roles/01-create-a-project-role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/02-devops-project-mangement/02-project-roles/01-create-a-project-role/</guid>
+      <description>This section describes how to create a project role.
+ Prerequisites You need to join a DevOps project and have the Project Role Management permission in the project. For more information, see &amp;#34;DevOps Project Members&amp;#34; and &amp;#34;DevOps Project Roles&amp;#34;.
+   Steps  Log in to the KubeSphere web console with a user who has Project Role Management permissions and enter your workspace.
+  Click DevOps &amp;gt; DevOps Project Management in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Project Role List</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/02-devops-project-mangement/02-project-roles/02-view-a-project-role-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/02-devops-project-mangement/02-project-roles/02-view-a-project-role-list/</guid>
+      <description>This section describes how to view the project role list.
+ Prerequisites You need to join a DevOps project and have the Project Role View permission in the project. For more information, see &amp;#34;DevOps Project Members&amp;#34; and &amp;#34;DevOps Project Roles&amp;#34;.
+   Steps  Log in to the KubeSphere web console with a user who has Project Role View permissions and enter your workspace.
+  Click DevOps &amp;gt; DevOps Project Management in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Project Role Details</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/02-devops-project-mangement/02-project-roles/03-view-project-role-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/02-devops-project-mangement/02-project-roles/03-view-project-role-details/</guid>
+      <description>This section describes how to view project role details.
+ Prerequisites You need to join a DevOps project and have the Project Role View permission in the project. For more information, see &amp;#34;DevOps Project Members&amp;#34; and &amp;#34;DevOps Project Roles&amp;#34;.
+   Steps  Log in to the KubeSphere web console with a user who has Project Role View permissions and enter your workspace.
+  Click DevOps &amp;gt; DevOps Project Management in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Edit Project Role Information</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/02-devops-project-mangement/02-project-roles/04-edit-project-role-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/02-devops-project-mangement/02-project-roles/04-edit-project-role-information/</guid>
+      <description>This section describes how to edit project role information.
+ You can edit the alias and description of project roles created by users. KubeSphere does not support editing built-in project roles, nor does it support editing the name of a project role.
+ Prerequisites You need to join a DevOps project and have the Project Role Management permission in the project. For more information, see &amp;#34;DevOps Project Members&amp;#34; and &amp;#34;DevOps Project Roles&amp;#34;.</description>
+    </item>
+    
+    <item>
+      <title>Edit Project Role Permissions</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/02-devops-project-mangement/02-project-roles/05-edit-permissions-of-a-project-role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/02-devops-project-mangement/02-project-roles/05-edit-permissions-of-a-project-role/</guid>
+      <description>This section describes how to edit project role permissions.
+ You can only edit the permissions of user-created project roles. The permissions of built-in project roles cannot be edited.
+ Prerequisites You need to join a DevOps project and have the Project Role Management permission in the project. For more information, see &amp;#34;DevOps Project Members&amp;#34; and &amp;#34;DevOps Project Roles&amp;#34;.
+   Steps  Log in to the KubeSphere web console with a user who has Project Role Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Delete Project Role</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/02-devops-project-mangement/02-project-roles/06-delete-a-project-role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/02-devops-project-mangement/02-project-roles/06-delete-a-project-role/</guid>
+      <description>This section describes how to delete a project role.
+ You can delete project roles created by users. Built-in project roles cannot be deleted.
+ Prerequisites    You need to join a DevOps project and have the Project Role Management permission in the project. For more information, see &amp;#34;DevOps Project Members&amp;#34; and &amp;#34;DevOps Project Roles&amp;#34;.
+     If the project role to be deleted has been assigned to project members, you need to delete the project member or modify their role.</description>
+    </item>
+    
+  </channel>
+</rss>

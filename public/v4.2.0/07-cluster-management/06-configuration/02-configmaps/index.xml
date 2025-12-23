@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ConfigMaps on KubeSphere</title>
+    <link>/v4.2.0/07-cluster-management/06-configuration/02-configmaps/</link>
+    <description>Recent content in ConfigMaps on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/07-cluster-management/06-configuration/02-configmaps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a ConfigMap</title>
+      <link>/v4.2.0/07-cluster-management/06-configuration/02-configmaps/01-create-a-configmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/06-configuration/02-configmaps/01-create-a-configmap/</guid>
+      <description>This section describes how to create a ConfigMap.
+ Prerequisites You need to join a cluster and have the cluster-admin role in the cluster.
+   Steps  Log in to the KubeSphere web console as a user with the cluster-admin role and go to your cluster.
+  Click Configurations &amp;gt; ConfigMaps in the left navigation pane.
+  Click Create on the page.
+  On the Basic Information tab, set the basic information for the Secret, then click Next.</description>
+    </item>
+    
+    <item>
+      <title>View ConfigMap List</title>
+      <link>/v4.2.0/07-cluster-management/06-configuration/02-configmaps/02-view-a-configmap-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/06-configuration/02-configmaps/02-view-a-configmap-list/</guid>
+      <description>This section describes how to view the list of ConfigMaps.
+ Prerequisites You need to join a cluster and have the cluster-viewer role in the cluster.
+   Steps  Log in to the KubeSphere web console as a user with the cluster-viewer role and go to your cluster.
+  Click Configurations &amp;gt; ConfigMaps in the left navigation pane.
+  The ConfigMap list provides the following information:</description>
+    </item>
+    
+    <item>
+      <title>View ConfigMap Details</title>
+      <link>/v4.2.0/07-cluster-management/06-configuration/02-configmaps/03-view-configmap-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/06-configuration/02-configmaps/03-view-configmap-details/</guid>
+      <description>This section describes how to view ConfigMap details.
+ Prerequisites You need to be a member of a cluster and have the cluster-viewer role within the cluster.
+   Steps  Log in to the KubeSphere web console as a user with the cluster-viewer role and enter your cluster.
+  Click Configuration &amp;gt; ConfigMaps in the left navigation pane.
+  In the ConfigMap list, click the name of a ConfigMap to open its details page.</description>
+    </item>
+    
+    <item>
+      <title>Edit ConfigMap Information</title>
+      <link>/v4.2.0/07-cluster-management/06-configuration/02-configmaps/04-edit-configmap-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/06-configuration/02-configmaps/04-edit-configmap-information/</guid>
+      <description>This section describes how to edit ConfigMap information.
+ You can edit the alias and description of a ConfigMap. KubeSphere does not support editing the name of a ConfigMap.
+ Prerequisites You need to join a cluster and have the cluster-admin role in the cluster.
+   Steps  Log in to the KubeSphere web console as a user with the cluster-admin role and enter your cluster.
+  Click Configurations &amp;gt; ConfigMaps in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Edit ConfigMap Settings</title>
+      <link>/v4.2.0/07-cluster-management/06-configuration/02-configmaps/05-edit-configmap-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/06-configuration/02-configmaps/05-edit-configmap-settings/</guid>
+      <description>This section describes how to edit ConfigMap data settings.
+ Prerequisites You need to be part of a cluster and have the cluster-admin role in that cluster.
+   Steps  Log in to the KubeSphere web console as a user with the cluster-admin role and access your cluster.
+  Click Configuration &amp;gt; ConfigMaps in the left navigation pane.
+  On the right side of the ConfigMap you want to edit, click , and then select Edit Settings from the drop-down list.</description>
+    </item>
+    
+    <item>
+      <title>Delete a ConfigMap</title>
+      <link>/v4.2.0/07-cluster-management/06-configuration/02-configmaps/06-delete-configmaps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/06-configuration/02-configmaps/06-delete-configmaps/</guid>
+      <description>This section describes how to delete a ConfigMap.
+     Warning     A ConfigMap cannot be recovered after deletion. Please perform this operation with caution.
+    Prerequisites You need to be a member of a cluster with the cluster-admin role.
+   Delete a Single ConfigMap  Log in to the KubeSphere web console as a user with the cluster-admin role and go to your cluster.</description>
+    </item>
+    
+  </channel>
+</rss>

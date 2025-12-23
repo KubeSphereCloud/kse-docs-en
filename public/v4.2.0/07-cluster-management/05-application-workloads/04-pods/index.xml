@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pods on KubeSphere</title>
+    <link>/v4.2.0/07-cluster-management/05-application-workloads/04-pods/</link>
+    <description>Recent content in Pods on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/07-cluster-management/05-application-workloads/04-pods/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>View Pod List</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/04-pods/01-view-a-pod-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/04-pods/01-view-a-pod-list/</guid>
+      <description>This section describes how to view the pod list.
+ Prerequisites You need to join a cluster and have the Application Workloads View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workloads View permissions and enter your cluster.
+  Click Application Workloads &amp;gt; Pods in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Pod Details</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/04-pods/02-view-pod-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/04-pods/02-view-pod-details/</guid>
+      <description>This section explains how to view pod details.
+ Prerequisites You need to join a cluster and have the Application Workloads View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workloads View permissions and enter your cluster.
+  Click Application Workloads &amp;gt; Pods in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Container Details</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/04-pods/03-view-container-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/04-pods/03-view-container-details/</guid>
+      <description>This section describes how to view container details.
+     Note     KubeSphere only supports viewing details of running containers and does not support viewing details of stopped containers.
+    Prerequisites You need to join a cluster and have the Application Workloads View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workloads View permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Access Container Terminal</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/04-pods/04-access-a-container-terminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/04-pods/04-access-a-container-terminal/</guid>
+      <description>This section describes how to access a container terminal.
+     Note     KubeSphere only supports accessing the terminal of a running container.
+    Prerequisites You need to join a cluster and have the Application Workload Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workload Management permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Delete Pods</title>
+      <link>/v4.2.0/07-cluster-management/05-application-workloads/04-pods/05-delete-pods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/05-application-workloads/04-pods/05-delete-pods/</guid>
+      <description>This section describes how to delete a pod.
+     Note       It is recommended to delete a pod by deleting its managing resource (such as a workload or Job), rather than deleting the pod directly.
+  If you delete a pod directly, depending on the policy of the pod’s managing resource, the system may recreate the pod.
+          Warning     Deleting a running pod may cause business interruption.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OAuth2-Proxy on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/21-oauth2-proxy/</link>
+    <description>Recent content in OAuth2-Proxy on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/21-oauth2-proxy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configure and Access Services</title>
+      <link>/v4.2.0/11-use-extensions/21-oauth2-proxy/01-config-oauth2-proxy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/21-oauth2-proxy/01-config-oauth2-proxy/</guid>
+      <description>OAuth2-Proxy supports multiple OAuth Providers. This section describes how to configure this extension to use KubeSphere as the OAuth Provider, allowing direct access to various services after authenticating and logging in via KubeSphere.
+ Configure OAuth2-Proxy The OAuth2-Proxy extension provides two methods, NodePort and Ingress, to offer unified KubeSphere user-based authentication for applications. The method for configuring OAuth2-Proxy differs depending on the approach.
+ NodePort Method By exposing the OpenResty NodePort from the extension externally, it provides a unified access entry point for proxied applications.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Network Policy on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/11-network/01-network-policies/</link>
+    <description>Recent content in Network Policy on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/11-network/01-network-policies/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Network Policy</title>
+      <link>/v4.2.0/11-use-extensions/11-network/01-network-policies/01-create-a-network-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/11-network/01-network-policies/01-create-a-network-policy/</guid>
+      <description>This section describes how to create a network policy.
+     Note     After creating a network policy on the Cluster page, you can enter the workspace to which the network policy’s project belongs, click Service Networking &amp;gt; Project Network Policies, select the project, and then view the network policies of that project.
+        Attention     The Project Network Policies page only supports viewing network policies.</description>
+    </item>
+    
+    <item>
+      <title>View Network Policy List</title>
+      <link>/v4.2.0/11-use-extensions/11-network/01-network-policies/02-view-a-network-policy-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/11-network/01-network-policies/02-view-a-network-policy-list/</guid>
+      <description>This section describes how to view the network policy list.
+ Prerequisites    You need to join a cluster and have the Cluster Network Resource View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     The KubeSphere Network extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has Cluster Network Resource View permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>View Network Policy Details</title>
+      <link>/v4.2.0/11-use-extensions/11-network/01-network-policies/03-view-network-policy-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/11-network/01-network-policies/03-view-network-policy-details/</guid>
+      <description>This section describes how to view network policy details.
+ Prerequisites    You need to join a cluster and have the Cluster Network Resource View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     The KubeSphere Network extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has Cluster Network Resource View permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Edit Network Policy Information</title>
+      <link>/v4.2.0/11-use-extensions/11-network/01-network-policies/04-edit-network-policy-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/11-network/01-network-policies/04-edit-network-policy-information/</guid>
+      <description>This section describes how to edit network policy information.
+ You can edit the alias and description of a network policy. KubeSphere does not support editing the name of a created network policy.
+ Prerequisites    You need to join a cluster and have the Cluster Network Resource Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     The KubeSphere Network extension must be installed and enabled on the KubeSphere platform.</description>
+    </item>
+    
+    <item>
+      <title>Edit Network Policy Configuration</title>
+      <link>/v4.2.0/11-use-extensions/11-network/01-network-policies/05-edit-network-policy-yaml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/11-network/01-network-policies/05-edit-network-policy-yaml/</guid>
+      <description>This section describes how to edit the configuration of a network policy.
+ Prerequisites    You need to join a cluster and have the Cluster Network Resource Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     The KubeSphere Network extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has Cluster Network Resource Management permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Delete Network Policy</title>
+      <link>/v4.2.0/11-use-extensions/11-network/01-network-policies/06-delete-network-policies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/11-network/01-network-policies/06-delete-network-policies/</guid>
+      <description>This section describes how to delete a network policy.
+     Note     A deleted network policy cannot be recovered. Please perform this operation with caution.
+    Prerequisites    You need to join a cluster and have the Cluster Network Resource Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     The KubeSphere Network extension must be installed and enabled on the KubeSphere platform.</description>
+    </item>
+    
+  </channel>
+</rss>

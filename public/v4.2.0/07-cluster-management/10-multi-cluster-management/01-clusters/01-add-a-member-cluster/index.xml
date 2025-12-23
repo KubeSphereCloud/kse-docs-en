@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Add a Member Cluster on KubeSphere</title>
+    <link>/v4.2.0/07-cluster-management/10-multi-cluster-management/01-clusters/01-add-a-member-cluster/</link>
+    <description>Recent content in Add a Member Cluster on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/07-cluster-management/10-multi-cluster-management/01-clusters/01-add-a-member-cluster/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add a Member Cluster via Direct Connection</title>
+      <link>/v4.2.0/07-cluster-management/10-multi-cluster-management/01-clusters/01-add-a-member-cluster/01-add-a-member-cluster-using-direct-connection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/10-multi-cluster-management/01-clusters/01-add-a-member-cluster/01-add-a-member-cluster-using-direct-connection/</guid>
+      <description>This section describes how to add a member cluster via direct connection.
+     Note     Before being managed, a member cluster only needs to have Kubernetes installed; KubeSphere installation is not required. If KubeSphere is already installed, please migrate the data and uninstall KubeSphere before proceeding with management.
+    Prerequisites   You need to have the platform-admin role in the host cluster.</description>
+    </item>
+    
+  </channel>
+</rss>

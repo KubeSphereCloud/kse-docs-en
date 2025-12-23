@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Applications on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/01-apps/</link>
+    <description>Recent content in Applications on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/01-apps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a Composed App</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/01-apps/01-compose-an-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/01-apps/01-compose-an-app/</guid>
+      <description>This section describes how to create a composed app in a federated project.
+ You can customize the services, workloads, and routes of an application to create a composed app. Compared to template-based applications, composed apps support application governance. You can enable application governance for composed apps to use traffic monitoring, canary release, and tracing features.
+ Prerequisites   The Federated Cluster App Management extension must be installed and enabled on the KubeSphere platform.</description>
+    </item>
+    
+    <item>
+      <title>View Composed App List</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/01-apps/02-view-an-app-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/01-apps/02-view-an-app-list/</guid>
+      <description>This section describes how to view the app list in a federated project.
+ Prerequisites   The Federated Cluster App Management extension must be installed and enabled on the KubeSphere platform.
+   You need to join a federated project and have the Federated Project View permission in the corresponding workspace.
+     Steps  Log in to the KubeSphere web console as a user with Federated Project View permissions and enter your federated project.</description>
+    </item>
+    
+    <item>
+      <title>View Composed App Details</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/01-apps/03-view-app-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/01-apps/03-view-app-details/</guid>
+      <description>This section describes how to view app details in a federated project.
+ Prerequisites   The Federated Cluster App Management extension must be installed and enabled on the KubeSphere platform.
+   You need to join a federated project and have the Federated Project View permission in the corresponding workspace.
+     Steps  Log in to the KubeSphere web console as a user with Federated Project View permissions and enter your federated project.</description>
+    </item>
+    
+    <item>
+      <title>Delete Composed App</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/01-apps/04-delete-apps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/03-application-workloads/01-apps/04-delete-apps/</guid>
+      <description>This section describes how to delete an app from a federated project.
+ Prerequisites   The Federated Cluster App Management extension must be installed and enabled on the KubeSphere platform.
+   You need to join a federated project and have the Federated Project Management permission in the corresponding workspace.
+     Steps  Log in to the KubeSphere web console as a user with Federated Project Management permissions and enter your federated project.</description>
+    </item>
+    
+  </channel>
+</rss>

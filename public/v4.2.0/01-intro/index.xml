@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Product Introduction on KubeSphere</title>
+    <link>/v4.2.0/01-intro/</link>
+    <description>Recent content in Product Introduction on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/01-intro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Product Introduction</title>
+      <link>/v4.2.0/01-intro/01-introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/01-intro/01-introduction/</guid>
+      <description>KubeSphere is a distributed, multi-tenant commercial cloud-native operating system based on Kubernetes. Building upon open-source capabilities, it extends functionality across multiple core business scenarios including multi-cloud cluster management, microservices governance, application management, and observability. Each feature is highly modularized to meet the business requirements of different scenarios. With a robust enterprise-grade cloud-native foundation, comprehensive expert-level solutions, and service support, it empowers enterprises in digital transformation and large-scale operations.
+ Starting from KubeSphere v4.</description>
+    </item>
+    
+    <item>
+      <title>Product Architecture</title>
+      <link>/v4.2.0/01-intro/02-architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/01-intro/02-architecture/</guid>
+      <description>KubeSphere LuBan is a distributed, cloud-native, extensible, and open architecture that provides a hot-pluggable microkernel for extensions. The core part (KubeSphere Core) only contains the essential basic functions required for system operation, while independent business modules are encapsulated in various extensions. Users can dynamically install, uninstall, enable, and disable extensions while the system is running.
+ KubeSphere LuBan Architecture The KubeSphere LuBan architecture design is shown in the following diagram.</description>
+    </item>
+    
+    <item>
+      <title>Application Scenarios</title>
+      <link>/v4.2.0/01-intro/03-scenarios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/01-intro/03-scenarios/</guid>
+      <description>KubeSphere is suitable for the following scenarios.
+ Resource Quantification and Operations Multi-department resource management often places enormous pressure on operations teams. For the operations department, calculating the resource utilization of each business line and assessing the reasonableness of that utilization requires significant time and effort. KubeSphere provides multi-dimensional, multi-angle resource quantification and statistics, making resource data clear at a glance.
+   Multi-level Permission Control Efficient collaboration between different business lines within a company has always been a persistent challenge.</description>
+    </item>
+    
+  </channel>
+</rss>

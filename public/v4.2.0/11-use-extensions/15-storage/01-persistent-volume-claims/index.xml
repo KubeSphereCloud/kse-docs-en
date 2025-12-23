@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Persistent Volume Claim on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/15-storage/01-persistent-volume-claims/</link>
+    <description>Recent content in Persistent Volume Claim on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/15-storage/01-persistent-volume-claims/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a NAS-Type PersistentVolumeClaim</title>
+      <link>/v4.2.0/11-use-extensions/15-storage/01-persistent-volume-claims/01-create-a-persistent-volume-from-a-nas-volume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/15-storage/01-persistent-volume-claims/01-create-a-persistent-volume-from-a-nas-volume/</guid>
+      <description>This section describes how to create a NAS-type PersistentVolumeClaim. After the PersistentVolumeClaim is created, the backend storage system will automatically create a corresponding PersistentVolume and bind it.
+ For other methods of creating a PersistentVolumeClaim, please refer to Create a PersistentVolumeClaim.
+ Prerequisites You need to join a cluster or project and have the PersistentVolumeClaim Management permission in the cluster or project. For more information, please refer to Cluster Roles and Project Roles.</description>
+    </item>
+    
+    <item>
+      <title>Create a Persistent Volume Claim from a Volume Snapshot</title>
+      <link>/v4.2.0/11-use-extensions/15-storage/01-persistent-volume-claims/02-create-a-persistent-volume-from-a-volume-snapshot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/15-storage/01-persistent-volume-claims/02-create-a-persistent-volume-from-a-volume-snapshot/</guid>
+      <description>This section describes how to create a persistent volume claim from a volume snapshot. In addition to creating a persistent volume claim on the Volume Snapshots page, you can also choose to create it from a volume snapshot when creating a persistent volume claim.
+ For other methods of creating a persistent volume claim, refer to Create a Persistent Volume Claim.
+ Prerequisites You need to join a cluster or project and have the Persistent Volume Claim Management permission in the cluster or project.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alerting on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/09-observability-platform/06-alerting/04-alerts/</link>
+    <description>Recent content in Alerting on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/09-observability-platform/06-alerting/04-alerts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>View Alert List</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/06-alerting/04-alerts/01-view-an-alert-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/06-alerting/04-alerts/01-view-an-alert-list/</guid>
+      <description>This section describes how to view the alert list.
+ Prerequisites   The WizTelemetry Alerting extension must be installed and enabled on the KubeSphere platform.
+      You need to join a cluster or project and have the Alert Viewing permission in the cluster or project. For more information, please refer to Cluster Roles and Project Roles.
+     Steps  Log in to the KubeSphere web console as a user with Alert Viewing permissions and enter your cluster or workspace.</description>
+    </item>
+    
+  </channel>
+</rss>

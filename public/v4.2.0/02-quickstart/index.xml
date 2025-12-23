@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quick Start on KubeSphere</title>
+    <link>/v4.2.0/02-quickstart/</link>
+    <description>Recent content in Quick Start on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/02-quickstart/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install and Use Extensions</title>
+      <link>/v4.2.0/02-quickstart/02-install-an-extension/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/02-quickstart/02-install-an-extension/</guid>
+      <description>Starting from v4.1, KubeSphere has decoupled some of its core functional components. These components are now seamlessly integrated into the KubeSphere web console as extensions, with independent version maintenance, truly achieving a plug-and-play application-level cloud-native operating system.
+ The original functional modules, such as DevOps, Service Mesh, Observability (including monitoring, alerting, logging, events, notification), App Store, Edge Computing, Network and Storage Management, are now provided by extensions. Therefore, to fully utilize these features, it is recommended that you select the extensions to install based on your actual needs, customizing your own KubeSphere container management platform.</description>
+    </item>
+    
+    <item>
+      <title>Controlling User Permissions</title>
+      <link>/v4.2.0/02-quickstart/03-control-user-permissions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/02-quickstart/03-control-user-permissions/</guid>
+      <description>This section introduces how to create users and control their access permissions using workspaces, projects, and roles. For more information on user permission control, please refer to User and Role Management.
+ As a multi-tenant system, KubeSphere supports controlling user permissions based on roles at the platform, cluster, workspace, and project levels, achieving logical resource isolation.
+ Create a User  Log in to the KubeSphere web console using the default user admin and password P@88w0rd.</description>
+    </item>
+    
+    <item>
+      <title>Install an App from the App Store</title>
+      <link>/v4.2.0/02-quickstart/04-install-an-app-from-the-app-store/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/02-quickstart/04-install-an-app-from-the-app-store/</guid>
+      <description>This section describes how to install an app from the KubeSphere platform’s App Store.
+ Prerequisites You need to join a project and have the App Instance Creation permission in the project. For more information, see Project Members and Project Roles.
+   Steps  In the upper-right corner of the page, click , then click App Store.
+  In the App Store, click the app template you want to use, then click Deploy in the upper-right corner.</description>
+    </item>
+    
+    <item>
+      <title>Create and Deploy WordPress</title>
+      <link>/v4.2.0/02-quickstart/05-deploy-wordpress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/02-quickstart/05-deploy-wordpress/</guid>
+      <description>This section uses the installation of WordPress as an example to demonstrate how to deploy an application in the KubeSphere web console and access it from outside the cluster. For more information on application resource management, please refer to Application Workloads.
+ WordPress Introduction WordPress is a free, open-source content management system based on PHP. You can use WordPress to build your own website. The complete WordPress application includes the following Kubernetes objects, with MySQL serving as the backend database.</description>
+    </item>
+    
+    <item>
+      <title>Deploy and Access Bookinfo</title>
+      <link>/v4.2.0/02-quickstart/06-deploy-bookinfo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/02-quickstart/06-deploy-bookinfo/</guid>
+      <description>As an open-source service mesh solution, Istio provides powerful traffic management capabilities for microservices. The KubeSphere Service Mesh extension integrates Istio, offering users a consistent microservices management experience.
+ This section demonstrates how to deploy the sample application Bookinfo, which consists of four independent microservices, and how to access the application via NodePort.
+ Introduction to Bookinfo The Bookinfo application displays a book information page, similar to a category in an online bookstore.</description>
+    </item>
+    
+    <item>
+      <title>Canary Release Practice</title>
+      <link>/v4.2.0/02-quickstart/07-canary-release-example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/02-quickstart/07-canary-release-example/</guid>
+      <description>In a canary release, you can introduce a new version of an application and send a small portion of traffic to it for testing. Meanwhile, the old version handles the rest of the traffic. If everything goes well, you can gradually increase the traffic sent to the new version while phasing out the old version. If any issues arise, you can adjust the traffic ratio and roll back to the previous version.</description>
+    </item>
+    
+    <item>
+      <title>Accessing Services from Outside the Cluster</title>
+      <link>/v4.2.0/02-quickstart/08-access-a-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/02-quickstart/08-access-a-service/</guid>
+      <description>Services expose applications running on pods as network services, providing a fixed address (domain name or IP address) for client access. Accessing a service allows access to the application deployed within the cluster.
+ KubeSphere supports accessing services from outside the cluster via NodePort, LoadBalancer, Ingress, or port forwarding.
+ This section uses the Bookinfo application as an example to describe how to access services from outside the cluster. Before proceeding with the following steps, please first deploy Bookinfo or another application in your project.</description>
+    </item>
+    
+    <item>
+      <title>Modify Interface Language</title>
+      <link>/v4.2.0/02-quickstart/10-change-display-language/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/02-quickstart/10-change-display-language/</guid>
+      <description>This section describes how to modify the interface language of the KubeSphere web console.
+ Prerequisites You have obtained the username and password for the KubeSphere web console.
+   Steps  Log in to the KubeSphere web console.
+  In the upper-right corner of the page, click the current username, and then select User Settings from the drop-down list.
+  On the Basic Information tab, set the user’s email and language.</description>
+    </item>
+    
+  </channel>
+</rss>

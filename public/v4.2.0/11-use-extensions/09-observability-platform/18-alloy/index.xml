@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grafana Alloy for WizTelemetry on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/09-observability-platform/18-alloy/</link>
+    <description>Recent content in Grafana Alloy for WizTelemetry on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/09-observability-platform/18-alloy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visualizing Metrics Collected by Alloy</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/18-alloy/01-display-alloy-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/18-alloy/01-display-alloy-data/</guid>
+      <description>Alloy has built-in Exporters that can export metrics, such as Blackbox Exporter, Elasticsearch Exporter, Kafka Exporter, Redis Exporter, Postgres Exporter, etc. After installing Alloy, users no longer need to install separate Exporters individually. Using the prometheus.remote_write component, metrics exposed by the aforementioned Exporters can be written to Prometheus and its compatible storage backends. Then, use the Grafana console to visualize the metrics collected by Alloy.
+ The following is an example of using Alloy’s built-in Blackbox Exporter to export metrics and write them to Prometheus.</description>
+    </item>
+    
+  </channel>
+</rss>

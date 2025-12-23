@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cluster Monitoring on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/03-cluster-status/</link>
+    <description>Recent content in Cluster Monitoring on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/03-cluster-status/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>View Cluster Status Overview</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/03-cluster-status/01-view-cluster-status-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/03-cluster-status/01-view-cluster-status-overview/</guid>
+      <description>This section describes how to view the cluster status overview.
+ Prerequisites    You need to join a cluster and have the Monitoring View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     The WizTelemetry Monitoring extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has Monitoring View permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>View Physical Resource Status</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/03-cluster-status/02-view-physical-resource-status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/03-cluster-status/02-view-physical-resource-status/</guid>
+      <description>This section describes how to view physical resource status.
+ Prerequisites    You need to join a cluster and have the Monitoring View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     The WizTelemetry Monitoring extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has Monitoring View permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>View etcd Database Status</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/03-cluster-status/03-view-etcd-status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/03-cluster-status/03-view-etcd-status/</guid>
+      <description>This section describes how to view the etcd database status.
+ Prerequisites    You need to join a cluster and have the Monitoring View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     The WizTelemetry Monitoring extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has Monitoring View permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>View Kubernetes API Server Status</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/03-cluster-status/04-view-api-server-status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/03-cluster-status/04-view-api-server-status/</guid>
+      <description>This section describes how to view the Kubernetes API server status.
+ Prerequisites    You need to join a cluster and have the Monitoring View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     The WizTelemetry Monitoring extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has Monitoring View permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>View Scheduler Status</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/03-cluster-status/05-view-scheduler-monitoring-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/03-cluster-status/05-view-scheduler-monitoring-data/</guid>
+      <description>This section describes how to view the scheduler status. The scheduler determines which nodes pods run on based on pod resource requirements, node available resources, and other constraints.
+ Prerequisites    You need to join a cluster and have the Monitoring View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     The WizTelemetry Monitoring extension must be installed and enabled on the KubeSphere platform.</description>
+    </item>
+    
+    <item>
+      <title>View Node Resource Usage Ranking</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/03-cluster-status/06-view-nodes-ranked-by-resource-usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/05-monitoring/03-cluster-status/06-view-nodes-ranked-by-resource-usage/</guid>
+      <description>This section describes how to sort nodes by the usage of specific resources.
+ Prerequisites    You need to join a cluster and have the Monitoring View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     The WizTelemetry Monitoring extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has Monitoring View permissions and enter your cluster.</description>
+    </item>
+    
+  </channel>
+</rss>

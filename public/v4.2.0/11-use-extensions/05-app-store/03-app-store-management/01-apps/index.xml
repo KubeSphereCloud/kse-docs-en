@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Applications on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/01-apps/</link>
+    <description>Recent content in Applications on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/01-apps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>View App Template List</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/01-apps/01-view-an-app-template-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/01-apps/01-view-an-app-template-list/</guid>
+      <description>This section describes how to view the list of app templates in the App Store.
+ Prerequisites    You need to have the App Store Management permission on the KubeSphere platform. For more information, see Users and Platform Roles.
+     The KubeSphere platform must have the KubeSphere App Store Management extension installed and enabled.
+     Steps  Log in to the KubeSphere web console as a user with App Store Management permissions.</description>
+    </item>
+    
+    <item>
+      <title>View Application Template Details</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/01-apps/02-view-app-template-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/01-apps/02-view-app-template-details/</guid>
+      <description>This section describes how to view application template details.
+ Prerequisites    You need to have the App Store Management permission on the KubeSphere platform. For more information, see Users and Platform Roles.
+     The KubeSphere App Store Management extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console as a user with App Store Management permissions.</description>
+    </item>
+    
+    <item>
+      <title>Edit App Template</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/01-apps/04-edit-an-app-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/01-apps/04-edit-an-app-template/</guid>
+      <description>This section describes how to edit the information of an app template in the App Store.
+ Prerequisites    You need to have the App Store Management permission on the KubeSphere platform. For more information, see Users and Platform Roles.
+     The KubeSphere App Store Management extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console as a user with App Store Management permissions.</description>
+    </item>
+    
+    <item>
+      <title>Publish an App Template</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/01-apps/06-publish-an-app-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/01-apps/06-publish-an-app-template/</guid>
+      <description>This section describes how to publish an app template.
+     Note     Before publishing an app template, at least one of its included app versions must be in the Published state.
+    Prerequisites    You need to have the App Store Management permission on the KubeSphere platform. For more information, see Users and Platform Roles.
+     The KubeSphere App Store Management extension must be installed and enabled on the KubeSphere platform.</description>
+    </item>
+    
+    <item>
+      <title>Unpublish an App Version</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/01-apps/08-cancel-release-an-app-version/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/01-apps/08-cancel-release-an-app-version/</guid>
+      <description>This section describes how to unpublish an app version.
+ After an app template is listed, if you unpublish an app version within it, that version will be removed from the App Store. If all app versions within an app template are in the Unpublished state, the app template will be automatically delisted.
+ After an app version is unpublished, App Store administrators and workspace members can delete that app version.</description>
+    </item>
+    
+    <item>
+      <title>Delete App Version</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/01-apps/09-delete-an-app-version/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/01-apps/09-delete-an-app-version/</guid>
+      <description>This section describes how to delete an app version in the App Store.
+ Prerequisites    You need to have the App Store Management permission on the KubeSphere platform. For more information, see Users and Platform Roles.
+     The KubeSphere App Store Management extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console as a user with App Store Management permissions.</description>
+    </item>
+    
+    <item>
+      <title>Unpublish App Template</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/01-apps/10-suspend-an-app-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/01-apps/10-suspend-an-app-template/</guid>
+      <description>This section describes how to unpublish an app template.
+ After an app template is unpublished, the app template and all its app versions will be removed from the App Store. Meanwhile, App Store administrators and workspace members can delete the entire app template or a specific app version within it.
+ Prerequisites    You need to have the App Store Management permission on the KubeSphere platform. For more information, see Users and Platform Roles.</description>
+    </item>
+    
+    <item>
+      <title>Delete an App Template</title>
+      <link>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/01-apps/12-delete-an-app-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/05-app-store/03-app-store-management/01-apps/12-delete-an-app-template/</guid>
+      <description>This section explains how to delete an app template in the App Store.
+ Prerequisites    You need to have the App Store Management permission on the KubeSphere platform. For more information, see Users and Platform Roles.
+     The KubeSphere platform must have the KubeSphere App Store Management extension installed and enabled.
+     Steps  Log in to the KubeSphere web console as a user with App Store Management permissions.</description>
+    </item>
+    
+  </channel>
+</rss>

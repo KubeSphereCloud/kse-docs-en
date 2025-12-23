@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pipeline on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/02-devops/03-pipelines/</link>
+    <description>Recent content in Pipeline on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/02-devops/03-pipelines/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a Pipeline Using the Graphical Editing Panel</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/03-pipelines/01-create-a-pipeline-using-graphical-editing-panel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/03-pipelines/01-create-a-pipeline-using-graphical-editing-panel/</guid>
+      <description>The graphical editing panel in DevOps contains all necessary operations for Jenkins Stages and Steps. DevOps supports defining these stages and steps directly on the interactive panel without creating any Jenkinsfile.
+ This document demonstrates how to create a pipeline using the graphical editing panel in KubeSphere. Throughout the process, DevOps will automatically generate a Jenkinsfile based on the settings on the editing panel, and you do not need to manually create a Jenkinsfile.</description>
+    </item>
+    
+    <item>
+      <title>Creating a Pipeline Using Jenkinsfile</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/03-pipelines/02-create-a-pipeline-using-jenkinsfile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/03-pipelines/02-create-a-pipeline-using-jenkinsfile/</guid>
+      <description>A Jenkinsfile is a text file that contains the definition of a Jenkins pipeline and is checked into a source code control repository. The Jenkinsfile stores the entire workflow as code, making it the foundation for code review and the pipeline iteration process. For more information, please refer to Jenkins Official Documentation.
+ This document demonstrates how to create a pipeline based on a Jenkinsfile in a GitHub repository and use that pipeline to deploy a sample application to a development environment and a production environment, both accessible externally.</description>
+    </item>
+    
+    <item>
+      <title>Create a Pipeline Using a Pipeline Template</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/03-pipelines/03-use-pipeline-templates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/03-pipelines/03-use-pipeline-templates/</guid>
+      <description>This document demonstrates how to create a pipeline using a pipeline template on KubeSphere.
+ DevOps provides a graphical editing panel that supports defining Jenkins pipeline stages and steps through interactive operations. It includes several built-in pipeline templates, such as Node.js, Maven, and Golang, allowing users to quickly create pipelines based on these templates. DevOps also provides CI and CI &amp;amp; CD pipeline templates. However, these two templates may not meet customization needs.</description>
+    </item>
+    
+    <item>
+      <title>Creating a Multi-branch Pipeline Using GitLab</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/03-pipelines/04-gitlab-multibranch-pipeline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/03-pipelines/04-gitlab-multibranch-pipeline/</guid>
+      <description>GitLab is a web-based Git repository management tool that supports both public and private repositories. It provides comprehensive DevOps capabilities, including source code management, code review, issue tracking, and continuous integration. Through GitLab, teams can collaborate efficiently on a single platform to complete the entire software development process from coding to deployment.
+ KubeSphere supports creating multi-branch pipelines using GitLab within DevOps projects. This document demonstrates how to create a multi-branch pipeline using GitLab.</description>
+    </item>
+    
+    <item>
+      <title>Setting Up a Pipeline</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/03-pipelines/05-pipeline-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/03-pipelines/05-pipeline-settings/</guid>
+      <description>When creating a pipeline, you can customize the pipeline configuration through various settings.
+ After the pipeline is created, you can also edit the pipeline configuration by going to the pipeline details page and clicking Edit Information and Edit Settings in the Actions menu.
+ This document details how to set up a pipeline.
+ Prerequisites   The DevOps extension must be installed and enabled on the KubeSphere platform.</description>
+    </item>
+    
+    <item>
+      <title>Triggering a Pipeline Using Webhook</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/03-pipelines/06-pipeline-webhook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/03-pipelines/06-pipeline-webhook/</guid>
+      <description>To create a Jenkinsfile-based pipeline from a remote code repository, you can configure a webhook in the remote repository so that the pipeline is automatically triggered when the remote repository changes.
+ This document demonstrates how to trigger a pipeline using a webhook in a GitHub repository.
+ Prerequisites   The DevOps extension must be installed and enabled on the KubeSphere platform.
+  You have created a workspace, a DevOps project, and a user (for example, project-regular), and have invited this user to the DevOps project and granted the operator role.</description>
+    </item>
+    
+    <item>
+      <title>Log in to Jenkins Dashboard</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/03-pipelines/07-access-jenkins-console/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/03-pipelines/07-access-jenkins-console/</guid>
+      <description>When DevOps is installed, the Jenkins dashboard is also installed by default.
+ Prerequisites The DevOps extension must be installed and enabled on the KubeSphere platform.
+   Steps  View the service corresponding to the Jenkins dashboard, then refer to How to Access a Service to access the Jenkins dashboard.
+kubectl -n kubesphere-devops-system get svc devops-jenkins       Obtain the username and password for the Jenkins administrator.</description>
+    </item>
+    
+    <item>
+      <title>Configure Jenkins System</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/03-pipelines/08-jenkins-setting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/03-pipelines/08-jenkins-setting/</guid>
+      <description>The DevOps system provides containerized CI/CD capabilities based on Jenkins. As the de facto standard for CI/CD workflows, Jenkins is powerful and flexible. However, many plugins require users to perform system-level configuration before using Jenkins.
+ To provide a schedulable Jenkins environment, KubeSphere adopts the Configuration as Code approach for Jenkins system setup. Users need to log in to the Jenkins dashboard, modify the configuration, and then reload it.</description>
+    </item>
+    
+    <item>
+      <title>Using Jenkins Shared Libraries in Pipelines</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/03-pipelines/10-jenkins-shared-library/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/03-pipelines/10-jenkins-shared-library/</guid>
+      <description>For Jenkins pipelines containing the same stages or steps, you can use Jenkins shared libraries in the Jenkinsfile to avoid code duplication.
+ This document demonstrates how to use Jenkins shared libraries in DevOps pipelines.
+ Prerequisites   The DevOps extension must be installed and enabled on the KubeSphere platform.
+  A workspace, a DevOps project, and a user (for example, project-regular) have been created. The user has been invited to the DevOps project and granted the operator role.</description>
+    </item>
+    
+    <item>
+      <title>Setting up Email Server for Pipelines</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/03-pipelines/11-jenkins-email/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/03-pipelines/11-jenkins-email/</guid>
+      <description>The built-in Jenkins cannot share the same email configuration as the KubeSphere notification system. Therefore, you need to configure the email server separately for DevOps pipelines.
+ Prerequisites   The DevOps extension must be installed and enabled on the KubeSphere platform.
+  You need to have Cluster Management permissions on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console as an account with Cluster Management permissions.</description>
+    </item>
+    
+    <item>
+      <title>Select Jenkins Agent</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/03-pipelines/12-choose-jenkins-agent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/03-pipelines/12-choose-jenkins-agent/</guid>
+      <description>The agent section specifies where the entire pipeline or a specific stage will be executed within the Jenkins environment, depending on where this agent section is placed. This section must be defined at the top level of the pipeline block, but its use at the stage level is optional. For more information, please refer to the Jenkins official documentation.
+ Built-in podTemplate A podTemplate is a Pod template used to create an Agent.</description>
+    </item>
+    
+    <item>
+      <title>Customize Jenkins Agent</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/03-pipelines/13-customize-jenkins-agent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/03-pipelines/13-customize-jenkins-agent/</guid>
+      <description>To use a Jenkins Agent that runs in a specific environment (for example, JDK 11), you can customize a Jenkins Agent on KubeSphere.
+ This document describes how to customize a Jenkins Agent on KubeSphere.
+ Prerequisites The DevOps extension must be installed and enabled on the KubeSphere platform.
+   Customize Jenkins Agent  Log in to the KubeSphere web console as admin.
+  Click Cluster Management and go to a cluster.</description>
+    </item>
+    
+    <item>
+      <title>Setting Up CI Nodes for Dependency Caching</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/03-pipelines/15-set-ci-node/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/03-pipelines/15-set-ci-node/</guid>
+      <description>Building applications often requires pulling various dependencies. Issues such as long pull times or unstable networks may arise during this process, potentially leading to build failures. To provide a more reliable and stable environment, you can configure nodes or node groups specifically for Continuous Integration (CI) and accelerate the build process by using caching.
+ This document demonstrates how to set up CI nodes so that KubeSphere schedules pipeline tasks to these nodes.</description>
+    </item>
+    
+  </channel>
+</rss>

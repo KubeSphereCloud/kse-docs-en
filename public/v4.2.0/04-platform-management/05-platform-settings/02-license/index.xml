@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>License on KubeSphere</title>
+    <link>/v4.2.0/04-platform-management/05-platform-settings/02-license/</link>
+    <description>Recent content in License on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/04-platform-management/05-platform-settings/02-license/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>View License Information</title>
+      <link>/v4.2.0/04-platform-management/05-platform-settings/02-license/01-view-license-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/04-platform-management/05-platform-settings/02-license/01-view-license-information/</guid>
+      <description>This section describes how to view license information.
+ Prerequisites You need to have the Platform Settings Management permission on the KubeSphere platform. For more information, see Users and Platform Roles.
+   Steps  Log in to the KubeSphere web console as a user with Platform Settings Management permissions.
+  In the upper-right corner of the page, click Component Dock &amp;gt; Platform Settings.
+  Click License in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Add License</title>
+      <link>/v4.2.0/04-platform-management/05-platform-settings/02-license/03-add-a-license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/04-platform-management/05-platform-settings/02-license/03-add-a-license/</guid>
+      <description>This section describes how to add a KubeSphere license. To update a license, follow the same steps below to add a new one.
+ Prerequisites You need to have the Platform Settings Management permission on the KubeSphere platform. For more information, see Users and Platform Roles.
+   Steps  Log in to the KubeSphere web console as a user with Platform Settings Management permissions.
+  In the upper right corner of the page, click Component Dock &amp;gt; Platform Settings.</description>
+    </item>
+    
+  </channel>
+</rss>

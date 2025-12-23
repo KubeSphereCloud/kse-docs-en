@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vector Log ETL Solution - From Kafka to OpenSearch on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/09-observability-platform/01-vector/02-etl-solution/</link>
+    <description>Recent content in Vector Log ETL Solution - From Kafka to OpenSearch on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/09-observability-platform/01-vector/02-etl-solution/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Step 1: Write Data to Kafka Using Vector</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/01-vector/02-etl-solution/01-write-data-to-kafka/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/01-vector/02-etl-solution/01-write-data-to-kafka/</guid>
+      <description>Deploy KSE and Install Logging-Related Extensions Extensions that need to be installed in KubeSphere:
+   RadonDB DMP
+  OpenSearch Distributed Search and Analytics Engine
+  WizTelemetry Platform Service
+  WizTelemetry Data Pipeline
+  WizTelemetry Logging
+  WizTelemetry Auditing
+  WizTelemetry Notification
+  WizTelemetry Events
+   Disable OpenSearch Sink Before installing and deploying the WizTelemetry Logging, WizTelemetry Auditing, WizTelemetry Events, and WizTelemetry Notification extensions, you need to disable the opensearch sink in the configuration of these extensions.</description>
+    </item>
+    
+    <item>
+      <title>Step 2: Use Vector to Read Data from Kafka</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/01-vector/02-etl-solution/02-read-data-from-kafka/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/01-vector/02-etl-solution/02-read-data-from-kafka/</guid>
+      <description>Deploy vector aggregator In the cluster where Kafka is located, execute the following commands to create the vector namespace and deploy the vector-aggregator within that namespace.
+     Note       Do not deploy the vector aggregator to the kubesphere-logging-system namespace to avoid conflicts with the built-in vector aggregator in KubeSphere.
+  Please contact KubeSphere delivery service experts to obtain the helm package for the vector aggregator.</description>
+    </item>
+    
+    <item>
+      <title>Step 3: Configure WizTelemetry Platform Service</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/01-vector/02-etl-solution/03-configure-platform-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/01-vector/02-etl-solution/03-configure-platform-service/</guid>
+      <description>Modify whizard-telemetry-config If an external OpenSearch database is used, you need to modify the configuration file whizard-telemetry-config.
+  In the left navigation pane of the cluster, select Configuration &amp;gt; ConfigMaps.
+  On the ConfigMaps page, find whizard-telemetry-config. Click  on the right, then select Edit yaml from the dropdown list.
+
+   Modify the notification:history:endpoints, logging:endpoints, auditing:endpoints, and events:endpoints to the OpenSearch address, then click OK.</description>
+    </item>
+    
+  </channel>
+</rss>

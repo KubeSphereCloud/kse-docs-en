@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Applications on KubeSphere</title>
+    <link>/v4.2.0/08-workspace-management/10-application-workloads/01-apps/</link>
+    <description>Recent content in Applications on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/08-workspace-management/10-application-workloads/01-apps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Apps from the App Store</title>
+      <link>/v4.2.0/08-workspace-management/10-application-workloads/01-apps/01-install-an-app-from-the-app-store/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/10-application-workloads/01-apps/01-install-an-app-from-the-app-store/</guid>
+      <description>This section describes how to install apps from the KubeSphere platform’s App Store.
+ Prerequisites You need to join a project and have the App Instance Creation permission in the project. For more information, see Project Members and Project Roles.
+   Steps  In the upper right corner of the page, click , and then click App Store.
+  In the App Store, click the app template you want to use, and then click Deploy in the upper right corner.</description>
+    </item>
+    
+    <item>
+      <title>Install an App from an App Template</title>
+      <link>/v4.2.0/08-workspace-management/10-application-workloads/01-apps/02-install-an-app-using-an-app-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/10-application-workloads/01-apps/02-install-an-app-using-an-app-template/</guid>
+      <description>This section describes how to install an app from an app template in a workspace or a third-party app repository.
+     Note     To use app templates in a workspace, you need to install and enable the &amp;#34;KubeSphere App Store Management&amp;#34; extension. After installation, the App Templates option will appear under the App Management menu of the workspace. Then workspace members with relevant permissions can create app templates for the workspace.</description>
+    </item>
+    
+    <item>
+      <title>View Application List</title>
+      <link>/v4.2.0/08-workspace-management/10-application-workloads/01-apps/04-view-an-app-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/10-application-workloads/01-apps/04-view-an-app-list/</guid>
+      <description>This section describes how to view the application list.
+ Prerequisites You need to join a project and have the Application Instance View permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Instance View permissions and enter your workspace.
+  Click Application Workloads &amp;gt; Applications in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Details of Template-Based Application</title>
+      <link>/v4.2.0/08-workspace-management/10-application-workloads/01-apps/05-view-template-based-app-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/10-application-workloads/01-apps/05-view-template-based-app-details/</guid>
+      <description>This section describes how to view details of a template-based application.
+ Prerequisites You need to join a project and have the Application Instance View permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Instance View permissions and enter your workspace.
+  Click Application Workloads &amp;gt; Applications in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Edit App Information</title>
+      <link>/v4.2.0/08-workspace-management/10-application-workloads/01-apps/06-edit-app-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/10-application-workloads/01-apps/06-edit-app-information/</guid>
+      <description>This section describes how to edit app information.
+ You can edit the alias and description of an app. KubeSphere does not support editing the name of an already created app.
+ Prerequisites You need to join a project and have the App Instance Management permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has App Instance Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Edit App Settings</title>
+      <link>/v4.2.0/08-workspace-management/10-application-workloads/01-apps/08-edit-app-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/10-application-workloads/01-apps/08-edit-app-settings/</guid>
+      <description>This section describes how to edit the settings of a created app.
+ You can also edit app settings when creating an app. For more information, see Install an App from the App Store and Install an App Using an App Template.
+ Prerequisites You need to join a project and have the App Instance Management permission in the project. For more information, see Project Members and Project Roles.</description>
+    </item>
+    
+    <item>
+      <title>Delete an Application</title>
+      <link>/v4.2.0/08-workspace-management/10-application-workloads/01-apps/10-delete-apps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/10-application-workloads/01-apps/10-delete-apps/</guid>
+      <description>This section describes how to delete an application.
+ Prerequisites You need to join a project and have the Application Instance Deletion permission in the project. For more information, see Project Members and Project Roles.
+   Delete a Single Application  Log in to the KubeSphere web console with a user who has Application Instance Deletion permissions and enter your workspace.
+  Click Application Workloads &amp;gt; Applications in the left navigation pane.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Overview on KubeSphere</title>
+    <link>/v4.2.0/07-cluster-management/02-overview/</link>
+    <description>Recent content in Overview on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/07-cluster-management/02-overview/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>View Cluster Overview Information</title>
+      <link>/v4.2.0/07-cluster-management/02-overview/01-view-cluster-overall-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/02-overview/01-view-cluster-overall-information/</guid>
+      <description>This section describes how to view the overview information of a cluster.
+ Prerequisites You need to join a cluster and have the Cluster Settings View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Cluster Settings View permissions and enter your cluster.
+  Click Overview in the left navigation pane.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Custom Resource Definitions on KubeSphere</title>
+    <link>/v4.2.0/07-cluster-management/07-crds/</link>
+    <description>Recent content in Custom Resource Definitions on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/07-cluster-management/07-crds/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>View Custom Resource Definition List</title>
+      <link>/v4.2.0/07-cluster-management/07-crds/01-view-a-crd-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/07-crds/01-view-a-crd-list/</guid>
+      <description>This section describes how to view the Custom Resource Definition list.
+ Prerequisites You need to join a cluster and have the Custom Resource Definition View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Custom Resource Definition View permissions and enter your cluster.
+  Click Custom Resource Definition in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Custom Resource Definition Details</title>
+      <link>/v4.2.0/07-cluster-management/07-crds/02-view-crd-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/07-crds/02-view-crd-details/</guid>
+      <description>This section describes how to view Custom Resource Definition details.
+ Prerequisites You need to join a cluster and have the Custom Resource Definition View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Custom Resource Definition View permissions and enter your cluster.
+  Click Custom Resource Definition in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Edit Custom Resources</title>
+      <link>/v4.2.0/07-cluster-management/07-crds/03-edit-a-custom-resource/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/07-crds/03-edit-a-custom-resource/</guid>
+      <description>This section describes how to edit custom resources.
+ Prerequisites You need to join a cluster and have the Custom Resource Definition Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Custom Resource Definition Management permissions and enter your cluster.
+  Click Custom Resource Definitions in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Delete Custom Resources</title>
+      <link>/v4.2.0/07-cluster-management/07-crds/04-delete-a-custom-resource/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/07-cluster-management/07-crds/04-delete-a-custom-resource/</guid>
+      <description>This section describes how to delete custom resources.
+     Warning     Deleting custom resources may cause related business interruptions. Please perform this operation with caution.
+    Prerequisites You need to join a cluster and have the Custom Resource Definition Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Custom Resource Definition Management permissions and enter your cluster.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project Quotas on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/07-kubefed/06-project-settings/02-project-quotas/</link>
+    <description>Recent content in Project Quotas on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/07-kubefed/06-project-settings/02-project-quotas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Edit Project Quotas</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/06-project-settings/02-project-quotas/01-edit-project-quotas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/06-project-settings/02-project-quotas/01-edit-project-quotas/</guid>
+      <description>This section describes how to edit project quotas.
+ Prerequisites   The Application Management for Cluster Federation extension must be installed and enabled on the KubeSphere platform.
+   You need to join a federated project and have the Federated Project Management permission in the corresponding workspace.
+     Steps  Log in to the KubeSphere web console as a user with Federated Project Management permissions and enter your federated project.</description>
+    </item>
+    
+    <item>
+      <title>View Project Quota</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/06-project-settings/02-project-quotas/02-view-project-quotas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/06-project-settings/02-project-quotas/02-view-project-quotas/</guid>
+      <description>This section describes how to view project quota.
+ Prerequisites   The Application Management for Cluster Federation extension must be installed and enabled on the KubeSphere platform.
+   You need to join a federated project and have the Federated Project View permission in the corresponding workspace.
+     Steps  Log in to the KubeSphere web console as a user with Federated Project View permissions and enter your federated project.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workspace Members on KubeSphere</title>
+    <link>/v4.2.0/08-workspace-management/06-workspace-settings/03-workspace-members/</link>
+    <description>Recent content in Workspace Members on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/08-workspace-management/06-workspace-settings/03-workspace-members/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Invite Users to a Workspace</title>
+      <link>/v4.2.0/08-workspace-management/06-workspace-settings/03-workspace-members/01-invite-a-user-to-a-workspace/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/06-workspace-settings/03-workspace-members/01-invite-a-user-to-a-workspace/</guid>
+      <description>This section describes how to invite users to a workspace.
+ Prerequisites    You need to join a workspace and have the Member Management permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+     A user has been created in Users and Roles Management.
+     Steps  Log in to the KubeSphere web console with a user who has Member Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>View Workspace Member List</title>
+      <link>/v4.2.0/08-workspace-management/06-workspace-settings/03-workspace-members/02-view-a-workspace-member-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/06-workspace-settings/03-workspace-members/02-view-a-workspace-member-list/</guid>
+      <description>This section describes how to view the workspace member list.
+ Prerequisites You need to join a workspace and have the Member View permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Member View permissions and enter your workspace.
+  Click Workspace Settings &amp;gt; Workspace Members in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Workspace Member Details</title>
+      <link>/v4.2.0/08-workspace-management/06-workspace-settings/03-workspace-members/03-view-workspace-member-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/06-workspace-settings/03-workspace-members/03-view-workspace-member-details/</guid>
+      <description>This section describes how to view workspace member details.
+ Prerequisites You need to join a workspace and have the Member View permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Member View permissions and enter your workspace.
+  Click Workspace Settings &amp;gt; Workspace Members in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Modify Workspace Member Roles</title>
+      <link>/v4.2.0/08-workspace-management/06-workspace-settings/03-workspace-members/04-change-the-role-of-a-workspace-member/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/06-workspace-settings/03-workspace-members/04-change-the-role-of-a-workspace-member/</guid>
+      <description>This section describes how to modify the roles of workspace members.
+ Prerequisites You need to join a workspace and have the Member Management permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Member Management permissions and enter your workspace.
+  Click Workspace Settings &amp;gt; Workspace Members in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Remove Workspace Members</title>
+      <link>/v4.2.0/08-workspace-management/06-workspace-settings/03-workspace-members/05-remove-a-workspace-member/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/06-workspace-settings/03-workspace-members/05-remove-a-workspace-member/</guid>
+      <description>This section describes how to remove workspace members.
+     Note     After a user is removed from a workspace, they will lose the permissions granted by the workspace role. If the user has joined projects within the workspace, they will also be removed from those projects.
+    Prerequisites You need to join a workspace and have the Member Management permission in the workspace.</description>
+    </item>
+    
+  </channel>
+</rss>

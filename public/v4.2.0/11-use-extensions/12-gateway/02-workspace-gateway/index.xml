@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workspace Gateway on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/12-gateway/02-workspace-gateway/</link>
+    <description>Recent content in Workspace Gateway on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/12-gateway/02-workspace-gateway/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enable Workspace Gateway</title>
+      <link>/v4.2.0/11-use-extensions/12-gateway/02-workspace-gateway/01-enable-workspace-gateway/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/12-gateway/02-workspace-gateway/01-enable-workspace-gateway/</guid>
+      <description>This section describes how to enable a workspace gateway.
+ Prerequisites   The KubeSphere Gateway extension must be installed and enabled on the KubeSphere platform.
+      You need to join a workspace and have the Workspace Gateway Management permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+     Steps  Log in to the KubeSphere web console with a user who has Workspace Gateway Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>View Workspace Gateway Information</title>
+      <link>/v4.2.0/11-use-extensions/12-gateway/02-workspace-gateway/02-view-workspace-gateway-info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/12-gateway/02-workspace-gateway/02-view-workspace-gateway-info/</guid>
+      <description>This section describes how to view workspace gateway information.
+ Prerequisites   The KubeSphere Gateway extension must be installed and enabled on the KubeSphere platform.
+      You need to join a workspace and have the View Workspace Gateway permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+     Steps  Log in to the KubeSphere web console with a user who has View Workspace Gateway permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>View Workspace Gateway Details</title>
+      <link>/v4.2.0/11-use-extensions/12-gateway/02-workspace-gateway/03-view-workspace-gateway-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/12-gateway/02-workspace-gateway/03-view-workspace-gateway-details/</guid>
+      <description>This section describes how to view workspace gateway details.
+ Prerequisites   The KubeSphere Gateway extension must be installed and enabled on the KubeSphere platform.
+      You need to join a workspace and have the Workspace Gateway View permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+     Steps  Log in to the KubeSphere web console with a user who has Workspace Gateway View permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Edit Workspace Gateway Settings</title>
+      <link>/v4.2.0/11-use-extensions/12-gateway/02-workspace-gateway/04-edit-workspace-gateway-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/12-gateway/02-workspace-gateway/04-edit-workspace-gateway-settings/</guid>
+      <description>This section describes how to edit workspace gateway settings.
+ Prerequisites   The KubeSphere Gateway extension must be installed and enabled on the KubeSphere platform.
+      You need to join a workspace and have the Workspace Gateway Management permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+     Steps  Log in to the KubeSphere web console with a user who has Workspace Gateway Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Disable Workspace Gateway</title>
+      <link>/v4.2.0/11-use-extensions/12-gateway/02-workspace-gateway/05-disable-workspace-gateway/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/12-gateway/02-workspace-gateway/05-disable-workspace-gateway/</guid>
+      <description>This section describes how to disable a workspace gateway.
+     Warning     After the gateway is disabled, clients will be unable to access services reverse-proxied by the gateway, which may interrupt related business operations. Please perform this operation with caution.
+    Prerequisites   The KubeSphere Gateway extension needs to be installed and enabled on the KubeSphere platform.
+      You need to join a workspace and have the Workspace Gateway Management permission in the workspace.</description>
+    </item>
+    
+  </channel>
+</rss>

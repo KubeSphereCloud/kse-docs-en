@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notification Settings on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/03-notification-settings/</link>
+    <description>Recent content in Notification Settings on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/03-notification-settings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a Silence Policy</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/03-notification-settings/01-create-a-silence-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/03-notification-settings/01-create-a-silence-policy/</guid>
+      <description>This section describes how to create a silence policy.
+ Prerequisites   You need to have the platform-admin role in the KubeSphere platform. For more information, see Users and Platform Roles.
+  The WizTelemetry Notification extension needs to be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.</description>
+    </item>
+    
+    <item>
+      <title>Edit Muting Policy Information</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/03-notification-settings/02-edit-silence-policy-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/03-notification-settings/02-edit-silence-policy-information/</guid>
+      <description>This section describes how to edit muting policy information.
+ You can edit the alias and description of a muting policy. KubeSphere does not support editing the name of a created muting policy.
+ Prerequisites   You need to have the platform-admin role in the KubeSphere platform. For more information, see Users and Platform Roles.
+  The WizTelemetry Notification extension needs to be installed and enabled on the KubeSphere platform.</description>
+    </item>
+    
+    <item>
+      <title>Edit Silence Conditions</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/03-notification-settings/03-edit-silence-conditions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/03-notification-settings/03-edit-silence-conditions/</guid>
+      <description>This section describes how to edit notification silence conditions.
+ Prerequisites   You need to have the platform-admin role in the KubeSphere platform. For more information, see Users and Platform Roles.
+  The WizTelemetry Notification extension needs to be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.</description>
+    </item>
+    
+    <item>
+      <title>Edit Mute Duration</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/03-notification-settings/04-edit-silence-time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/03-notification-settings/04-edit-silence-time/</guid>
+      <description>This section describes how to edit notification mute duration.
+ Prerequisites   You need to have the platform-admin role in the KubeSphere platform. For more information, refer to Users and Platform Roles.
+  The KubeSphere platform needs to have the WizTelemetry Notification extension installed and enabled.
+     Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.</description>
+    </item>
+    
+    <item>
+      <title>Delete a Silence Policy</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/03-notification-settings/05-delete-silence-policies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/03-notification-settings/05-delete-silence-policies/</guid>
+      <description>This section describes how to delete a silence policy.
+ Prerequisites   You need to have the platform-admin role in the KubeSphere platform. For more information, refer to Users and Platform Roles.
+  The WizTelemetry Notification extension needs to be installed and enabled on the KubeSphere platform.
+     Delete a Single Silence Policy  Log in to the KubeSphere web console with a user who has the platform-admin role.</description>
+    </item>
+    
+    <item>
+      <title>Modify Notification Language</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/03-notification-settings/06-change-the-notification-language/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/03-notification-settings/06-change-the-notification-language/</guid>
+      <description>This section describes how to modify the notification language.
+ Notifications sent to users contain key-value pair information. You can set the language for the keys in the notifications.
+ Prerequisites   You need to have the platform-admin role in the KubeSphere platform. For more information, refer to Users and Platform Roles.
+  The WizTelemetry Notification extension needs to be installed and enabled on the KubeSphere platform.</description>
+    </item>
+    
+  </channel>
+</rss>

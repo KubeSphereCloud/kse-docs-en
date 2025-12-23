@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jobs on KubeSphere</title>
+    <link>/v4.2.0/08-workspace-management/10-application-workloads/04-jobs/</link>
+    <description>Recent content in Jobs on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/08-workspace-management/10-application-workloads/04-jobs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a Job</title>
+      <link>/v4.2.0/08-workspace-management/10-application-workloads/04-jobs/01-create-a-job/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/10-application-workloads/04-jobs/01-create-a-job/</guid>
+      <description>This section describes how to create a Job.
+ Prerequisites You need to join a project and have the Application Workload Management permission in the project. For more information, see Project Members and Project Roles.
+   Steps Refer to Parameter Description to set the parameters for the Job.
+  Log in to the KubeSphere web console with a user who has Application Workload Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>View Job List</title>
+      <link>/v4.2.0/08-workspace-management/10-application-workloads/04-jobs/02-view-a-job-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/10-application-workloads/04-jobs/02-view-a-job-list/</guid>
+      <description>This section describes how to view the Job list.
+ Prerequisites You need to join a project and have the Application Workloads View permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workloads View permissions and enter your workspace.
+  Click Application Workloads &amp;gt; Jobs in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Job Details</title>
+      <link>/v4.2.0/08-workspace-management/10-application-workloads/04-jobs/03-view-job-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/10-application-workloads/04-jobs/03-view-job-details/</guid>
+      <description>This section describes how to view Job details.
+ Prerequisites You need to join a project and have the Application Workloads View permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workloads View permissions and enter your workspace.
+  Click Application Workloads &amp;gt; Jobs in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Edit Job Information</title>
+      <link>/v4.2.0/08-workspace-management/10-application-workloads/04-jobs/04-edit-job-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/10-application-workloads/04-jobs/04-edit-job-information/</guid>
+      <description>This section describes how to edit Job information.
+ You can edit the alias and description of a Job. KubeSphere does not support editing the name of a created Job.
+ Prerequisites You need to join a project and have the Application Workload Management permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workload Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Rerun a Job</title>
+      <link>/v4.2.0/08-workspace-management/10-application-workloads/04-jobs/05-rerun-a-job/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/10-application-workloads/04-jobs/05-rerun-a-job/</guid>
+      <description>This section describes how to rerun a Job. This operation is only available for regular Jobs.
+     Note     KubeSphere only allows rerunning Jobs that have ended. This operation is not supported for Jobs that are currently running.
+    Prerequisites You need to join a project and have the Application Workload Management permission in the project. For more information, see Project Members and Project Roles.</description>
+    </item>
+    
+    <item>
+      <title>Pause a CronJob</title>
+      <link>/v4.2.0/08-workspace-management/10-application-workloads/04-jobs/06-pause-a-cronjob/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/10-application-workloads/04-jobs/06-pause-a-cronjob/</guid>
+      <description>This section describes how to suspend a CronJob.
+ After a CronJob is suspended, the system will not create and run Jobs at the scheduled future times. Running Jobs are not affected. This operation is only available for CronJobs.
+ Prerequisites You need to join a project and have the Application Workload Management permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Application Workload Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Delete a Job</title>
+      <link>/v4.2.0/08-workspace-management/10-application-workloads/04-jobs/07-delete-jobs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/10-application-workloads/04-jobs/07-delete-jobs/</guid>
+      <description>This section describes how to delete a Job.
+     Warning     This operation will delete the Job and all pods managed by it. If the Job is running, the ongoing business will be interrupted. Please perform this operation with caution.
+    Prerequisites You need to join a project and have the Application Workload Management permission in the project. For more information, see Project Members and Project Roles.</description>
+    </item>
+    
+  </channel>
+</rss>

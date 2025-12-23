@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notification Channels on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/01-notification-channels/</link>
+    <description>Recent content in Notification Channels on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/01-notification-channels/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Set Email Notification</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/01-notification-channels/01-set-email-notification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/01-notification-channels/01-set-email-notification/</guid>
+      <description>This section describes how to set up email notifications.
+ Prerequisites   You need to have the platform-admin role in the KubeSphere platform. For more information, refer to Users and Platform Roles.
+  The WizTelemetry Notification extension needs to be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.</description>
+    </item>
+    
+    <item>
+      <title>Configure Feishu Notification</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/01-notification-channels/02-set-feishu-notification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/01-notification-channels/02-set-feishu-notification/</guid>
+      <description>This section describes how to configure Feishu notification.
+ The Feishu notification feature supports sending notifications to users in the following two ways:
+   Session Settings: Use a Feishu app to send notifications to specific users or departments.
+  Group Bot Settings: Use a Feishu bot to send notifications to specific group chats.
+   Prerequisites   The KubeSphere platform needs to have the WizTelemetry Notification extension installed and enabled.</description>
+    </item>
+    
+    <item>
+      <title>Configure DingTalk Notification</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/01-notification-channels/03-set-dingtalk-notification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/01-notification-channels/03-set-dingtalk-notification/</guid>
+      <description>This section describes how to configure DingTalk notification.
+ The DingTalk notification feature supports sending notifications to users in the following two ways:
+   Session Settings: Use a DingTalk app to send notifications to specific users or departments.
+  Group Chat Bot Settings: Use a DingTalk bot to send notifications to specific group chats.
+   Prerequisites   The WizTelemetry Notification extension must be installed and enabled on the KubeSphere platform.</description>
+    </item>
+    
+    <item>
+      <title>Configure WeCom Notification</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/01-notification-channels/04-set-wecom-notification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/01-notification-channels/04-set-wecom-notification/</guid>
+      <description>This section describes how to configure WeCom notification. After configuration, you can receive notification messages through WeCom sessions or group bots.
+ Prerequisites   The WizTelemetry Notification extension must be installed and enabled on the KubeSphere platform.
+  You need to obtain the access parameters for the application or group bot from the WeCom platform in advance. For more information, refer to WeCom Developer Documentation.
+     Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.</description>
+    </item>
+    
+    <item>
+      <title>Set Up Slack Notifications</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/01-notification-channels/05-set-slack-notification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/01-notification-channels/05-set-slack-notification/</guid>
+      <description>This section describes how to set up Slack notifications.
+ Prerequisites   The WizTelemetry Notification extension must be installed and enabled on the KubeSphere platform.
+  You need to obtain the application access parameters from the Slack platform in advance. For more information, refer to the Slack Developer Documentation.
+     Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.</description>
+    </item>
+    
+    <item>
+      <title>Set Webhook Notification</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/01-notification-channels/06-set-webhook-notification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/11-notifications/01-notification-channels/06-set-webhook-notification/</guid>
+      <description>This section describes how to set up Webhook notification.
+ Prerequisites   The WizTelemetry Notification extension must be installed and enabled on the KubeSphere platform.
+  You need to obtain the access parameters for the Webhook in advance. For more information, please contact your Webhook administrator.
+     Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.</description>
+    </item>
+    
+  </channel>
+</rss>

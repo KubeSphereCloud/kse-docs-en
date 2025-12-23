@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KubeSphere Ingress Utils on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/13-ingress-utils/</link>
+    <description>Recent content in KubeSphere Ingress Utils on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/13-ingress-utils/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add Domain Reuse Validation</title>
+      <link>/v4.2.0/11-use-extensions/13-ingress-utils/01-add-a-domain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/13-ingress-utils/01-add-a-domain/</guid>
+      <description>This section describes how to use the Route Tool to add domains, so that domain uniqueness validation can be performed when creating or editing an Ingress.
+ Validation Rule: Ingresses under the same gateway can use the same domain and its subdomains. Ingresses under different gateways cannot use the same domain.
+     Note     &amp;#34;Domain Reuse Validation&amp;#34; only takes effect for the current cluster and does not apply to previously existing Ingresses.</description>
+    </item>
+    
+    <item>
+      <title>View Domain List</title>
+      <link>/v4.2.0/11-use-extensions/13-ingress-utils/02-view-a-domain-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/13-ingress-utils/02-view-a-domain-list/</guid>
+      <description>This section describes how to view the list of domains for which &amp;#34;Domain Reuse Validation&amp;#34; is enabled.
+ Prerequisites   The KubeSphere Ingress Utils extension must be installed and enabled on the KubeSphere platform.
+      You need to join a cluster and have the  cluster-admin  permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     Steps  Log in to the KubeSphere web console with a user who has  cluster-admin  permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Edit Domain Information</title>
+      <link>/v4.2.0/11-use-extensions/13-ingress-utils/03-edit-domain-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/13-ingress-utils/03-edit-domain-information/</guid>
+      <description>This section describes how to edit domain information.
+ You can edit the description of a domain. KubeSphere does not support editing the name and domain of an already added domain.
+ Prerequisites   The KubeSphere Ingress Utils extension must be installed and enabled on the KubeSphere platform.
+      You need to join a cluster and have the  cluster-admin  permission in the cluster.</description>
+    </item>
+    
+    <item>
+      <title>Delete Domain Name Reuse Validation</title>
+      <link>/v4.2.0/11-use-extensions/13-ingress-utils/06-delete-domains/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/13-ingress-utils/06-delete-domains/</guid>
+      <description>This section describes how to delete a domain name to stop its reuse validation when creating or editing an Ingress.
+ Prerequisites   The KubeSphere Ingress Utilss extension must be installed and enabled on the KubeSphere platform.
+      You need to join a cluster and have the  cluster-admin  permission in the cluster. For more information, see Cluster Members and Cluster Roles.</description>
+    </item>
+    
+  </channel>
+</rss>

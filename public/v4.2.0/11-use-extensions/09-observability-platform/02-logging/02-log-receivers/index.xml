@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Log Receivers on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/02-log-receivers/</link>
+    <description>Recent content in Log Receivers on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/09-observability-platform/02-logging/02-log-receivers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add Log Receiver</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/02-log-receivers/01-add-a-log-receiver/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/02-log-receivers/01-add-a-log-receiver/</guid>
+      <description>This section describes how to add a log receiver.
+ KubeSphere supports using Elasticsearch, OpenSearch, and Kafka as log receivers.
+   Only one log receiver of each type can be added.
+  KubeSphere uses OpenSearch as the default log receiver.
+  KubeSphere does not install Kafka by default and currently does not provide log analysis tools for Kafka. KubeSphere only provides the functionality to integrate with Kafka.</description>
+    </item>
+    
+    <item>
+      <title>View Log Receiver List</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/02-log-receivers/02-view-a-log-receiver-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/02-log-receivers/02-view-a-log-receiver-list/</guid>
+      <description>This section describes how to view the log receiver list.
+ Prerequisites    You need to join a cluster and have the  cluster-admin  permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     A log receiver has been added.
+     Steps  Log in to the KubeSphere web console with a user who has  cluster-admin  permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>View Log Receiver Details</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/02-log-receivers/03-view-log-receiver-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/02-log-receivers/03-view-log-receiver-details/</guid>
+      <description>This section describes how to view log receiver details.
+ Prerequisites    You need to join a cluster and have the  cluster-admin  permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     A log receiver has been added.
+     Steps  Log in to the KubeSphere web console with a user who has  cluster-admin  permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Edit Log Receiver Settings</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/02-log-receivers/04-edit-log-receiver-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/02-log-receivers/04-edit-log-receiver-settings/</guid>
+      <description>This section describes how to edit log receiver settings.
+ Prerequisites    You need to join a cluster and have the  cluster-admin  permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     A log receiver has been added.
+     Steps  Log in to the KubeSphere web console with a user who has  cluster-admin  permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Enable and Disable Log Receivers</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/02-log-receivers/05-enable-and-disable-log-receiver/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/02-log-receivers/05-enable-and-disable-log-receiver/</guid>
+      <description>This section describes how to enable and disable log receivers.
+ Prerequisites    You need to join a cluster and have the  cluster-admin  permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     A log receiver has been added.
+     Steps  Log in to the KubeSphere web console with a user who has  cluster-admin  permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Delete Log Receiver</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/02-log-receivers/06-delete-a-log-receiver/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/02-log-receivers/06-delete-a-log-receiver/</guid>
+      <description>This section describes how to delete a log receiver.
+ Prerequisites    You need to join a cluster and have the  cluster-admin  permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     A log receiver has been added.
+     Steps  Log in to the KubeSphere web console with a user who has  cluster-admin  permissions and enter your cluster.</description>
+    </item>
+    
+  </channel>
+</rss>

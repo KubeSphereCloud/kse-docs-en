@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>External Authentication on KubeSphere</title>
+    <link>/v4.2.0/04-platform-management/05-platform-settings/04-external-authentication/</link>
+    <description>Recent content in External Authentication on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/04-platform-management/05-platform-settings/04-external-authentication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configure External Authentication</title>
+      <link>/v4.2.0/04-platform-management/05-platform-settings/04-external-authentication/01-set-up-external-authentication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/04-platform-management/05-platform-settings/04-external-authentication/01-set-up-external-authentication/</guid>
+      <description>KubeSphere supports setting up external authentication. Platform administrators can configure identity providers through secrets.
+ After configuring an external identity provider, users can log in to the KubeSphere web console using their LDAP, CAS, GitHub, Alibaba Cloud IDaaS, or OpenID Connect username and password.
+ Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.
+  Click Cluster Management and enter the host cluster.</description>
+    </item>
+    
+    <item>
+      <title>LDAP/LDAPS Authentication</title>
+      <link>/v4.2.0/04-platform-management/05-platform-settings/04-external-authentication/03-use-ldap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/04-platform-management/05-platform-settings/04-external-authentication/03-use-ldap/</guid>
+      <description>KubeSphere supports external authentication via LDAP and LDAPS, allowing users to log in to the KubeSphere web console using their LDAP or LDAPS username and password.
+ Platform administrators can configure LDAP/LDAPS authentication through a Secret.
+ Differences Between LDAP and LDAPS     Authentication Method Connection Method Security     LDAP
+ Uses plaintext transmission, default port 389
+ Data transmission is not encrypted, not suitable for production environments.</description>
+    </item>
+    
+    <item>
+      <title>OIDC Authentication</title>
+      <link>/v4.2.0/04-platform-management/05-platform-settings/04-external-authentication/05-use-oidc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/04-platform-management/05-platform-settings/04-external-authentication/05-use-oidc/</guid>
+      <description>KubeSphere supports external authentication via OpenID Connect (OIDC), allowing users to log in to the KubeSphere web console using OIDC usernames and passwords.
+ Platform administrators can configure OIDC authentication through a Secret.
+ Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.
+  Click Cluster Management and enter the host cluster.
+  Click Configuration &amp;gt; Secrets in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>CAS Authentication</title>
+      <link>/v4.2.0/04-platform-management/05-platform-settings/04-external-authentication/07-use-cas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/04-platform-management/05-platform-settings/04-external-authentication/07-use-cas/</guid>
+      <description>KubeSphere supports external authentication via Central Authentication Service (CAS), allowing users to log in to the KubeSphere web console using their CAS username and password.
+ Platform administrators can configure CAS authentication through a secret.
+ Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.
+  Click Cluster Management and enter the host cluster.
+  Click Configuration &amp;gt; Secrets in the left navigation pane.</description>
+    </item>
+    
+  </channel>
+</rss>

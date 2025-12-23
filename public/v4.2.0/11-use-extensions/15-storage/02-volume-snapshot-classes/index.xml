@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Volume Snapshot Class on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/15-storage/02-volume-snapshot-classes/</link>
+    <description>Recent content in Volume Snapshot Class on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/15-storage/02-volume-snapshot-classes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Volume Snapshot Class</title>
+      <link>/v4.2.0/11-use-extensions/15-storage/02-volume-snapshot-classes/01-create-a-volume-snapshot-class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/15-storage/02-volume-snapshot-classes/01-create-a-volume-snapshot-class/</guid>
+      <description>This section describes how to create a volume snapshot class.
+ Prerequisites   The KubeSphere Storage extension must be installed and enabled on the KubeSphere platform.
+      You need to join a cluster and have the Volume Snapshot Class Management permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     To ensure the volume snapshot class can provide storage resources normally, you need to configure the storage system in advance and install the corresponding storage plugin for the storage system.</description>
+    </item>
+    
+    <item>
+      <title>View Volume Snapshot Class List</title>
+      <link>/v4.2.0/11-use-extensions/15-storage/02-volume-snapshot-classes/02-view-a-volume-snapshot-class-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/15-storage/02-volume-snapshot-classes/02-view-a-volume-snapshot-class-list/</guid>
+      <description>This section describes how to view the volume snapshot class list.
+ Prerequisites   The KubeSphere platform requires the KubeSphere Storage extension to be installed and enabled.
+      You need to join a cluster and have the Volume Snapshot Class View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     Steps  Log in to the KubeSphere web console with a user who has Volume Snapshot Class View permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>View Volume Snapshot Class Details</title>
+      <link>/v4.2.0/11-use-extensions/15-storage/02-volume-snapshot-classes/03-view-volume-snapshot-class-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/15-storage/02-volume-snapshot-classes/03-view-volume-snapshot-class-details/</guid>
+      <description>This section describes how to view volume snapshot class details.
+ Prerequisites   The KubeSphere Storage extension must be installed and enabled on the KubeSphere platform.
+      You need to join a cluster and have the Volume Snapshot Class View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     Steps  Log in to the KubeSphere web console with a user who has Volume Snapshot Class View permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Edit Volume Snapshot Class Information</title>
+      <link>/v4.2.0/11-use-extensions/15-storage/02-volume-snapshot-classes/04-edit-volume-snapshot-class-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/15-storage/02-volume-snapshot-classes/04-edit-volume-snapshot-class-information/</guid>
+      <description>This section describes how to edit information for a volume snapshot class.
+ You can edit the alias and description of a volume snapshot class. KubeSphere does not support editing the name of a volume snapshot class.
+ Prerequisites   The KubeSphere platform needs to have the KubeSphere Storage extension installed and enabled.
+      You need to join a cluster and have the Volume Snapshot Class Management permission in the cluster.</description>
+    </item>
+    
+    <item>
+      <title>Delete Volume Snapshot Class</title>
+      <link>/v4.2.0/11-use-extensions/15-storage/02-volume-snapshot-classes/05-delete-volume-snapshot-classes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/15-storage/02-volume-snapshot-classes/05-delete-volume-snapshot-classes/</guid>
+      <description>This section describes how to delete a volume snapshot class.
+     Warning     After a volume snapshot class is deleted, the volume snapshots and volume snapshot contents created based on it will not be deleted. However, users will no longer be able to use this volume snapshot class to save snapshot data to the backend storage system.
+    Prerequisites   The KubeSphere Storage extension must be installed and enabled on the KubeSphere platform.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Network Isolation on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/11-network/03-network-isolation/</link>
+    <description>Recent content in Network Isolation on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/11-network/03-network-isolation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enable Workspace Network Isolation</title>
+      <link>/v4.2.0/11-use-extensions/11-network/03-network-isolation/02-workspace-network-isolation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/11-network/03-network-isolation/02-workspace-network-isolation/</guid>
+      <description>This section describes how to enable workspace network isolation.
+ After enabling workspace network isolation, pods belonging to that workspace cannot be accessed by clients outside the workspace, nor by clients outside the cluster to which they belong.
+ Enabling workspace network isolation does not restrict outbound traffic by default, but you can choose whether to restrict it. After restricting outbound traffic, the workspace will not be able to access other workspaces and can only access resources within the current workspace.</description>
+    </item>
+    
+    <item>
+      <title>Enable Project Network Isolation</title>
+      <link>/v4.2.0/11-use-extensions/11-network/03-network-isolation/03-project-network-isolation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/11-network/03-network-isolation/03-project-network-isolation/</guid>
+      <description>This section describes how to enable project network isolation.
+ After enabling project network isolation, pods in the current project cannot be accessed by pods from other projects, other node host environments, or any network segments outside the cluster.
+ Enabling project network isolation does not restrict egress traffic by default, but you can choose whether to restrict it. After restricting egress traffic, pods in the current project will not be able to access other projects and can only access resources within the current project.</description>
+    </item>
+    
+    <item>
+      <title>Configure Whitelist</title>
+      <link>/v4.2.0/11-use-extensions/11-network/03-network-isolation/04-set-whitelist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/11-network/03-network-isolation/04-set-whitelist/</guid>
+      <description>This section describes how to configure and manage whitelists.
+ When &amp;#34;workspace network isolation&amp;#34; or &amp;#34;project network isolation&amp;#34; is enabled, configuring a whitelist in the selected project allows pods in the current project to access and be accessed by other specific projects, services, network segments, or ports.
+ Before configuring a whitelist, &amp;#34;workspace network isolation&amp;#34; or &amp;#34;project network isolation&amp;#34; must be enabled. Otherwise, configuration is not possible. After a whitelist is configured, if both &amp;#34;workspace network isolation&amp;#34; and &amp;#34;project network isolation&amp;#34; are disabled, the whitelist will be cleared; if either one remains enabled, the whitelist remains effective.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tool Integration on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/02-devops/10-how-to-integrate/</link>
+    <description>Recent content in Tool Integration on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/02-devops/10-how-to-integrate/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Integrate SonarQube into Pipelines</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/10-how-to-integrate/01-sonarqube/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/10-how-to-integrate/01-sonarqube/</guid>
+      <description>SonarQube is a mainstream continuous code quality inspection tool that can be used for static and dynamic analysis of code repositories. After SonarQube is integrated into KubeSphere pipelines, if issues are detected during pipeline runs, common code problems such as bugs and vulnerabilities will be displayed directly on the dashboard.
+ This document demonstrates how to integrate SonarQube into pipelines. Before creating a pipeline using a Jenkinsfile, please refer to the following steps.</description>
+    </item>
+    
+    <item>
+      <title>Integrate Harbor into Pipeline</title>
+      <link>/v4.2.0/11-use-extensions/02-devops/10-how-to-integrate/02-harbor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/02-devops/10-how-to-integrate/02-harbor/</guid>
+      <description>This document demonstrates how to integrate Harbor into a KubeSphere pipeline.
+ Prerequisites   The DevOps extension must be installed and enabled on the KubeSphere platform.
+  You need to have created a workspace, a DevOps project, and a user (for example, project-regular), and have invited this user to the DevOps project and granted the operator role. Refer to Invite a User to a DevOps Project.
+     Install Harbor Execute the following command to install Harbor using Helm 3.</description>
+    </item>
+    
+  </channel>
+</rss>

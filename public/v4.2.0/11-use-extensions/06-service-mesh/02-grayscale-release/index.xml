@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Canary Release on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/06-service-mesh/02-grayscale-release/</link>
+    <description>Recent content in Canary Release on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/06-service-mesh/02-grayscale-release/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a Canary Release Task</title>
+      <link>/v4.2.0/11-use-extensions/06-service-mesh/02-grayscale-release/01-create-a-grayscale-release-task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/06-service-mesh/02-grayscale-release/01-create-a-grayscale-release-task/</guid>
+      <description>This section describes how to create a canary release task.
+ Prerequisites    You need to join a project and have the  Service Mesh Management permission in the project. For more information, see Project Members and Project Roles.
+     The KubeSphere Service Mesh extension must be installed and enabled on the KubeSphere platform.
+  Prepare the new version of the container image in advance and upload it to the container image service.</description>
+    </item>
+    
+    <item>
+      <title>View Grayscale Release Task List</title>
+      <link>/v4.2.0/11-use-extensions/06-service-mesh/02-grayscale-release/02-view-a-grayscale-release-task-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/06-service-mesh/02-grayscale-release/02-view-a-grayscale-release-task-list/</guid>
+      <description>This section describes how to view the grayscale release task list.
+ Prerequisites    You need to join a project and have the  View Service Mesh permission in the project. For more information, see Project Members and Project Roles.
+     The KubeSphere Service Mesh extension needs to be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has  View Service Mesh permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>View Grayscale Release Job Details</title>
+      <link>/v4.2.0/11-use-extensions/06-service-mesh/02-grayscale-release/03-view-grayscale-release-task-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/06-service-mesh/02-grayscale-release/03-view-grayscale-release-task-details/</guid>
+      <description>This section describes how to view grayscale release job details.
+ Prerequisites    You need to join a project and have the  Service Mesh View permission in the project. For more information, see Project Members and Project Roles.
+     The KubeSphere Service Mesh extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has  Service Mesh View permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Switch Online Version (Blue-Green Deployment)</title>
+      <link>/v4.2.0/11-use-extensions/06-service-mesh/02-grayscale-release/04-switch-versions-blue-green-deployment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/06-service-mesh/02-grayscale-release/04-switch-versions-blue-green-deployment/</guid>
+      <description>This section describes how to switch the online version for a blue-green deployment task.
+ Based on business needs, you can set the new or old version in a blue-green deployment task to immediately take over all business traffic with one click.
+ Prerequisites    You need to join a project and have the  Service Mesh Management permission in the project. For more information, see Project Members and Project Roles.</description>
+    </item>
+    
+    <item>
+      <title>Adjust Traffic Distribution Ratio (Canary Release)</title>
+      <link>/v4.2.0/11-use-extensions/06-service-mesh/02-grayscale-release/05-adjust-traffic-distribution-ratio-canary-release/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/06-service-mesh/02-grayscale-release/05-adjust-traffic-distribution-ratio-canary-release/</guid>
+      <description>This section describes how to adjust the traffic distribution ratio for a canary release task.
+ According to business needs, you can manually adjust the distribution ratio of business traffic received between the new and old versions in a canary release task.
+ Prerequisites    You need to join a project and have the Service Mesh Management permission in the project. For more information, see Project Members and Project Roles.</description>
+    </item>
+    
+    <item>
+      <title>Edit Grayscale Release Task Settings</title>
+      <link>/v4.2.0/11-use-extensions/06-service-mesh/02-grayscale-release/06-edit-settings-of-a-grayscale-release-task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/06-service-mesh/02-grayscale-release/06-edit-settings-of-a-grayscale-release-task/</guid>
+      <description>This section describes how to edit grayscale release task settings.
+ Prerequisites    You need to join a project and have the  Service Mesh Management permission in the project. For more information, see Project Members and Project Roles.
+     The KubeSphere Service Mesh extension must be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has  Service Mesh Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Delete a Grayscale Release Job</title>
+      <link>/v4.2.0/11-use-extensions/06-service-mesh/02-grayscale-release/07-delete-a-grayscale-release-task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/06-service-mesh/02-grayscale-release/07-delete-a-grayscale-release-task/</guid>
+      <description>This section describes how to delete a grayscale release job.
+     Warning     A grayscale release job can only be deleted when one of the new or old versions has taken over all business traffic. After the grayscale release job is deleted, the version (service, workload, and pods) that has not taken over the business traffic will also be deleted.
+    Prerequisites    You need to join a project and have the  Service Mesh Management permission in the project.</description>
+    </item>
+    
+  </channel>
+</rss>

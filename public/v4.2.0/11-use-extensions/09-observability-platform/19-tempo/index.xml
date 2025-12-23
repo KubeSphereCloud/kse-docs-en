@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grafana Tempo for WizTelemetry on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/09-observability-platform/19-tempo/</link>
+    <description>Recent content in Grafana Tempo for WizTelemetry on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/09-observability-platform/19-tempo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visualizing WizTelemetry Tracing Data with Tempo</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/19-tempo/01-display-tempo-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/19-tempo/01-display-tempo-data/</guid>
+      <description>This section describes how to use Grafana Tempo for WizTelemetry (referred to as Tempo) to visualize the distributed tracing data from WizTelemetry Tracing in the Grafana console, i.e., to visualize the complete flow of a user request through the distributed system.
+ Prerequisites A Grafana console has been deployed via the Grafana for WizTelemetry extension.
+   Steps  Install the Grafana Tempo for WizTelemetry extension into the cluster.</description>
+    </item>
+    
+  </channel>
+</rss>

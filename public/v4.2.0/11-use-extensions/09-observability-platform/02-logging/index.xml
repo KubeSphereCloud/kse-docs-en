@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WizTelemetry Logging on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/</link>
+    <description>Recent content in WizTelemetry Logging on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/09-observability-platform/02-logging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configure Logging</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/01-config/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/01-config/</guid>
+      <description>WizTelemetry Logging supports configuring the extension to collect specified logs, create log indices by project, and other functions.
+     Note     For more configuration information, please refer to the details page description of the &amp;#39;WizTelemetry Logging&amp;#39; extension in the Extensions Center.
+    Collect Specified Logs WizTelemetry Logging supports setting filter conditions to collect logs that include or exclude specified namespaces, which can reduce the volume of logs.</description>
+    </item>
+    
+    <item>
+      <title>Log Query</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/03-log-query/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/02-logging/03-log-query/</guid>
+      <description>This section describes how to query container logs.
+ Container logs: Logs obtained from the standard output of containers. The content of container logs is determined by the applications running in the containers.
+ KubeSphere supports querying container logs within the user’s permission scope, whether as a regular user or a cluster administrator.
+ Query Logs as a Regular User Prerequisites The WizTelemetry Logging extension must be installed and enabled on the KubeSphere platform.</description>
+    </item>
+    
+  </channel>
+</rss>

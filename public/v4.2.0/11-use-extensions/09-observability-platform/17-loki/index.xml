@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grafana Loki for WizTelemetry on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/09-observability-platform/17-loki/</link>
+    <description>Recent content in Grafana Loki for WizTelemetry on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/09-observability-platform/17-loki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visualizing Data in Loki</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/17-loki/01-display-loki-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/17-loki/01-display-loki-data/</guid>
+      <description>This section describes how to visualize KubeSphere logs, auditing, events, and notification history data stored in Loki in the Grafana console.
+ Prerequisites   The WizTelemetry Platform Service extension must be installed and enabled on the KubeSphere platform.
+  A Grafana console has been deployed via the Grafana for WizTelemetry extension or by other methods.
+     Steps  Install the Grafana Loki for WizTelemetry extension.</description>
+    </item>
+    
+  </channel>
+</rss>

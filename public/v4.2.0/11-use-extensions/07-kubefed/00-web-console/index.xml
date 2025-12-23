@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Accessing a Federated Project on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/07-kubefed/00-web-console/</link>
+    <description>Recent content in Accessing a Federated Project on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/07-kubefed/00-web-console/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Log in and Enter a Federated Project</title>
+      <link>/v4.2.0/11-use-extensions/07-kubefed/00-web-console/01-log-in-and-go-to-a-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/07-kubefed/00-web-console/01-log-in-and-go-to-a-project/</guid>
+      <description>This section describes how to log in to the KubeSphere web console and enter a federated project.
+ Prerequisites   The KubeSphere platform must have the Federated Application Management extension installed and enabled.
+  You need to obtain the username and password of a federated project member.
+     Method 1  Log in to the KubeSphere web console and enter your workspace.
+  In the left navigation pane, click Federated Projects to enter the Federated Projects page.</description>
+    </item>
+    
+  </channel>
+</rss>

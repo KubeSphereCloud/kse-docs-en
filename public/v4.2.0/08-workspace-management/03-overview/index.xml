@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workspace Overview on KubeSphere</title>
+    <link>/v4.2.0/08-workspace-management/03-overview/</link>
+    <description>Recent content in Workspace Overview on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/08-workspace-management/03-overview/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>View Resource Usage</title>
+      <link>/v4.2.0/08-workspace-management/03-overview/01-view-workspace-resource-usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/03-overview/01-view-workspace-resource-usage/</guid>
+      <description>This section describes how to view workspace resource usage.
+ Prerequisites You need to join a workspace and have the Workspace Settings View permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Workspace Settings View permissions and enter your workspace.
+  Click Overview &amp;gt; Resource Usage in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Cluster Information</title>
+      <link>/v4.2.0/08-workspace-management/03-overview/03-view-cluster-resource-usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/03-overview/03-view-cluster-resource-usage/</guid>
+      <description>This section describes how to view the basic information of clusters authorized to the workspace.
+ Prerequisites You need to join a workspace and have the Workspace Settings View permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Workspace Settings View permissions and enter your workspace.
+  Click Overview &amp;gt; Cluster Information in the left navigation pane.</description>
+    </item>
+    
+  </channel>
+</rss>

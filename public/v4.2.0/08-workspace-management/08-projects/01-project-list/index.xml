@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project List on KubeSphere</title>
+    <link>/v4.2.0/08-workspace-management/08-projects/01-project-list/</link>
+    <description>Recent content in Project List on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/08-workspace-management/08-projects/01-project-list/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a Project</title>
+      <link>/v4.2.0/08-workspace-management/08-projects/01-project-list/01-create-a-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/08-projects/01-project-list/01-create-a-project/</guid>
+      <description>This section describes how to create a project.
+ Prerequisites You need to join a workspace and have the Project Creation permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Project Creation permissions and enter your workspace.
+  Click Project Management &amp;gt; Project List in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Project List</title>
+      <link>/v4.2.0/08-workspace-management/08-projects/01-project-list/02-view-a-project-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/08-projects/01-project-list/02-view-a-project-list/</guid>
+      <description>This section describes how to view the project list.
+ Prerequisites You need to join a workspace and have the Project View permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Project View permissions and enter your workspace.
+  Click Project Management &amp;gt; Project List in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Edit Project Information</title>
+      <link>/v4.2.0/08-workspace-management/08-projects/01-project-list/03-edit-project-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/08-projects/01-project-list/03-edit-project-information/</guid>
+      <description>This section describes how to edit project information.
+ You can edit the alias and description of a project. KubeSphere does not support editing the name of a created project.
+ Prerequisites You need to join a workspace and have the Project Management permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Project Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Edit Project Annotations</title>
+      <link>/v4.2.0/08-workspace-management/08-projects/01-project-list/04-edit-project-annotations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/08-projects/01-project-list/04-edit-project-annotations/</guid>
+      <description>This section describes how to edit project annotations.
+ Project annotations are key-value pairs that add extra metadata or descriptive information to a project.
+ Prerequisites You need to join a workspace and have the Project Management permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Project Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Edit Project Labels</title>
+      <link>/v4.2.0/08-workspace-management/08-projects/01-project-list/05-edit-project-label/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/08-projects/01-project-list/05-edit-project-label/</guid>
+      <description>This section describes how to edit project labels.
+ Project labels are identifiable key-value pairs added to projects, used for identification and grouping.
+ Prerequisites You need to join a workspace and have the Project Management permission in the workspace. For more information, see Workspace Members and Workspace Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Project Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Edit Project Quotas</title>
+      <link>/v4.2.0/08-workspace-management/08-projects/01-project-list/06-edit-project-quotas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/08-projects/01-project-list/06-edit-project-quotas/</guid>
+      <description>This section describes how to edit project quotas.
+ Project quotas include the following settings:
+   Resource Reservation: Container resource reservation is the resources reserved by the system for a single container. The project resource reservation is the maximum sum of all container resource reservations in the project. The KubeSphere platform currently supports setting CPU and memory reservations for projects.
+  Resource Limits: Container resource limits are the maximum resources a single container can use.</description>
+    </item>
+    
+    <item>
+      <title>Delete Project</title>
+      <link>/v4.2.0/08-workspace-management/08-projects/01-project-list/07-delete-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/08-projects/01-project-list/07-delete-projects/</guid>
+      <description>This section describes how to delete a project.
+     Warning     Once a project is deleted, it cannot be recovered, and all resources within the project will also be deleted. Please perform this operation with caution.
+    Prerequisites You need to join a workspace and have the Project Management permission in the workspace. For more information, see Workspace Members and Workspace Roles.</description>
+    </item>
+    
+    <item>
+      <title>Assign a Project to Another Workspace</title>
+      <link>/v4.2.0/08-workspace-management/08-projects/01-project-list/08-unbind-a-project-from-a-workspace/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/08-projects/01-project-list/08-unbind-a-project-from-a-workspace/</guid>
+      <description>This section describes how to unbind a project from its current workspace and reassign it to another workspace.
+ 1. Unbind the Project In the cluster where the project resides, execute the following command to remove the relationship between the project and its workspace.
+ kubectl label ns &amp;lt;namespace&amp;gt; kubesphere.io/workspace- &amp;amp;&amp;amp; kubectl patch ns &amp;lt;namespace&amp;gt; -p &amp;#39;{&amp;#34;metadata&amp;#34;:{&amp;#34;ownerReferences&amp;#34;:[]}}&amp;#39; --type=merge       Note     The above command removes the label associating the project with the workspace and clears the ownerReferences.</description>
+    </item>
+    
+  </channel>
+</rss>

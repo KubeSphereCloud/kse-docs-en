@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project Roles on KubeSphere</title>
+    <link>/v4.2.0/08-workspace-management/08-projects/02-project-roles/</link>
+    <description>Recent content in Project Roles on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/08-workspace-management/08-projects/02-project-roles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Project Role</title>
+      <link>/v4.2.0/08-workspace-management/08-projects/02-project-roles/01-create-a-project-role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/08-projects/02-project-roles/01-create-a-project-role/</guid>
+      <description>This section describes how to create a project role.
+ Prerequisites You need to join a project and have the Role Management permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Role Management permissions and enter your workspace.
+  Click Project Management &amp;gt; Project Role in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Project Role List</title>
+      <link>/v4.2.0/08-workspace-management/08-projects/02-project-roles/02-view-a-project-role-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/08-projects/02-project-roles/02-view-a-project-role-list/</guid>
+      <description>This section describes how to view the project role list.
+ Prerequisites You need to join a project and have the Role Viewing permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Role Viewing permissions and enter your workspace.
+  Click Project Management &amp;gt; Project Roles in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Project Role Details</title>
+      <link>/v4.2.0/08-workspace-management/08-projects/02-project-roles/03-view-project-role-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/08-projects/02-project-roles/03-view-project-role-details/</guid>
+      <description>This section describes how to view project role details.
+ Prerequisites You need to join a project and have the Role Viewing permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Role Viewing permissions and enter your workspace.
+  Click Project Management &amp;gt; Project Roles in the left navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Edit Project Role Information</title>
+      <link>/v4.2.0/08-workspace-management/08-projects/02-project-roles/04-edit-project-role-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/08-projects/02-project-roles/04-edit-project-role-information/</guid>
+      <description>This section describes how to edit project role information.
+ You can edit the alias and description of project roles created by users. KubeSphere does not support editing built-in project roles, nor does it support editing the names of project roles.
+ Prerequisites You need to join a project and have the Role Management permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Role Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Edit Project Role Permissions</title>
+      <link>/v4.2.0/08-workspace-management/08-projects/02-project-roles/05-edit-permissions-of-a-project-role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/08-projects/02-project-roles/05-edit-permissions-of-a-project-role/</guid>
+      <description>This section describes how to edit project role permissions.
+ You can only edit the permissions of user-created project roles. The permissions of built-in project roles cannot be edited.
+ Prerequisites You need to join a project and have the Role Management permission in the project. For more information, see Project Members and Project Roles.
+   Steps  Log in to the KubeSphere web console with a user who has Role Management permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Delete Project Role</title>
+      <link>/v4.2.0/08-workspace-management/08-projects/02-project-roles/06-delete-a-project-role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/08-workspace-management/08-projects/02-project-roles/06-delete-a-project-role/</guid>
+      <description>This section describes how to delete a project role.
+ You can delete project roles created by users. Built-in project roles cannot be deleted.
+ Prerequisites    You need to join a project and have the Role Management permission in the project. For more information, see Project Members and Project Roles.
+     If the project role you want to delete has already been assigned to project members, you need to remove those project members or modify their roles.</description>
+    </item>
+    
+  </channel>
+</rss>

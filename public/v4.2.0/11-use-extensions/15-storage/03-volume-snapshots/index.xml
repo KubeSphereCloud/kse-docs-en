@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Volume Snapshots on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/15-storage/03-volume-snapshots/</link>
+    <description>Recent content in Volume Snapshots on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/15-storage/03-volume-snapshots/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a Volume Snapshot</title>
+      <link>/v4.2.0/11-use-extensions/15-storage/03-volume-snapshots/01-create-a-volume-snapshot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/15-storage/03-volume-snapshots/01-create-a-volume-snapshot/</guid>
+      <description>This section describes how to create a volume snapshot.
+ A volume snapshot captures the current data of a storage volume and can be used to create a PersistentVolumeClaim and the corresponding PersistentVolume.
+ Prerequisites   The KubeSphere Storage extension must be installed and enabled on the KubeSphere platform.
+      You need to join a cluster or project and have the Volume Snapshot Management permission in the cluster or project.</description>
+    </item>
+    
+    <item>
+      <title>View Volume Snapshot List</title>
+      <link>/v4.2.0/11-use-extensions/15-storage/03-volume-snapshots/02-view-a-volume-snapshot-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/15-storage/03-volume-snapshots/02-view-a-volume-snapshot-list/</guid>
+      <description>This section describes how to view the volume snapshot list.
+ Prerequisites   The KubeSphere Storage extension must be installed and enabled on the KubeSphere platform.
+      You need to join a cluster or project and have the Volume Snapshot Viewing permission in the cluster or project. For more information, please refer to Cluster Roles and Project Roles.
+     Steps  Log in to the KubeSphere web console as a user with Volume Snapshot Viewing permissions and enter your cluster or workspace.</description>
+    </item>
+    
+    <item>
+      <title>View Volume Snapshot Details</title>
+      <link>/v4.2.0/11-use-extensions/15-storage/03-volume-snapshots/03-view-volume-snapshot-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/15-storage/03-volume-snapshots/03-view-volume-snapshot-details/</guid>
+      <description>This section describes how to view the details of a volume snapshot.
+ Prerequisites   The KubeSphere Storage extension must be installed and enabled on the KubeSphere platform.
+      You need to join a cluster or project and have the Volume Snapshot View permission in the cluster or project. For more information, please refer to Cluster Roles and Project Roles.
+     Steps  Log in to the KubeSphere web console as a user with the Volume Snapshot View permission and enter your cluster or workspace.</description>
+    </item>
+    
+    <item>
+      <title>Create a Persistent Volume from a Volume Snapshot</title>
+      <link>/v4.2.0/11-use-extensions/15-storage/03-volume-snapshots/04-create-a-persistent-volume-from-a-volume-snapshot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/15-storage/03-volume-snapshots/04-create-a-persistent-volume-from-a-volume-snapshot/</guid>
+      <description>This section describes how to create a persistent volume using a volume snapshot.
+ After a volume snapshot is created, you can use it to create a persistent volume claim and a persistent volume.
+ Prerequisites   The KubeSphere Storage extension must be installed and enabled on the KubeSphere platform.
+      You need to join a cluster or project and have the Volume Snapshot Management permission in the cluster or project.</description>
+    </item>
+    
+    <item>
+      <title>Delete Volume Snapshots</title>
+      <link>/v4.2.0/11-use-extensions/15-storage/03-volume-snapshots/05-delete-volume-snapshots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/15-storage/03-volume-snapshots/05-delete-volume-snapshots/</guid>
+      <description>This section describes how to delete a volume snapshot.
+     Warning     Once a volume snapshot is deleted, it cannot be recovered. Please exercise caution when performing this operation to avoid data loss.
+    Prerequisites   The KubeSphere Storage extension must be installed and enabled on the KubeSphere platform.
+      You need to join a cluster or project and have the Volume Snapshot Management permission in the cluster or project.</description>
+    </item>
+    
+    <item>
+      <title>View Volume Snapshot Content List</title>
+      <link>/v4.2.0/11-use-extensions/15-storage/03-volume-snapshots/06-view-a-volume-snapshot-content-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/15-storage/03-volume-snapshots/06-view-a-volume-snapshot-content-list/</guid>
+      <description>This section describes how to view the volume snapshot content list.
+ Prerequisites   The KubeSphere Storage extension must be installed and enabled on the KubeSphere platform.
+      You need to join a cluster and have the Volume Snapshot Content View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     Steps  Log in to the KubeSphere web console with a user who has Volume Snapshot Content View permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>View Volume Snapshot Content Details</title>
+      <link>/v4.2.0/11-use-extensions/15-storage/03-volume-snapshots/07-view-volume-snapshot-content-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/15-storage/03-volume-snapshots/07-view-volume-snapshot-content-details/</guid>
+      <description>This section describes how to view volume snapshot content details.
+ Prerequisites   The KubeSphere Storage extension must be installed and enabled on the KubeSphere platform.
+      You need to join a cluster and have the Volume Snapshot Content View permission in the cluster. For more information, see Cluster Members and Cluster Roles.
+     Steps  Log in to the KubeSphere web console with a user who has Volume Snapshot Content View permissions and enter your cluster.</description>
+    </item>
+    
+    <item>
+      <title>Edit Volume Snapshot Content Information</title>
+      <link>/v4.2.0/11-use-extensions/15-storage/03-volume-snapshots/08-edit-volume-snapshot-content-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/15-storage/03-volume-snapshots/08-edit-volume-snapshot-content-information/</guid>
+      <description>This section describes how to edit the information of a volume snapshot content.
+ You can edit the alias and description of a volume snapshot content. KubeSphere does not support editing the name of a volume snapshot content.
+ Prerequisites   The KubeSphere Storage extension must be installed and enabled on the KubeSphere platform.
+      You need to join a cluster and have the Volume Snapshot Content Management permission in the cluster.</description>
+    </item>
+    
+    <item>
+      <title>Delete Volume Snapshot Content</title>
+      <link>/v4.2.0/11-use-extensions/15-storage/03-volume-snapshots/09-delete-a-volume-snapshot-content/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/15-storage/03-volume-snapshots/09-delete-a-volume-snapshot-content/</guid>
+      <description>This section describes how to delete volume snapshot content.
+     Note     When a volume snapshot is bound to a volume snapshot content, the volume snapshot content cannot be deleted. To delete the volume snapshot content, you must first delete the volume snapshot. After the volume snapshot is deleted, the system will decide whether to automatically delete the volume snapshot content based on its deletion policy.</description>
+    </item>
+    
+  </channel>
+</rss>

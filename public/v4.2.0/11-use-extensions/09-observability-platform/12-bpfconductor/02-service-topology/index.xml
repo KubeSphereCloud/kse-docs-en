@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Service Topology on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/09-observability-platform/12-bpfconductor/02-service-topology/</link>
+    <description>Recent content in Service Topology on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/09-observability-platform/12-bpfconductor/02-service-topology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>View Service Topology</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/12-bpfconductor/02-service-topology/01-view-service-topology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/12-bpfconductor/02-service-topology/01-view-service-topology/</guid>
+      <description>This section describes how to view the service topology diagram and the HTTP traffic list of services.
+ Prerequisites   You need to have the platform-admin role on the KubeSphere platform. For more information, refer to Users and Platform Roles.
+  The WizTelemetry Network Observability extension needs to be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.</description>
+    </item>
+    
+    <item>
+      <title>View Service Monitoring Details</title>
+      <link>/v4.2.0/11-use-extensions/09-observability-platform/12-bpfconductor/02-service-topology/02-view-service-monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/09-observability-platform/12-bpfconductor/02-service-topology/02-view-service-monitoring/</guid>
+      <description>This section describes how to observe the performance of services within a cluster in real-time.
+ Prerequisites   You need to have the platform-admin role in the KubeSphere platform. For more information, refer to Users and Platform Roles.
+  The WizTelemetry Network Observability extension needs to be installed and enabled on the KubeSphere platform.
+     Steps  Log in to the KubeSphere web console with a user who has the platform-admin role.</description>
+    </item>
+    
+  </channel>
+</rss>

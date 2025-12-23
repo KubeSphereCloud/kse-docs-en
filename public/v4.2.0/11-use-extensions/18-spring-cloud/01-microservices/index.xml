@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microservices on KubeSphere</title>
+    <link>/v4.2.0/11-use-extensions/18-spring-cloud/01-microservices/</link>
+    <description>Recent content in Microservices on KubeSphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v4.2.0/11-use-extensions/18-spring-cloud/01-microservices/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a Deployment and Register It as a Microservice</title>
+      <link>/v4.2.0/11-use-extensions/18-spring-cloud/01-microservices/01-create-a-deployment-and-register-the-deployment-as-a-microservice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/18-spring-cloud/01-microservices/01-create-a-deployment-and-register-the-deployment-as-a-microservice/</guid>
+      <description>This section describes how to create a Deployment and register it as a microservice.
+ Spring Cloud microservice instances are managed through Kubernetes Deployments. The pod replicas of a Deployment are the instances of the microservice.
+ Prerequisites   The KubeSphere Spring Cloud extension must be installed and enabled on the KubeSphere platform.
+      You need to join a project and have the  Spring Cloud Microservice Management permission in the project.</description>
+    </item>
+    
+    <item>
+      <title>View the Microservice List</title>
+      <link>/v4.2.0/11-use-extensions/18-spring-cloud/01-microservices/02-view-a-microservice-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/18-spring-cloud/01-microservices/02-view-a-microservice-list/</guid>
+      <description>This section describes how to view the microservice list.
+ Prerequisites   The KubeSphere Spring Cloud extension must be installed and enabled on the KubeSphere platform.
+      You need to join a project and have the View Spring Cloud Microservices permission in the project. For more information, see Project Members and Project Roles.
+     Steps  Log in to the KubeSphere web console with a user who has View Spring Cloud Microservices permissions and enter your workspace.</description>
+    </item>
+    
+    <item>
+      <title>Edit Microservice Instance Weight</title>
+      <link>/v4.2.0/11-use-extensions/18-spring-cloud/01-microservices/03-edit-the-weight-of-a-microservice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/18-spring-cloud/01-microservices/03-edit-the-weight-of-a-microservice/</guid>
+      <description>This section describes how to edit microservice instance weight.
+ The weight of a microservice instance is used to determine the traffic distribution for that instance. Traffic sent to the microservice will be allocated to its instances based on their respective weights.
+ Prerequisites   The KubeSphere Spring Cloud extension must be installed and enabled on the KubeSphere platform.
+      You need to join a project and have the  Spring Cloud Microservice Management permission in the project.</description>
+    </item>
+    
+    <item>
+      <title>Take Down and Bring Up Microservice Instances</title>
+      <link>/v4.2.0/11-use-extensions/18-spring-cloud/01-microservices/04-take-a-microservice-instance-offline-and-online/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v4.2.0/11-use-extensions/18-spring-cloud/01-microservices/04-take-a-microservice-instance-offline-and-online/</guid>
+      <description>This section describes how to take down and bring up microservice instances. A taken-down microservice instance will no longer receive business traffic.
+ Prerequisites   The KubeSphere Spring Cloud extension must be installed and enabled on the KubeSphere platform.
+      You need to join a project and have the  Spring Cloud Microservice Management permission in the project. For more information, see Project Members and Project Roles.</description>
+    </item>
+    
+  </channel>
+</rss>
